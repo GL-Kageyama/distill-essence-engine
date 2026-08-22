@@ -66,19 +66,32 @@ echo "    skills: $TARGET_SKILLS_DIR"
 mkdir -p "$TARGET_SKILLS_DIR"
 
 installed=0
+installed_targets=()
 
 for skill_dir in "$SKILLS_DIR"/*/; do
   name="$(basename "$skill_dir")"
   target="$TARGET_SKILLS_DIR/$name"
   rm -rf "$target"
   ln -s "$skill_dir" "$target"
+  # SKILL.md resolves `references/…` and `scripts/fetch.py` relative to the
+  # skill dir, but they live at the repo root (siblings of skills/). Link
+  # them in so the installed skill can read its dictionary (all languages).
+  for dep in references scripts; do
+    if [[ -e "$REPO_DIR/$dep" ]]; then
+      rm -rf "$target/$dep"
+      ln -s "$REPO_DIR/$dep" "$target/$dep"
+    fi
+  done
+  installed_targets+=("$target")
   installed=$((installed+1))
   echo "    ✓ skill $name"
 done
 
-# Verify every symlink resolves to a readable file
+# Verify every symlink we just created resolves to a readable SKILL.md
+# (only the ones installed here — unrelated dirs in the skills root,
+# e.g. a sibling engine's references symlink, must not fail the check).
 failures=0
-for target in "$TARGET_SKILLS_DIR"/*/; do
+for target in "${installed_targets[@]}"; do
   if [[ -f "$target/SKILL.md" ]]; then
     :
   else
