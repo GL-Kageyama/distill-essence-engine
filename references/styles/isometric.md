@@ -22,22 +22,28 @@
 ## do
 - 30° のグリッド、平行線を守る
 - ミニチュアのジオラマ感
+- **グリッドは世界の骨格に使い、主役は等角の中に「意味の中心」として置く**（ゲーム資産の配置にしない）
+- **主役に視覚装置を与える**：焦点色 1 つを飽和させ、周囲の箱はパステルのまま、主役の周りの線密度・明度差を上げる（グリッドの均質化に抗する）
 
 ## avoid
 - 消失点のある遠近、ぼかし、写真の写実
+- **主役の機械化・ゲーム資産化（等角箱に従属させる）**
+- **焦点色なしでグリッドに溶ける**
 
 ## ネガティブ
-`no perspective vanishing point, no blur, no photorealistic`
+`no perspective vanishing point, no blur, no photorealistic, no subject flattened into a game asset, no subject dissolving into the grid`
 
 ## プロンプトテンプレ（英語・穴あき）
 ```text
-An isometric illustration of {SUBJECT} {ACTION} in {LOCATION}, with {ACCENT}. A 30-degree
-grid, straight parallel lines with no vanishing point, pastel faces, a miniature diorama
-of isometric boxes, clean crisp edges.
+An isometric illustration of {SUBJECT} {ACTION} in {LOCATION}, with {ACCENT}. A 30-degree grid
+as the world's skeleton, straight parallel lines with no vanishing point, pastel faces, a
+miniature diorama of isometric boxes — the subject placed as the scene's center of meaning,
+carrying the one saturated accent while the grid stays pastel, denser linework around it so it
+reads as the focal point, not one box among equals, clean crisp edges.
 ```
 
 ## 例
 - —
 
 ## 出所
-ネット調査（事前拡充・未検証）
+ネット調査（事前拡充 → 0.1.13 検証済み）

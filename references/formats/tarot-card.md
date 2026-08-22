@@ -7,23 +7,26 @@
 `SUBJECT`＝象徴、`NAME`＝カード名
 
 ## 構成文法
-装飾枠、中央に象徴（一枚の意味を象る）、下部に名前、対称の構図、額装の縁
+装飾枠、**中央の象徴は 1 つ**（一枚の意味を象る）、下部に名前、対称の構図、額装の縁。**装飾は縁に留め、中央の周囲に余白を残す**
 
 ## do
-- 対称の構図、中央に象徴
+- 対称の構図、中央の象徴は 1 つ
 - 額装の縁を置く
+- **装飾は縁に留める、中央の周囲に余白を残す**
 
 ## avoid
 - 非対称、複数の象徴
+- **装飾が中央へ侵入して余白が消える**
 
 ## プロンプトテンプレ（英語・穴あき）
 ```text
-A tarot card ({NAME}) in 5:9. Ornamental frame, a central emblem embodying a single meaning,
-the name below, symmetric composition, a framing border.
+A tarot card ({NAME}) in 5:9. One central emblem embodying a single meaning, ornaments confined
+to the frame's edge, generous empty margin around the center, the name below, symmetric
+composition, a framing border.
 ```
 
 ## 例
 - —
 
 ## 出所
-ネット調査（事前拡充・未検証）
+ネット調査（事前拡充 → 0.1.13 検証済み）

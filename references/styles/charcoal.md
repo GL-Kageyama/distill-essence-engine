@@ -22,22 +22,26 @@
 ## do
 - 身振りの大胆な線、明暗を強く
 - こすりと白チョークのハイライト
+- **構造（結び・網・接続）は白チョークの線で明示し、黒に呑ませない**
+- **主役の輪郭を白で縁取る**
 
 ## avoid
 - 色、細部、デジタルの滑らかさ
+- **構造が黒い塊に沈む**
 
 ## ネガティブ
-`no color, no fine detail, no digital`
+`no color, no fine detail, no digital, no structure lost in the black`
 
 ## プロンプトテンプレ（英語・穴あき）
 ```text
-A charcoal drawing of {SUBJECT} {ACTION} in {LOCATION}, with {ACCENT}. Smudged black,
-white chalk highlights, rough paper grain, bold gestural lines, strong chiaroscuro
-contrast, faint fingerprints.
+A charcoal drawing of {SUBJECT} {ACTION} in {LOCATION}, with {ACCENT}. Smudged black masses,
+white chalk highlights AND white-chalk linework marking the connections and structures so they
+stay readable, rough paper grain, bold gestural lines, strong chiaroscuro contrast, faint
+fingerprints.
 ```
 
 ## 例
 - —
 
 ## 出所
-ネット調査（事前拡充・未検証）
+ネット調査（事前拡充 → 0.1.13 検証済み）

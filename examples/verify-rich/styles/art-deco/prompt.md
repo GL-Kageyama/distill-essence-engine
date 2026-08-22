@@ -11,4 +11,4 @@
 アールデコ：幾何学的な対称、サンバースト、流線型、金箔と黒ラッカー、直線の反復。
 
 ## 合成プロンプト（Merged）
-An Art Deco illustration of a shepherd drinking from a spring. Geometric symmetry, a radiating sunburst behind the rock, streamlined stepped forms for the distant walled city, gold leaf and black lacquer over marble white, repeating straight lines, a luxurious flat sheen. No organic curves, no clutter, no photorealistic.
+An Art Deco illustration of a shepherd drinking from a spring. The one subject — the kneeling shepherd at the spring — kept at the front as a clear silhouette, clearly separate from the ornament; geometric symmetry, a radiating sunburst kept as the subject's backdrop behind the rock, streamlined stepped forms for the distant walled city, gold leaf and black lacquer over marble white, repeating straight lines, a luxurious flat sheen. No organic curves, no clutter, no photorealistic, no ornament overriding the subject.

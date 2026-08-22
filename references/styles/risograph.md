@@ -12,6 +12,7 @@
 - スクリーンの網点
 - 粒状のインク
 - 重ね刷りの不透明な面、紙の吸いムラ
+- **主役の固有小道具は網点上に輪郭として読める形で残す**（蛍光色面に沈ませない）
 
 ## 視覚の分解
 - **構成**: 2–3 色のスポットカラー、重ね刷り
@@ -22,22 +23,25 @@
 ## do
 - 2–3 色のスポットカラー、版ズレと網点を残す
 - 重ね刷りの不透明な面
+- **蛍光色は内容の一点（ACCENT）に従属させる**：主役の固有小道具（形・印）を網点上に輪郭として残す
 
 ## avoid
 - フルカラーのグラデーション、写真の写実、滑らかなデジタル
+- **内容が蛍光の色面に沈む（主役の消失）**
 
 ## ネガティブ
-`no full-color gradient, no photorealistic, no smooth digital`
+`no full-color gradient, no photorealistic, no smooth digital, no subject lost in the color field`
 
 ## プロンプトテンプレ（英語・穴あき）
 ```text
-A risograph print of {SUBJECT} {ACTION} in {LOCATION}. Two or three spot colors in
-fluorescent pink and green, misregistration, halftone dots, grainy ink, opaque overprinted
-planes, paper absorption unevenness.
+A risograph print of {SUBJECT} {ACTION} in {LOCATION}. Two or three spot colors, fluorescent
+{ACCENT} leading the eye to the one focal object; the subject's own details kept legible as
+shapes on the halftone field, misregistration, grainy ink, opaque overprinted planes, paper
+absorption unevenness.
 ```
 
 ## 例
 - —
 
 ## 出所
-ネット調査（事前拡充・未検証）
+ネット調査（事前拡充 → 0.1.13 検証済み）

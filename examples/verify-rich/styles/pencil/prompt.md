@@ -11,4 +11,4 @@
 鉛筆：グラファイトの濃淡、ハッチングの方向、紙の目、こすり、消しゴムの白。
 
 ## 合成プロンプト（Merged）
-A pencil drawing of a young shepherd crouched at a spring in a rock cleft, drinking. Graphite value range, directional hatching in the boulder's shadow, paper grain, finger-smudged shading, eraser-lifted highlights on the water, hard lines with soft shadows. No color, no ink outline, no digital.
+A finished pencil drawing of a young shepherd crouched at a spring in a rock cleft, drinking. Graphite value range, directional hatching carried to a resolved chiaroscuro in the boulder's shadow — not a sketch, paper grain, finger-smudged shading, eraser-lifted white cutting a bright focal point on the water, hard lines with soft shadows. No color, no ink outline, no digital, no unfinished sketchiness.

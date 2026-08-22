@@ -11,4 +11,4 @@
 リソグラフ：蛍光ピンク／蛍光グリーンのスポットカラー、版ズレ、網点、粒状インク。
 
 ## 合成プロンプト（Merged）
-A risograph print of a shepherd kneeling at a spring in a rock cleft, drinking. Two or three fluorescent spot colors — pink for the water, green for the boulder shade — misregistration between passes, halftone dots, grainy ink, opaque overprinted planes, a faint white tower printed off-register in the distance. No full-color gradient, no photorealistic, no smooth digital.
+A risograph print of a shepherd kneeling at a spring in a rock cleft, drinking. Two or three fluorescent spot colors — pink leading the eye to the water, green for the boulder shade; the shepherd's own details (the broken sandals, the drinking posture, the rock cleft's shape) kept legible as shapes on the halftone field — misregistration between passes, halftone dots, grainy ink, opaque overprinted planes, a faint white tower printed off-register in the distance. No full-color gradient, no photorealistic, no smooth digital, no subject lost in the color field.

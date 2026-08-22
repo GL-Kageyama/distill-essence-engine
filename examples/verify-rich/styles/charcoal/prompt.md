@@ -11,4 +11,4 @@
 木炭：こすった黒、白チョークのハイライト、粗い紙、身振りの線、指の跡。
 
 ## 合成プロンプト（Merged）
-A charcoal drawing of a shepherd collapsed at a spring, drinking. Smudged black, white chalk highlights on the water and the rim of the distant tower, rough paper grain, bold gestural lines, strong chiaroscuro contrast, faint fingerprints in the shadow. No color, no fine detail, no digital.
+A charcoal drawing of a shepherd collapsed at a spring, drinking. Smudged black masses, white chalk highlights on the water and the rim of the distant tower, AND white-chalk linework marking the water's course from the cleft and the rock strata so the structure stays readable, rough paper grain, bold gestural lines, strong chiaroscuro contrast, faint fingerprints in the shadow. No color, no fine detail, no digital, no structure lost in the black.

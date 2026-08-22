@@ -11,4 +11,4 @@
 縦カード比 5:9、装飾枠、中央に象徴、下部に名前、対称の構図、額装の縁。
 
 ## 合成プロンプト（Merged）
-A tarot card "THE SPRING" in 5:9. Ornamental woodblock frame, a central emblem: a crouched figure drinking from a spring in a rock cleft, a white tower rising far behind, embodying a single meaning — faith restored by water. The name below, symmetric composition, a framing border, flat mineral pigments, hand-carved ink lines. Not photorealistic, no digital gradient, no 3D render.
+A tarot card "THE SPRING" in 5:9. One central emblem embodying a single meaning — a crouched figure drinking from a spring in a rock cleft, faith restored by water; the ornaments confined to the frame's edge, a generous empty margin around the center, the name below, symmetric composition, a framing border, flat mineral pigments, hand-carved ink lines. Not photorealistic, no digital gradient, no 3D render.

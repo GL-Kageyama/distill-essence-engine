@@ -1,6 +1,6 @@
 # 検証バッチ：未検証カード 25 枚（v0.1.13）
 
-> 0.1.10 でネット調査から事前拡充した**未検証カード**（様式 18・フォーマット 7）を、リッチテンプレ化（0.1.12）の後にテキスト検証。判定は評価者（anti-generic-filter／aesthetic-critic／admiration）。**結果：昇格 22 枚・不採用（削除）3 枚**。判定集計・スコアは [EVALUATION.md](EVALUATION.md)。
+> 0.1.10 でネット調査から事前拡充した**未検証カード**（様式 18・フォーマット 7）を、リッチテンプレ化（0.1.12）の後にテキスト検証。判定は評価者（anti-generic-filter／aesthetic-critic／admiration）。**結果：昇格 22 枚・不採用（削除）3 枚 → 条件付き 9 枚は精錬（0.1.14）で全て PASS**。判定集計・スコアは [EVALUATION.md](EVALUATION.md)。
 
 ## 軸の独立を保つ設計
 
@@ -21,6 +21,8 @@
 **フォーマット（formats/）**：storyboard / picture-book / logo / emblem / sprite / tarot-card（走れメロス）＋ poster（Attention）
 
 **不採用（テストケース・カード削除）**：claymation／cyberpunk／vaporwave — いずれも admiration が⑧違反（様式の世界が本質を消す）を明示。cyberpunk は加えて詰め込み（aesthetic 45）。理由の開示は [EVALUATION.md](EVALUATION.md)。
+
+**精錬（0.1.14）**：条件付き 9 枚（risograph／pencil／charcoal／pastel／art-deco／isometric＋storyboard／sprite／tarot-card）を弱点対応の do/avoid・アンカー・構成文法で精錬し再検証 → **全 PASS**。isometric は視覚装置不足で 1 回目保留、2 回目で解消。各カードの 出所 を「検証済み」に更新。
 
 ## 判定基準
 

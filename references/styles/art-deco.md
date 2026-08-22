@@ -22,22 +22,25 @@
 ## do
 - 対称と放射、直線の反復を守る
 - 金箔と黒ラッカーのコントラスト
+- **主役（内容の一象徴）を正面に置き、装飾は縁・背景に留める**。放射は主役の後光として使う
 
 ## avoid
 - 有機的な曲線、雑然、写真の写実
+- **装飾が主役を侵食（装飾世界が内容を上書き）**
 
 ## ネガティブ
-`no organic curves, no clutter, no photorealistic`
+`no organic curves, no clutter, no photorealistic, no ornament overriding the subject`
 
 ## プロンプトテンプレ（英語・穴あき）
 ```text
-An Art Deco poster of {SUBJECT} {ACTION} with {ACCENT}. Geometric symmetry,
-a radiating sunburst, streamlined stepped silhouettes, gold leaf and black lacquer
-over marble white, repeating straight lines, luxurious flat sheen.
+An Art Deco poster of {SUBJECT} {ACTION} with {ACCENT}. The one subject at the front, clearly
+separate from the ornament; geometric symmetry, a radiating sunburst kept as the subject's
+backdrop, streamlined stepped silhouettes, gold leaf and black lacquer over marble white,
+repeating straight lines, luxurious flat sheen.
 ```
 
 ## 例
 - —
 
 ## 出所
-ネット調査（事前拡充・未検証）
+ネット調査（事前拡充 → 0.1.13 検証済み）

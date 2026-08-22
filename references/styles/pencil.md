@@ -22,17 +22,21 @@
 ## do
 - 濃淡とハッチングで陰を
 - こすりと消しゴムの白を活かす
+- **主要素はハッチングの密度で「完成された明暗」に仕上げる**（草案感を残さない）
+- **焦点の要素に消しゴムの白で明度を切り込む**
 
 ## avoid
 - 色、インクの輪郭、デジタル
+- **未完成のスケッチ風の粗さ**
 
 ## ネガティブ
-`no color, no ink outline, no digital`
+`no color, no ink outline, no digital, no unfinished sketchiness`
 
 ## プロンプトテンプレ（英語・穴あき）
 ```text
-A pencil drawing of {SUBJECT} {ACTION} in {LOCATION}. Graphite value range, directional
-hatching, paper grain, finger-smudged shading, eraser-lifted highlights, hard lines with
+A finished pencil drawing of {SUBJECT} {ACTION} in {LOCATION}. Graphite value range, directional
+hatching carried to a resolved chiaroscuro — not a sketch, paper grain, finger-smudged shading,
+eraser-lifted white cutting a bright focal point on the one important element, hard lines with
 soft shadows.
 ```
 
@@ -40,4 +44,4 @@ soft shadows.
 - —
 
 ## 出所
-ネット調査（事前拡充・未検証）
+ネット調査（事前拡充 → 0.1.13 検証済み）

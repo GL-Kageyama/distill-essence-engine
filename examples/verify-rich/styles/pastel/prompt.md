@@ -11,4 +11,4 @@
 パステル：チョークの粉っぽさ、にじむ縁、紙の目、マットな面、ぼかした輪郭。
 
 ## 合成プロンプト（Merged）
-A pastel drawing of a young shepherd drinking from a spring at dusk. Chalky pigment, soft blurred edges, pigment resting in the paper grain, gentle layered color in dusty rose and blue, a matte light-absorbing surface. No hard outline, no photorealistic, no glossy.
+A pastel drawing of a young shepherd drinking from a spring at dusk. The essential props kept as defined shapes in a slightly firmer key — the rock cleft, the distant white tower, the drinking figure — softness confined to the surrounding sky and meadow, chalky pigment, blurred edges, pigment resting in the paper grain, gentle layered color in dusty rose and blue, a matte light-absorbing surface. No hard outline, no photorealistic, no glossy, no blur over the essential props.
