@@ -1,0 +1,41 @@
+{
+  "name": "distill-essence-engine",
+  "owner": {
+    "name": "GL-Kageyama"
+  },
+  "metadata": {
+    "description": "Distill the essence of any content into an image prompt — the 8 transformation principles (understand / select / translate / consistent / compose / style / negative / faithful) compress a whole text into still imagery (one image or several, depending on the format)."
+  },
+  "plugins": [
+    {
+      "name": "distill-essence-engine",
+      "source": "./",
+      "description": "Distill Essence Engine — turns any content (novel, article, poem, transcript, memo, paper …) into an English image prompt via the transformation principles (understand → select → translate → consistent → compose → style → negative → faithful). Core quality = particular × indirect (show the truth, entrusted).",
+      "version": "0.1.0",
+      "author": {
+        "name": "GL-Kageyama"
+      },
+      "license": "MIT",
+      "languages": [
+        "ja"
+      ],
+      "keywords": [
+        "claude-code",
+        "ai",
+        "image-prompt",
+        "transformer",
+        "skill",
+        "distill",
+        "essence"
+      ],
+      "category": "creative",
+      "tags": [
+        "image-prompt",
+        "transform",
+        "skill",
+        "distill"
+      ],
+      "strict": false
+    }
+  ]
+}

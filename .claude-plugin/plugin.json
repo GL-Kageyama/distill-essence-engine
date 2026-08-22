@@ -1,0 +1,25 @@
+{
+  "name": "distill-essence-engine",
+  "version": "0.1.0",
+  "description": "Distill the essence of any content into an image prompt (one image or several, depending on format). Given content (novel, article, poem, transcript, memo, paper …) plus a natural-language spec of what to make and in what style, applies the transformation principles (understand → select → translate → keep consistent → compose → style → negative → stay faithful) to produce an English image prompt for Stable Diffusion / Midjourney.",
+  "author": {
+    "name": "GL-Kageyama"
+  },
+  "license": "MIT",
+  "languages": [
+    "ja"
+  ],
+  "keywords": [
+    "claude-code",
+    "ai",
+    "image-prompt",
+    "transformer",
+    "skill",
+    "distill",
+    "essence"
+  ],
+  "mcpServers": {},
+  "skills": [
+    "./skills/"
+  ]
+}
