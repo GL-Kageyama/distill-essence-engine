@@ -38,6 +38,7 @@
 | melos-icon | Run, Melos! | Icon | Pixel art | Attraction |
 | melos-manga | Run, Melos! | Manga | Manga ink lineart | Record |
 | melos-illustration | Run, Melos! | Illustration | Stained glass | Decoration |
+| gozen-niji-cover | 12-episode light novel "After Two in the Morning" | Cover | Watercolor | Attraction |
 | attention-infographic | Attention paper | Infographic | Bauhaus-style vector | Communication |
 | attention-thumbnail | Attention paper | Thumbnail | Bauhaus-style vector | Attraction |
 | attention-diagram | Attention paper | Diagram | Isometric | Understanding |

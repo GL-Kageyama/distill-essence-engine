@@ -38,6 +38,7 @@
 | melos-icon | 走れメロス | アイコン | ピクセル | 誘引 |
 | melos-manga | 走れメロス | 漫画 | マンガ線画 | 記録 |
 | melos-illustration | 走れメロス | 挿絵 | ステンドグラス | 装飾 |
+| gozen-niji-cover | ライトノベル全12話『午前二時に、あなたは誰の時間を生きていますか』 | 表紙 | 水彩 | 誘引 |
 | attention-infographic | Attention 論文 | インフォグラフィック | バウハウス系ベクター | 伝達 |
 | attention-thumbnail | Attention 論文 | サムネイル | バウハウス系ベクター | 誘引 |
 | attention-diagram | Attention 論文 | 解説図 | アイソメトリック | 理解 |

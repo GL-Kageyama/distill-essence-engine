@@ -38,6 +38,7 @@
 | melos-icon | 奔跑吧美乐斯 | 图标 | 像素 | 诱引 |
 | melos-manga | 奔跑吧美乐斯 | 漫画 | 漫画线稿 | 记录 |
 | melos-illustration | 奔跑吧美乐斯 | 插画 | 彩色玻璃 | 装饰 |
+| gozen-niji-cover | 轻小说全12话《凌晨两点、你在活着谁的时间》 | 封面 | 水彩 | 诱引 |
 | attention-infographic | Attention 论文 | 信息图 | 包豪斯风格矢量 | 传达 |
 | attention-thumbnail | Attention 论文 | 缩略图 | 包豪斯风格矢量 | 诱引 |
 | attention-diagram | Attention 论文 | 图解 | 等距 | 理解 |
