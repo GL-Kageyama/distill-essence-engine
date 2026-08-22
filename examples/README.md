@@ -77,6 +77,8 @@
 | youtube-loop-engineering-manga | YouTube talk (real URL) | Manga | Manga ink lineart | Record |
 | youtube-thumbnail | YouTube talk | Thumbnail | Flat comic | Attraction |
 | youtube-picture-book | YouTube talk | Picture book | Watercolor | Re-experience |
+| council-workshop-illustration | Five tool repos (Council of Wisdom family) | Illustration | Isometric | Communication |
+| council-evolution-triptych | 3 creation patterns (human / +AI / +5 tools) | Illustration | Isometric | Communication |
 
 > URL inputs (YouTube video / homepage / GitHub repository) are received via `url:` and `scripts/fetch.py` extracts the transcript / body text. There are 4 real-URL verification cases ([youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/) = Aozora Bunko "Bocchan", all real fetches). The rest, lacking a real URL, verify the transformation with representative sample inputs ([youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)). A real fetch enters the same row with `python3 scripts/fetch.py url:https://...`.
 

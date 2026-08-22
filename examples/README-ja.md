@@ -77,6 +77,8 @@
 | youtube-loop-engineering-manga | YouTube 講演（実 URL） | 漫画 | マンガ線画 | 記録 |
 | youtube-thumbnail | YouTube 講演 | サムネイル | フラットコミック | 誘引 |
 | youtube-picture-book | YouTube 講演 | 絵本 | 水彩 | 再体験 |
+| council-workshop-illustration | 5つの道具リポジトリ（知恵の評議会） | 挿絵 | 等角ジオラマ | 伝達 |
+| council-evolution-triptych | 3つの創作パターン（人間だけ／＋AI／＋5つの道具） | 挿絵 | 等角ジオラマ | 伝達 |
 
 > URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ）は `url:` で受け取り、`scripts/fetch.py` が文字起こし／本文を抽出する。実 URL の検証ケースが 4 件ある（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/)＝青空文庫『坊っちゃん』、いずれも実フェッチ）。残りは実 URL が無いため代表サンプル入力（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）で変換を検証している。実フェッチは `python3 scripts/fetch.py url:https://...` で同じ行に入る。
 
