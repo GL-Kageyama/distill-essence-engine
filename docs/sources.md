@@ -2,6 +2,11 @@
 
 > 事前拡充カード（様式 18 種・フォーマット 7 種）の語彙を蒸留するために参照した外部ソース。カードは「生のプロンプトのコピー」でなく、これらの語彙をエンジン独自の形式（メディウム×系譜×時代／語彙／ネガティブ対）に蒸留したもの。
 
+## OSS（DL して構造・テンプレを取り込み）
+
+- [VigoZhao/AI-Visual-Prompt-Cookbook](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook)（MIT）— style.json v2.1 スキーマ（環境変数・忠実性アンカー・視覚の分解・do/avoid・prompt_template・negative・例）。`references/card-schema.md` の土台。
+- [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)（MIT）— 生成ワークフロー（カテゴリ照合・6 ブロック・複数案提示）と Prompt as Code の発想。SKILL.md の手順 2 に反映。
+
 ## 様式語彙
 
 - [MidJourney-Styles-and-Keywords-Reference（LOVECHEN）](https://github.com/LOVECHEN/MidJourney-Styles-and-Keywords-Reference) — 様式・キーワード一覧
