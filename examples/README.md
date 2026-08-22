@@ -8,7 +8,7 @@
 
 | 入力＼目的 | 理解 | 伝達 | 誘引 | 再体験 | 記録 | 装飾 |
 |---|---|---|---|---|---|---|
-| 小説（走れメロス） | 解説図 | インフォグラフィック | 表紙・アイコン | イメージボード | 漫画 | 挿絵 |
+| 小説（走れメロス・坊っちゃん） | 解説図 | インフォグラフィック | 表紙・アイコン／ギャグ漫画 | イメージボード | 漫画 | 挿絵 |
 | 論文（Attention） | 解説図 | インフォグラフィック | サムネイル | 絵本 | 漫画 | 挿絵 |
 | 記事（光合成） | 解説図 | インフォグラフィック | ポスター | 絵本 | 漫画 | 挿絵 |
 | 詩（蝉） | 解説図 | インフォグラフィック | ポスター | イメージボード | 漫画 | 挿絵 |
@@ -18,9 +18,9 @@
 | ホームページ（木工所） | 解説図 | — | ポスター | — | — | — |
 | GitHub リポジトリ | — | — | ヒーロー画像 | — | — | — |
 
-**様式カバレッジ**：レジストリ登録様式は **27 種（全て検証済み）**。様式差し替えテスト（[verify-rich/](verify-rich/)）で新規 15 様式・7 フォーマットを例示・検証した。3 様式（claymation／cyberpunk／vaporwave）は検証で**不採用**となりレジストリ外（詳細は [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)）。ダークグロー・ミニマルベクター（実績 hero ファミリー・紺＋金橙＋白熱の4色）は 0.1.17 の distill-hero で追加。
+**様式カバレッジ**：レジストリ登録様式は **28 種（全て検証済み）**。様式差し替えテスト（[verify-rich/](verify-rich/)）で新規 15 様式・7 フォーマットを例示・検証した。3 様式（claymation／cyberpunk／vaporwave）は検証で**不採用**となりレジストリ外（詳細は [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)）。ダークグロー・ミニマルベクター（実績 hero ファミリー・紺＋金橙＋白熱の4色）は 0.1.17 の distill-hero で追加。ハイテンション日常系コミック（ギャグ漫画・日常系アニメ）は 0.1.18 の bocchan-gag-manga（青空文庫『坊っちゃん』→10 ページ漫画）で追加。
 
-**フォーマットカバレッジ**：レジストリ登録フォーマットは **16 種（全て検証済み）**。verify-rich/ で新規 7 種（ストーリーボード／ポスター／絵本／ロゴ／エンブレム／スプライト／タロットカード）を検証・昇格した。ヒーロー画像（hero・16:9 バナー）は 0.1.17 の distill-hero で追加。カバレッジ行列は登録 16 種のうち 14 種（解説図／インフォグラフィック／表紙／アイコン／サムネイル／ポスター／絵本／漫画／挿絵／イメージボード／ストーリーボード／スプライトシート／タロットカード／ヒーロー画像）を例示する。
+**フォーマットカバレッジ**：レジストリ登録フォーマットは **17 種（全て検証済み）**。verify-rich/ で新規 7 種（ストーリーボード／ポスター／絵本／ロゴ／エンブレム／スプライト／タロットカード）を検証・昇格した。ヒーロー画像（hero・16:9 バナー）は 0.1.17 の distill-hero で追加。ギャグ漫画（多コマ・4ビートリズム）は 0.1.18 の bocchan-gag-manga で追加。カバレッジ行列は登録 17 種のうち 15 種（解説図／インフォグラフィック／表紙／アイコン／サムネイル／ポスター／絵本／漫画／挿絵／イメージボード／ストーリーボード／スプライトシート／タロットカード／ヒーロー画像／ギャグ漫画）を例示する。
 
 ## ケース一覧
 
@@ -67,12 +67,13 @@
 | homepage-diagram | 木工所ホームページ | 解説図 | アイソメトリック | 理解 |
 | homepage-poster | 木工所ホームページ | ポスター | 木版 | 誘引 |
 | distill-hero | リポジトリ README（実 URL） | ヒーロー画像 | ダークグロー・ミニマルベクター | 誘引 |
+| bocchan-gag-manga | 青空文庫『坊っちゃん』（実 URL） | ギャグ漫画 | ハイテンション日常系コミック | 誘引 |
 | youtube-agent-manager-diagram | YouTube 講演（実 URL） | 解説図 | フラットコミック | 理解 |
 | youtube-loop-engineering-manga | YouTube 講演（実 URL） | 漫画 | マンガ線画 | 記録 |
 | youtube-thumbnail | YouTube 講演 | サムネイル | フラットコミック | 誘引 |
 | youtube-picture-book | YouTube 講演 | 絵本 | 水彩 | 再体験 |
 
-> URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ）は `url:` で受け取り、`scripts/fetch.py` が文字起こし／本文を抽出する。実 URL の検証ケースが 3 件ある（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[distill-hero/](distill-hero/)、いずれも実フェッチ）。残りは実 URL が無いため代表サンプル入力（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）で変換を検証している。実フェッチは `python3 scripts/fetch.py url:https://...` で同じ行に入る。
+> URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ）は `url:` で受け取り、`scripts/fetch.py` が文字起こし／本文を抽出する。実 URL の検証ケースが 4 件ある（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/)＝青空文庫『坊っちゃん』、いずれも実フェッチ）。残りは実 URL が無いため代表サンプル入力（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）で変換を検証している。実フェッチは `python3 scripts/fetch.py url:https://...` で同じ行に入る。
 
 ## 検証の仕方
 

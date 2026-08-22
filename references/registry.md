@@ -43,6 +43,7 @@
 | アールデコ | 版画・装飾 | アールデコ | — | [art-deco](styles/art-deco.md) |
 | アイソメトリック | デジタル | ゲーム／インフォ | — | [isometric](styles/isometric.md) |
 | ダークグロー・ミニマルベクター | デジタル | ミニマル・テック | 実績 hero ファミリー（紺＋金橙＋白熱の4色） | [dark-glow-vector](styles/dark-glow-vector.md) |
+| ハイテンション日常系コミック | デジタル | ギャグ漫画・日常系アニメ | — | [high-energy-slice-of-life](styles/high-energy-slice-of-life.md) |
 
 ## フォーマットカード（formats/）
 
@@ -64,3 +65,4 @@
 | スプライトシート | 叙述（ゲーム素材） | — | [sprite](formats/sprite.md) |
 | タロットカード | 象徴 | — | [tarot-card](formats/tarot-card.md) |
 | ヒーロー画像 | 象徴（誘引） | 横長 16:9 バナー | [hero](formats/hero.md) |
+| ギャグ漫画 | 叙述＋誘引 | 多コマ・4ビートリズム | [gag-manga](formats/gag-manga.md) |
