@@ -12,8 +12,8 @@
 
 ## 現行機能（Phase 1）
 
-- **純粋 Skill**（Python なし・サブエージェントなし）。SKILL.md 自体がエンジン。
-- **入力**：VSCode 選択（選択テキスト＝内容スロット）。
+- **純粋 Skill**（サブエージェントなし）。SKILL.md 自体がエンジン。URL 入力のみ `scripts/fetch.py`（Python ヘルパー）が補助。
+- **入力**：VSCode 選択（選択テキスト＝内容スロット）。`url` で YouTube（文字起こし）／GitHub（README）／ホームページ（本文）を取得も可（`scripts/fetch.py`）。
 - **指定**：`format`（何を作るか）と `style`（どんな様式で）を**別々に、または自然言語一括**で。`reference`（参考画像パス／参考にする例＝イメージ参照）で「こういう感じ」を具体化、`characters`（登場人物の固定＝キャラ参照）で複数枚でも同一人物を一貫させる。
 - **使い回し**：使えると判断したフォーマット・様式は名前付きカードで登録し、`format:`／`style:` の名前で再利用（`references/styles/`・`references/formats/`。一覧は `references/registry.md`）。
 - **出力**：英語の画像プロンプト（内容／フォーマット／様式の 3 欄＋合成プロンプト。Stable Diffusion / Midjourney にそのまま渡せる）。
@@ -55,6 +55,8 @@ distill-essence-engine/
 ├── README.md               # 現行機能・原理
 ├── HISTORY.md              # 開発履歴
 ├── install.sh              # グローバル/ローカル symlink
+├── scripts/                # 入力取得ヘルパー（fetch.py：URL→内容）
+├── docs/                   # 補助文書（使い方・ネット調査の出所）
 ├── .claude-plugin/         # プラグイン配布
 ├── skills/
 │   └── distill-essence-engine/
@@ -78,7 +80,7 @@ distill-essence-engine/
 ./install.sh --local    # プロジェクト（.claude/skills/）
 ```
 
-VSCode で入力を選択し、「イメージボード化して」「この論文をサムネイルに、ピクセルアートで」等と指定する。`format`／`style` を別々に指定すれば片軸だけ差し替えでき、`reference`（参考画像・参考例）も渡せる。
+VSCode で入力を選択し、「イメージボード化して」「この論文をサムネイルに、ピクセルアートで」等と指定する。`format`／`style` を別々に指定すれば片軸だけ差し替えでき、`reference`（参考画像・参考例）も渡せる。`url`（YouTube／GitHub／ホームページ）を渡せば内容を自動取得する。
 
 ## 詳細ドキュメント
 
