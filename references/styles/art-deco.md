@@ -1,6 +1,43 @@
 # アールデコ（art-deco）
 
 - **メディウム**: 版画・装飾 ／ **系譜**: アールデコ ／ **時代**: 1920–30s
-- **語彙**: 幾何学的な対称、放射状のサンバースト、流線型、金箔と黒ラッカー、段差のあるシルエット、大理石、直線の反復
-- **ネガティブ対**: `no organic curves, no clutter, no photorealistic`
-- **出所**: ネット調査（事前拡充・未検証）
+- **要約**: 幾何の対称と放射、金箔と黒ラッカーの豪奢が、機械時代の優雅を刻む。
+
+## 環境変数
+`SUBJECT`、`ACTION`、`LOCATION`、`ACCENT`、`ASPECT`
+
+## 忠実性アンカー
+- 幾何学的な対称
+- 放射状のサンバースト
+- 流線型
+- 金箔と黒ラッカー
+- 段差のあるシルエット、大理石、直線の反復
+
+## 視覚の分解
+- **構成**: 対称、放射、段差のある層
+- **タイポ**: 幾何学的な装飾文字（必要時）
+- **色彩**: 金箔・黒ラッカー・大理石の白＋深い宝石色
+- **質感・照明**: 光沢とつや、直線の反復、影なしの平坦な豪奢
+
+## do
+- 対称と放射、直線の反復を守る
+- 金箔と黒ラッカーのコントラスト
+
+## avoid
+- 有機的な曲線、雑然、写真の写実
+
+## ネガティブ
+`no organic curves, no clutter, no photorealistic`
+
+## プロンプトテンプレ（英語・穴あき）
+```text
+An Art Deco poster of {SUBJECT} {ACTION} with {ACCENT}. Geometric symmetry,
+a radiating sunburst, streamlined stepped silhouettes, gold leaf and black lacquer
+over marble white, repeating straight lines, luxurious flat sheen.
+```
+
+## 例
+- —
+
+## 出所
+ネット調査（事前拡充・未検証）
