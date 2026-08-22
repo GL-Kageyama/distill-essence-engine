@@ -4,7 +4,7 @@
 
 ## カバレッジ（入力 × 目的 × 様式）
 
-**入力 8 種**（小説／論文／記事／詩／文字起こし／メモ／YouTube 動画／ホームページ）× **目的 6 種**（理解／伝達／誘引／再体験／記録／装飾）のカバレッジ。下表で **6 つのコンテンツ入力 × 6 目的の 36 セルを全セル埋めた**（各行＝1 入力、各セル＝具体ケース）。URL 入力 2 種は `url:` で受けて `scripts/fetch.py` が文字起こし／本文を抽出する入力種別で、フェッチ後のコンテンツ行として 4 セルを例示する。空間は**開いており**、この表に無い組合せも同じ手順で成立する（2 軸直交＝片軸だけ差し替え可能）。
+**入力 9 種**（小説／論文／記事／詩／文字起こし／メモ／YouTube 動画／ホームページ／GitHub リポジトリ）× **目的 6 種**（理解／伝達／誘引／再体験／記録／装飾）のカバレッジ。下表で **6 つのコンテンツ入力 × 6 目的の 36 セルを全セル埋めた**（各行＝1 入力、各セル＝具体ケース）。URL 入力 3 種は `url:` で受けて `scripts/fetch.py` が文字起こし／本文を抽出する入力種別で、フェッチ後のコンテンツ行として 7 セルを例示する。空間は**開いており**、この表に無い組合せも同じ手順で成立する（2 軸直交＝片軸だけ差し替え可能）。
 
 | 入力＼目的 | 理解 | 伝達 | 誘引 | 再体験 | 記録 | 装飾 |
 |---|---|---|---|---|---|---|
@@ -14,12 +14,13 @@
 | 詩（蝉） | 解説図 | インフォグラフィック | ポスター | イメージボード | 漫画 | 挿絵 |
 | 文字起こし（会議） | 解説図 | インフォグラフィック | サムネイル | ストーリーボード | 漫画 | 挿絵 |
 | メモ（タスク） | 解説図 | インフォグラフィック | ポスター | スプライトシート | 漫画 | 挿絵 |
-| YouTube 動画（講演） | — | — | サムネイル | 絵本 | — | — |
+| YouTube 動画（講演） | 解説図 | — | サムネイル | 絵本 | 漫画 | — |
 | ホームページ（木工所） | 解説図 | — | ポスター | — | — | — |
+| GitHub リポジトリ | — | — | ヒーロー画像 | — | — | — |
 
-**様式カバレッジ**：レジストリ登録様式は **26 種（全て検証済み）**。様式差し替えテスト（[verify-rich/](verify-rich/)）で新規 15 様式・7 フォーマットを例示・検証した。3 様式（claymation／cyberpunk／vaporwave）は検証で**不採用**となりレジストリ外（詳細は [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)）。
+**様式カバレッジ**：レジストリ登録様式は **27 種（全て検証済み）**。様式差し替えテスト（[verify-rich/](verify-rich/)）で新規 15 様式・7 フォーマットを例示・検証した。3 様式（claymation／cyberpunk／vaporwave）は検証で**不採用**となりレジストリ外（詳細は [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)）。ダークグロー・ミニマルベクター（実績 hero ファミリー・紺＋金橙＋白熱の4色）は 0.1.17 の distill-hero で追加。
 
-**フォーマットカバレッジ**：レジストリ登録フォーマットは **15 種（全て検証済み）**。verify-rich/ で新規 7 種（ストーリーボード／ポスター／絵本／ロゴ／エンブレム／スプライト／タロットカード）を検証・昇格した。カバレッジ行列は登録 15 種のうち 13 種（解説図／インフォグラフィック／表紙／アイコン／サムネイル／ポスター／絵本／漫画／挿絵／イメージボード／ストーリーボード／スプライトシート／タロットカード）を例示する。
+**フォーマットカバレッジ**：レジストリ登録フォーマットは **16 種（全て検証済み）**。verify-rich/ で新規 7 種（ストーリーボード／ポスター／絵本／ロゴ／エンブレム／スプライト／タロットカード）を検証・昇格した。ヒーロー画像（hero・16:9 バナー）は 0.1.17 の distill-hero で追加。カバレッジ行列は登録 16 種のうち 14 種（解説図／インフォグラフィック／表紙／アイコン／サムネイル／ポスター／絵本／漫画／挿絵／イメージボード／ストーリーボード／スプライトシート／タロットカード／ヒーロー画像）を例示する。
 
 ## ケース一覧
 
@@ -65,10 +66,13 @@
 | memo-illustration | タスク整理メモ | 挿絵 | アイソメトリック | 装飾 |
 | homepage-diagram | 木工所ホームページ | 解説図 | アイソメトリック | 理解 |
 | homepage-poster | 木工所ホームページ | ポスター | 木版 | 誘引 |
+| distill-hero | リポジトリ README（実 URL） | ヒーロー画像 | ダークグロー・ミニマルベクター | 誘引 |
+| youtube-agent-manager-diagram | YouTube 講演（実 URL） | 解説図 | フラットコミック | 理解 |
+| youtube-loop-engineering-manga | YouTube 講演（実 URL） | 漫画 | マンガ線画 | 記録 |
 | youtube-thumbnail | YouTube 講演 | サムネイル | フラットコミック | 誘引 |
 | youtube-picture-book | YouTube 講演 | 絵本 | 水彩 | 再体験 |
 
-> URL 入力（YouTube 動画／ホームページ）は `url:` で受け取り、`scripts/fetch.py` が文字起こし／本文を抽出する。実 URL が無いため、代表サンプル入力（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）で変換を検証している。実フェッチは `python scripts/fetch.py url:https://...` で同じ行に入る。
+> URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ）は `url:` で受け取り、`scripts/fetch.py` が文字起こし／本文を抽出する。実 URL の検証ケースが 3 件ある（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[distill-hero/](distill-hero/)、いずれも実フェッチ）。残りは実 URL が無いため代表サンプル入力（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）で変換を検証している。実フェッチは `python3 scripts/fetch.py url:https://...` で同じ行に入る。
 
 ## 検証の仕方
 

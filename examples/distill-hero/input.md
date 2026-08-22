@@ -1,8 +1,16 @@
-# distill-essence-engine
+# 入力：GitHub リポジトリの README（実 URL）
 
-<p align="center">
-  <img src="assets/repo-hero.png" width="100%" alt="distill-essence-engine">
-</p>
+> `url:https://github.com/GL-Kageyama/distill-essence-engine` を `scripts/fetch.py` に渡して取得したメタデータ＋README。
+
+**対象**: GL-Kageyama/distill-essence-engine（このリポジトリ自身）
+
+**URL**: https://github.com/GL-Kageyama/distill-essence-engine
+
+---
+
+language: Python
+
+# distill-essence-engine
 
 > あらゆる内容の本質を、画像プロンプトへ蒸留するエンジン（一枚、またはフォーマットに応じ複数枚）。
 
@@ -59,7 +67,6 @@ distill-essence-engine/
 ├── README.md               # 現行機能・原理
 ├── HISTORY.md              # 開発履歴
 ├── install.sh              # グローバル/ローカル symlink
-├── assets/                 # リポジトリ hero 画像（repo-hero.png）
 ├── scripts/                # 入力取得ヘルパー（fetch.py：URL→内容）
 ├── docs/                   # 補助文書（使い方・ネット調査の出所）
 ├── .claude-plugin/         # プラグイン配布

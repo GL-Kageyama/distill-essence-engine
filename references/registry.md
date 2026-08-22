@@ -42,6 +42,7 @@
 | パステル | 手描き | パステル画 | — | [pastel](styles/pastel.md) |
 | アールデコ | 版画・装飾 | アールデコ | — | [art-deco](styles/art-deco.md) |
 | アイソメトリック | デジタル | ゲーム／インフォ | — | [isometric](styles/isometric.md) |
+| ダークグロー・ミニマルベクター | デジタル | ミニマル・テック | 実績 hero ファミリー（紺＋金橙＋白熱の4色） | [dark-glow-vector](styles/dark-glow-vector.md) |
 
 ## フォーマットカード（formats/）
 
@@ -62,3 +63,4 @@
 | ストーリーボード | 叙述（伝達・検討） | — | [storyboard](formats/storyboard.md) |
 | スプライトシート | 叙述（ゲーム素材） | — | [sprite](formats/sprite.md) |
 | タロットカード | 象徴 | — | [tarot-card](formats/tarot-card.md) |
+| ヒーロー画像 | 象徴（誘引） | 横長 16:9 バナー | [hero](formats/hero.md) |

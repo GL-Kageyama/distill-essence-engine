@@ -1,5 +1,26 @@
 # 開発履歴
 
+## 0.1.17 — 2026-08-22
+
+- **ヒーロー画像フォーマットカードを追加**（references/formats/hero.md）：横長 16:9 バナー・象徴（誘引）。ポスター（縦 2:3）とは比率で区別。registry.md に登録（フォーマット 16 種）。
+- **実 URL 入力の検証ケースを追加（3 件目・examples/distill-hero/）**：GitHub リポジトリの実 URL（https://github.com/GL-Kageyama/distill-essence-engine）を `scripts/fetch.py` でフェッチし、自リポジトリの README を「ヒーロー画像（誘引）」へ変換。カバレッジ行列の **GitHub リポジトリ × 誘引** セルを実 URL で埋めた。
+- **変換内容**：「あらゆる内容の本質を画像プロンプトへ蒸留するエンジン」を、リポジトリ固有の比喩＝蒸留装置（多様な入力の光片 → 蛇管を昇る蒸気 → 白熱の一滴＝出力の画像プロンプト）で一象徴に畳んだ hero に蒸留。
+- **新様式カード「ダークグロー・ミニマルベクター」を追加**（references/styles/dark-glow-vector.md）：既存 hero 群（資料/done/イラスト の elevate-draft-engine／novel-council-layer／wisdom-council-layer／soul-voice-teller）の共通ファミリーを解析・再構成。暗い紺（#081828 系）＋金橙（#f5b14e・#ff8c42）＋白熱（#ffffff）＋薄灰（#a8a8b8）の **4 色のみ**、グローするミニマルベクター、白熱の頂点へ収束、左上に薄灰サンセリフのタイトル＋タグライン。registry.md に登録（様式 27 種）。
+- **判定**：anti-generic-filter で **PASS（90）**。当初バウハウス系ベクターで PASS（83）した後、ユーザー要望（実績 hero のスタイルに寄せる）で dark-glow-vector に衣替え → 再検証。様式差し替えによる再検証で ⑧忠実性（様式が蒸留の本質を消さない）も再判定。判定は [examples/EVALUATION.md](examples/EVALUATION.md)。
+- **examples/README.md 更新**：行列の GitHub リポジトリ × 誘引セルを埋め、ケース一覧の様式列を更新、様式カバレッジを 27 種に。
+- **生成物をリポジトリの実アセットとして採用**：merged から生成した実画像（1717×916・ChatGPT 生成）を `assets/repo-hero.png` に配置し、README.md 冒頭で `<img src="assets/repo-hero.png">` として参照（他のエンジン＝elevate／novel-council／wisdom-council／soul-voice-teller と同じ `assets/repo-hero.png` 慣例）。examples/distill-hero/hero.png にも実物を保存。
+
+## 0.1.16 — 2026-08-22
+
+- **実 URL 入力の検証ケースを追加**（examples/youtube-agent-manager-diagram/）：YouTube 動画の実 URL（https://www.youtube.com/watch?v=ev8VrqwZwTE）を `scripts/fetch.py` でフェッチし、その文字起こしを入力に「解説図（理解）」へ変換。カバレッジ行列の **YouTube 動画 × 理解** の空セルを実 URL で埋めた（0.1.15 までは代表サンプルのみ）。
+- **変換内容**：「エンジニアの役割が『コードを書く』から『エージェントを制御する』へ」を、話者固有の比喩（龍＝巨大な仕事・アーマー＝エージェント・暦＝1 週間→週末 2 日・階段＝レイヤー昇格）で前後対比の解説図に蒸留。様式はフラットコミック。
+- **判定**：anti-generic-filter で **PASS（86）**。紋切型シグネチャなし・一貫性・構成とも良好。判定は [examples/EVALUATION.md](examples/EVALUATION.md)。
+- **examples/README.md 更新**：行列の YouTube 動画 × 理解セルを埋め、ケース一覧に 1 件追加。
+- **実 URL 入力の検証ケースを追加（2 件目・examples/youtube-loop-engineering-manga/）**：YouTube 動画の実 URL（https://www.youtube.com/watch?v=_3QwwydG4ic）をフェッチし、「漫画（記録）」へ変換。カバレッジ行列の **YouTube 動画 × 記録** の空セルを実 URL で埋めた。
+- **変換内容**：「プロンプトを書く → ループを設計する」への転換を、動画固有の比喩（螺線ループ・足場ハーネス・in→on・3 色の入れ子ループ・時計のルール札）で 6 コマの記録漫画に蒸留。様式はマンガ線画。
+- **判定**：anti-generic-filter で **PASS（84）**。評価者が指摘した④一貫性（同一開発者が全パネルを貫くことの明示）を合成プロンプトに反映して精錬（再判定なし、変更は評価者の提案に沿う明示のみ）。判定は [examples/EVALUATION.md](examples/EVALUATION.md)。
+- **examples/README.md 更新**：行列の YouTube 動画 × 記録セルを埋め、ケース一覧に 1 件追加（実 URL 検証ケース 2 件目）。
+
 ## 0.1.15 — 2026-08-22
 
 - **カバレッジ行列を全セル埋め**（examples/）：6 コンテンツ入力（小説／論文／記事／詩／文字起こし／メモ）× 6 目的（理解／伝達／誘引／再体験／記録／装飾）の 36 セルをすべて具体ケースで埋めた。新規 28 ケース追加（既存 11 と合わせ 39 ケース）。
