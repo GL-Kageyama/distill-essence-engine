@@ -72,13 +72,18 @@ for skill_dir in "$SKILLS_DIR"/*/; do
   name="$(basename "$skill_dir")"
   target="$TARGET_SKILLS_DIR/$name"
   rm -rf "$target"
-  ln -s "$skill_dir" "$target"
+  # A real dir (not a whole-dir symlink) so the skill can also carry
+  # sibling deps below; each entry below is a symlink to the repo, so
+  # edits there are reflected immediately.
+  mkdir -p "$target"
+  for item in "$skill_dir"/*; do
+    ln -s "$item" "$target/$(basename "$item")"
+  done
   # SKILL.md resolves `references/…` and `scripts/fetch.py` relative to the
   # skill dir, but they live at the repo root (siblings of skills/). Link
   # them in so the installed skill can read its dictionary (all languages).
   for dep in references scripts; do
     if [[ -e "$REPO_DIR/$dep" ]]; then
-      rm -rf "$target/$dep"
       ln -s "$REPO_DIR/$dep" "$target/$dep"
     fi
   done
