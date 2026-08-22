@@ -1,68 +1,72 @@
-# レジストリ（使えるフォーマット・様式の使い回しカード）
+<!-- i18n-version: 1.0.0 | canonical: references/registry.md | translated: 2026-08-22 -->
 
-> 使えると判断した（検証で通った）フォーマット・様式を、名前付きカードとして登録する辞書。SKILL.md が `format:`／`style:` の名前をここから引く。カード本体は `styles/`・`formats/` に 1 ファイル＝1 カード。
+**Language:** [English](registry.md) | [日本語](ja/registry.md) | [中文](zh/registry.md)
 
-## ルール
+# Registry (reusable cards of usable formats and styles)
 
-- カードは**検証で「使える」と判断されたものだけ**を登録する。未検証のものは登録しない。
-- `format: 漫画`／`style: 木版` と**名前で引ければ、その定義を展開して再利用**。なければその場で生成 → 検証 → 登録を提案。
-- 同じ名前のカードは精錬され続ける（より良い語彙・構成文法が見つかれば更新）。
-- **条件付き**は「使えるが、様式の世界が内容を上書きしうる」等の制約付きカードのための状態。**現在は 0**（過去の条件付き 9 枚は 0.1.14 の精錬で全て解消）。
-- ここは**結晶化した名前付きカード**。類型の**空間**（ありえるフォーマット全体）は [types.md](types.md)。
+> A dictionary that registers formats and styles judged usable (passed verification) as named cards. SKILL.md looks up `format:`／`style:` names here. Each card body lives in `styles/`・`formats/` as 1 file = 1 card.
 
-> **事前拡充バッチ（2026-08-22）は検証完了**：様式 15 種・フォーマット 7 種を昇格（詳細な判定・スコアは [examples/verify-rich/EVALUATION.md](../examples/verify-rich/EVALUATION.md)）。**不採用（削除）**：claymation・cyberpunk・vaporwave（様式の世界が内容を上書きする⑧違反、または詰め込み）。条件付き 9 枚は精錬（弱点に対応する do/avoid・アンカー・構成文法を追加）＋再検証で全て解消。**全カード 条件付きなし**・未検証 0。
+## Rules
 
-## 様式カード（styles/）
+- Register only cards **judged "usable" by verification**. Do not register unverified ones.
+- If `format: Manga`／`style: Woodblock print` can be **looked up by name, expand its definition and reuse it**. Otherwise propose generating → verifying → registering on the spot.
+- Cards with the same name keep being refined (updated when better vocabulary or composition grammar is found).
+- **Conditional** is a state for cards with constraints such as "usable, but the style's world can overwrite the content". **Currently 0** (the past 9 conditional cards were all resolved by the refinement in 0.1.14).
+- This is the home of **crystallized named cards**. The **space** of types (the whole of possible formats) is in [types.md](types.md).
 
-| 名前 | メディウム | 系譜 | 備考 | ファイル |
+> **The pre-expansion batch (2026-08-22) has passed verification**: 15 styles and 7 formats were promoted (detailed judgments and scores are in [examples/verify-rich/EVALUATION.md](../examples/verify-rich/EVALUATION.md)). **Not adopted (deleted)**: claymation, cyberpunk, vaporwave (⑧ violations where the style's world overwrites the content, or cramming). The 9 conditional cards were all resolved by refinement (adding do/avoid, anchors, and composition grammar that address the weaknesses) + re-verification. **All cards are unconditional** and unverified is 0.
+
+## Style cards (styles/)
+
+| Name | Medium | Lineage | Notes | File |
 |---|---|---|---|---|
-| 木版 | 版画・印刷 | 浮世絵 | — | [mokuhanga](styles/mokuhanga.md) |
-| 水彩 | 手描き | 水彩画 | — | [watercolor](styles/watercolor.md) |
-| バウハウス系ベクター | デジタル | バウハウス | — | [bauhaus-vector](styles/bauhaus-vector.md) |
-| マンガ線画 | 手描き | マンガ | — | [manga-ink](styles/manga-ink.md) |
-| ピクセル | デジタル | 8bit ゲーム | — | [pixel](styles/pixel.md) |
-| ストリートフォト | 写真・記録 | スナップ | — | [street-photo](styles/street-photo.md) |
-| PS1 低ポリゴン | デジタル | 3D ゲーム | — | [ps1-polygon](styles/ps1-polygon.md) |
-| スケッチ | 手描き | スケッチ | — | [sketch-broadstroke](styles/sketch-broadstroke.md) |
-| 厳粛な台帳 | 版画・印刷 | エディトリアル | — | [solemn-ledger](styles/solemn-ledger.md) |
-| フラットコミック | デジタル | コミック | — | [flat-comic](styles/flat-comic.md) |
-| 手書き抽象 | 手描き | 現代具象 | — | [gouache-abstract](styles/gouache-abstract.md) |
-| 油絵 | 手描き | 油彩画 | — | [oil-painting](styles/oil-painting.md) |
-| 水墨画 | 手描き | 水墨 | — | [sumi-e](styles/sumi-e.md) |
-| リノカット | 版画・印刷 | リリーフ版画 | — | [linocut](styles/linocut.md) |
-| 銅版画 | 版画・印刷 | エングレーヴィング | — | [copperplate-engraving](styles/copperplate-engraving.md) |
-| アールヌーヴォー | 版画・装飾 | アールヌーヴォー | — | [art-nouveau](styles/art-nouveau.md) |
-| 切り絵 | 手描き・立体 | 切り絵 | — | [paper-cut](styles/paper-cut.md) |
-| ステンドグラス | 装飾 | 教会装飾 | — | [stained-glass](styles/stained-glass.md) |
-| ラインナート | デジタル | ミニマル | — | [line-art](styles/line-art.md) |
-| フィルムノワール | 写真・映画 | ノワール | — | [film-noir](styles/film-noir.md) |
-| リソグラフ | 版画・印刷 | リソ | — | [risograph](styles/risograph.md) |
-| 鉛筆 | 手描き | デッサン | — | [pencil](styles/pencil.md) |
-| 木炭 | 手描き | 素描 | — | [charcoal](styles/charcoal.md) |
-| パステル | 手描き | パステル画 | — | [pastel](styles/pastel.md) |
-| アールデコ | 版画・装飾 | アールデコ | — | [art-deco](styles/art-deco.md) |
-| アイソメトリック | デジタル | ゲーム／インフォ | — | [isometric](styles/isometric.md) |
-| ダークグロー・ミニマルベクター | デジタル | ミニマル・テック | 実績 hero ファミリー（紺＋金橙＋白熱の4色） | [dark-glow-vector](styles/dark-glow-vector.md) |
-| ハイテンション日常系コミック | デジタル | ギャグ漫画・日常系アニメ | — | [high-energy-slice-of-life](styles/high-energy-slice-of-life.md) |
+| Woodblock print | Printmaking | Ukiyo-e | — | [mokuhanga](styles/mokuhanga.md) |
+| Watercolor | Hand-drawn | Watercolor painting | — | [watercolor](styles/watercolor.md) |
+| Bauhaus-style vector | Digital | Bauhaus | — | [bauhaus-vector](styles/bauhaus-vector.md) |
+| Manga ink lineart | Hand-drawn | Manga | — | [manga-ink](styles/manga-ink.md) |
+| Pixel art | Digital | 8-bit games | — | [pixel](styles/pixel.md) |
+| Street photography | Photography | Snap | — | [street-photo](styles/street-photo.md) |
+| PS1-era low-poly | Digital | 3D games | — | [ps1-polygon](styles/ps1-polygon.md) |
+| Sketch (broad stroke) | Hand-drawn | Sketch | — | [sketch-broadstroke](styles/sketch-broadstroke.md) |
+| Solemn ledger | Printmaking | Editorial | — | [solemn-ledger](styles/solemn-ledger.md) |
+| Flat comic | Digital | Comic | — | [flat-comic](styles/flat-comic.md) |
+| Gouache abstract | Hand-drawn | Contemporary figurative | — | [gouache-abstract](styles/gouache-abstract.md) |
+| Oil painting | Hand-drawn | Oil painting | — | [oil-painting](styles/oil-painting.md) |
+| Sumi-e ink wash | Hand-drawn | Ink wash | — | [sumi-e](styles/sumi-e.md) |
+| Linocut | Printmaking | Relief print | — | [linocut](styles/linocut.md) |
+| Copperplate engraving | Printmaking | Engraving | — | [copperplate-engraving](styles/copperplate-engraving.md) |
+| Art Nouveau | Printmaking / decorative | Art Nouveau | — | [art-nouveau](styles/art-nouveau.md) |
+| Paper cutout | Hand-drawn / dimensional | Paper cutting | — | [paper-cut](styles/paper-cut.md) |
+| Stained glass | Decorative | Church decoration | — | [stained-glass](styles/stained-glass.md) |
+| Line art | Digital | Minimal | — | [line-art](styles/line-art.md) |
+| Film noir | Photography / film | Noir | — | [film-noir](styles/film-noir.md) |
+| Risograph | Printmaking | Riso | — | [risograph](styles/risograph.md) |
+| Pencil | Hand-drawn | Drawing | — | [pencil](styles/pencil.md) |
+| Charcoal | Hand-drawn | Sketch | — | [charcoal](styles/charcoal.md) |
+| Pastel | Hand-drawn | Pastel painting | — | [pastel](styles/pastel.md) |
+| Art Deco | Printmaking / decorative | Art Deco | — | [art-deco](styles/art-deco.md) |
+| Isometric | Digital | Games / infographics | — | [isometric](styles/isometric.md) |
+| Dark-glow minimal vector | Digital | Minimal / tech | Proven hero family (navy + gold-orange + white-hot, 4 colors) | [dark-glow-vector](styles/dark-glow-vector.md) |
+| High-energy slice-of-life comic | Digital | Gag manga / slice-of-life anime | — | [high-energy-slice-of-life](styles/high-energy-slice-of-life.md) |
 
-## フォーマットカード（formats/）
+## Format cards (formats/)
 
-| 名前 | 目的 | 備考 | ファイル |
+| Name | Purpose | Notes | File |
 |---|---|---|---|
-| イメージボード | 象徴（再体験） | — | [imageboard](formats/imageboard.md) |
-| 漫画 | 叙述（記録・再体験） | — | [manga](formats/manga.md) |
-| 表紙 | 象徴（誘引） | — | [cover](formats/cover.md) |
-| サムネイル | 注目（誘引） | — | [thumbnail](formats/thumbnail.md) |
-| インフォグラフィック | 説明（伝達） | — | [infographic](formats/infographic.md) |
-| アイコン | 象徴 | — | [icon](formats/icon.md) |
-| 解説図 | 説明（理解） | — | [diagram](formats/diagram.md) |
-| 挿絵 | 装飾 | — | [illustration](formats/illustration.md) |
-| ポスター | 象徴（誘引） | — | [poster](formats/poster.md) |
-| 絵本 | 叙述（再体験） | — | [picture-book](formats/picture-book.md) |
-| ロゴ | 象徴 | — | [logo](formats/logo.md) |
-| エンブレム | 象徴 | — | [emblem](formats/emblem.md) |
-| ストーリーボード | 叙述（伝達・検討） | — | [storyboard](formats/storyboard.md) |
-| スプライトシート | 叙述（ゲーム素材） | — | [sprite](formats/sprite.md) |
-| タロットカード | 象徴 | — | [tarot-card](formats/tarot-card.md) |
-| ヒーロー画像 | 象徴（誘引） | 横長 16:9 バナー | [hero](formats/hero.md) |
-| ギャグ漫画 | 叙述＋誘引 | 多コマ・4ビートリズム | [gag-manga](formats/gag-manga.md) |
+| Image board | Symbolic (re-experience) | — | [imageboard](formats/imageboard.md) |
+| Manga | Narrative (record / re-experience) | — | [manga](formats/manga.md) |
+| Cover | Symbolic (attraction) | — | [cover](formats/cover.md) |
+| Thumbnail | Attention (attraction) | — | [thumbnail](formats/thumbnail.md) |
+| Infographic | Explanatory (communication) | — | [infographic](formats/infographic.md) |
+| Icon | Symbolic | — | [icon](formats/icon.md) |
+| Diagram | Explanatory (understanding) | — | [diagram](formats/diagram.md) |
+| Illustration | Decorative | — | [illustration](formats/illustration.md) |
+| Poster | Symbolic (attraction) | — | [poster](formats/poster.md) |
+| Picture book | Narrative (re-experience) | — | [picture-book](formats/picture-book.md) |
+| Logo | Symbolic | — | [logo](formats/logo.md) |
+| Emblem | Symbolic | — | [emblem](formats/emblem.md) |
+| Storyboard | Narrative (communication / review) | — | [storyboard](formats/storyboard.md) |
+| Sprite sheet | Narrative (game asset) | — | [sprite](formats/sprite.md) |
+| Tarot card | Symbolic | — | [tarot-card](formats/tarot-card.md) |
+| Hero image | Symbolic (attraction) | Wide 16:9 banner | [hero](formats/hero.md) |
+| Gag manga | Narrative + attraction | Multi-panel, 4-beat rhythm | [gag-manga](formats/gag-manga.md) |

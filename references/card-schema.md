@@ -1,88 +1,92 @@
-# カード・スキーマ（リッチテンプレ形式）
+<!-- i18n-version: 1.0.0 | canonical: references/card-schema.md | translated: 2026-08-22 -->
 
-> 様式・フォーマットカードの標準構造。**薄い索引（語彙＋ネガティブ対）でなく、穴あき変数＋忠実性アンカー＋do/avoid＋テンプレ＋ネガティブ＋例**を持つリッチテンプレ。
-> 構造は [VigoZhao/AI-Visual-Prompt-Cookbook](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook)（style.json v2.1、MIT）と [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)（Prompt as Code、MIT）の「いいところ」を、エンジン哲学（固有×間接・8 原理）に合わせて再設計したもの。
+**Language:** [English](card-schema.md) | [日本語](ja/card-schema.md) | [中文](zh/card-schema.md)
 
-## なぜリッチか
+# Card Schema (Rich-Template Format)
 
-- 薄い語彙カードは「この様式で」の答えにならない。リッチテンプレは**穴あき変数（SUBJECT 等）を埋めるだけで、その様式を崩さず再現できる**。
-- **忠実性アンカー**＝崩してはいけない句（様式の同一性）。④一貫性・⑥スタイルの錨。
-- **do/avoid**＝選定・構成の判断を事前に固定。②選定・⑤構成の事前圧縮。
-- **ネガティブ・テンプレ**＝⑦ネガティブの具象化。
-- **例**＝変数を埋めた実物。検証の再現性（同じ様式で別の内容を出す実績）。
+> The standard structure of style and format cards. Not a thin index (vocabulary + negative pairs) but a **rich template with blank variables + fidelity anchors + do/avoid + template + negative + examples**.
+> The structure is a redesign of the "good parts" of [VigoZhao/AI-Visual-Prompt-Cookbook](https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook) (style.json v2.1, MIT) and [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) (Prompt as Code, MIT) to fit the engine philosophy (particular × indirect, 8 principles).
 
-## 様式カードの構造（references/styles/*.md）
+## Why rich
+
+- A thin vocabulary card cannot answer "in this style". A rich template lets you **reproduce that style without breaking it, just by filling in the blank variables (SUBJECT, etc.)**.
+- **Fidelity anchors** = the phrases that must not be broken (the identity of the style). The anchors of ④ consistency and ⑥ style.
+- **do/avoid** = fixes the decisions of selection and composition in advance. The pre-compression of ② selection and ⑤ composition.
+- **Negative template** = the concretization of ⑦ negative.
+- **Examples** = real instances with the variables filled in. Reproducibility of verification (a record of producing different content in the same style).
+
+## Structure of a style card (references/styles/*.md)
 
 ```
-# 様式名（slug）
+# Style name (slug)
 
-- **メディウム**: X ／ **系譜**: Y ／ **時代**: Z
-- **要約**: 1 行の本質
+- **Medium**: X ／ **Lineage**: Y ／ **Era**: Z
+- **Summary**: a one-line essence
 
-## 環境変数（穴あきスロット）
-`SUBJECT`＝主役、`ACTION`＝動作、`LOCATION`＝場、`ACCENT`＝象徴の小道具、`ASPECT`＝比率 …
+## Environment variables (blank slots)
+`SUBJECT`＝main subject, `ACTION`＝action, `LOCATION`＝place, `ACCENT`＝a symbolic prop, `ASPECT`＝aspect ratio …
 
-## 忠実性アンカー（この様式らしさ＝崩してはいけない句）
+## Fidelity anchors (what makes this style itself — phrases that must not be broken)
 - …
 
-## 視覚の分解
-- **構成**: …
-- **タイポグラフィ**: …
-- **色彩**: …
-- **質感・照明**: …
+## Visual breakdown
+- **Composition**: …
+- **Typography**: …
+- **Color**: …
+- **Texture / lighting**: …
 
-## do（必ず守る）
+## do (must follow)
 - …
 
-## avoid（避ける）
+## avoid (avoid)
 - …
 
-## ネガティブ
+## Negative
 `not …, no …, …`
 
-## プロンプトテンプレ（英語・穴あき）
-（{SUBJECT} 等を埋めるだけで成立する英語テンプレ）
+## Prompt template (English, with blanks)
+(an English template that works just by filling {SUBJECT}, etc.)
 
-## 例（変数を埋めた実例 2–3 件）
+## Examples (2–3 real instances with the variables filled in)
 - …
 
-## 出所
+## Source
 …
 ```
 
-## フォーマットカードの構造（references/formats/*.md）
+## Structure of a format card (references/formats/*.md)
 
 ```
-# フォーマット名（slug）
+# Format name (slug)
 
-- **目的**: X ／ **粒度×時間**: Y ／ **サイズ・比率**: Z
-- **要約**: 1 行
+- **Purpose**: X ／ **Granularity × time**: Y ／ **Size / aspect**: Z
+- **Summary**: one line
 
-## 環境変数
-（枚数・テキスト・情報ブロック等、このフォーマット固有の穴）
+## Environment variables
+(the slots particular to this format: number of pages, text, information blocks, etc.)
 
-## 構成文法
-（コマ割り／階層／ショット／余白）
+## Composition grammar
+(panel division / hierarchy / shots / negative space)
 
 ## do / avoid
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template (English, with blanks)
 
-## 例
+## Examples
 
-## 出所
+## Source
 ```
 
-## 生成ワークフロー（awesome から取り込み）
+## Generation workflow (taken from awesome)
 
-カードの検索・適用はこの順：
+Cards are searched and applied in this order:
 
-1. **対象を特定** — 何を作るか（ポスター／UI／インフォ／表紙／イラスト／キャラ…）。カテゴリを先に決める。
-2. **照合** — フォーマットカテゴリ → 様式タグ → 場面タグ → 最寄りの例、の順に引く。
-3. **選定** — 1 枚が明確に最強ならそれを使う。複数が当てはまるなら **2–3 案を短い理由つきで提示して選ばせる**。
-4. **組む** — 6 ブロックで最終プロンプトへ：①主語・課題 → ②構成・レイアウト → ③様式・素材 → ④文字・ラベル → ⑤比率・出力形式 → ⑥制約・ネガティブ。
+1. **Identify the target** — what to make (poster / UI / infographic / cover / illustration / character …). Decide the category first.
+2. **Match** — pull in the order: format category → style tag → scene tag → nearest example.
+3. **Select** — if one card is clearly the strongest, use it. If several apply, **present 2–3 options with brief reasons and let the user choose**.
+4. **Assemble** — assemble into the final prompt in 6 blocks: ① subject / task → ② composition / layout → ③ style / material → ④ text / labels → ⑤ aspect ratio / output format → ⑥ constraints / negative.
 
-## 出所（ライセンス）
+## Sources (licenses)
 
-- **VigoZhao/AI-Visual-Prompt-Cookbook**（MIT）— style.json v2.1 の構造（環境変数・忠実性アンカー・視覚の分解・do/avoid・テンプレ・ネガティブ・例）。
-- **freestylefly/awesome-gpt-image-2**（MIT）— 生成ワークフロー（カテゴリ照合・6 ブロック・複数案提示）と Prompt as Code の発想。
+- **VigoZhao/AI-Visual-Prompt-Cookbook** (MIT) — the structure of style.json v2.1 (environment variables, fidelity anchors, visual breakdown, do/avoid, template, negative, examples).
+- **freestylefly/awesome-gpt-image-2** (MIT) — the generation workflow (category matching, 6 blocks, presenting multiple options) and the idea of Prompt as Code.

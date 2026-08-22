@@ -1,40 +1,44 @@
-# 選定（何を残すか）
+<!-- i18n-version: 1.0.0 | canonical: references/selection.md | translated: 2026-08-22 -->
 
-> 変換原理②の深化。圧縮の第一工程。distill-essence-engine の reference。時間×意味×要素の無限情報から、描く一点を選ぶ。
+**Language:** [English](selection.md) | [日本語](ja/selection.md) | [中文](zh/selection.md)
 
-## 本質
+# Selection (What to Keep)
 
-**語る一点を選ぶ。** すべてを描かない。全体を暗示する「一点」だけを残す。
+> Deepening of transformation principle ②. The first step of compression. A reference for distill-essence-engine. From the infinite information of time × meaning × elements, choose the one point to draw.
 
-素の LLM は「一番目立つ場面」（クライマックス）を選ぶ。だがクライマックスは文脈がないと伝わらない。語る一点（転換・余韻・日常の裂け目）だけが、一点で全体を暗示する。
+## Essence
 
-## 2 軸
+**Choose the one point that speaks.** Do not draw everything. Keep only the "one point" that implies the whole.
 
-| 軸 | 問い | 凡庸側 ↔ 固有側 |
+A raw LLM chooses the "most prominent scene" (the climax). But the climax does not communicate without context. Only the one point that speaks (a turning point, lingering resonance, a crack in daily life) implies the whole through a single point.
+
+## Two axes
+
+| Axis | Question | Mediocre side ↔ Particular side |
 |---|---|---|
-| **何を選ぶか** | どの瞬間・要素か | 目立つ一点（クライマックス・説明）↔ 語る一点（転換・余韻・裂け目） |
-| **どう語らせるか** | 全部か一点か | 説明（全部描く）↔ 暗示（一点で全体を宿す） |
+| **What to choose** | Which moment or element | The conspicuous point (climax, explanation) ↔ The speaking point (turning point, resonance, crack) |
+| **How to make it speak** | Everything or one point | Explanation (draw everything) ↔ Suggestion (hold the whole in one point) |
 
-## 深層（選定＝提喩）
+## Depth (selection = synecdoche)
 
-選定は**提喩**（部分が全体を語る）。凡庸な選定は「全部言おうとする」。固有な選定は「一点で全部を暗示する」。**本質は削った残りに宿る。** 何を削るか＝何を残すかの選択こそ選定。
+Selection is **synecdoche** (the part speaks for the whole). Mediocre selection "tries to say everything". Particular selection "implies everything with one point". **The essence lives in what remains after cutting.** What to cut = what to keep; this choice is selection itself.
 
-選定と翻訳は同じ動きの別階層：**選定は凡庸な「瞬間」を避け、翻訳は凡庸な「象徴」を避ける。** どちらも固有 × 間接。
+Selection and translation are the same movement at different layers: **selection avoids the mediocre "moment"; translation avoids the mediocre "symbol".** Both are particular × indirect.
 
-## 失敗モード
+## Failure modes
 
-- **クライマックス** — 一番ドラマチックだが、文脈がないと伝わらない。
-- **説明の場面** — テーマを図解する場面。
-- **要約／過密** — 全要素を詰め込む（全部描こうとする）。画像生成特有の失敗：言葉で列挙できるからといって、モチーフ・象徴・小道具を全部入れると焦点が散る。選定の半分は「捨てる」こと。要素は最小に（焦点 1 つ＋それを支える最小限）。
+- **The climax** — the most dramatic, but it does not communicate without context.
+- **The explanatory scene** — a scene that illustrates the theme.
+- **Summary / overcrowding** — cramming in every element (trying to draw everything). Image-generation-specific failure: just because things can be enumerated in words, putting in every motif, symbol, and prop scatters the focus. Half of selection is "discarding". Keep elements minimal (one focus + the minimum that supports it).
 
-## 良さの基準
+## Criteria for quality
 
-- **固有性** — この物語の本質を最も宿す一点。
-- **必然性** — 見た瞬間「この一点しかない」。
-- **暗示** — 一点が全体を語る。
+- **Particularity** — the one point that most holds the essence of this story.
+- **Necessity** — the moment of seeing, "there is no other point but this".
+- **Suggestion** — one point speaks the whole.
 
-## 生態系との接続
+## Connection to the ecosystem
 
-- 予測を超えて必然の一点 ＝ `admiration`
-- 「続きが知りたい」を残す一点（余韻・裂け目）＝ `hook`
-- 凡庸な一点の検出 ＝ `anti-generic-filter`
+- The one point that exceeds prediction yet feels inevitable = `admiration`
+- The point that leaves "I want to know what happens next" (resonance, crack) = `hook`
+- Detecting the mediocre point = `anti-generic-filter`

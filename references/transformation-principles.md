@@ -1,73 +1,77 @@
-# 変換原理
+<!-- i18n-version: 1.0.0 | canonical: references/transformation-principles.md | translated: 2026-08-22 -->
 
-> 任意の入力を良い画像プロンプトに変換するための、一般的な手筋（＝レシピの原理）。エンジンのコア。distill-essence-engine の reference。
+**Language:** [English](transformation-principles.md) | [日本語](ja/transformation-principles.md) | [中文](zh/transformation-principles.md)
 
-種（`~/Desktop/その他プロンプト/`）は、この原理を私の好みで適用した**一例**。ここに書くのはカバー範囲全体（あらゆる画像プロンプト）に効く**一般原理**で、特定の形式や種に依存しない。
+# Transformation Principles
 
-## 変換の流れ
+> The general principles of craft (＝ the recipe's principles) for transforming any input into a good image prompt. The core of the engine. A reference for distill-essence-engine.
+
+The seed (`~/Desktop/その他プロンプト/`) is **one example** of applying these principles with my own preferences. What is written here is the **general principle** that works over the whole covered range (every image prompt), independent of any particular format or seed.
+
+## The transformation flow
 
 ```
-入力 → ①理解 → ②選定 → ③翻訳 → ⑤構成 → ⑥スタイル → ⑦ネガティブ → プロンプト
-（④一貫性・⑧忠実性は工程でなく、全工程にまたがる制約）
+input → ① Understanding → ② Selection → ③ Translation → ⑤ Composition → ⑥ Style → ⑦ Negative → prompt
+(④ Consistency and ⑧ Fidelity are not steps but constraints spanning all steps)
 ```
 
-## 原理
+## Principles
 
-### ① 入力理解 — 何が来たかを掴む
+### ① Input understanding — grasp what has come in
 
-- 入力の種別（小説／記事／詩／会話録／メモ …）と本質を判定する。
-- 描くべき「何」を特定する：主題・登場要素・感情の推移・転換点・結末・繰り返すモチーフ。
+- Determine the input's type (novel / article / poem / conversation transcript / memo …) and essence.
+- Identify the "what" to draw: the theme, the elements that appear, the movement of emotion, turning points, the ending, recurring motifs.
 
-### ② 選定 — 凡庸な一点を避ける
+### ② Selection — avoid the mediocre point
 
-- **すべてを描かない。** 記憶に残る瞬間・本質的な場面・象徴的な要素だけを選ぶ。
-- 「この文章を絵にしろ」が返す凡庸な場面ではなく、予測を超えて必然に納得する場面（＝「おおっ」）を選ぶ。
-- リテラルに説明しない。視覚的なメタファー・象徴・余白に置き換える。
-- **本質：語る一点。** すべてを描かず、一点で全体を暗示する（提喩）。選定は凡庸な「瞬間」を避ける（翻訳の凡庸な「象徴」と同根）。→ 詳細は [選定](selection.md)。
+- **Do not draw everything.** Choose only the memorable moment, the essential scene, the symbolic element.
+- Choose not the mediocre scene that "draw this text" returns, but a scene that exceeds prediction and convinces as inevitable (＝ the "wow").
+- Do not explain literally. Replace with a visual metaphor, symbol, and negative space.
+- **Essence: the one point that speaks.** Do not draw everything; imply the whole with one point (synecdoche). Selection avoids the mediocre "moment" (same root as translation's mediocre "symbol"). → See [Selection](selection.md) for details.
 
-### ③ 翻訳 — 抽象を可視化する
+### ③ Translation — make the abstract visible
 
-- 内心・感情・テーマを、表情・身体・距離・光・影・小道具・繰り返すモチーフ・構図・余白に変換する。
-- 言葉で言えないものは絵で示す。説明せず、見る者に発見させる。
-- **本質：固有 × 間接。** 凡庸な直喩（悲しみ→雨）を避け、この物語に固有の間接表現へ降ろす。深さは①理解の深さで決まる。→ 詳細は [翻訳](translation.md)。
+- Convert inner feelings, emotions, and themes into expressions, bodies, distance, light, shadow, props, recurring motifs, composition, and negative space.
+- Show in the picture what cannot be said in words. Do not explain; let the viewer discover.
+- **Essence: particular × indirect.** Avoid the mediocre simile (sadness → rain) and descend to an indirect expression particular to this story. Depth is decided by the depth of ① Understanding. → See [Translation](translation.md) for details.
 
-### ④ 一貫性 — 同じ世界にする
+### ④ Consistency — make it the same world
 
-- キャラクター（顔・髪・年齢・体型・服装）と環境（場所・天候・季節・時間・建築・照明）の連続性を保つ。
-- 同じ映画の連続カットであること。別々のイラストの寄せ集めにしない。
+- Keep continuity of characters (face, hair, age, build, clothes) and environment (place, weather, season, time, architecture, lighting).
+- It must be consecutive cuts of the same film. Not an assortment of separate illustrations.
 
-### ⑤ 構成 — 形式に応じた構造
+### ⑤ Composition — structure according to the format
 
-- 出力形式（ストーリーボード／イメージボード／サムネイル／表紙／イラスト …）に応じた構成をとる。
-- 形式は内容から独立しており、選定・翻訳の結果をどう並べるかを決める。
-  - 例：ストーリーボード＝物語のリズムでパネルを設計（大＝感情、小＝推移、寄り＝発見、引き＝孤立）
-  - 例：サムネイル＝一目で分かる象徴図ひとつ
-  - 例：表紙＝象徴的な一場面／キャラ集合
-- **本質：間と関係。** 要素でなく、並べ方（距離・余白・非対称）で語る。→ 詳細は [配置](arrangement.md)。
+- Take a composition appropriate to the output format (storyboard / image board / thumbnail / cover / illustration …).
+- The format is independent of the content and decides how to arrange the results of selection and translation.
+  - Example: storyboard = design panels by the story's rhythm (large = emotion, small = transition, close-up = discovery, wide = isolation)
+  - Example: thumbnail = a single symbol figure that is instantly legible
+  - Example: cover = a symbolic scene / character ensemble
+- **Essence: the gap and relationships.** Speak not with elements but with arrangement (distance, negative space, asymmetry). → See [Arrangement](arrangement.md) for details.
 
-### ⑥ スタイル — 差し替え可能な層
+### ⑥ Style — the replaceable layer
 
-- スタイル（水彩／手書き／POP …）の語彙を、内容に合わせて適用する。
-- スタイルは内容から独立した層として合成（片軸だけ差し替え可能）。
+- Apply the vocabulary of a style (watercolor / hand-drawn / POP …) to fit the content.
+- Compose the style as a layer independent of the content (only one axis can be replaced).
 
-### ⑦ ネガティブ — 排除を明示
+### ⑦ Negative — make exclusions explicit
 
-- 排除要素（フォトリアル／デジタルポリッシュ／文字／過剰なディテール …）を明示する。
-- スタイルと対で決まる。
+- State the exclusion elements explicitly (photorealistic / digital polish / text / excessive detail …).
+- Decided paired with the style.
 
-### ⑧ 忠実性 — 原作を変えない
+### ⑧ Fidelity — do not change the original
 
-- 感情のトーンは元の入力から来る（ハッピー／悲劇／ホラーを強制しない）。
-- 原作に無い出来事・キャラの同一性・関係・結末を変えない。
+- The emotional tone comes from the original input (do not force happy / tragic / horror).
+- Do not change events, character identities, relationships, or endings that are not in the original.
 
-## 原理の供給源
+## Sources of the principles
 
-- **内容由来（入力の解析から導く）**：①理解 ②選定 ③翻訳 ⑧忠実性
-- **指定由来（自然言語から受け取る）**：⑤構成（形式） ⑥スタイル
-- **両方にまたがる**：④一貫性（内容に由来し形式に依存） ⑦ネガティブ（スタイルと対＋内容から）
+- **Content-derived (derived from analyzing the input)**: ① Understanding ② Selection ③ Translation ⑧ Fidelity
+- **Specification-derived (received from natural language)**: ⑤ Composition (format) ⑥ Style
+- **Spanning both**: ④ Consistency (derived from content, depends on format) ⑦ Negative (pairs with the style + from content)
 
-## この原理の使い方
+## How to use these principles
 
-- 種の `[FIXED PROMPT]`（小説→イメージボード化）は、この一般原理の**一つの形式での具体化**。①〜⑧がそのまま現れている。
-- エンジンは、入力を読んで①を行い、指定（自然言語）から⑤⑥の軸を受け取り、②③④⑦⑧を適用してプロンプトを合成する。
-- 辞書があれば、⑤⑥の既知ケースを精錬された語彙で安定化する。
+- The seed's `[FIXED PROMPT]` (novel → image board) is **a concretization of these general principles in one format**. ①–⑧ appear there as-is.
+- The engine reads the input, performs ①, receives the ⑤⑥ axes from the specification (natural language), and composes the prompt by applying ②③④⑦⑧.
+- With a dictionary, the known cases of ⑤⑥ are stabilized with refined vocabulary.

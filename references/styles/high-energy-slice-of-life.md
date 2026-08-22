@@ -1,38 +1,42 @@
-# ハイテンション日常系コミック（high-energy-slice-of-life）
+<!-- i18n-version: 1.0.0 | canonical: references/styles/high-energy-slice-of-life.md | translated: 2026-08-22 -->
 
-- **メディウム**: デジタル ／ **系譜**: ギャグ漫画・日常系アニメ ／ **時代**: 現代
-- **要約**: 日常の小さなカオスを、明るく元気なギャグ漫画にして楽しくする。
+**Language:** [English](high-energy-slice-of-life.md) | [日本語](../ja/styles/high-energy-slice-of-life.md) | [中文](../zh/styles/high-energy-slice-of-life.md)
 
-## 環境変数
-`SUBJECT`、`ACTION`、`LOCATION`、`ACCENT`、`TEXT`
+# High-energy slice-of-life comic（high-energy-slice-of-life）
 
-## 忠実性アンカー
-- アニメ調のくっきりしたインク線、感情を増幅する陰影
-- 明るい昼の色調（生き生きした中間色。原色や暗いトーンにしない）
-- 誇張した遊び心ある表情（衝撃・困惑・得意顔がパニックへ崩れる）と全身演技
-- ギャグ記号（汗・ブレ・衝撃バースト・揺れ線）は半透明の重なる色ブロブ＝水彩のにじみ風・柔らかい縁で描く
-- 小道具も反応する（不吉に光る電話・ひるむ食べ物）
-- 感情の記号化（ストレス→爆発・混乱→回るアイコン・気まずさ→スポットライト孤立）
-- 短い反応セリフ（「え？」「は？？」「ちょっと待って」）＋太いフォント
+- **Medium**: Digital ／ **Lineage**: Gag manga / slice-of-life anime ／ **Era**: Contemporary
+- **Summary**: Turns the small chaos of everyday life into a bright, energetic gag comic and makes it fun.
 
-## 視覚の分解
-- **構成**: 日常の場＋小道具のユーモア＋シンプルな余白感
-- **タイポ**: 短い反応セリフ・太いフォント・タイトルは装飾タイポ
-- **色彩**: 明るい昼の色調、生き生きした中間色
-- **質感・照明**: くっきりしたインク線＋ギャグ記号は半透明の色ブロブ（水彩のにじみ風）で手描きの温かみ
+## Environment variables
+`SUBJECT`, `ACTION`, `LOCATION`, `ACCENT`, `TEXT`
+
+## Fidelity anchors
+- Crisp anime-style ink lines, shading that amplifies emotion
+- Bright daytime palette (lively midtones; no primaries or dark tones)
+- Exaggerated playful expressions (shock, confusion, smug faces collapsing into panic) and full-body acting
+- Gag marks (sweat drops, motion blur, impact bursts, wobble lines) drawn as semi-transparent overlapping color blobs with soft watercolor-like feathered edges
+- The props react too (an ominously glowing phone, flinching food)
+- Emotional symbolization (stress → explosion, confusion → spinning icon, awkwardness → spotlight isolation)
+- Short reaction lines ("Huh?", "What??", "Wait a sec") + bold fonts
+
+## Visual decomposition
+- **Composition**: everyday scene + prop humor + a simple sense of negative space
+- **Typography**: short reaction lines, bold fonts, decorative title lettering
+- **Color**: bright daytime palette, lively midtones
+- **Texture & lighting**: crisp ink lines + gag marks as semi-transparent color blobs (watercolor-bleed feel) for hand-drawn warmth
 
 ## do
-- 誇張・記号・物のリアクションで遊ぶ
-- リアクションショットを大事に
+- Play with exaggeration, symbols, and objects reacting
+- Treat reaction shots as precious
 
 ## avoid
-- 静的、真面目すぎ、無目的な空白背景、説明過多の文字
-- かわいすぎ・広告っぽすぎ・情報商材っぽい
+- Static, overly serious, purposeless empty backgrounds, over-explanatory text
+- Too cute, too ad-like, too much like an info-product pitch
 
-## ネガティブ
+## Negative
 `no stiff or static scenes, no overly serious tone, no empty backgrounds without purpose, no flat reactions, no over-explaining text, not photorealistic, no 3D render`
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 Anime-style gag illustration of {SUBJECT} {ACTION} in {LOCATION}. Crisp ink outlines,
 bright warm daylight palette, shading that amplifies the reaction. Playful overreaction
@@ -43,8 +47,8 @@ text in bold readable fonts. Uncluttered everyday room, one small funny detail i
 background.
 ```
 
-## 例
-- 青空文庫『坊っちゃん』（実 URL フェッチ）→ 10 ページギャグ漫画（bocchan-gag-manga・明るい昼の校舎で大げさなリアクション）
+## Examples
+- Aozora Bunko "Botchan" (real URL fetch) → a 10-page gag comic (bocchan-gag-manga: exaggerated reactions in a bright daytime school building)
 
-## 出所
-Desktop「お笑いスピサロン／ライブメモイラスト化.txt」（ART DIRECTION／EXPRESSION／GAG & OBJECT HUMOR／SYMBOLIC FUN／TEXT USAGE／BACKGROUND を再構成＋水彩・SNS 断片の質感要素を混入）＋ bocchan-gag-manga
+## Sources
+Desktop "お笑いスピサロン／ライブメモイラスト化.txt" (ART DIRECTION / EXPRESSION / GAG & OBJECT HUMOR / SYMBOLIC FUN / TEXT USAGE / BACKGROUND restructured, mixed with watercolor and SNS-fragment texture elements) + bocchan-gag-manga

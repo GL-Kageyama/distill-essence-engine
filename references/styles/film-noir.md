@@ -1,44 +1,48 @@
-# フィルムノワール（film-noir）
+<!-- i18n-version: 1.0.0 | canonical: references/styles/film-noir.md | translated: 2026-08-22 -->
 
-- **メディウム**: 写真・映画 ／ **系譜**: ノワール ／ **時代**: 1940–50s
-- **要約**: 強い明暗とブラインドの影が、モノクロの夜に陰謀を沈める。
+**Language:** [English](film-noir.md) | [日本語](../ja/styles/film-noir.md) | [中文](../zh/styles/film-noir.md)
 
-## 環境変数
-`SUBJECT`、`ACTION`、`LOCATION`、`LIGHT`＝光、`ASPECT`
+# Film noir（film-noir）
 
-## 忠実性アンカー
-- 強い明暗
-- ブラインドの影
-- 煙
-- ハードキーライト
-- モノクロ
-- ローアングル、濡れた夜の街
+- **Medium**: Photography / cinema ／ **Lineage**: Noir ／ **Era**: 1940–50s
+- **Summary**: Strong chiaroscuro and venetian-blind shadows sink intrigue into a monochrome night.
 
-## 視覚の分解
-- **構成**: ローアングル、斜めの構図
-- **タイポ**: 文字なし
-- **色彩**: モノクロ
-- **質感・照明**: ハードキーライト、ブラインドの影、煙、夜
+## Environment variables
+`SUBJECT`, `ACTION`, `LOCATION`, `LIGHT`＝light, `ASPECT`
+
+## Fidelity anchors
+- Strong chiaroscuro
+- Venetian-blind shadows
+- Smoke
+- Hard key light
+- Monochrome
+- Low camera angle, wet night streets
+
+## Visual decomposition
+- **Composition**: low camera angle, tilted framing
+- **Typography**: no text
+- **Color**: monochrome
+- **Texture & lighting**: hard key light, venetian-blind shadows, smoke, night
 
 ## do
-- 強い明暗と影、モノクロ
-- ローアングル、煙、夜の街
+- Strong light-and-dark contrast and shadow, monochrome
+- Low camera angle, smoke, night streets
 
 ## avoid
-- 均一な明るさ、色、ソフトフォーカス
+- Even brightness, color, soft focus
 
-## ネガティブ
+## Negative
 `no even bright light, no color, no soft focus`
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A film-noir still of {SUBJECT} {ACTION} in {LOCATION}, lit by {LIGHT}. Strong chiaroscuro,
 venetian-blind shadows, drifting smoke, hard key light, monochrome, low camera angle,
 wet night streets.
 ```
 
-## 例
+## Examples
 - —
 
-## 出所
-ネット調査（事前拡充・未検証）
+## Sources
+Web research (pre-expanded, unverified)

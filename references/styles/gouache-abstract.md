@@ -1,36 +1,40 @@
-# 手書き抽象（gouache-abstract・ガッシュ）
+<!-- i18n-version: 1.0.0 | canonical: references/styles/gouache-abstract.md | translated: 2026-08-22 -->
 
-- **メディウム**: 手描き ／ **系譜**: 現代具象 ／ **時代**: 現代
-- **要約**: 単純化した形と表情的な筆が、曖昧さと未完に静けさを宿す。
+**Language:** [English](gouache-abstract.md) | [日本語](../ja/styles/gouache-abstract.md) | [中文](../zh/styles/gouache-abstract.md)
 
-## 環境変数
-`SUBJECT`、`ACTION`、`LOCATION`、`ACCENT`、`ASPECT`
+# Gouache abstract（gouache-abstract）
 
-## 忠実性アンカー
-- 単純化した大きな形、表情的な手描きストローク
-- 抑制したパレット
-- 不透明なガッシュ風のストローク＋薄い透明なウォッシュ
-- 筆のテクスチャ・ドライブラシ・顔料のムラ
-- 不規則な縁、紙の見える小さな面
-- 曖昧さと未完、静けさ・抑制・微かな緊張、スケッチブックの 1 ページ
+- **Medium**: Hand-drawn ／ **Lineage**: Contemporary representational ／ **Era**: Contemporary
+- **Summary**: Simplified shapes and expressive brushwork let ambiguity and incompleteness hold a quiet calm.
 
-## 視覚の分解
-- **構成**: 大きな形を中央に、余白と曖昧さ
-- **タイポ**: 文字なし
-- **色彩**: 抑制したパレット、ガッシュの不透明＋ウォッシュの透明
-- **質感・照明**: 筆のテクスチャ、紙の目、静かな光
+## Environment variables
+`SUBJECT`, `ACTION`, `LOCATION`, `ACCENT`, `ASPECT`
+
+## Fidelity anchors
+- Simplified large shapes, expressive hand-drawn strokes
+- A restrained palette
+- Opaque gouache-like strokes plus thin translucent washes
+- Brush texture, dry brush, pigment unevenness
+- Irregular edges, small patches where the paper shows
+- Ambiguity and incompleteness, quiet restraint, a faint tension, one page from a sketchbook
+
+## Visual decomposition
+- **Composition**: Large shapes at center, negative space and ambiguity
+- **Typography**: No text
+- **Color**: A restrained palette, opaque gouache plus transparent washes
+- **Texture & light**: Brush texture, paper grain, quiet light
 
 ## do
-- 形を単純化、未完を残す
-- 筆のテクスチャとムラを活かす
+- Simplify shapes, leave the unfinished
+- Lean into brush texture and unevenness
 
 ## avoid
-- 写真の写実、デジタルの磨き、ベクターの縁、光沢、過剰なディテール
+- Photographic realism, digital polish, vector edges, gloss, excessive detail
 
-## ネガティブ
+## Negative
 `no photorealism, no digital polish, no vector edges, no glossy, no excessive detail`
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template (English, fill-in-the-blank)
 ```text
 A hand-painted abstract gouache of {SUBJECT} {ACTION} with {ACCENT}.
 Simplified large shapes, expressive hand-drawn strokes, a restrained palette,
@@ -39,8 +43,8 @@ unevenness, irregular edges, small patches of exposed paper, quiet and unfinishe
 like a single sketchbook page.
 ```
 
-## 例
+## Examples
 - —
 
-## 出所
-Desktop 種「荒い紙に書かれた手書き抽象.txt」
+## Sources
+Desktop seed "荒い紙に書かれた手書き抽象.txt"

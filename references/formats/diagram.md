@@ -1,29 +1,33 @@
-# 解説図（diagram）
+<!-- i18n-version: 1.0.0 | canonical: references/formats/diagram.md | translated: 2026-08-22 -->
 
-- **目的**: 説明（理解） ／ **粒度×時間**: 全弧×畳み込み ／ **サイズ・比率**: 縦長
-- **要約**: 対比かループの一つの関係を、余白で軽く示す。
+**Language:** [English](diagram.md) | [日本語](../ja/formats/diagram.md) | [中文](../zh/formats/diagram.md)
 
-## 環境変数
-`SUBJECT`＝説明対象、`A`／`B`＝対比する二項（またはループの段階）
+# Diagram（diagram）
 
-## 構成文法
-対比（既存 vs 新）またはループ、階層で一点を立て、余白で軽く
+- **Purpose**: Explanation (understanding) ／ **Granularity×time**: whole arc × convolution ／ **Size & aspect**: vertical
+- **Summary**: A single relationship — either a contrast or a loop — shown lightly with negative space.
+
+## Environment variables
+`SUBJECT`＝the explained subject, `A`／`B`＝the two terms contrasted (or the stages of a loop)
+
+## Composition grammar
+Contrast (existing vs. new) or a loop; one point raised through hierarchy, kept light with negative space
 
 ## do
-- 一つの関係に絞る
-- 階層で一点を立てる
+- Limit to a single relationship
+- Raise one point through hierarchy
 
 ## avoid
-- 要素を詰める、装飾過多
+- Packing in elements, over-decoration
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A vertical explanatory diagram of {SUBJECT}, contrasting {A} vs {B} (or a loop of stages),
 one clear hierarchy with a single emphasized point, light with generous whitespace, minimal elements.
 ```
 
-## 例
-- メモ → 解説図（memo-diagram）
+## Examples
+- Memo → Diagram (memo-diagram)
 
-## 出所
+## Sources
 memo-diagram

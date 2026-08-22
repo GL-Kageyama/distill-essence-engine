@@ -1,78 +1,82 @@
-# 翻訳（抽象 → 視覚）
+<!-- i18n-version: 1.0.0 | canonical: references/translation.md | translated: 2026-08-22 -->
 
-> 変換原理③の深化。エンジンの差別化の核心。distill-essence-engine の reference。抽象（感情・テーマ・内心）を具象（表情・光・小道具）に置き換える手筋。
+**Language:** [English](translation.md) | [日本語](ja/translation.md) | [中文](zh/translation.md)
 
-## 本質
+# Translation (Abstract → Visual)
 
-**抽象を「凡庸な直喩」でなく「この物語に固有の間接表現」へ降ろすこと。**
+> Deepening of transformation principle ③. The core of the engine's differentiation. A reference for distill-essence-engine. The craft of replacing the abstract (emotion, theme, inner feeling) with the concrete (expression, light, prop).
 
-素の LLM が返すのは凡庸な置き換え（悲しみ→雨、愛→ハート）。翻訳の質は、どれだけ固有に・間接的に降りられるかで決まる。そして深さは **①理解の深さで決まる**—— 浅い理解は雨しか生まず、深い理解はこの物語だけの小道具・身振りを生む。
+## Essence
 
-## 翻訳の 2 軸
+**To descend from the abstract to an "indirect expression particular to this story", not a "mediocre simile".**
 
-翻訳は 2 つの独立した選択に分解できる（エンジン全体の 2 軸＝圧縮／様式とは別の階層）。
+A raw LLM returns mediocre replacements (sadness → rain, love → heart). The quality of translation is decided by how particularly and how indirectly one can descend. And the depth is **decided by the depth of ① Understanding** — shallow understanding produces nothing but rain; deep understanding produces props and gestures that exist only in this story.
 
-| 軸 | 問い | 凡庸側 ↔ 固有側 |
+## The two axes of translation
+
+Translation can be decomposed into two independent choices (a different layer from the engine's overall two axes = compression / style).
+
+| Axis | Question | Mediocre side ↔ Particular side |
 |---|---|---|
-| **固有性** | どの具象に置き換えるか | 一般（雨・ハート・飛ぶ鳥）↔ 固有（この物語だけの小道具・身振り） |
-| **間接性** | どう見せるか | 直接（泣き顔・図解）↔ 間接（痕跡・原因・不在・対比） |
+| **Particularity** | Which concrete to replace with | General (rain, heart, flying birds) ↔ Particular (props and gestures that exist only in this story) |
+| **Indirectness** | How to show it | Direct (crying face, diagram) ↔ Indirect (traces, causes, absence, contrast) |
 
-**良さ＝固有 × 間接。** 凡庸 × 直接が最悪、固有 × 間接が最良。2 軸は独立に改善できる。
+**Quality = particular × indirect.** Mediocre × direct is the worst; particular × indirect is the best. The two axes can be improved independently.
 
-## 深層（なぜ固有 × 間接が効くか）
+## Depth (why particular × indirect works)
 
-翻訳は**往復**する。エンジンが抽象→具象へ降ろす（＝圧縮）のは片道。意味は具象に「在る」のではなく、見る者が具象→抽象へ**読み返して**（＝展開）初めて立ち上がる。エンジンが行うのは往復の半分だけ。
+Translation **round-trips**. What the engine does — descending from abstract to concrete (＝ compression) — is one way. Meaning does not "reside" in the concrete; it only rises when the viewer **reads back** from concrete to abstract (＝ unfolding). The engine performs only half of the round-trip.
 
-2 軸の奥に 2 つの理由：
+Two reasons lie behind the two axes:
 
-| 軸 | 深層 | なぜ効くか |
+| Axis | Depth | Why it works |
 |---|---|---|
-| **固有性** | **真実** | 固有の具象はこの物語の真実。凡庸（雨）は他から借用した記号＝この物語に嘘をつく |
-| **間接性** | **委ね** | 間接は読み返しを見る者に委ねる（＝発見）。直接は答えを押し付け、読み返しの余地を奪う |
+| **Particularity** | **Truth** | A particular concrete is the truth of this story. The mediocre (rain) is a sign borrowed from elsewhere — it lies to this story |
+| **Indirectness** | **Entrustment** | Indirectness entrusts the reading-back to the viewer (＝ discovery). The direct forces an answer and takes away the room to read back |
 
-**翻訳の本質＝真実を、委ねて示す。**
+**The essence of translation = show the truth, entrusted.**
 
-`本質の圧縮` と対になって閉じる：**圧縮（エンジン、往き）↔ 展開（見る者、帰り）**。圧縮の質は、見る者の展開がどれだけ本質を回復できるかで決まる。
+It closes paired with `essence compression`: **compression (the engine, going) ↔ unfolding (the viewer, returning)**. The quality of compression is decided by how much of the essence the viewer's unfolding can recover.
 
-## 何を翻訳するか（抽象の源）
+## What to translate (the sources of the abstract)
 
-感情／テーマ／内心（葛藤・決意・変化・本音）／関係（力関係・距離・愛憎）／雰囲気（トーン・温度）／転換（何が変わったか）。
+Emotion / theme / inner feeling (conflict, resolve, change, true intentions) / relationship (power relation, distance, love and hate) / atmosphere (tone, temperature) / turning point (what changed).
 
-## 何に翻訳するか（具象の先）
+## What to translate into (the destinations of the concrete)
 
-表情／身体／距離／光・影／色／小道具／繰り返すモチーフ／構図／余白／環境（天候・季節・時間・場所）。
+Expression / body / distance / light and shadow / color / props / recurring motifs / composition / negative space / environment (weather, season, time, place).
 
-- **身体**は表情より正直。姿勢・身振りの微細な崩れ（肩の落ち方、指先の力）を優先。
-- **環境**は内心を映す。ただし「ありがちな嵐」でなく、この人物に固有の天候。
+- **The body is more honest than the expression.** Prioritize the subtle collapse of posture and gesture (how the shoulders fall, the force in the fingertips).
+- **The environment reflects the inner feeling.** But not a "generic storm" — weather particular to this person.
 
-## 翻訳の戦略（固有性 × 間接性）
+## Translation strategies (particularity × indirectness)
 
-**固有性を高める**
+**Increase particularity**
 
-1. **具体に降りる** — 抽象を「一般」でなく「この物語の固有」へ。その人物の悲しみは、その人物だけが持つ小道具に宿る。
+1. **Descend to the concrete** — from "general" to "particular to this story". This person's sadness lives in a prop only that person has.
 
-**間接性を高める**
+**Increase indirectness**
 
-2. **間接化** — 感情を直接描かない。痕跡・原因・不在を描く（空の椅子、手のつけられない食事、たたまれた服）。
-3. **換喩** — 部分で全体、原因で結果、容器で中身（結婚指輪＝結婚、整えられないベッド＝不在）。
-4. **対比** — 反対を描いて本質を際立たせる（葬式の快晴、戦場の笑い）。
-5. **機能として描く** — 物語の固有要素（日没＝期限、雨＝約束）を mood でなく、その機能（何が迫るか・何が残るか）の証拠として描く。夕焼けを「燃える空」でなく「沈みゆく光」と。
+2. **Indirect** — do not draw the emotion directly. Draw traces, causes, absence (an empty chair, a meal left untouched, folded clothes).
+3. **Metonymy** — the part for the whole, the cause for the result, the container for the contents (a wedding ring = marriage, an unmade bed = absence).
+4. **Contrast** — draw the opposite to make the essence stand out (clear weather at a funeral, laughter on a battlefield).
+5. **Draw as function** — draw the story's particular elements (sunset = deadline, rain = promise) not as mood but as evidence of their function (what approaches, what remains). The sunset as "sinking light", not "burning sky".
 
-## 失敗モード
+## Failure modes
 
-- **紋切型** — 最初に浮かぶ置き換え（悲しみ→雨、愛→ハート、自由→飛ぶ鳥、希望→光、死→枯れ花）。これが「凡庸」。
-- **感情の照明** — 夕焼け／雨／月光／夕暮れを mood の自動スイッチに使う。要素が固有でも（日没＝期限）、「燃える空」と描くと mood の紋切型に退化する。固有要素は機能（何が迫る・何が残る）の証拠として描く。
-- **直喩の過剰** — テーマを図解・説明してしまう（「自由」の文字、テーマの絵解き）。
-- **説明過剰** — 見る者に発見させず、答えを全部描く。余白を残さない。
+- **Cliché** — the first replacement that comes to mind (sadness → rain, love → heart, freedom → flying birds, hope → light, death → withered flowers). This is the "mediocre".
+- **Emotional lighting** — using sunset / rain / moonlight / dusk as an automatic mood switch. Even if the element is particular (sunset = deadline), drawing it as a "burning sky" degenerates into a mood cliché. Draw the particular element as evidence of its function (what approaches, what remains).
+- **Excessive simile** — illustrating or explaining the theme away (the word "freedom", a pictorial explanation of the theme).
+- **Over-explanation** — drawing all the answers instead of letting the viewer discover. Leaving no negative space.
 
-## 良さの基準
+## Criteria for quality
 
-- **固有性** — この物語にしかない置き換え。他に転用できない。
-- **必然性** — 見た瞬間「それしかない」と納得（予測を超えて必然＝「おおっ」）。
-- **発見** — 説明せず、見る者に気づかせる（間接がこれを生む）。
+- **Particularity** — a replacement that exists only in this story. Cannot be repurposed elsewhere.
+- **Necessity** — at the moment of seeing, "it could be nothing else" (exceeding prediction and inevitable = the "wow").
+- **Discovery** — making the viewer notice without explaining (indirectness produces this).
 
-## 生態系との接続
+## Connection to the ecosystem
 
-- 紋切型を避ける ＝ `anti-generic-filter`（凡庸な置き換えの検出）
-- 予測を超えて必然 ＝ `admiration`（「おおっ」）
-- 説明でなく抑制 ＝ `emotional-power`（感傷でなく抑制の美学）
+- Avoiding the cliché = `anti-generic-filter` (detection of mediocre replacements)
+- Exceeding prediction and inevitable = `admiration` (the "wow")
+- Restraint rather than explanation = `emotional-power` (the aesthetics of restraint, not sentimentality)

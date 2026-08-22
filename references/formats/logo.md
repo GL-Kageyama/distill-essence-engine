@@ -1,29 +1,33 @@
-# ロゴ（logo）
+<!-- i18n-version: 1.0.0 | canonical: references/formats/logo.md | translated: 2026-08-22 -->
 
-- **目的**: 象徴 ／ **粒度×時間**: 一象徴×一点 ／ **サイズ・比率**: 正方形
-- **要約**: 最小の要素で、小サイズ・1 色でも読めるシルエット。
+**Language:** [English](logo.md) | [日本語](../ja/formats/logo.md) | [中文](../zh/formats/logo.md)
 
-## 環境変数
-`SUBJECT`＝象徴
+# Logo（logo）
 
-## 構成文法
-単純なシルエット、小サイズでも読める、1 色でも成り立つ、最小の要素、文字なし
+- **Purpose**: Symbol ／ **Granularity×time**: one symbol × one point ／ **Size & aspect**: square
+- **Summary**: A silhouette readable at small size and in one color, built from the fewest elements.
+
+## Environment variables
+`SUBJECT`＝symbol
+
+## Composition grammar
+A simple silhouette, readable at small size, works in one color, minimal elements, no text
 
 ## do
-- シルエットを単純化
-- 1 色でも成立させる
+- Simplify the silhouette
+- Make it work in one color
 
 ## avoid
-- 細部、文字、多色依存
+- Detail, text, dependence on multiple colors
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A minimalist logo of {SUBJECT}. Simple silhouette, readable at small size, works in one
 color, fewest elements, no text.
 ```
 
-## 例
+## Examples
 - —
 
-## 出所
-ネット調査（事前拡充・未検証）
+## Sources
+Web research (pre-expanded, unverified)

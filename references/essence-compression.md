@@ -1,120 +1,124 @@
-# 本質の圧縮
+<!-- i18n-version: 1.0.0 | canonical: references/essence-compression.md | translated: 2026-08-22 -->
 
-> レシピ型変換エンジンの「貫く概念」。全フォーマット・全変換原理の背骨。distill-essence-engine の reference。
+**Language:** [English](essence-compression.md) | [日本語](ja/essence-compression.md) | [中文](zh/essence-compression.md)
 
-## 概念
+# Essence Compression
 
-**「内容の本質を、静的視覚に圧縮すること」** —— これがこのエンジンのすることの全部。何枚に圧縮するかはフォーマットが決める。
+> The "concept running through" this recipe-type transformation engine. The backbone of all formats and all transformation principles. A reference for distill-essence-engine.
 
-入力（時間×意味×要素の無限情報）を、2D 静止画像（一枚、または複数枚）という制約に、本質を保ったまま畳み込む。何枚に畳むかはフォーマットの粒度が決める（一枚＝サムネイル・表紙・挿絵・アイコン、複数枚＝漫画・ストーリーボード・絵本）。フォーマットは、その圧縮の「粒度」と「配置」の戦略の違いに過ぎない。
+## Concept
 
-### なぜ「概念圧縮」でなく「本質の圧縮」か
+**"Compressing the essence of the content into a static visual"** — this is everything the engine does. How many images to compress into is decided by the format.
 
-「概念圧縮装置」という見立ても「圧縮」の軸は当たっている。ただし 2 点で狭い。
+The input (the infinite information of time × meaning × elements) is folded into the constraint of a 2D static image (one image, or several) while preserving the essence. How many images to fold into is decided by the format's granularity (one image = thumbnail, cover, illustration, icon; several = manga, storyboard, picture book). A format is nothing more than a difference of strategy in that compression's "granularity" and "arrangement".
 
-- **圧縮する対象は概念でなく本質。** 概念＝知的抽象。エンジンが畳み込むのは感情・雰囲気・物語・意味まで含む本質。③翻訳が置き換えるのは「心の動き」であって概念ではない。「概念」だと感情の層が落ち、冷たい装置に見える。
-- **圧縮の質に翻訳を伴う。** 圧縮は同メディア内で短くすること（文章→要約）。これはメディアを跨ぐ（文章→視覚）。翻訳がなければ「要約」で終わり、画像にならない。
+### Why "essence compression" and not "concept compression"
 
-## 圧縮の 3 工程
+The metaphor of a "concept compression device" also gets the "compression" axis right. But it is too narrow on two points.
 
-| 工程 | 問い | 対応する変換原理 |
+- **What is compressed is the essence, not the concept.** Concept = intellectual abstraction. What the engine folds in is the essence, including emotion, atmosphere, story, and meaning. What ③ translation replaces is "the movement of the heart", not a concept. With "concept", the emotional layer drops out and the engine looks like a cold machine.
+- **Compression in quality is accompanied by translation.** Compression is making something shorter within the same medium (text → summary). This crosses media (text → visual). Without translation it ends as a "summary" and never becomes an image.
+
+## The three steps of compression
+
+| Step | Question | Corresponding transformation principle |
 |---|---|---|
-| **選定** | 何を残すか（情報を削る） | ② 選定 |
-| **翻訳** | どう視覚に置き換えるか | ③ 翻訳 |
-| **配置** | どう構図に並べるか | ⑤ 構成（＝フォーマット） |
+| **Selection** | What to keep (cut information) | ② Selection |
+| **Translation** | How to replace it with the visual | ③ Translation |
+| **Arrangement** | How to place it in a composition | ⑤ Composition (= format) |
 
-3 工程は、一つの動き（**固有 × 間接**）の三面：
+The three steps are three faces of a single movement (**particular × indirect**):
 
-- **選定** ＝ 固有の「瞬間」を選ぶ（時間の面）。一点で全体を暗示。
-- **翻訳** ＝ 固有の「象徴」に置き換える（意味の面）。痕跡で意味を委ね。
-- **配置** ＝ 固有の「関係」で並べる（空間の面）。余白で発見を残す。
+- **Selection** = choose the "moment" that is particular (the face of time). One point implies the whole.
+- **Translation** = replace with the "symbol" that is particular (the face of meaning). Entrust meaning to traces.
+- **Arrangement** = place in the "relationship" that is particular (the face of space). Leave discovery to negative space.
 
-→ 詳細は [選定](selection.md)・[翻訳](translation.md)・[配置](arrangement.md)。
+→ See [Selection](selection.md), [Translation](translation.md), and [Arrangement](arrangement.md) for details.
 
-周囲の原理は、この圧縮の土台と制約を担う：
+The surrounding principles carry the foundation and constraints of this compression:
 
-- **① 理解** ＝ 圧縮の前提（何が来たかを掴む）
-- **④ 一貫性・⑦ ネガティブ・⑧ 忠実性** ＝ 圧縮の制約（何を守るか・何を除くか）
-- **⑥ スタイル** ＝ 様式（どの視覚の言語で語るか）
+- **① Understanding** = the premise of compression (grasp what has come in)
+- **④ Consistency, ⑦ Negative, ⑧ Fidelity** = the constraints of compression (what to keep, what to exclude)
+- **⑥ Style** = the style (in which visual language to speak)
 
-## 2 軸の直交（フォーマット＝圧縮、スタイル＝様式）
+## The orthogonality of the two axes (format = compression, style = style)
 
-エンジンは直交する 2 軸からなる。3 分割構造（内容スロット／変換ロジック／スタイル）がそのまま対応する。
+The engine consists of two orthogonal axes. The three-part structure (content slot / transformation logic / style) corresponds directly.
 
-| 軸 | 問い | 本質 |
+| Axis | Question | Essence |
 |---|---|---|
-| **圧縮**（内容 → 構造） | 本質をどう畳み込むか | 圧縮＝「何を見せるか」 |
-| **様式**（構造 → 見た目） | どんな視覚の言語で描くか | 様式＝「どんな声で語るか」 |
+| **Compression** (content → structure) | How to fold the essence | Compression = "what to show" |
+| **Style** (structure → appearance) | In what visual language to draw | Style = "in what voice to speak" |
 
-- **フォーマット＝圧縮の戦略。** 同じ内容でも全弧→一場面→一象徴で圧縮率が変わる。
-- **スタイル＝様式。** 質感（表面の手触り）は様式の一部に過ぎない。様式は「語彙（水彩のにじみ・ピクセルのドット）＋文法（ぼかし・重ね方）＋規範（柔らかさが善・制約が美）」の全体＝その絵を話す声。同じ圧縮でも、水彩／ピクセル／油絵で全く違う見た目になる。本質は変わらない（⑧忠実性）。差し替え可能なのは最外層・後から被さる層だから。
-- スタイルも完全に自由ではない。⑦ネガティブはスタイルと対（水彩ならフォトリアルを排除、等）で、翻訳の選び方にも影響しうる。
+- **Format = the strategy of compression.** Even for the same content, the compression ratio changes with the full arc → a single scene → a single symbol.
+- **Style = the style.** Texture (the feel of the surface) is only a part of the style. Style is the whole of "vocabulary (the bleed of watercolor, the dots of pixels) + grammar (blurring, ways of layering) + norms (softness is good, constraints are beautiful)" = the voice that speaks the picture. Even with the same compression, watercolor / pixel / oil painting look completely different. The essence does not change (⑧ fidelity). It is replaceable precisely because it is the outermost layer, the layer put on afterward.
+- Style is not entirely free either. ⑦ Negative pairs with the style (watercolor excludes photorealism, etc.) and can also affect how translation is chosen.
 
-様式は、見抜く側の `prose-style`（文章の「声・文体」を評価する）の視覚版。
+Style is the visual version of `prose-style` (which evaluates the "voice / style" of writing) on the discerning side.
 
-> 用語の整理：スタイル＝**様式**（どう描くか）。質感は狭すぎ、画風は絵に狭い、表現は広すぎ—— その真ん中が「様式」。画風は様式の下位（絵画の場合）。
+> Terminology: style = **様式** (how to draw). Texture is too narrow, painting style is too confined to pictures, expression is too broad — "様式" sits in the middle. Painting style is a subcategory of style (in the case of paintings).
 
-## 3 軸の供給源（内容・目的・様式）と圧縮の位置
+## The sources of the three axes (content, purpose, style) and the position of compression
 
-出力を決めるのは 3 つの問い。それぞれ供給源が違う。
+Three questions decide the output. Each has a different source.
 
-| 軸 | 問い | 供給源 |
+| Axis | Question | Source |
 |---|---|---|
-| **内容** | 何を描く材料があるか | 入力（確定） |
-| **目的** | なぜ作るか | 指定が一次。未指定なら入力から候補推測 |
-| **様式** | どう描くか | 指定が一次。未指定なら入力から候補推測 |
+| **Content** | What material is there to draw | Input (determined) |
+| **Purpose** | Why make it | Specification is primary. If unspecified, infer candidates from the input |
+| **Style** | How to draw | Specification is primary. If unspecified, infer candidates from the input |
 
-- **圧縮（選定＋翻訳＋配置）は軸でなく操作。** 内容＋目的からエンジンが内部で導く。
-- **目的は圧縮の上流。** 目的が圧縮の粒度・時間を駆動する（サムネイル＝注目→一象徴＋一点、ストーリーボード＝叙述→全弧＋展開）。フォーマット＝目的＋粒度＋時間の束で、目的はその核心。
-- **「入力から 3 軸を導く」は半分正しい。** 入力が確定させるのは内容だけ。目的・様式は指定が一次で、入力からは候補しか出ない。
-
-```
-入力＝内容 ──┐
-            ├→ [エンジン] ──→ 画像プロンプト
-指定＝目的 ──┤     │
-指定＝様式 ──┘     圧縮＝選定＋翻訳＋配置（内容＋目的から）
-```
-
-3 分割構造と対応：**内容スロット＝入力、変換ロジック（フォーマット）＝目的が駆動、スタイル＝様式**。人間が指定するのは目的（フォーマット名）と様式の 2 つで、圧縮はエンジンが引き受ける。出力もこの 3 欄（内容／フォーマット／様式）に分けて出す——各軸を独立に差し替え可能にするため。
-
-## フォーマット空間（4 軸）
-
-フォーマットは 4 軸の組み合わせで、空間全体が掴める。詳細は [類型](types.md)。
-
-### 軸①：粒度（入力のどれだけを 1 枚に畳むか）
+- **Compression (selection + translation + arrangement) is an operation, not an axis.** The engine derives it internally from content + purpose.
+- **Purpose is upstream of compression.** Purpose drives the granularity and time of compression (thumbnail = attention → a single symbol + a single point; storyboard = narrative → the full arc + progression). A format is a bundle of purpose + granularity + time, and purpose is its core.
+- **"Deriving the three axes from the input" is only half right.** What the input determines is only the content. For purpose and style, specification is primary, and the input yields only candidates.
 
 ```
-全弧（ストーリーボード） → 一場面（イラスト） → 一象徴（サムネイル）
-    多くの情報                   少なく                   最小
+input = content ──┐
+                  ├→ [engine] ──→ image prompt
+spec = purpose ───┤     │
+spec = style ─────┘     compression = selection + translation + arrangement (from content + purpose)
 ```
 
-### 軸②：時間の扱い
+Correspondence with the three-part structure: **content slot = input, transformation logic (format) = driven by purpose, style = style**. What a human specifies are the two things of purpose (format name) and style; compression is taken on by the engine. The output is also split into these three columns (content / format / style) — so that each axis can be replaced independently.
 
-- **展開**：複数コマに時間を並べる（漫画・絵本）
-- **畳み込み**：時間を一枚に圧縮（イメージボード・表紙）
-- **一点**：ある瞬間だけ（イラスト）
+## Format space (4 axes)
 
-### 軸③：目的（なぜその画像を作るか）
+The whole space can be grasped as combinations of the format's 4 axes. See [Types](types.md) for details.
 
-- **叙述**＝物語を伝える（ストーリーボード・漫画）
-- **象徴**＝本質を表す（表紙・ポスター・アイコン）
-- **注目**＝目を引く（サムネイル）
-- **説明**＝概念を伝える（インフォグラフィック・解説図）
-- **装飾**＝美しく添える（挿絵・詩×イラスト）
+### Axis ①: Granularity (how much of the input to fold into one image)
 
-### 軸④：サイズ・比率（どこで見られるか）
+```
+full arc (storyboard) → a single scene (illustration) → a single symbol (thumbnail)
+     more information                less                    minimal
+```
 
-- サムネイル＝小型・横 16:9、アイコン＝正方形、表紙＝縦（書籍比）、ポスター＝大型・縦、ストーリーボード＝映画比 16:9、漫画＝ページ比、インフォグラフィック＝縦長スクロール。
+### Axis ②: How time is treated
 
-4 軸の組み合わせで「ありえるフォーマット」を無限に生成できる（例：粒度高 × 畳み込み × 象徴 ＝ イメージボード）。
+- **Unfolding**: lay time out across multiple panels (manga, picture book)
+- **Folding**: compress time into a single image (image board, cover)
+- **A single point**: only one moment (illustration)
 
-## 既存体系との接続
+### Axis ③: Purpose (why make the image)
 
-「本質をどう掴むか」という問いは、既存の成果物と同根。
+- **Narrative** = tell the story (storyboard, manga)
+- **Symbolic** = express the essence (cover, poster, icon)
+- **Attention** = catch the eye (thumbnail)
+- **Explanatory** = convey the concept (infographic, diagram)
+- **Decorative** = adorn beautifully (illustration, poetry × illustration)
 
-- **elevate-draft-engine の止揚**：本質へ高める（書く側）
-- **admiration**：本質的な「おおっ」（予測を超えて必然）
-- **hook**：本質の「未知」（知りたさ）
-- **emotional-power**：本質的な心の動き
+### Axis ④: Size and aspect ratio (where it is seen)
 
-このエンジンは、その「本質」を**圧縮して視覚化する**側の担い手。書く側（止揚）と見抜く側（評価）に対する、**描く側**の欠落を埋める。
+- Thumbnail = small, landscape 16:9; icon = square; cover = portrait (book ratio); poster = large, portrait; storyboard = cinema ratio 16:9; manga = page ratio; infographic = tall scroll.
+
+Combinations of the 4 axes can generate "possible formats" infinitely (e.g., high granularity × folding × symbolic = image board).
+
+## Connection to the existing ecosystem
+
+The question "how to grasp the essence" shares its roots with existing artifacts.
+
+- **The Aufheben of elevate-draft-engine**: raising to the essence (the writing side)
+- **admiration**: the essential "wow" (exceeding prediction, inevitable)
+- **hook**: the "unknown" of the essence (wanting to know)
+- **emotional-power**: the essential movement of the heart
+
+This engine is the bearer of the side that **compresses that "essence" and makes it visible**. Against the writing side (Aufheben) and the discerning side (evaluation), it fills the missing **drawing side**.

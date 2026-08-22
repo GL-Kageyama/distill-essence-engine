@@ -1,32 +1,36 @@
-# タロットカード（tarot-card）
+<!-- i18n-version: 1.0.0 | canonical: references/formats/tarot-card.md | translated: 2026-08-22 -->
 
-- **目的**: 象徴 ／ **粒度×時間**: 一象徴×畳み込み ／ **サイズ・比率**: 縦カード比（約 5:9）
-- **要約**: 装飾枠と対称の構図に、一枚の意味を象る中央を収める。
+**Language:** [English](tarot-card.md) | [日本語](../ja/formats/tarot-card.md) | [中文](../zh/formats/tarot-card.md)
 
-## 環境変数
-`SUBJECT`＝象徴、`NAME`＝カード名
+# Tarot card（tarot-card）
 
-## 構成文法
-装飾枠、**中央の象徴は 1 つ**（一枚の意味を象る）、下部に名前、対称の構図、額装の縁。**装飾は縁に留め、中央の周囲に余白を残す**
+- **Purpose**: Symbol ／ **Granularity×time**: one symbol × convolution ／ **Size & aspect**: portrait card ratio (about 5:9)
+- **Summary**: An ornamental frame and a symmetric composition enclose a center that embodies the meaning of a single card.
+
+## Environment variables
+`SUBJECT`＝the symbol, `NAME`＝the card name
+
+## Composition grammar
+An ornamental frame; **a single central symbol** (embodying one card's meaning); the name below; a symmetric composition; a framing border. **Keep the ornament at the edge and leave negative space around the center**
 
 ## do
-- 対称の構図、中央の象徴は 1 つ
-- 額装の縁を置く
-- **装飾は縁に留める、中央の周囲に余白を残す**
+- Symmetric composition, a single central symbol
+- Place a framing border
+- **Keep the ornament at the edge; leave negative space around the center**
 
 ## avoid
-- 非対称、複数の象徴
-- **装飾が中央へ侵入して余白が消える**
+- Asymmetry, multiple symbols
+- **Ornament encroaching on the center and erasing the negative space**
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A tarot card ({NAME}) in 5:9. One central emblem embodying a single meaning, ornaments confined
 to the frame's edge, generous empty margin around the center, the name below, symmetric
 composition, a framing border.
 ```
 
-## 例
+## Examples
 - —
 
-## 出所
-ネット調査（事前拡充 → 0.1.13 検証済み）
+## Sources
+Web research (pre-expanded → verified in 0.1.13)

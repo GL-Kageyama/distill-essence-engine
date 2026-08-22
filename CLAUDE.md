@@ -1,36 +1,48 @@
-# distill-essence-engine — プロジェクト規約
+<!-- i18n-version: 1.0.0 | canonical: CLAUDE.md | translated: 2026-08-22 -->
 
-> 実装言語は日本語ベース。i18n（en/zh）は日本語で固めてから 3 層方式で追加。
+**Language:** [English](CLAUDE.md) | [日本語](CLAUDE-ja.md) | [中文](CLAUDE-zh.md)
 
-## 文書ルール
+# distill-essence-engine — project conventions
 
-開発履歴（日付付きの変更記録・過去設計との比較・過去の測定値など）は **README / SKILL / examples/README に書かない**。履歴は `HISTORY.md` に一本化する。
+> Implementation language is English-canonical; the en / ja / zh 3-layer i18n is complete (2026-08-22). The English `CLAUDE.md` is the canonical rules; `CLAUDE-ja.md` / `CLAUDE-zh.md` are mirrors.
 
-README / SKILL / examples/README には**現行情報のみ**を書く。現在の機能・現在のインターフェース・設計理由（日付なしの簡潔な理由）は可。
+## Document rules
 
-**置き場所**：
-- `README.md`：現行機能・原理（2 軸・8 原理・想定目的）・リポジトリ構造（概要のみ）
-- `references/`：原理の深化＋類型（本質の圧縮・変換原理・選定・翻訳・配置・類型）。SKILL.md が読み込む辞書
-- `references/card-schema.md`：カードの標準構造（リッチテンプレ形式。穴あき変数・忠実性アンカー・do/avoid・テンプレ）
-- `HISTORY.md`：開発履歴（バージョン履歴・設計変更の記録）
-- `scripts/fetch.py`：URL 入力の取得ヘルパー（YouTube 文字起こし／GitHub README／ホームページ本文）
-- `docs/`：補助文書（usage.md＝使い方、sources.md＝ネット調査の出所）
-- `skills/distill-essence-engine/SKILL.md`：エンジン本体（本質＝固有×間接。方法は references から引く。バージョン番号のみ、履歴表は HISTORY.md）
-- `.claude-plugin/`：プラグイン配布定義。`install.sh` は慣例のグローバル/ローカル symlink 方式
+Development history (dated change logs, comparisons with past designs, past measurements, etc.) goes **only in `HISTORY.md`** — never in README / SKILL / examples/README.
 
-## 固定ポリシー（触らない）
+README / SKILL / examples/README carry **current information only**. Current features, current interface, and design rationale (brief, undated) are fine.
 
-- **2 軸の直交**：圧縮（何を見せるか）／様式（どんな声で）。片軸だけ差し替え可能。
-- **8 原理**：①理解→②選定→③翻訳→④一貫性→⑤構成→⑥スタイル→⑦ネガティブ→⑧忠実性。変換フローはこの順。
-- **3 工程の核心＝固有 × 間接**（真実 × 委ね）。圧縮の質は、見る者の展開がどれだけ本質を回復できるかで決まる。
-- **圧縮の 2 層**：本質（固有×間接、不変）→ SKILL.md 単独で正しい。方法（粒度×時間×働き、フォーマット依存）→ references/。SKILL.md 単独では方法を担えない。
-- **出力は英語の画像プロンプト**（SD/MJ 慣習）。入力・指定は ja も可。
+**Placement**:
+- `README.md`：current features and principles (2 axes · 8 principles · assumed purpose) and the repository structure (overview only)
+- `references/`：deepening of the principles + typology (essence compression · transformation principles · selection · translation · arrangement · types). The dictionary SKILL.md reads
+- `references/card-schema.md`：the standard card structure (rich-template form. Slotted variables · fidelity anchors · do/avoid · template)
+- `HISTORY.md`：development history (version history · records of design changes)
+- `scripts/fetch.py`：the URL-input fetch helper (YouTube transcript / GitHub README / homepage body)
+- `docs/`：supplementary docs (usage.md = how to use, sources.md = the provenance of the online research)
+- `skills/distill-essence-engine/SKILL.md`：the engine itself (the core = particular × indirect. Methods are drawn from references. Version number only — the history table is in HISTORY.md)
+- `.claude-plugin/`：plugin distribution definition. `install.sh` is the customary global/local symlink installer
 
-## 検証
+## Fixed policies (do not touch)
 
-画像生成を挟まない**テキスト検証**。生成プロンプト（テキスト）を既存評価者（`admiration`／`hook`／`anti-generic-filter`／`emotional-power`／`aesthetic-critic`）で判定する。テストパターンは `資料/レシピ型変換エンジン構想/テストパターン.md` を参照。
+- **Two orthogonal axes**：compression (what to show) / style (in whose voice). Only one axis can be swapped.
+- **The 8 principles**：①Understand → ②Select → ③Translate → ④Keep consistent → ⑤Compose → ⑥Style → ⑦Negative → ⑧Stay faithful. The transformation flow follows this order.
+- **The core of the three steps = particular × indirect** (truth × entrusted). The quality of compression is decided by how much of the essence the viewer's expansion can recover.
+- **The two layers of compression**：the essence (particular × indirect, invariant) → SKILL.md alone is correct. The method (granularity × time × function, format-dependent) → `references/`. SKILL.md alone cannot carry the method.
+- **The output is an English image prompt** (SD/MJ convention). Input and spec may be in ja.
+
+## i18n
+
+- **Canonical = en.** `references/` and `docs/` roots are English; `references/ja/` / `references/zh/`, `docs/ja/` / `docs/zh/`, and `README{-ja,-zh}.md` / `CLAUDE{-ja,-zh}.md` are mirrors.
+- **English-invariant parts in cards** — the prompt template, the negative list (`not photorealistic, no 3D render, …`), and the environment-variable names (`SUBJECT`, `ACTION`, …) — are never translated. Only the explanatory prose is translated.
+- **The image prompt output is always English**, in every language. The three-column explanations and the trace follow the resolved language (SKILL.md "Language Mode": `lang` arg → detect the request → default `en`).
+- **HISTORY.md stays Japanese** (development history; the sibling engines keep it so too).
+- **examples/ case bodies** (`input.md` / `prompt.md` / `pages/`) are not translated; only `examples/README.md` is mirrored.
+
+## Verification
+
+Text-only verification — **no image generation**. Judge the generated prompt (text) with the existing evaluators (`admiration` / `hook` / `anti-generic-filter` / `emotional-power` / `aesthetic-critic`). Test patterns are in `資料/レシピ型変換エンジン構想/テストパターン.md`.
 
 ## Git
 
-- `git push` はユーザーが明示したときだけ。要求なしのプッシュは禁止。
-- コミットメッセージ末尾に `Co-Authored-By: Claude <noreply@anthropic.com>` を付ける。
+- `git push` only when the user explicitly asks. Pushing without a request is forbidden.
+- End commit messages with `Co-Authored-By: Claude <noreply@anthropic.com>`.

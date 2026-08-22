@@ -1,42 +1,46 @@
-# ステンドグラス（stained-glass）
+<!-- i18n-version: 1.0.0 | canonical: references/styles/stained-glass.md | translated: 2026-08-22 -->
 
-- **メディウム**: 装飾 ／ **系譜**: 教会装飾 ／ **時代**: 中世
-- **要約**: 鉛の枠線が透ける色面を区切り、逆光がガラスを輝かせる。
+**Language:** [English](stained-glass.md) | [日本語](../ja/styles/stained-glass.md) | [中文](../zh/styles/stained-glass.md)
 
-## 環境変数
-`SUBJECT`、`ACTION`、`LOCATION`、`ACCENT`、`ASPECT`
+# Stained glass（stained-glass）
 
-## 忠実性アンカー
-- 鉛の枠線（lead came）
-- 透けるガラスの色面
-- 逆光の輝き
-- 分割された色
-- 平たい明るい色、黒い輪郭
+- **Medium**: Decorative ／ **Lineage**: Church decoration ／ **Era**: Medieval
+- **Summary**: Lead came frames translucent color planes, and backlight makes the glass glow.
 
-## 視覚の分解
-- **構成**: 分割された色面、黒い輪郭
-- **タイポ**: 文字なし
-- **色彩**: 平たい明るい色、透ける色面
-- **質感・照明**: 逆光の輝き、透過、影なし
+## Environment variables
+`SUBJECT`, `ACTION`, `LOCATION`, `ACCENT`, `ASPECT`
+
+## Fidelity anchors
+- Lead came framing
+- Translucent glass color planes
+- Backlit glow
+- Segmented color
+- Flat bright tones, black outlines
+
+## Visual decomposition
+- **Composition**: segmented color planes, black outlines
+- **Typography**: no text
+- **Color**: flat bright tones, translucent color planes
+- **Texture & lighting**: backlit glow, translucency, no shadow
 
 ## do
-- 鉛の枠線と分割された色面
-- 逆光の輝き
+- Lead came framing and segmented color planes
+- Backlit glow
 
 ## avoid
-- 不透明、写真の写実、被写界深度
+- Opacity, photorealism, depth of field
 
-## ネガティブ
+## Negative
 `no opaque, no photorealistic, no depth of field`
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A stained-glass window of {SUBJECT} {ACTION}. Lead came framing, translucent glass color
 planes, backlit glow, segmented color, flat bright tones, black outlines.
 ```
 
-## 例
+## Examples
 - —
 
-## 出所
-ネット調査（事前拡充・未検証）
+## Sources
+Web research (pre-expanded, unverified)

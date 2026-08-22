@@ -1,92 +1,98 @@
+<!-- i18n-version: 1.0.0 | canonical: README.md | translated: 2026-08-22 -->
+
+**Language:** [English](README.md) | [日本語](README-ja.md) | [中文](README-zh.md)
+
 # distill-essence-engine
 
 <p align="center">
   <img src="assets/repo-hero.png" width="100%" alt="distill-essence-engine">
 </p>
 
-> あらゆる内容の本質を、画像プロンプトへ蒸留するエンジン（一枚、またはフォーマットに応じ複数枚）。
+> Distills the essence of any content into an image prompt (one image, or several depending on the format).
 
-## これは何か
+## What this is
 
-任意の入力（小説／記事／詩／文字起こし／メモ／論文 …）を、人間が「何を作るか（フォーマット）」「どんな様式で」を**自然言語で指定するだけ**で、任意の画像プロンプトへ変換する汎用変換エンジン。Claude Code の **Skill** として動く。
+A general-purpose transformation engine that turns any input (novel / article / poem / transcript / memo / paper …) into an arbitrary image prompt — you only specify in **natural language** "what to make (format)" and "in what style". It runs as a Claude Code **Skill**.
 
 ```
-[あらゆる入力] → [指定（フォーマット＋様式）] → [エンジン] → [英語の画像プロンプト]
+[any input] → [spec (format + style)] → [engine] → [English image prompt]
 ```
 
-## 現行機能（Phase 1）
+## Current features (Phase 1)
 
-- **純粋 Skill**（サブエージェントなし）。SKILL.md 自体がエンジン。URL 入力のみ `scripts/fetch.py`（Python ヘルパー）が補助。
-- **入力**：VSCode 選択（選択テキスト＝内容スロット）。`url` で YouTube（文字起こし）／GitHub（README）／ホームページ（本文）を取得も可（`scripts/fetch.py`）。
-- **指定**：`format`（何を作るか）と `style`（どんな様式で）を**別々に、または自然言語一括**で。`reference`（参考画像パス／参考にする例＝イメージ参照）で「こういう感じ」を具体化、`characters`（登場人物の固定＝キャラ参照）で複数枚でも同一人物を一貫させる。
-- **使い回し**：使えると判断したフォーマット・様式は名前付きカードで登録し、`format:`／`style:` の名前で再利用（`references/styles/`・`references/formats/`。一覧は `references/registry.md`）。
-- **出力**：英語の画像プロンプト（内容／フォーマット／様式の 3 欄＋合成プロンプト。Stable Diffusion / Midjourney にそのまま渡せる）。
+- **Pure Skill** (no subagents). SKILL.md itself is the engine. Only URL input is assisted by `scripts/fetch.py` (a Python helper).
+- **Input**: the VSCode selection (the selected text = the content slot). With `url`, it can also fetch YouTube (transcript) / GitHub (README) / homepage (body text) via `scripts/fetch.py`.
+- **Spec**: `format` (what to make) and `style` (in what style), **separately or in one natural-language request**. With `reference` (a reference image path / an example to use = image reference) you concretize "this kind of feel"; with `characters` (fixing the characters = character reference) the same people stay consistent across multiple images.
+- **Reuse**: formats and styles judged usable are registered as named cards and reused by name (`format:` / `style:`). See `references/styles/` and `references/formats/`; the list is `references/registry.md`.
+- **Output**: English image prompts (three columns — Content / Format / Style — plus a merged prompt, ready to paste into Stable Diffusion / Midjourney).
+- **Trilingual**: the explanations and trace speak en / ja / zh (see SKILL.md "Language Mode"); the image prompt itself is always English.
 
-## 原理
+## Principles
 
-### 2 軸の直交
+### Two orthogonal axes
 
-| 軸 | 問い | 本質 |
+| Axis | Question | Essence |
 |---|---|---|
-| **圧縮**（フォーマット） | 何を見せるか | 本質をどう畳み込むか（全弧→一場面→一象徴） |
-| **様式**（スタイル） | どんな声で語るか | 視覚の語彙＋文法＋規範 |
+| **Compression** (format) | What to show | How the essence is folded (full arc → one scene → one symbol) |
+| **Style** (style) | In whose voice | Visual vocabulary + grammar + norms |
 
-### 8 原理
+### 8 principles
 
 ```
-入力 → ①理解 → ②選定 → ③翻訳 → ⑤構成 → ⑥スタイル → ⑦ネガティブ → プロンプト
-（④一貫性・⑧忠実性は工程でなく、全工程にまたがる制約）
+input → ①Understand → ②Select → ③Translate → ⑤Compose → ⑥Style → ⑦Negative → prompt
+（④Keep consistent · ⑧Stay faithful are not steps but constraints that span all steps）
 ```
 
-### 3 工程の核心：固有 × 間接
+### The core of the three steps: particular × indirect
 
-選定・翻訳・配置の 3 工程は、一つの動きの三面——**固有のものを、間接的に示す**。
+Selection, translation, and arrangement are three faces of one motion — **show the particular, indirectly**.
 
-- **固有性**＝物語の真実（一般の記号＝雨・ハートは借用で、この物語に嘘をつく）
-- **間接性**＝見る者への委ね（直接は答えを押し付け、発見の余地を奪う）
+- **Particularity** = the story's truth (a general symbol such as rain or a heart is borrowed and lies about this story)
+- **Indirectness** = the entrustment to the viewer (directness forces the answer and takes away the room to discover)
 
-**翻訳＝真実を、委ねて示す。** 圧縮の質は、見る者の展開がどれだけ本質を回復できるかで決まる。
+**Translation = show the truth, entrusted.** The quality of compression is decided by how much of the essence the viewer's expansion can recover.
 
-### 想定目的 → フォーマット → 粒度×時間
+### Assumed purpose → format → granularity × time
 
-想定目的（理解/伝達/誘引/再体験/記録/装飾）がフォーマットを決め、フォーマットが圧縮の粒度×時間を決める。詳細は `references/types.md`。
+The assumed purpose (understanding / communication / attraction / re-experience / record / decoration) decides the format, and the format decides the granularity × time of compression. Details in `references/types.md`.
 
-## リポジトリ構造
+## Repository structure
 
 ```
 distill-essence-engine/
-├── CLAUDE.md               # プロジェクト規約
-├── README.md               # 現行機能・原理
-├── HISTORY.md              # 開発履歴
-├── install.sh              # グローバル/ローカル symlink
-├── assets/                 # リポジトリ hero 画像（repo-hero.png）
-├── scripts/                # 入力取得ヘルパー（fetch.py：URL→内容）
-├── docs/                   # 補助文書（使い方・ネット調査の出所）
-├── .claude-plugin/         # プラグイン配布
+├── CLAUDE.md               # project conventions (English canonical; CLAUDE-ja.md / CLAUDE-zh.md mirror)
+├── README.md               # current features and principles (English canonical; README-ja.md / README-zh.md mirror)
+├── HISTORY.md              # development history
+├── install.sh              # global/local symlink installer
+├── assets/                 # repository hero image (repo-hero.png)
+├── scripts/                # input-fetch helper (fetch.py：URL→content)
+├── docs/                   # supplementary docs (usage · research sources; docs/ja/, docs/zh/ mirror)
+├── .claude-plugin/         # plugin distribution
 ├── skills/
 │   └── distill-essence-engine/
-│       └── SKILL.md        # エンジン本体（本質＝固有×間接）
-└── references/             # 原理の深化＋類型（方法＝フォーマット依存）
-    ├── essence-compression.md        # 本質の圧縮
-    ├── transformation-principles.md  # 8原理
-    ├── selection.md                  # 選定
-    ├── translation.md                # 翻訳（差別化の核心）
-    ├── arrangement.md                # 配置
-    ├── types.md                      # 類型（想定目的×フォーマット×様式×圧縮2層）
-    ├── registry.md                   # レジストリ（カードの一覧・索引）
-    ├── styles/                       # 様式カード（1ファイル＝1様式）
-    └── formats/                      # フォーマットカード（1ファイル＝1フォーマット）
+│       └── SKILL.md        # the engine itself (the core = particular × indirect)
+└── references/             # deepening of the principles + typology (method = format-dependent)
+    ├── essence-compression.md        # essence compression
+    ├── transformation-principles.md  # the 8 principles
+    ├── selection.md                  # selection
+    ├── translation.md                # translation (the core differentiator)
+    ├── arrangement.md                # arrangement
+    ├── types.md                      # typology (assumed purpose × format × style × compression's 2 layers)
+    ├── registry.md                   # registry (card list · index)
+    ├── styles/                       # style cards (1 file = 1 style)
+    ├── formats/                      # format cards (1 file = 1 format)
+    ├── ja/ · zh/                     # language mirrors
 ```
 
-## 使い方
+## Usage
 
 ```bash
-./install.sh            # グローバル（~/.claude/skills/）
-./install.sh --local    # プロジェクト（.claude/skills/）
+./install.sh            # global (~/.claude/skills/)
+./install.sh --local    # project (.claude/skills/)
 ```
 
-VSCode で入力を選択し、「イメージボード化して」「この論文をサムネイルに、ピクセルアートで」等と指定する。`format`／`style` を別々に指定すれば片軸だけ差し替えでき、`reference`（参考画像・参考例）も渡せる。`url`（YouTube／GitHub／ホームページ）を渡せば内容を自動取得する。
+In VSCode, select an input and say "make an image board of this", "turn this paper into a thumbnail in pixel art", etc. Specify `format` / `style` separately to swap only one axis; pass `reference` (a reference image / example) too. Pass `url` (YouTube / GitHub / homepage) to fetch the content automatically.
 
-## 詳細ドキュメント
+## Further docs
 
-原理の深化は `references/` を参照。概念の骨格（類型）は `references/types.md`。
+The deepening of the principles lives in `references/`. The skeleton of the concepts (typology) is `references/types.md`.

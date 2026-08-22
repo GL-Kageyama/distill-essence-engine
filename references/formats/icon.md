@@ -1,29 +1,33 @@
-# アイコン（icon）
+<!-- i18n-version: 1.0.0 | canonical: references/formats/icon.md | translated: 2026-08-22 -->
 
-- **目的**: 象徴 ／ **粒度×時間**: 一象徴×一点 ／ **サイズ・比率**: 正方形・小
-- **要約**: 一点を中央に大きく、最小のシルエットに削る。
+**Language:** [English](icon.md) | [日本語](../ja/formats/icon.md) | [中文](../zh/formats/icon.md)
 
-## 環境変数
-`SUBJECT`＝象徴
+# Icon（icon）
 
-## 構成文法
-一点を中央に大きく、最小のシルエット、周囲を削る
+- **Purpose**: Symbol ／ **Granularity×time**: one symbol × one point ／ **Size & aspect**: small, square
+- **Summary**: One point enlarged at the center, carved down to a minimal silhouette.
+
+## Environment variables
+`SUBJECT`＝symbol
+
+## Composition grammar
+One point enlarged at the center, a minimal silhouette, everything around removed
 
 ## do
-- シルエットで読めるようにする
-- 小サイズでも成立させる
+- Make it readable as a silhouette
+- Make it work at small size
 
 ## avoid
-- 細部、複数の要素、文字
+- Detail, multiple elements, text
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A minimal app icon of {SUBJECT}. One point enlarged at center, the simplest readable
 silhouette, everything else removed, works at small size.
 ```
 
-## 例
-- 走れメロス → アイコン（melos-icon）
+## Examples
+- Run, Melos! → Icon (melos-icon)
 
-## 出所
+## Sources
 melos-icon

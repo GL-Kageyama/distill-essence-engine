@@ -1,29 +1,33 @@
-# ギャグ漫画（gag-manga）
+<!-- i18n-version: 1.0.0 | canonical: references/formats/gag-manga.md | translated: 2026-08-22 -->
 
-- **目的**: 叙述＋誘引（楽しませる） ／ **粒度×時間**: 日常の断片×テンポ速い ／ **サイズ・比率**: ページ比（縦）・多コマ／コラージュ・**ページ数は入力長に比例（例＝長編小説→10 ページの弧）**
-- **要約**: 日常の小さなカオスを、4 ビートのリズムで連打するギャグ漫画ページ。
+**Language:** [English](gag-manga.md) | [日本語](../ja/formats/gag-manga.md) | [中文](../zh/formats/gag-manga.md)
 
-## 環境変数
-`SUBJECT`＝題材、`TEXT`＝短い反応セリフ、`N`＝コマ数
+# Gag manga（gag-manga）
 
-## 構成文法
-多コマ／コラージュでテンポ速く。**4 ビートリズム**（setup → escalation → punchline → reaction）を繰り返す。ショット＝クローズアップ（リアクション）／ワイド（カオス）／急ズーム（オチ）。パネルは枠をはみ出す（エネルギー）。**タイトルコマ**（装飾タイポ＋強力なフリ＝謎／衝撃／共感）を 1 ページ目に。コマ割りは左上→右下、視線誘導。
+- **Purpose**: Narration + attraction (entertainment) ／ **Granularity×time**: fragment of daily life × fast tempo ／ **Size & aspect**: page ratio (portrait), multi-panel / collage, **page count proportional to input length (e.g., a full-length novel → a 10-page arc)**
+- **Summary**: A gag manga page that batters away at the small chaos of daily life in a four-beat rhythm.
 
-**ページ単位の弧（複数ページ）**：入力が長い（例＝長編の小説・長時間のライブメモ）場合は複数ページへ。ページ全体でも 4 ビートの弧を描く。
-- 1 ページ目：タイトルコマ（装飾タイポ＋フリ）＋第一の場面のカオス（掴み）
-- 中盤ページ：各ページ＝1〜2 場面を 4 ビートで。ページ冒頭に前ページの引き（ミニフリ）、末尾に次ページへの引き（ミニオチ）
-- 最終ページ：クライマックス＋オチ（締め）。それまでの伏線（小道具・口癖・仕込み）を回収
-- ページまたぎ：各ページの最終コマを次ページ冒頭のクリフハンガーにする（切れ目で「続きが気になる」）
+## Environment variables
+`SUBJECT`＝the subject matter, `TEXT`＝short reaction lines, `N`＝number of panels
+
+## Composition grammar
+Multi-panel / collage with a fast tempo. Repeat the **four-beat rhythm**（setup → escalation → punchline → reaction）. Shots: close-ups (reactions) / wide (chaos) / sudden zooms (punchlines). Panels break out of their frames (energy). A **title panel** (decorative typography + a strong hook — mystery / shock / empathy) on page 1. Panel layout flows upper-left to lower-right to guide the eye.
+
+**A page-level arc (multiple pages)**: when the input is long (e.g., a full-length novel, a long live memo), expand into multiple pages. The whole set of pages also draws a four-beat arc.
+- Page 1: title panel (decorative typography + hook) plus the first scene's chaos (the grab)
+- Middle pages: each page covers 1–2 scenes in the four-beat rhythm. Opening with the pull from the previous page (mini-setup), closing with a pull into the next page (mini-punchline)
+- Final page: climax + punchline (the closer). Reap the running gags set up so far (props, catchphrases, planted bits)
+- Across pages: make each page's final panel the cliffhanger into the next page's opening (so the break makes you want to know what happens next)
 
 ## do
-- 転換点・リアクションを大コマに
-- 4 ビートを繰り返す
-- はみ出しでエネルギー
+- Put turning points and reactions in large panels
+- Repeat the four-beat
+- Energy through breaking the frame
 
 ## avoid
-- 全コマ均等、静的、真面目すぎ、視線誘導の乱れ
+- All panels equal, static, too serious, broken eye-flow
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A gag manga page of {SUBJECT} in {N} panels, fast-paced collage. Four-beat rhythm
 repeating: setup → escalation → punchline → reaction. Close-ups for reactions, wide
@@ -32,7 +36,7 @@ A title panel with decorative typography and a strong hook (mystery, shock, empa
 Panel flow upper-left to lower-right, speech bubbles with short {TEXT}.
 ```
 
-**複数ページ（{P} ページ）**：各ページは独立ブロックで書き、`===== PAGE N START =====` 〜 `===== PAGE N END =====` のマーカーでコピペ範囲を明確化する（半角 `=`。START〜END をそのまま固まりでコピー）。全体の枠（ページ弧の説明・キャラクター・スタイル）は先頭・末尾の通常パラグラフで与える。
+**Multiple pages（{P} pages）**: write each page as an independent block, and mark the copy-paste range with `===== PAGE N START =====` 〜 `===== PAGE N END =====` markers (half-width `=`. Copy START through END as one intact block). The overall frame (page-arc description, characters, style) is given in the normal paragraphs at the start and end.
 ```text
 A {P}-page gag manga of {SUBJECT}, fast-paced collage, {N} panels per page. The whole
 {P} pages form one arc: page 1 opens on a title panel with decorative typography and a
@@ -52,9 +56,9 @@ Page 2: ...
 ===== PAGE 2 END =====
 ```
 
-## 例
-- ライブメモ → ギャグ漫画（日常カオス・4 ビート）
-- 青空文庫『坊っちゃん』（実 URL フェッチ）→ 10 ページギャグ漫画（bocchan-gag-manga・ページ弧・`=`区切り）
+## Examples
+- Live memo → Gag manga (daily-life chaos, four-beat)
+- "Botchan" from Aozora Bunko (fetched from the real URL) → 10-page gag manga (bocchan-gag-manga, page arc, `=`-delimited)
 
-## 出所
-Desktop「お笑いスピサロン／ライブメモイラスト化.txt」＋ bocchan-gag-manga（ページ弧・`=`区切りの検証）
+## Sources
+Desktop「お笑いスピサロン／ライブメモイラスト化.txt」＋ bocchan-gag-manga (page arc, `=`-delimited verification)

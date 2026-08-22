@@ -1,38 +1,42 @@
-# 木炭（charcoal）
+<!-- i18n-version: 1.0.0 | canonical: references/styles/charcoal.md | translated: 2026-08-22 -->
 
-- **メディウム**: 手描き ／ **系譜**: 素描 ／ **時代**: —
-- **要約**: こすった黒と白チョークが、身振りだけで明暗を彫る。
+**Language:** [English](charcoal.md) | [日本語](../ja/styles/charcoal.md) | [中文](../zh/styles/charcoal.md)
 
-## 環境変数
-`SUBJECT`、`ACTION`、`LOCATION`、`ACCENT`、`ASPECT`
+# Charcoal（charcoal）
 
-## 忠実性アンカー
-- こすった黒
-- 白チョークのハイライト
-- 粗い紙の目
-- 大胆な身振りの線
-- 明暗の強コントラスト、指の跡
+- **Medium**: Hand-drawn ／ **Lineage**: Sketch ／ **Era**: —
+- **Summary**: Smudged black and white chalk carve light and shade with gesture alone.
 
-## 視覚の分解
-- **構成**: 明暗の大きな塊、身振りの線
-- **タイポ**: 文字なし
-- **色彩**: モノクロ（黒＋白チョーク）
-- **質感・照明**: 粗い紙、こすり、指の跡、強コントラスト
+## Environment variables
+`SUBJECT`, `ACTION`, `LOCATION`, `ACCENT`, `ASPECT`
+
+## Fidelity anchors
+- Smudged black
+- White chalk highlights
+- Rough paper grain
+- Bold gestural lines
+- Strong chiaroscuro contrast, fingerprints
+
+## Visual decomposition
+- **Composition**: large masses of light and dark, gestural lines
+- **Typography**: no text
+- **Color**: monochrome (black + white chalk)
+- **Texture & lighting**: rough paper, smudging, fingerprints, strong contrast
 
 ## do
-- 身振りの大胆な線、明暗を強く
-- こすりと白チョークのハイライト
-- **構造（結び・網・接続）は白チョークの線で明示し、黒に呑ませない**
-- **主役の輪郭を白で縁取る**
+- Bold gestural lines, strong light and dark
+- Smudging and white chalk highlights
+- **Mark the structure (knots, weaves, connections) explicitly with white chalk lines; do not let it be swallowed by black**
+- **Rim the subject's outline in white**
 
 ## avoid
-- 色、細部、デジタルの滑らかさ
-- **構造が黒い塊に沈む**
+- Color, fine detail, digital smoothness
+- **Structure sinking into the black masses**
 
-## ネガティブ
+## Negative
 `no color, no fine detail, no digital, no structure lost in the black`
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A charcoal drawing of {SUBJECT} {ACTION} in {LOCATION}, with {ACCENT}. Smudged black masses,
 white chalk highlights AND white-chalk linework marking the connections and structures so they
@@ -40,8 +44,8 @@ stay readable, rough paper grain, bold gestural lines, strong chiaroscuro contra
 fingerprints.
 ```
 
-## 例
+## Examples
 - —
 
-## 出所
-ネット調査（事前拡充 → 0.1.13 検証済み）
+## Sources
+Web research (pre-expanded, verified in 0.1.13)

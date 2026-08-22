@@ -1,43 +1,47 @@
-# 切り絵（paper-cut）
+<!-- i18n-version: 1.0.0 | canonical: references/styles/paper-cut.md | translated: 2026-08-22 -->
 
-- **メディウム**: 手描き・立体 ／ **系譜**: 切り絵 ／ **時代**: —
-- **要約**: 重ねた紙の層と切り抜きの陰が、平たい色面に奥行きを作る。
+**Language:** [English](paper-cut.md) | [日本語](../ja/styles/paper-cut.md) | [中文](../zh/styles/paper-cut.md)
 
-## 環境変数
-`SUBJECT`、`ACTION`、`LOCATION`、`ACCENT`、`ASPECT`
+# Paper cutout（paper-cut）
 
-## 忠実性アンカー
-- 重ねた紙の層
-- ドロップシャドウ
-- 平たい色面
-- 切り抜いた陰
-- 層ごとの奥行き、紙の縁の白
+- **Medium**: Hand-drawn / dimensional ／ **Lineage**: Paper cutting ／ **Era**: —
+- **Summary**: Stacked paper layers and cutout shadows give depth to flat color planes.
 
-## 視覚の分解
-- **構成**: 層を重ね、陰で奥行き
-- **タイポ**: 切り抜いた文字（必要時）
-- **色彩**: 平たい色面、紙の縁の白
-- **質感・照明**: ドロップシャドウ、層ごとの奥行き、影なし
+## Environment variables
+`SUBJECT`, `ACTION`, `LOCATION`, `ACCENT`, `ASPECT`
+
+## Fidelity anchors
+- Stacked paper layers
+- Drop shadows
+- Flat color planes
+- Cutout shadows
+- Depth from each layer, white paper edges
+
+## Visual decomposition
+- **Composition**: layers stacked, depth from shadow
+- **Typography**: cutout lettering (when needed)
+- **Color**: flat color planes, white paper edges
+- **Texture & lighting**: drop shadows, depth from each layer, no shadow
 
 ## do
-- 層とドロップシャドウで奥行き
-- 平たい色面、紙の縁の白を残す
+- Build depth with layers and drop shadows
+- Keep flat color planes and white paper edges
 
 ## avoid
-- グラデーション、写真の写実、3D レンダー
+- Gradients, photorealism, 3D render
 
-## ネガティブ
+## Negative
 `no gradient, no photorealistic, no 3D render`
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A layered paper-cut illustration of {SUBJECT} {ACTION} in {LOCATION}. Stacked paper layers
 with drop shadows, flat color planes, cutout shadows, depth from each layer, white paper
 edges.
 ```
 
-## 例
+## Examples
 - —
 
-## 出所
-ネット調査（事前拡充・未検証）
+## Sources
+Web research (pre-expanded, unverified)

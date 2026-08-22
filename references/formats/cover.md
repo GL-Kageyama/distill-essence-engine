@@ -1,29 +1,33 @@
-# 表紙（cover）
+<!-- i18n-version: 1.0.0 | canonical: references/formats/cover.md | translated: 2026-08-22 -->
 
-- **目的**: 象徴（誘引） ／ **粒度×時間**: 一象徴×畳み込み ／ **サイズ・比率**: 縦 2:3・一枚
-- **要約**: 一つの象徴を縦の軸に置き、上方の広い余白が静けさと予感を生む。
+**Language:** [English](cover.md) | [日本語](../ja/formats/cover.md) | [中文](../zh/formats/cover.md)
 
-## 環境変数
-`SUBJECT`＝一象徴、`TITLE`＝題名（任意）
+# Cover（cover）
 
-## 構成文法
-階層（縦の軸を立て、焦点は小さく）、上方に広い余白
+- **Purpose**: Symbol (attraction) ／ **Granularity×time**: one symbol × convolution ／ **Size & aspect**: portrait 2:3, single sheet
+- **Summary**: Place a single symbol on a vertical axis; the wide negative space above creates stillness and anticipation.
+
+## Environment variables
+`SUBJECT`＝one symbol, `TITLE`＝title (optional)
+
+## Composition grammar
+Hierarchy (a vertical axis, the focal point kept small), wide negative space above
 
 ## do
-- 焦点（象徴）を小さく、余白を広く
-- 一つの象徴に絞る
+- Keep the focal point (the symbol) small and the negative space wide
+- Limit to a single symbol
 
 ## avoid
-- 情報を詰める、焦点を中央に大きく、複数の象徴
+- Packing in information, an oversized focal point in the center, multiple symbols
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A portrait 2:3 book cover. {SUBJECT} as a single small focal point on a vertical axis,
 generous empty space above, {TITLE} set small and quiet, minimal, one symbol only.
 ```
 
-## 例
-- 走れメロス → 表紙（melos-cover）
+## Examples
+- Run, Melos! → Cover (melos-cover)
 
-## 出所
+## Sources
 melos-cover

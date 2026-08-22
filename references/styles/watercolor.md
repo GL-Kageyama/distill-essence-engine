@@ -1,43 +1,47 @@
-# 水彩（watercolor）
+<!-- i18n-version: 1.0.0 | canonical: references/styles/watercolor.md | translated: 2026-08-22 -->
 
-- **メディウム**: 手描き ／ **系譜**: 水彩画 ／ **時代**: —
-- **要約**: にじみと透明な重ねが、紙の白を残して光を語る。
+**Language:** [English](watercolor.md) | [日本語](../ja/styles/watercolor.md) | [中文](../zh/styles/watercolor.md)
 
-## 環境変数
-`SUBJECT`、`ACTION`、`LOCATION`、`ACCENT`、`ASPECT`
+# Watercolor（watercolor）
 
-## 忠実性アンカー
-- wet-on-wet のにじみ
-- 薄い透明な重ね（グレーズ）
-- 紙の目と白の残し（reserve）
-- 乾いた筆の掠れ
-- 輪郭は淡い色の縁（硬いインク線でない）
+- **Medium**: Hand-drawn ／ **Lineage**: Watercolor ／ **Era**: —
+- **Summary**: Bleeding washes and translucent layering speak of light while the white of the paper is left to carry it.
 
-## 視覚の分解
-- **構成**: 白（紙）を大胆に残し、主役は余白で浮く
-- **タイポ**: 文字なし
-- **色彩**: 淡く透明、色は重ねて深める
-- **質感・照明**: 紙の目、にじみの縁、自然光の柔らかさ
+## Environment variables
+`SUBJECT`, `ACTION`, `LOCATION`, `ACCENT`, `ASPECT`
+
+## Fidelity anchors
+- wet-on-wet bleeding
+- Thin translucent layering (glazes)
+- Paper grain and reserved white
+- Dry-brush drag
+- Contours as pale color edges (never hard ink lines)
+
+## Visual decomposition
+- **Composition**: Reserve the white (paper) boldly; the subject floats on negative space
+- **Typography**: No text
+- **Color**: Pale and translucent, deepened through layering
+- **Texture & light**: Paper grain, bleeding edges, the softness of natural light
 
 ## do
-- 白を残す、色を重ねる
-- にじみ・掠れを活かす
+- Reserve white, layer color
+- Lean into bleeding and dry-brush drag
 
 ## avoid
-- 油絵の厚塗り、デジタルの滑らかさ、硬い輪郭
+- Oil impasto, digital smoothness, hard contours
 
-## ネガティブ
+## Negative
 `not photorealistic, no oil, no digital, no hard outline`
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template (English, fill-in-the-blank)
 ```text
 A watercolor painting of {SUBJECT} {ACTION} in {LOCATION}, with {ACCENT}.
 Soft wet-on-wet washes, translucent layered pigment, reserved white paper,
 dry-brush edges and delicate color bleed, paper grain, gentle diffused light.
 ```
 
-## 例
-- 走れメロス → 水彩（melos-watercolor）
+## Examples
+- Run, Melos! → watercolor (melos-watercolor)
 
-## 出所
-Desktop 種「水彩画スタイル.txt」＋ melos-watercolor
+## Sources
+Desktop seed "水彩画スタイル.txt" + melos-watercolor

@@ -1,30 +1,34 @@
-# ポスター（poster）
+<!-- i18n-version: 1.0.0 | canonical: references/formats/poster.md | translated: 2026-08-22 -->
 
-- **目的**: 象徴（誘引） ／ **粒度×時間**: 一象徴×畳み込み ／ **サイズ・比率**: 大型・縦（2:3）
-- **要約**: 主役 1 つを強く、大見出しと情報ブロックで一目に伝える。
+**Language:** [English](poster.md) | [日本語](../ja/formats/poster.md) | [中文](../zh/formats/poster.md)
 
-## 環境変数
-`SUBJECT`＝主役、`HEADLINE`＝大見出し、`INFO`＝日時・情報
+# Poster（poster）
 
-## 構成文法
-主役 1 つを強く、大見出しを上部、日時・情報ブロックを下部、余白と強コントラスト、文字は一度だけ正確に。余分なロゴ・透かしを置かない
+- **Purpose**: Symbol (attraction) ／ **Granularity×time**: one symbol × convolution ／ **Size & aspect**: large, portrait (2:3)
+- **Summary**: One strong hero, conveyed at a glance through a large headline and an information block.
+
+## Environment variables
+`SUBJECT`＝the hero, `HEADLINE`＝the large headline, `INFO`＝date/time and information
+
+## Composition grammar
+One strong hero; the large headline at the top, the date/info block at the bottom; negative space and strong contrast; text spelled correctly once. No extra logos or watermarks
 
 ## do
-- 主役 1 つを強く
-- 見出しは一度だけ正確に
+- Make the single hero strong
+- Spell the headline correctly once
 
 ## avoid
-- 余分なロゴ・透かし、情報の詰め込み、文字の誤植
+- Extra logos/watermarks, packing in information, misspelled text
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A large 2:3 poster. One strong focal subject, a large headline "{HEADLINE}" at the top,
 a date/info block at the bottom, generous whitespace and strong contrast, text spelled
 correctly once.
 ```
 
-## 例
+## Examples
 - —
 
-## 出所
-ネット調査（image2.im／GPT-Image2-Skill・事前拡充・未検証）
+## Sources
+Web research (image2.im ／ GPT-Image2-Skill, pre-expanded, unverified)

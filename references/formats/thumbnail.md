@@ -1,29 +1,33 @@
-# サムネイル（thumbnail）
+<!-- i18n-version: 1.0.0 | canonical: references/formats/thumbnail.md | translated: 2026-08-22 -->
 
-- **目的**: 注目（誘引） ／ **粒度×時間**: 一象徴×一点 ／ **サイズ・比率**: 横 16:9・小
-- **要約**: 一点を強く、周囲を削って一目で刺す。
+**Language:** [English](thumbnail.md) | [日本語](../ja/formats/thumbnail.md) | [中文](../zh/formats/thumbnail.md)
 
-## 環境変数
-`SUBJECT`＝一点
+# Thumbnail（thumbnail）
 
-## 構成文法
-一点を強く、周囲を削る
+- **Purpose**: Attention (attraction) ／ **Granularity×time**: one symbol × one point ／ **Size & aspect**: landscape 16:9, small
+- **Summary**: One point made strong, everything around carved away, striking at a glance.
+
+## Environment variables
+`SUBJECT`＝the single point
+
+## Composition grammar
+Make one point strong; carve away everything around
 
 ## do
-- 一点を強く
-- 周囲を削る
+- Make the single point strong
+- Carve away everything around
 
 ## avoid
-- 要素過多、細部
+- Too many elements, detail
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A 16:9 thumbnail. One strong focal point, everything else removed, attention-grabbing at
 small size.
 ```
 
-## 例
-- 話題 → サムネイル（attention-thumbnail）
+## Examples
+- Topic → Thumbnail (attention-thumbnail)
 
-## 出所
+## Sources
 attention-thumbnail

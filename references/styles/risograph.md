@@ -1,38 +1,42 @@
-# リソグラフ（risograph）
+<!-- i18n-version: 1.0.0 | canonical: references/styles/risograph.md | translated: 2026-08-22 -->
 
-- **メディウム**: 版画・印刷 ／ **系譜**: リソ ／ **時代**: 1980s–現在
-- **要約**: 蛍光のスポットカラーと版ズレが、粒状のインクで印刷の手触りを残す。
+**Language:** [English](risograph.md) | [日本語](../ja/styles/risograph.md) | [中文](../zh/styles/risograph.md)
 
-## 環境変数
-`SUBJECT`、`ACTION`、`LOCATION`、`ACCENT`、`ASPECT`
+# Risograph（risograph）
 
-## 忠実性アンカー
-- 蛍光ピンク／蛍光グリーンなど 2–3 色のスポットカラー
-- 版ズレ（misregistration）
-- スクリーンの網点
-- 粒状のインク
-- 重ね刷りの不透明な面、紙の吸いムラ
-- **主役の固有小道具は網点上に輪郭として読める形で残す**（蛍光色面に沈ませない）
+- **Medium**: Printmaking / printing ／ **Lineage**: Risograph ／ **Era**: 1980s–present
+- **Summary**: Fluorescent spot colors and misregistration leave a tactile print feel in grainy ink.
 
-## 視覚の分解
-- **構成**: 2–3 色のスポットカラー、重ね刷り
-- **タイポ**: 蛍光の文字（必要時）
-- **色彩**: 蛍光のスポットカラー 2–3 色
-- **質感・照明**: 網点、粒状インク、版ズレ、吸いムラ
+## Environment variables
+`SUBJECT`, `ACTION`, `LOCATION`, `ACCENT`, `ASPECT`
+
+## Fidelity anchors
+- Two or three spot colors, e.g. fluorescent pink / fluorescent green
+- Misregistration
+- Halftone screen dots
+- Grainy ink
+- Opaque overprinted planes, uneven paper absorption
+- **Keep the subject's particular prop legible as outlines on the halftone field** (do not sink it into the fluorescent planes)
+
+## Visual decomposition
+- **Composition**: two or three spot colors, overprinting
+- **Typography**: fluorescent lettering (when needed)
+- **Color**: two or three fluorescent spot colors
+- **Texture & lighting**: halftone dots, grainy ink, misregistration, uneven absorption
 
 ## do
-- 2–3 色のスポットカラー、版ズレと網点を残す
-- 重ね刷りの不透明な面
-- **蛍光色は内容の一点（ACCENT）に従属させる**：主役の固有小道具（形・印）を網点上に輪郭として残す
+- Two or three spot colors; keep the misregistration and halftone dots
+- Opaque overprinted planes
+- **Subordinate the fluorescent color to a single point of content (ACCENT)**: keep the subject's particular prop (shape, mark) as outlines on the halftone field
 
 ## avoid
-- フルカラーのグラデーション、写真の写実、滑らかなデジタル
-- **内容が蛍光の色面に沈む（主役の消失）**
+- Full-color gradients, photorealism, smooth digital rendering
+- **Content sinking into the fluorescent planes (the subject disappearing)**
 
-## ネガティブ
+## Negative
 `no full-color gradient, no photorealistic, no smooth digital, no subject lost in the color field`
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A risograph print of {SUBJECT} {ACTION} in {LOCATION}. Two or three spot colors, fluorescent
 {ACCENT} leading the eye to the one focal object; the subject's own details kept legible as
@@ -40,8 +44,8 @@ shapes on the halftone field, misregistration, grainy ink, opaque overprinted pl
 absorption unevenness.
 ```
 
-## 例
+## Examples
 - —
 
-## 出所
-ネット調査（事前拡充 → 0.1.13 検証済み）
+## Sources
+Web research (pre-expanded, verified in 0.1.13)

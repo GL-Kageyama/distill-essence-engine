@@ -1,42 +1,46 @@
-# ピクセル（pixel・8bit）
+<!-- i18n-version: 1.0.0 | canonical: references/styles/pixel.md | translated: 2026-08-22 -->
 
-- **メディウム**: デジタル ／ **系譜**: 8bit ゲーム ／ **時代**: レトロ
-- **要約**: 限られたパレットのドットが、形を最小単位で刻む。
+**Language:** [English](pixel.md) | [日本語](../ja/styles/pixel.md) | [中文](../zh/styles/pixel.md)
 
-## 環境変数
-`SUBJECT`、`ACTION`、`LOCATION`、`ACCENT`、`ASPECT`
+# Pixel art（pixel）
 
-## 忠実性アンカー
-- 8bit のチップ感
-- 限られたパレット
-- くっきりしたドット
-- アンチエイリアスなし
+- **Medium**: Digital ／ **Lineage**: 8-bit games ／ **Era**: Retro
+- **Summary**: Dots from a limited palette carve form into its smallest unit.
 
-## 視覚の分解
-- **構成**: 単純なシルエット、小サイズでも読める
-- **タイポ**: ドットのビットマップ文字（必要時）
-- **色彩**: 限られたパレット（8〜16 色）
-- **質感・照明**: 平坦、ドットの縁、影なし
+## Environment variables
+`SUBJECT`, `ACTION`, `LOCATION`, `ACCENT`, `ASPECT`
+
+## Fidelity anchors
+- 8-bit chip feel
+- Limited palette
+- Crisp dots
+- No anti-aliasing
+
+## Visual decomposition
+- **Composition**: Simple silhouettes, readable even at small sizes
+- **Typography**: Dot-matrix bitmap lettering when needed
+- **Color**: Limited palette (8–16 colors)
+- **Texture & light**: Flat, hard dot edges, no shadows
 
 ## do
-- ドットをくっきり、パレットを絞る
-- シルエットを単純化
+- Keep dots crisp, tighten the palette
+- Simplify silhouettes
 
 ## avoid
-- グラデーション、アンチエイリアス、写真の質感
+- Gradients, anti-aliasing, photographic texture
 
-## ネガティブ
+## Negative
 `not photorealistic, no 3D render, no gradients, no anti-aliasing`
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template (English, fill-in-the-blank)
 ```text
 A pixel art image of {SUBJECT} {ACTION} in {LOCATION}, with {ACCENT}.
 8-bit style, crisp hard-edged pixels, a limited 8-16 color palette,
 no anti-aliasing, no gradients, clean readable silhouette.
 ```
 
-## 例
-- 走れメロス → アイコン（melos-icon）
+## Examples
+- Run, Melos! → icon (melos-icon)
 
-## 出所
+## Sources
 melos-icon

@@ -1,42 +1,46 @@
-# ラインナート（line-art）
+<!-- i18n-version: 1.0.0 | canonical: references/styles/line-art.md | translated: 2026-08-22 -->
 
-- **メディウム**: デジタル ／ **系譜**: ミニマル ／ **時代**: —
-- **要約**: 単一の太さの輪郭線だけが、白い地に形を残す。
+**Language:** [English](line-art.md) | [日本語](../ja/styles/line-art.md) | [中文](../zh/styles/line-art.md)
 
-## 環境変数
-`SUBJECT`、`ACTION`、`LOCATION`、`ACCENT`、`ASPECT`
+# Line art（line-art）
 
-## 忠実性アンカー
-- 単一の太さの輪郭線
-- 陰なし
-- 白い地
-- 最小限のディテール
-- 輪郭だけで読める形
+- **Medium**: Digital ／ **Lineage**: Minimal ／ **Era**: —
+- **Summary**: Only single-weight outlines leave form on a white ground.
 
-## 視覚の分解
-- **構成**: 輪郭だけで読める形、白い地
-- **タイポ**: 文字なし
-- **色彩**: 黒 1 色＋白い地
-- **質感・照明**: 平坦、陰なし
+## Environment variables
+`SUBJECT`, `ACTION`, `LOCATION`, `ACCENT`, `ASPECT`
+
+## Fidelity anchors
+- Single-weight outline
+- No shading
+- White ground
+- Minimal detail
+- Form readable by outline alone
+
+## Visual decomposition
+- **Composition**: form readable by outline alone, white ground
+- **Typography**: no text
+- **Color**: black only + white ground
+- **Texture & lighting**: flat, no shading
 
 ## do
-- 単一の太さの輪郭、最小のディテール
-- 白い地を大きく残す
+- Single-weight outlines, minimal detail
+- Leave a generous white ground
 
 ## avoid
-- 陰影、色の塗り、質感
+- Shading, color fill, texture
 
-## ネガティブ
+## Negative
 `no shading, no color fill, no texture`
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A minimal line-art drawing of {SUBJECT} {ACTION} in {LOCATION}. Single-weight outline,
 no shading, white ground, minimal detail, the form readable by outline alone.
 ```
 
-## 例
+## Examples
 - —
 
-## 出所
-ネット調査（事前拡充・未検証）
+## Sources
+Web research (pre-expanded, unverified)

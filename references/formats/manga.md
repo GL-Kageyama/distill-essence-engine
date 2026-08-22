@@ -1,29 +1,33 @@
-# 漫画（manga）
+<!-- i18n-version: 1.0.0 | canonical: references/formats/manga.md | translated: 2026-08-22 -->
 
-- **目的**: 叙述（記録・再体験） ／ **粒度×時間**: 全弧×展開 ／ **サイズ・比率**: ページ比（縦）・複数コマ
-- **要約**: コマ割りの視線誘導で展開し、転換点を大コマに。
+**Language:** [English](manga.md) | [日本語](../ja/formats/manga.md) | [中文](../zh/formats/manga.md)
 
-## 環境変数
-`SUBJECT`＝叙述対象、`TEXT`＝台詞、`N`＝コマ数
+# Manga（manga）
 
-## 構成文法
-コマ割りの視線誘導、転換点を大コマに。記録なら吹き出しあり、情感なら無言も可
+- **Purpose**: Narration (record / re-experience) ／ **Granularity×time**: whole arc × unfolding ／ **Size & aspect**: page ratio (portrait), multiple panels
+- **Summary**: Unfolds through panel-layout eye guidance, with the turning point in a large panel.
+
+## Environment variables
+`SUBJECT`＝the narrated subject, `TEXT`＝dialogue, `N`＝number of panels
+
+## Composition grammar
+Panel-layout eye guidance; the turning point in a large panel. Speech bubbles for records; silence is fine for emotion
 
 ## do
-- 転換点を大コマに
-- 記録なら吹き出し、情感なら無言
+- Put the turning point in a large panel
+- Speech bubbles for records, silence for emotion
 
 ## avoid
-- 全コマ均等、視線誘導が乱れる
+- All panels equal, broken eye guidance
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A manga page of {SUBJECT} in {N} panels. Panel flow guides the eye, the turning point in a
 large panel, speech bubbles with {TEXT} (or silent if emotional).
 ```
 
-## 例
-- 走れメロス → 漫画（melos-manga・無言・木版）／ 会話録 → 漫画（meeting-comic・記録・吹き出し）
+## Examples
+- Run, Melos! → Manga (melos-manga, silent, woodblock) ／ Conversation record → Manga (meeting-comic, record, speech bubbles)
 
-## 出所
-melos-manga（無言・木版）／ meeting-comic（記録・吹き出し）
+## Sources
+melos-manga (silent, woodblock) ／ meeting-comic (record, speech bubbles)

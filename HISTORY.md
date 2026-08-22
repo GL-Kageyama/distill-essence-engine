@@ -1,5 +1,15 @@
 # 開発履歴
 
+## 0.1.19 — 2026-08-22
+
+- **i18n（en/zh・3 層方式）完了**。実装計画の最終項目に区切りをつけた。正規言語＝**英語（canonical en）**、完全ミラー。
+- **SKILL.md を英語化＋「Language Mode」節を追加**（単一ファイル言語切替）：`lang` 引数（en/ja/zh）→ 要求文の言語検出 → 既定 `en`。3 欄見出し（Content/Format/Style）・説明・トレースは要求言語、**合成英語プロンプトは常に英語**。カード参照は言語ミラー（ja→references/ja/・zh→references/zh/・en→references/）。
+- **references/ 53 ファイル×3 言語ミラー**：en ルート（英訳）＋ `ja/`（現行日本語を移動）＋ `zh/`（新規）。カードの**英語不変部**（プロンプトテンプレ・ネガティブ `not photorealistic, no 3D render, …`・環境変数名 SUBJECT/ACTION/…）は**一切翻訳せず**、説明 prose のみ翻訳。カード slug（ファイル名）は英語のまま（画像プロンプトで参照する識別子のため）。
+- **docs/・README・CLAUDE・examples/README をミラー**：docs/ はサブフォルダ方式（en ルート＋ `ja/`・`zh/`）、README/CLAUDE/examples/README はサフィックス方式（`-ja`・`-zh`）。examples のケース本文（input.md/prompt.md/pages/）は不翻訳。各ファイルに `<!-- i18n-version: … -->` タグ＋言語セレクタを付与。
+- **plugin.json・marketplace.json の `languages` を `["en","ja","zh"]` に**。
+- **較正は不要**：distill に数値スコアリングが無い（出力＝画像プロンプト）。言語ドリフトの懸念は「3 欄説明の言語」のみ → スモークテスト（en/ja/zh で 3 欄・合成プロンプト・カード参照）で確認。
+- **HISTORY.md は日本語のまま**（開発履歴。兄弟エンジンと同じ慣例）。
+
 ## 0.1.18 — 2026-08-22
 
 - **手持ちプロンプト「ライブメモイラスト化.txt」を 2 枚のカードに取り込み**（Desktop お笑いスピサロン）。ユーザー指示どおり 4 分割でなく**フォーマット＋スタイルの単純 2 分割**で、混在する記述を再解釈して振り分けた。

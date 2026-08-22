@@ -1,43 +1,47 @@
-# マンガ線画（manga-ink）
+<!-- i18n-version: 1.0.0 | canonical: references/styles/manga-ink.md | translated: 2026-08-22 -->
 
-- **メディウム**: 手描き ／ **系譜**: マンガ ／ **時代**: 現代
-- **要約**: 白黒のインク線とスクリーントーンが、動きと陰を記号で語る。
+**Language:** [English](manga-ink.md) | [日本語](../ja/styles/manga-ink.md) | [中文](../zh/styles/manga-ink.md)
 
-## 環境変数
-`SUBJECT`、`ACTION`、`LOCATION`、`TEXT`＝吹き出しの台詞、`ASPECT`
+# Manga ink lineart（manga-ink）
 
-## 忠実性アンカー
-- 白黒のインク線（主線＋細線）
-- スクリーントーン（網点）の陰
-- ベタ（黒の塗りつぶし）
-- 吹き出し
-- 速度線は最小限
+- **Medium**: Hand-drawn ／ **Lineage**: Manga ／ **Era**: Contemporary
+- **Summary**: Black-and-white ink lines and screentone tell motion and shadow through signs.
 
-## 視覚の分解
-- **構成**: コマ割り（必要時）、主役を大コマに
-- **タイポ**: 吹き出しの手書き文字（日本語可）
-- **色彩**: モノクロ（白・黒・グレートーン）
-- **質感・照明**: 平坦、トーンによる陰、影なし
+## Environment variables
+`SUBJECT`, `ACTION`, `LOCATION`, `TEXT`＝speech-bubble dialogue, `ASPECT`
+
+## Fidelity anchors
+- Black-and-white ink lines (main line plus fine lines)
+- Screentone (halftone) shading
+- Solid black fills
+- Speech bubbles
+- Minimal speed lines
+
+## Visual decomposition
+- **Composition**: Panel layout when needed, the subject in a large panel
+- **Typography**: Hand-drawn lettering in speech bubbles (Japanese acceptable)
+- **Color**: Monochrome (white, black, grey tones)
+- **Texture & light**: Flat, tone-based shading, no shadows
 
 ## do
-- インク線を主役に、陰はスクリーントーン
-- ベタで重さを、吹き出しで台詞を
+- Make ink lines the lead and shade with screentone
+- Use solid fills for weight and speech bubbles for dialogue
 
 ## avoid
-- 色、写真の質感、3D の光沢、速度線の乱用
+- Color, photographic texture, 3D gloss, overused speed lines
 
-## ネガティブ
+## Negative
 `not photorealistic, no color, no 3D render`
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template (English, fill-in-the-blank)
 ```text
 A black-and-white manga ink illustration of {SUBJECT} {ACTION} in {LOCATION}.
 Clean ink linework, screentone shading, solid black fills, minimal speed lines,
 speech bubbles with {TEXT}, monochrome, no color.
 ```
 
-## 例
-- 会話録 → 記録の漫画（meeting-comic）
+## Examples
+- Conversation transcript → a comic record (meeting-comic)
 
-## 出所
-meeting-comic（記録の漫画）
+## Sources
+meeting-comic (a comic record)

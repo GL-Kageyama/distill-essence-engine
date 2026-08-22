@@ -1,32 +1,36 @@
-# スプライトシート（sprite）
+<!-- i18n-version: 1.0.0 | canonical: references/formats/sprite.md | translated: 2026-08-22 -->
 
-- **目的**: 叙述（ゲーム素材） ／ **粒度×時間**: 全弧×展開（複数ポーズ） ／ **サイズ・比率**: グリッド・正方形タイル
-- **要約**: 同一キャラの複数ポーズをグリッドに、一貫したサイズと配色で。
+**Language:** [English](sprite.md) | [日本語](../ja/formats/sprite.md) | [中文](../zh/formats/sprite.md)
 
-## 環境変数
-`SUBJECT`＝キャラ、`POSES`＝ポーズ列、`N`＝セル数
+# Sprite sheet（sprite）
 
-## 構成文法
-同一キャラの複数ポーズをグリッド配置、各セルで一貫したピクセルサイズと配色、アニメ用に連続した動作。**全セルで同一の足元ラインとキャラ高さを保持する**
+- **Purpose**: Narration (game asset) ／ **Granularity×time**: whole arc × unfolding (multiple poses) ／ **Size & aspect**: grid, square tiles
+- **Summary**: Multiple poses of the same character in a grid, with consistent size and palette.
+
+## Environment variables
+`SUBJECT`＝the character, `POSES`＝the sequence of poses, `N`＝number of cells
+
+## Composition grammar
+Multiple poses of the same character arranged in a grid; consistent pixel size and palette in every cell; sequential motion for animation. **Keep the same ground line and character height in every cell**
 
 ## do
-- 全セルで同一キャラ・サイズ・配色を保持
-- 動作を連続させる
-- **同一の足元ライン・キャラ高さを全セルで保持**
+- Keep the same character, size and palette in all cells
+- Make the motion sequential
+- **Keep the same ground line and character height in every cell**
 
 ## avoid
-- セルごとのブレ、キャラの崩れ
-- **セル間でのサイズ感・足元の揺れ**
+- Wobble from cell to cell, character distortion
+- **Inconsistent scale or ground line between cells**
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A sprite sheet of {SUBJECT} in {N} cells on a grid. Multiple poses of the same character
 ({POSES}), consistent pixel size and palette across cells, the same ground line and character
 height in every cell, sequential motion for animation.
 ```
 
-## 例
+## Examples
 - —
 
-## 出所
-ネット調査（事前拡充 → 0.1.13 検証済み）
+## Sources
+Web research (pre-expanded → verified in 0.1.13)

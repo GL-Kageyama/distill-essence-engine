@@ -1,77 +1,81 @@
-# 類型（想定目的 × フォーマット × 様式 × 圧縮の 2 層）
+<!-- i18n-version: 1.0.0 | canonical: references/types.md | translated: 2026-08-22 -->
 
-> 変換の「方法」（粒度×時間×働き）を決める辞書。distill-essence-engine の reference。SKILL.md が本質（固有×間接）を担うのに対し、こちらがフォーマット依存の方法を担う。
+**Language:** [English](types.md) | [日本語](ja/types.md) | [中文](zh/types.md)
 
-## 想定目的の類型（ユーザーはなぜ変換するか）
+# Types (assumed purpose × format × style × the two layers of compression)
 
-フォーマットの「働き」のさらに上流。**ユーザーがそもそも何のために変換するか**を、対象（自分／他人）で整理：
+> The dictionary that decides the "method" of transformation (granularity × time × function). A reference for distill-essence-engine. While SKILL.md bears the essence (particular × indirect), this bears the format-dependent method.
 
-| 対象 | 想定目的 | 意味 | 典型フォーマット |
+## Types of assumed purpose (why the user transforms)
+
+Even further upstream of the format's "function". Organize **why the user transforms in the first place** by the object (self / others):
+
+| Object | Assumed purpose | Meaning | Typical formats |
 |---|---|---|---|
-| 自分 | **理解** | 内容を把握する | 解説図 / インフォグラフィック |
-| 両方 | **再体験** | 作品を別の形で味わう | イメージボード / 漫画 |
-| 自分 | **記録** | 出来事・思考を残す | 漫画（会話録→漫画） |
-| 他人 | **伝達** | 内容を伝える | インフォグラフィック |
-| 他人 | **誘引** | 注意を引く | サムネイル / 表紙 |
-| 両方 | **装飾** | 文章を彩る | 挿絵 |
+| Self | **Understanding** | Grasp the content | Diagram / infographic |
+| Both | **Re-experience** | Enjoy the work in another form | Image board / manga |
+| Self | **Record** | Keep events and thoughts | Manga (conversation transcript → manga) |
+| Others | **Communication** | Convey the content | Infographic |
+| Others | **Attraction** | Draw attention | Thumbnail / cover |
+| Both | **Decoration** | Adorn the text | Illustration |
 
-**想定目的 → フォーマットの働き → 粒度×時間**の 3 段。想定目的が働きの方向を決める（理解/伝達→説明系、誘引→注目系、再体験→象徴/叙述系、記録→叙述系、装飾→装飾系）。これが「目的は圧縮の上流」の正確な形。
+The three stages are **assumed purpose → the format's function → granularity × time**. The assumed purpose decides the direction of the function (understanding/communication → explanatory type, attraction → attention type, re-experience → symbolic/narrative type, record → narrative type, decoration → decorative type). This is the precise form of "purpose is upstream of compression".
 
-## フォーマットの類型
+## Types of format
 
-フォーマット空間の 4 軸（粒度／時間／目的／サイズ・比率）のうち、**目的が核心**（「目的は圧縮の上流」＝上流の想定目的が決める）。働きで洗い出すと：
+Of the 4 axes of format space (granularity / time / purpose / size and aspect ratio), **purpose is the core** ("purpose is upstream of compression" = decided by the upstream assumed purpose). Sorted by function:
 
-| 働き | フォーマット | 粒度 × 時間 |
+| Function | Formats | Granularity × time |
 |---|---|---|
-| **叙述** | 漫画 / ストーリーボード / 絵本 | 全弧 × 展開 |
-| **象徴** | イメージボード | 全弧 × 畳み込み（複数パネル） |
-| **象徴** | 表紙 / ポスター | 一象徴 × 畳み込み |
-| **象徴** | アイコン | 一象徴 × 一点 |
-| **注目** | サムネイル | 一象徴 × 一点 |
-| **説明** | インフォグラフィック / 解説図 | 全弧 × 畳み込み |
-| **装飾** | 挿絵 | 一場面 × 一点 |
+| **Narrative** | Manga / storyboard / picture book | Full arc × unfolding |
+| **Symbolic** | Image board | Full arc × folding (multiple panels) |
+| **Symbolic** | Cover / poster | A single symbol × folding |
+| **Symbolic** | Icon | A single symbol × a single point |
+| **Attention** | Thumbnail | A single symbol × a single point |
+| **Explanatory** | Infographic / diagram | Full arc × folding |
+| **Decorative** | Illustration | A single scene × a single point |
 
-目的 5 種 × 粒度／時間の組み合わせ。空間自体は無限で、この 7 型は**結晶化した名前付きフォーマット**（＝代表点）にすぎない。
+The combination of 5 purposes × granularity/time. The space itself is infinite, and these 7 types are nothing but **crystallized named formats** (＝ representative points).
 
-**サイズ・比率もフォーマットが決める**（どこで見られるかで決まる）：サムネイル＝小型・横 16:9、アイコン＝正方形、表紙＝縦（書籍比）、ポスター＝大型・縦、ストーリーボード＝映画比 16:9、漫画＝ページ比、インフォグラフィック＝縦長スクロール。
+**Size and aspect ratio are also decided by the format** (decided by where it is seen): thumbnail = small, landscape 16:9; icon = square; cover = portrait (book ratio); poster = large, portrait; storyboard = cinema ratio 16:9; manga = page ratio; infographic = tall scroll.
 
-**専門スキル化の価値**は「固有の構成文法の蓄積度」で決まる：
+**The value of specialist skill** is decided by "the accumulation of particular composition grammar":
 
-- 漫画（コマ割り・吹き出し・見開き・視線誘導）が最たる例。
-- イラスト（単一の場面）は最も薄い——時間も展開しない・極限でもない・特殊な目的もない「デフォルト」。
+- Manga (panel division, speech balloons, double-page spreads, eye guidance) is the prime example.
+- Illustration (a single scene) is the thinnest — a "default" with no time to unfold, no extreme, and no special purpose.
 
-## 様式の類型
+## Types of style
 
-様式＝語彙＋文法＋規範。**語彙はメディウムが決める**ので、メディウムを主軸に：
+Style = vocabulary + grammar + norms. **The medium decides the vocabulary**, so take the medium as the primary axis:
 
-| メディウム | 例 |
+| Medium | Examples |
 |---|---|
-| 手描き | 水彩 / 油絵 / 鉛筆 / インク / パステル / スケッチ |
-| 版画・印刷 | 木版 / シルクスクリーン / リソグラフ |
-| デジタル | ピクセル / 3D / ベクター / グリッチ |
-| 写真・記録 | ストリートフォト / フィルム / スキャン / 台帳 |
+| Hand-drawn | Watercolor / oil painting / pencil / ink / pastel / sketch |
+| Printmaking | Woodblock / silkscreen / risograph |
+| Digital | Pixel / 3D / vector / glitch |
+| Photography / record | Street photo / film / scan / ledger |
 
-これに**交差する 2 軸**がある：
+Two axes **cross-cut** this:
 
-- **系譜**（文化・歴史の伝統）：浮世絵 / 水墨画 / 印象派 / バウハウス / マンガ / アメコミ
-- **時代・技術**：レトロ / PS1 / 8bit / サイバーパンク / レトロフューチャー
+- **Lineage** (cultural and historical traditions): ukiyo-e / sumi-e / Impressionism / Bauhaus / manga / American comics
+- **Era and technology**: retro / PS1 / 8-bit / cyberpunk / retro-future
 
-様式＝**メディウム × 系譜 × 時代**の交点で、それぞれ語彙＋文法＋規範を持つ。
+Style = the intersection of **medium × lineage × era**, each carrying vocabulary + grammar + norms.
 
-**様式語彙の落とし穴**：`flat layered planes`・`wood grain` のような汎用タグの羅列は Midjourney のストックで、特定の声にならない。様式ごとに固有の語彙（木版なら「彫りの跡・刷りムラ・版木の目・にじみ」等）を辞書に精錬する（Phase 4）。
+**The pitfall of style vocabulary**: a list of generic tags like `flat layered planes`・`wood grain` is Midjourney stock and does not become a particular voice. Refine the vocabulary particular to each style into the dictionary (woodblock: "carving marks, print unevenness, woodgrain, bleed", etc.) (Phase 4).
 
-## 圧縮の 2 層
+## The two layers of compression
 
-| 層 | 変わるか | 内容 |
+| Layer | Does it change? | Content |
 |---|---|---|
-| **本質** | 不変（1 種類） | 固有 × 間接（真実 × 委ね）を選定／翻訳／配置に適用 |
-| **方法** | フォーマット依存 | 粒度（全弧↔一象徴）・時間（展開↔畳み込み↔一点）・働き |
+| **Essence** | Invariant (1 kind) | Apply particular × indirect (truth × entrustment) to selection / translation / arrangement |
+| **Method** | Format-dependent | Granularity (full arc ↔ single symbol)・time (unfolding ↔ folding ↔ a single point)・function |
 
-- **本質（固有 × 間接）は全フォーマットで同じ** — 単一エンジンで正しい。
-- **方法（粒度・時間・構成）はフォーマットで変わる** — フォーマット専用スキルが要る。
+- **The essence (particular × indirect) is the same across all formats** — correct with a single engine.
+- **The method (granularity, time, composition) changes with the format** — format-specific skills are needed.
 
-→ アーキテクチャの分かれ目：**本質 → 単一 SKILL.md（Phase 1）、方法 → フォーマット専用スキル（Phase 4）**。
+→ The architectural fork: **essence → a single SKILL.md (Phase 1), method → format-specific skills (Phase 4)**.
 
-## レジストリ（使い回し）
+## Registry (reuse)
 
-使えると判断したフォーマット・様式は、名前付きカードとして [styles/](styles/)・[formats/](formats/) に登録し（1 ファイル＝1 カード）、`format:`／`style:` の名前で使い回す。一覧は [registry.md](registry.md)。ここ（types.md）は類型の**空間**、registry.md 以下は結晶化した**名前付きカード**。
+Formats and styles judged usable are registered in [styles/](styles/)・[formats/](formats/) as named cards (1 file = 1 card) and reused by the names `format:`／`style:`. The list is in [registry.md](registry.md). Here (types.md) is the **space** of types; under registry.md are the crystallized **named cards**.

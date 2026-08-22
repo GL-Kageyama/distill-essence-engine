@@ -1,34 +1,38 @@
-# バウハウス系ベクター（bauhaus-vector）
+<!-- i18n-version: 1.0.0 | canonical: references/styles/bauhaus-vector.md | translated: 2026-08-22 -->
 
-- **メディウム**: デジタル ／ **系譜**: バウハウス ／ **時代**: モダン
-- **要約**: 幾何と原色が、機能を装飾に昇華する。
+**Language:** [English](bauhaus-vector.md) | [日本語](../ja/styles/bauhaus-vector.md) | [中文](../zh/styles/bauhaus-vector.md)
 
-## 環境変数
-`SUBJECT`、`ACTION`、`LOCATION`、`ACCENT`、`ASPECT`
+# Bauhaus-style vector（bauhaus-vector）
 
-## 忠実性アンカー
-- 円・三角・矩形の幾何モジュール
-- 原色（赤・青・黄）＋白黒の限定パレット
-- 機能的なグリッドと非対称の緊張
-- 装飾なし、skeuomorphic な質感なし
+- **Medium**: Digital ／ **Lineage**: Bauhaus ／ **Era**: Modern
+- **Summary**: Geometry and primary colors sublimate function into ornament.
 
-## 視覚の分解
-- **構成**: 幾何モジュールをグリッドに配置、非対称バランス
-- **タイポ**: 細いサンセリフ（幾何学的）
-- **色彩**: 赤・青・黄＋黒・白・グレー、アクセント 1 色
-- **質感・照明**: 平坦なベタ面、影なし
+## Environment variables
+`SUBJECT`, `ACTION`, `LOCATION`, `ACCENT`, `ASPECT`
+
+## Fidelity anchors
+- Geometric modules: circles, triangles, rectangles
+- A restricted palette of primaries (red, blue, yellow) plus black and white
+- A functional grid and asymmetric tension
+- No ornament, no skeuomorphic texture
+
+## Visual decomposition
+- **Composition**: Geometric modules laid on a grid, asymmetric balance
+- **Typography**: Thin sans-serif (geometric)
+- **Color**: Red, blue, yellow plus black, white and grey, with one accent color
+- **Texture & light**: Flat matte planes, no shadows
 
 ## do
-- 幾何に還元、原色で強く
-- 平坦な面と鋭い縁
+- Reduce to geometry, push hard with primaries
+- Flat planes and sharp edges
 
 ## avoid
-- 陰影・グラデーション・写真の質感、多色
+- Shading, gradients, photographic texture, polychrome
 
-## ネガティブ
+## Negative
 `not photorealistic, no 3D render, no skeuomorphic texture, no decorative illustration`
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template (English, fill-in-the-blank)
 ```text
 A Bauhaus-style vector composition of {SUBJECT} {ACTION} with {ACCENT}.
 Geometric shapes — circles, triangles, rectangles — on a functional grid,
@@ -36,8 +40,8 @@ primary red, blue and yellow with black, white and grey, one accent color,
 flat matte planes, thin sans-serif, no shading, no gradients, no texture.
 ```
 
-## 例
-- 会議メモ → インフォ（attention-infographic / article-infographic）
+## Examples
+- Meeting notes → infographic (attention-infographic / article-infographic)
 
-## 出所
+## Sources
 attention-infographic / article-infographic

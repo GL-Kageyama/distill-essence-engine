@@ -1,29 +1,33 @@
-# イメージボード（imageboard）
+<!-- i18n-version: 1.0.0 | canonical: references/formats/imageboard.md | translated: 2026-08-22 -->
 
-- **目的**: 象徴（再体験） ／ **粒度×時間**: 全弧×畳み込み ／ **サイズ・比率**: 複数パネル
-- **要約**: 焦点 1 つ大＋周囲小、余白で発見を残す。
+**Language:** [English](imageboard.md) | [日本語](../ja/formats/imageboard.md) | [中文](../zh/formats/imageboard.md)
 
-## 環境変数
-`SUBJECT`＝焦点、`MOTIFS`＝周囲の小パネル群
+# Image board（imageboard）
 
-## 構成文法
-焦点 1 つ大＋周囲小、余白で発見を残す
+- **Purpose**: Symbol (re-experience) ／ **Granularity×time**: whole arc × convolution ／ **Size & aspect**: multiple panels
+- **Summary**: One large focal point plus small panels around it; negative space leaves room for discovery.
+
+## Environment variables
+`SUBJECT`＝the focal point, `MOTIFS`＝the small panels around it
+
+## Composition grammar
+One large focal point + small panels around it; negative space leaves room for discovery
 
 ## do
-- 焦点を 1 つ大きく
-- 周囲を小パネルで支える
+- Make one focal point large
+- Support it with small panels around
 
 ## avoid
-- 全パネル均等、詰め込み
+- All panels equal, packing everything in
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 An imageboard of {SUBJECT}. One large focal panel surrounded by smaller panels of {MOTIFS},
 whitespace left for discovery.
 ```
 
-## 例
-- 走れメロス → イメージボード（melos-imageboard）
+## Examples
+- Run, Melos! → Image board (melos-imageboard)
 
-## 出所
-melos-imageboard（初回検証）
+## Sources
+melos-imageboard (first verification)

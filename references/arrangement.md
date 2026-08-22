@@ -1,45 +1,49 @@
-# 配置（どう並べるか）
+<!-- i18n-version: 1.0.0 | canonical: references/arrangement.md | translated: 2026-08-22 -->
 
-> 変換原理⑤（構成）の深化。圧縮の第三工程。distill-essence-engine の reference。選定・翻訳の結果を、構図に並べて関係を語る。
+**Language:** [English](arrangement.md) | [日本語](ja/arrangement.md) | [中文](zh/arrangement.md)
 
-## 本質
+# Arrangement (How to Arrange)
 
-**要素でなく「間」と「関係」で語る。** 選んだ素材をどう並べるかで、単独では語れないことを語る。近い＝親密、対角＝対立、余白＝不在。
+> Deepening of transformation principle ⑤ (Composition). The third step of compression. A reference for distill-essence-engine. Arranges the results of selection and translation into a composition to speak of relationships.
 
-素の LLM は「中央に主役、左右対称」を返す。だが構図は、位置・大きさ・距離・光・余白で、見る者の目を導き、関係を語る。
+## Essence
 
-## 2 軸
+**Speak through the "gap" and "relationships", not through elements.** How you arrange the chosen material says what cannot be said by any single element alone. Near = intimacy, diagonal = opposition, negative space = absence.
 
-| 軸 | 問い | 凡庸側 ↔ 固有側 |
+A raw LLM returns "subject centered, left-right symmetry". But composition guides the viewer's eye and speaks of relationships through position, size, distance, light, and negative space.
+
+## Two axes
+
+| Axis | Question | Mediocre side ↔ Particular side |
 |---|---|---|
-| **階層** | 何を際立たせるか | 無階層（全部同格）↔ 主従（大きさ・光・焦点で主役を立てる） |
-| **余白** | どれだけ残すか | 詰め込み（全部描く）↔ 残す（間＝見る者の余地） |
+| **Hierarchy** | What to make stand out | No hierarchy (everything equal) ↔ Subordination (elevate the subject through size, light, focus) |
+| **Negative space** | How much to leave | Cramming (draw everything) ↔ Leaving (the gap = the viewer's room) |
 
-## 深層（配置＝間）
+## Depth (arrangement = the gap)
 
-配置の本質は**間**（ま）。余白・距離・非対称が語る。詰め込みは説明（全部見せる）、余白は委ね（見る者の発見に残す）。配置は翻訳の「間接」を空間で行う：**何を描かないか（余白・切り取り・外側）で語る。**
+The essence of arrangement is the **gap**. Negative space, distance, and asymmetry speak. Cramming is explanatory (showing everything); negative space is entrusted (left to the viewer's discovery). Arrangement performs the "indirectness" of translation in space: **speak through what is not drawn (negative space, cropping, the outside).**
 
-## 道具（構図の要素）
+## Tools (elements of composition)
 
-位置／大きさ／距離／光・影／焦点／余白／切り取り（フレーム）／視線。
+Position / size / distance / light and shadow / focus / negative space / cropping (frame) / sight line.
 
-- **距離で語る** — 近い＝親密・圧迫、遠い＝疎遠・孤立、対角＝対立。
-- **余白で語る** — 空の空間＝不在・孤独・余韻。
+- **Speak through distance** — near = intimacy, pressure; far = estrangement, isolation; diagonal = opposition.
+- **Speak through negative space** — empty space = absence, solitude, lingering resonance.
 
-## 失敗モード
+## Failure modes
 
-- **中央対称** — 凡庸な構図。主従・緊張がない。
-- **詰め込み（過密）** — 全部見せる＝説明。余白がない＝発見がない。画像生成特有：列挙した要素を全部入れると焦点が散り主従が立たない。主役 1 つ＋支える要素は最小限、残りは余白で削る。
-- **無関係な並び** — 要素が関係なく並ぶ（寄せ集め）。
+- **Central symmetry** — a mediocre composition. No subordination, no tension.
+- **Cramming (overcrowding)** — showing everything = explanation. No negative space = no discovery. Image-generation-specific failure: putting in every enumerated element scatters the focus and no subordination forms. One subject plus minimal supporting elements; cut the rest with negative space.
+- **Unrelated arrangement** — elements placed without relationship (a mere assortment).
 
-## 良さの基準
+## Criteria for quality
 
-- **誘導** — 見る者の目が主役→意味へ導かれる。
-- **緊張** — 非対称・偏り・切り取りが張りを持つ。
-- **発見** — 余白・間が、見る者に読み取らせる。
+- **Guidance** — the viewer's eye is led from subject → meaning.
+- **Tension** — asymmetry, imbalance, and cropping carry strain.
+- **Discovery** — negative space and the gap make the viewer read between the lines.
 
-## 生態系との接続
+## Connection to the ecosystem
 
-- 詰め込み（説明）を避ける ＝ `anti-generic-filter`
-- 余白・抑制 ＝ `emotional-power`
-- 関係・構図の美的整合 ＝ `aesthetic-critic`
+- Avoiding cramming (explanation) = `anti-generic-filter`
+- Negative space and restraint = `emotional-power`
+- Aesthetic coherence of relationships and composition = `aesthetic-critic`

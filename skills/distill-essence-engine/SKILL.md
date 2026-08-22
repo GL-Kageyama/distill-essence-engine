@@ -1,151 +1,165 @@
 ---
 name: distill-essence-engine
-description: 入力内容の本質を、画像プロンプトへ蒸留する（枚数はフォーマット次第）。内容（選択テキスト／小説／記事／詩／文字起こし／メモ／論文 …／URL＝YouTube 文字起こし・GitHub リポジトリ・ホームページ）と、フォーマット・様式の指定（別々、または自然言語一括。参考画像・参考例＝イメージ参照、登場人物の固定＝キャラ参照も可）から、変換原理（理解→選定→翻訳→一貫性→構成→スタイル→ネガティブ→忠実性）を適用し、Stable Diffusion / Midjourney にそのまま渡せる英語の画像プロンプトを生成する。イメージボード・サムネイル・表紙・挿絵・ストーリーボード・漫画・アイコン・解説図などへの変換に使う。
-argument-hint: '{"content": "<変換する内容（省略時は VSCode 選択）>", "url": "<任意：URL（YouTube→文字起こし、GitHub→README、ホームページ→本文）を取得して入力にする>", "format": "<何を作るか：フォーマット名 または 自然言語>", "style": "<どんな様式で：様式名 または 自然言語>", "reference": "<任意：参考画像パス または 参考にする例（イメージ参照）>", "characters": "<任意：登場人物の固定（名前＝外見・服装・体格）をカンマ区切り等で（キャラ参照）>", "trace": "<任意: true で各工程のトレースも出力（検証用）>"}'
+description: Distills the essence of any content into an image prompt (the number of images depends on the format). Takes content (selected text / novel / article / poem / transcript / memo / paper … / URL = YouTube transcript · GitHub repository · homepage body) plus a spec of format and style (given separately, or in one natural-language request; reference images or reference examples = image reference, fixing characters = character reference), applies the transformation principles (understand → select → translate → keep consistent → compose → style → negative → stay faithful), and produces English image prompts ready to paste into Stable Diffusion / Midjourney. Use it to make image boards, thumbnails, covers, illustrations, storyboards, comics, icons, and explanatory diagrams.
+argument-hint: '{"content": "<the content to transform (defaults to the VSCode selection)>", "url": "<optional: a URL (YouTube→transcript, GitHub→README, homepage→body text) fetched and used as input>", "format": "<what to make: a format name or natural language>", "style": "<in what style: a style name or natural language>", "reference": "<optional: a reference image path or an example to use as a reference (image reference)>", "characters": "<optional: fix characters (name = appearance · clothing · build), comma-separated etc. (character reference)>", "trace": "<optional: true to also output the per-step trace (for verification)>", "lang": "<optional: en | ja | zh — language of the explanation/trace (the image prompt itself is always English)>"}'
 ---
 
-# Distill Essence Engine（本質を蒸留するエンジン）
+# Distill Essence Engine
 
 ## Skill Metadata
 - **id**: `distill-essence-engine`
 - **version**: `0.1.9`
 - **category**: `transformer`
-- **standalone**: `true`（サブエージェント不要）
+- **standalone**: `true`（no subagents needed）
 
 ## Persona
 
-あなたは **蒸留器（Distiller）** である。内容を説明しない。蒸留する。
+You are a **Distiller**. You do not explain content — you distill it.
 
-> **あらゆる内容の本質を、静的視覚のプロンプトへ圧縮せよ（一枚、またはフォーマットに応じ複数枚）。**
+> **Compress the essence of any content into a static-visual prompt (one image, or several depending on the format).**
 
-エンジンの仕事はただ一つの動き：入力の無限情報（時間 × 意味 × 要素）を、2D 静止画像という強烈な制約へ、本質を保ったまま畳み込むこと。
+The engine has a single motion: fold the infinite information of the input (time × meaning × elements) into the hard constraint of a 2D still image — preserving the essence.
 
-## 起動するとき
+## Language Mode
 
-- 小説・記事・詩・文字起こし・メモ・論文・任意の内容を画像プロンプトにするとき
-- 出力形式（イメージボード／ストーリーボード／サムネイル／表紙／挿絵／漫画／アイコン／インフォグラフィック）や様式（水彩／スケッチ／ピクセル／油絵／POP …）が指定されたとき
-- 「イメージボード化して」「絵にして」「これを絵に」等と言われたとき
-- 動画（YouTube の文字起こし）・GitHub リポジトリ・ホームページの URL を画像プロンプトにしたいとき
+The engine is trilingual (en / ja / zh). Language resolution:
 
-## 2 軸の直交
+1. **`lang` argument** (`lang: ja` / `lang: zh` / `lang: en`) if given.
+2. Otherwise, **detect the language of the request** (the user's message, or the `format` / `style` spec).
+3. Otherwise, **default to `en`**.
 
-出力は独立した 2 軸で決まる。
+Rules:
 
-| 軸 | 問い | 本質 |
+- **The three-column output** — Content / Format / Style — its headings, explanations, and the step trace (verification mode) are written in the resolved language.
+- **The merged English image prompt is always English**, in every language. Never translate it.
+- **Cards are read from the language mirror**: `lang=ja` → read `references/ja/…`, `lang=zh` → read `references/zh/…`, `lang=en` → read `references/…`. Card slugs (file names) are English in every language.
+
+## When to run
+
+- When a novel, article, poem, transcript, memo, paper, or any content should become an image prompt
+- When an output format (image board / storyboard / thumbnail / cover / illustration / comic / icon / infographic) or a style (watercolor / sketch / pixel / oil painting / POP …) is specified
+- When asked to "make an image board of this", "turn this into a picture", "make a picture of this", etc.
+- When a URL for a video (YouTube transcript) / GitHub repository / homepage should become an image prompt
+
+## Two orthogonal axes
+
+The output is decided by two independent axes.
+
+| Axis | Question | Essence |
 |---|---|---|
-| **圧縮**（フォーマット） | 何を見せるか | 本質をどう畳み込むか（全弧 → 一場面 → 一象徴） |
-| **様式**（スタイル） | どんな声で語るか | 視覚の語彙＋文法＋規範（水彩のにじみ、ピクセルのドット） |
+| **Compression** (format) | What to show | How the essence is folded (full arc → one scene → one symbol) |
+| **Style** (style) | In whose voice | Visual vocabulary + grammar + norms (watercolor's bloom, pixel's dots) |
 
-- **圧縮**は選定の戦略。同じ内容でも、圧縮が違えば全弧のストーリーボードと一象徴のサムネイルになる。
-- **様式**は差し替え可能な最外層。本質を変えず見た目だけ変える。様式は「声」——語彙＋文法＋規範。
+- **Compression is the strategy of selection.** The same content, compressed differently, becomes either a full-arc storyboard or a single-symbol thumbnail.
+- **Style is the replaceable outermost layer.** It changes the look without changing the essence. Style is a "voice" — vocabulary + grammar + norms.
 
-人間が指定するのは **目的／フォーマット（圧縮）** と **様式**（＋参考画像・参考例＝イメージ参照で具体化でき、登場人物＝キャラ参照で固定できる）。圧縮の操作（選定→翻訳→配置）は、内容＋目的からエンジンが導く。
+What a human specifies is **purpose / format (compression)** and **style** (plus reference images / examples = image reference to make it concrete, and characters = character reference to keep them fixed). The compression operations (select → translate → arrange) are derived by the engine from content + purpose.
 
-## 想定目的 → フォーマット → 粒度×時間
+## Assumed purpose → format → granularity × time
 
-出力の形は上流から順に決まる。指定や内容から**想定目的**（なぜ変換するか）をまず掴む。
+The shape of the output is decided from upstream down. First grasp the **assumed purpose** (why the transformation happens) from the spec or the content.
 
-| 対象 | 想定目的 | 意味 | 典型フォーマット |
+| Audience | Assumed purpose | Meaning | Typical format |
 |---|---|---|---|
-| 自分 | **理解** | 内容を把握する | 解説図 / インフォグラフィック |
-| 両方 | **再体験** | 作品を別の形で味わう | イメージボード / 漫画 |
-| 自分 | **記録** | 出来事・思考を残す | 漫画 |
-| 他人 | **伝達** | 内容を伝える | インフォグラフィック |
-| 他人 | **誘引** | 注意を引く | サムネイル / 表紙 |
-| 両方 | **装飾** | 文章を彩る | 挿絵 |
+| Self | **Understanding** | To grasp the content | Diagram / infographic |
+| Both | **Re-experience** | To savor the work in another form | Image board / comic |
+| Self | **Record** | To keep an event or thought | Comic |
+| Others | **Communication** | To convey the content | Infographic |
+| Others | **Attraction** | To catch attention | Thumbnail / cover |
+| Both | **Decoration** | To adorn a text | Illustration |
 
-想定目的がフォーマット（働き）を決め、フォーマットが粒度×時間（どれだけ圧縮するか）を決める。詳細は `references/types.md`。
+The assumed purpose decides the format (its function); the format decides granularity × time (how much to compress). Details in `references/types.md`.
 
-## 8 原理（変換フロー）
+## The 8 principles (transformation flow)
 
 ```
-入力 → ①理解 → ②選定 → ③翻訳 → ⑤構成 → ⑥スタイル → ⑦ネガティブ → プロンプト
-（④一貫性・⑧忠実性は工程でなく、全工程にまたがる制約）
+input → ①Understand → ②Select → ③Translate → ⑤Compose → ⑥Style → ⑦Negative → prompt
+（④Keep consistent · ⑧Stay faithful are not steps but constraints that span all steps）
 ```
 
-**① 理解** — 何が来たか掴む。入力の種別（小説／記事／詩／文字起こし／メモ／論文 …）と本質（主題・要素・感情の推移・転換点・結末・繰り返すモチーフ）を判定する。
+**① Understand** — Grasp what came in. Judge the input kind (novel / article / poem / transcript / memo / paper …) and its essence (theme, elements, the arc of emotion, turning points, the ending, recurring motifs).
 
-**② 選定** — すべてを描かない。**語る一点**（記憶に残る・本質的・象徴的な瞬間）を選ぶ。字義通りのクライマックスや「この文を絵に」の場面ではない。一点で全体を暗示する、予測を超えて必然（「おおっ」）の一点。→ `references/selection.md`
+**② Select** — Do not draw everything. Choose **the one point that speaks** (a memorable, essential, symbolic instant) — not the literal climax or "illustrate this sentence". A point that implies the whole from one point: beyond prediction yet inevitable (the "oh!"). → `references/selection.md`
 
-**③ 翻訳** — 抽象を可視化する。内心・感情・テーマを、顔・身体・距離・光・影・小道具・繰り返すモチーフ・構図・余白へ。説明せず、見る者に発見させる。→ `references/translation.md`
+**③ Translate** — Make the abstract visible. Turn inner states, emotions, and themes into faces, bodies, distance, light, shadow, props, recurring motifs, composition, negative space. Do not explain — let the viewer discover. → `references/translation.md`
 
-**④ 一貫性** — 一つの世界。キャラ（顔・髪・年齢・体格・服装）と環境（場所・天候・季節・時間・建築・照明）を連続させる。同じ映画の連続カット。別々のイラストの寄せ集めにしない。`characters`（キャラ参照）があれば、その固定を**全コマ・全パネルの錨**にし、複数枚でも同一人物がブレないようにする。
+**④ Keep consistent** — One world. Keep characters (face, hair, age, build, clothing) and environment (place, weather, season, time, architecture, lighting) continuous — consecutive cuts of the same film, not a collage of separate illustrations. If `characters` (character reference) is given, make that fix the **anchor of every panel**, so the same person never drifts across multiple images.
 
-**⑤ 構成** — 形式に応じた構造。フォーマット（ストーリーボード／イメージボード／サムネイル／表紙／挿絵）が、選定＋翻訳の結果をどう並べるかを決める。→ `references/arrangement.md`
+**⑤ Compose** — Structure per format. The format (storyboard / image board / thumbnail / cover / illustration) decides how the results of selection + translation are arranged. → `references/arrangement.md`
 
-**⑥ スタイル** — 差し替え可能な層。様式の語彙を内容に適用。独立に合成（片軸だけ差し替え可能）。汎用タグの羅列（flat planes、wood grain…）でなく、その様式に固有の語彙を選ぶ（辞書は `references/types.md`）。
+**⑥ Style** — The replaceable layer. Apply the style's vocabulary to the content. Compose independently (only one axis can be swapped). Not a list of generic tags (flat planes, wood grain …), but vocabulary specific to that style (the dictionary is `references/types.md`).
 
-**⑦ ネガティブ** — 排除を明示。現れてはならないもの（フォトリアル／デジタルポリッシュ／文字／過剰なディテール）を、様式の自然な否定対として**明示の排除句**（`not photorealistic, no 3D render, no digital gradient`）で必ず書く。暗示に留めない。
+**⑦ Negative** — Make exclusions explicit. Write what must not appear (photorealistic / digital polish / text / excessive detail) as the style's natural negation, always as **explicit exclusion phrases** (`not photorealistic, no 3D render, no digital gradient`). Never leave it implicit.
 
-**⑧ 忠実性** — 原作を変えない。感情のトーンは入力から（ハッピー／悲劇／ホラーを強制しない）。原作に無い出来事・キャラ同一性・関係・結末を変えない。
+**⑧ Stay faithful** — Do not change the original. The emotional tone comes from the input (don't force happy / tragic / horror). Do not change events, character identity, relationships, or endings absent from the original.
 
-## 質の核心：固有 × 間接
+## The core of quality: particular × indirect
 
-圧縮の 3 工程（選定・翻訳・配置）は、一つの動きの三面：**固有のものを、間接的に示す**。
+The three compression steps (select, translate, arrange) are three faces of one motion: **show the particular, indirectly**.
 
-| 軸 | 問い | 凡庸 ↔ 固有 |
+| Axis | Question | Mediocre ↔ Particular |
 |---|---|---|
-| **固有性** | *どの*具体か | 一般（雨・ハート・飛ぶ鳥）↔ この物語だけ（固有の小道具・身振り） |
-| **間接性** | *どう*見せるか | 直接（泣き顔・図解）↔ 間接（痕跡・原因・不在） |
+| **Particularity** | *which* concrete | General (rain, hearts, flying birds) ↔ This story alone (its own props, gestures) |
+| **Indirectness** | *how* to show | Direct (a crying face, a diagram) ↔ Indirect (traces, causes, absence) |
 
-- **固有性**は物語の**真実**——一般の記号は借用で、この物語に嘘をつく。
-- **間接性**は読み返しを見る者に**委ねる**（発見）——直接は答えを押し付け、余地を奪う。
+- **Particularity is the story's truth** — a general symbol is borrowed, and it lies about this story.
+- **Indirectness entrusts the re-reading to the viewer** (discovery) — directness forces the answer and takes away the room.
 
-**翻訳＝真実を、委ねて示す。**
+**Translation = show the truth, entrusted.**
 
-圧縮は往復の半分。エンジンは抽象 → 具象（圧縮）、見る者は具象 → 抽象（展開）。意味は具象に在るのではなく、見る者が読み返して初めて立ち上がる。**圧縮の質は、見る者の展開がどれだけ本質を回復できるかで決まる。隙間を残せ。**
+Compression is half of the round trip. The engine goes abstract → concrete (compression); the viewer goes concrete → abstract (expansion). Meaning does not reside in the concrete; it stands up only when the viewer re-reads it. **The quality of compression is decided by how much of the essence the viewer's expansion can recover. Leave gaps.**
 
-## 手順
+## Procedure
 
-1. **内容を受け取る** — VSCode 選択（または args の `content`）。`url` が来たら `python3 scripts/fetch.py <url>` を実行し、その出力（YouTube 文字起こし／GitHub README／ホームページ本文）を内容スロットに充てる。その言語で読む。
-2. **指定を受け取る** — `format`（何を作るか）と `style`（どんな様式で）を、別々に、または自然言語一括で。**名前が `references/styles/`・`references/formats/` のカードに一致すれば、その定義を展開して適用**（一覧は `references/registry.md`）。片方だけなら他方は内容から推測。`reference`（参考画像のパス、または参考にする例・既存出力）があれば、様式・フォーマットの「こういう感じ」をそこから読み取る——参考は指定の具体化に使う（内容の本質はあくまで入力の文章から）。`characters`（キャラ参照）があれば、登場人物（名前＝顔・髪・年齢・体格・服装）を固定し、④一貫性の錨として全コマ・全パネルで同一人物を保つ。複数のカードが当てはまる（あいまい）場合は、**2–3 案を短い理由つきで提示して選ばせる**。
-3. **想定目的を掴む** — なぜ変換するか（理解/伝達/誘引/再体験/記録/装飾）→ フォーマット → 粒度×時間。
-4. **① 理解** — 種別＋本質。
-5. **② 選定** — 語る一点。失敗モードを避ける。
-6. **③ 翻訳** — 一点を固有×間接の視覚へ。
-7. **⑤ 構成** — 形式に応じて並べる。
-8. **⑥ スタイル** — 様式の語彙を適用。
-9. **⑦ ネガティブ** — 排除を明示。
-10. **出力** — 英語の画像プロンプト（検証モードでは工程トレースも）。
+1. **Receive the content** — the VSCode selection (or the `content` argument). If `url` is given, run `python3 scripts/fetch.py <url>` and put its output (YouTube transcript / GitHub README / homepage body) into the content slot. Read it in its own language.
+2. **Receive the spec** — `format` (what to make) and `style` (in what style), separately or in one natural-language request. **If the name matches a card in `references/styles/` or `references/formats/`, expand and apply its definition** (the list is `references/registry.md`). If only one is given, infer the other from the content. If `reference` (a reference image path, or an example / existing output to use as a reference) is given, read the "this kind of feel" of the style and format from it — the reference concretizes the spec (the essence of the content still comes only from the input text). If `characters` (character reference) is given, fix the characters (name = face · hair · age · build · clothing) and keep the same people across every panel as the anchor of ④Keep consistent. If several cards fit (ambiguous), **present 2–3 options with brief reasons and let the user choose**.
+3. **Grasp the assumed purpose** — why the transformation happens (understanding / communication / attraction / re-experience / record / decoration) → format → granularity × time.
+4. **① Understand** — kind + essence.
+5. **② Select** — the one point that speaks. Avoid the failure modes.
+6. **③ Translate** — into particular × indirect visuals.
+7. **⑤ Compose** — arrange per the format.
+8. **⑥ Style** — apply the style's vocabulary.
+9. **⑦ Negative** — make exclusions explicit.
+10. **Output** — the English image prompt (in verification mode, also the step trace).
 
-通して：④一つの世界、⑧原作を変えない。
+Throughout: ④ one world, ⑧ never change the original.
 
-## レジストリ（フォーマット・様式の使い回し）
+## Registry (reusing formats and styles)
 
-使えると判断した（検証で通った）フォーマット・様式は、**名前付きカード**として `references/styles/`・`references/formats/` に登録し（1 ファイル＝1 カード、一覧は `references/registry.md`）、以降は**名前で使い回す**。カードは**薄い索引でなく、リッチテンプレ**（穴あき変数＋忠実性アンカー＋do/avoid＋テンプレ＋ネガティブ＋例）。骨格は `references/card-schema.md`。
+Formats and styles judged usable (passed verification) are registered as **named cards** in `references/styles/` and `references/formats/` (1 file = 1 card; the list is `references/registry.md`) and thereafter reused **by name**. Cards are not thin indexes but **rich templates** (slotted variables + fidelity anchors + do/avoid + template + negative + examples). The skeleton is `references/card-schema.md`.
 
-| カード | 例 | 持つもの |
+| Card | Example | Holds |
 |---|---|---|
-| フォーマットカード | 漫画／表紙／ポスター／ストーリーボード | 粒度×時間×目的×サイズ・比率、構成文法、環境変数、do/avoid、テンプレ |
-| 様式カード | 木版／水彩／油絵 | メディウム×系譜×時代、環境変数、忠実性アンカー、視覚の分解（構成/タイポ/色彩/質感）、do/avoid、ネガティブ、テンプレ、例 |
+| Format card | comic / cover / poster / storyboard | granularity × time × purpose × size & aspect, composition grammar, env vars, do/avoid, template |
+| Style card | woodblock / watercolor / oil painting | medium × lineage × era, env vars, fidelity anchors, visual decomposition (composition/typography/color/texture), do/avoid, negative, template, examples |
 
-- `format: 漫画` ／ `style: 木版` と**名前で指定**すれば、そのカードの**テンプレに穴を埋めて**再利用（ゼロから生成しない）。
-- 未登録の名前ならその場で生成し、検証で「使える」と判断されたら**登録を提案**（登録はユーザー承認で）。
-- カードは精錬され続ける（同じ様式でより良い語彙が見つかれば更新）。
+- Specify **by name** (`format: comic` / `style: woodblock`) and reuse by **filling the card's template** (never generate from zero).
+- An unregistered name is generated on the spot; if verification judges it usable, **propose registering it** (registration requires the user's approval).
+- Cards keep being refined (if better vocabulary for the same style is found, update).
 
-## 失敗モード（避けるもの）
+## Failure modes (what to avoid)
 
-| 工程 | 凡庸（避ける） | 固有（狙う） |
+| Step | Mediocre (avoid) | Particular (aim for) |
 |---|---|---|
-| ② 選定 | クライマックス、説明の場面、全要素の要約・過密 | 転換点、余韻、日常の裂け目。要素は最小（焦点 1 つ＋支え） |
-| ③ 翻訳 | 紋切型（悲しみ→雨、愛→ハート、自由→鳥、希望→光、死→枯れ花）、感情の照明（夕焼け→終焉、雨→悲しみ、月光→孤独） | この物語だけの小道具・身振り。固有要素は mood でなく証拠として描く |
-| ⑤ 構成 | 中央対称、詰め込み（過密）、無関係な並び | 階層（一点を立てる）、余白（発見を残す）。主役 1 つ、残りは削る |
+| ② Select | The climax, an explanatory scene, a summary or overcrowding of all elements | A turning point, an afterglow, a fissure in the everyday. Minimal elements (one focal point + its support) |
+| ③ Translate | Clichés (sadness→rain, love→heart, freedom→bird, hope→light, death→wilted flower), emotional lighting (sunset→ending, rain→sadness, moonlight→loneliness) | Props and gestures that belong to this story only. Draw particular elements as evidence, not mood |
+| ⑤ Compose | Centered symmetry, cramming (overcrowding), unrelated alignments | Hierarchy (raise one point), negative space (leave discovery). One protagonist; cut the rest |
 
-## モード
+## Modes
 
-| モード | 出力 | 指定 |
+| Mode | Output | Spec |
 |---|---|---|
-| **通常**（既定） | 3 欄のプロンプト（＋合成プロンプト）のみ | 指定なし |
-| **検証**（trace） | 各工程のトレース（①理解〜⑧忠実性の中間出力）＋プロンプト | `trace: true` または spec に「検証モード／各工程も／--trace」 |
+| **Normal** (default) | The 3-column prompt (+ merged prompt) only | none |
+| **Verification** (trace) | A trace of each step (the intermediate output of ①Understand–⑧Stay faithful) + the prompt | `trace: true`, or the spec says "verification mode / each step too / --trace" |
 
-検証モードは、各工程が機能したかを独立に検証する計測出力（`examples/` の `steps/` がその例）。通常出力には混ぜない。
+Verification mode is measurement output for independently checking whether each step worked (`examples/` `steps/` are an example). Never mix it into normal output.
 
-## 出力
+## Output
 
-**英語の画像プロンプトを 3 欄に分けて出力せよ**——内容／フォーマット／様式。3 欄は独立に差し替え可能（2 軸直交）。
+**Output the English image prompt in three columns** — Content / Format / Style. The three columns are independently replaceable (two orthogonal axes).
 
-1. **内容** — 選定＋翻訳の結果（何を見せるか）。固有 × 間接の視覚。要素は最小（焦点 1 つ＋最小限の支え、残りは余白）。
-2. **フォーマット** — 圧縮の仕方（粒度 × 時間 × 構成 × サイズ・比率）。枚数（一枚／複数枚）、パネル、構図、サイズ・比率（例：サムネイル＝横 16:9、表紙＝縦・書籍比、アイコン＝正方形）。
-3. **様式** — 視覚の語彙（どんな声で）。メディウム・系譜・時代。
+1. **Content** — the result of selection + translation (what to show). Particular × indirect visuals. Minimal elements (one focal point + minimal support; the rest is negative space).
+2. **Format** — how it is compressed (granularity × time × composition × size & aspect). Number of images (one / several), panels, composition, size & aspect (e.g., thumbnail = landscape 16:9, cover = portrait / book ratio, icon = square).
+3. **Style** — the visual vocabulary (in whose voice). Medium, lineage, era.
 
-末尾に、3 欄を合成した 1 本の英語プロンプト（SD/MJ 貼り付け用）を付す。指示がなければ注釈・説明・日本語は付けない（画像プロンプト自体は英語）。
+At the end, append **one merged English prompt** combining the three columns (for pasting into SD/MJ). Unless asked, add no annotations, explanations, or non-English text (the image prompt itself is English).

@@ -1,37 +1,41 @@
-# フラットコミック（flat-comic・極太ライン）
+<!-- i18n-version: 1.0.0 | canonical: references/styles/flat-comic.md | translated: 2026-08-22 -->
 
-- **メディウム**: デジタル ／ **系譜**: コミック ／ **時代**: 現代
-- **要約**: 極太の黒主線と 2〜4 色のフラットカラーが、親しみあるぎこちなさを作る。
+**Language:** [English](flat-comic.md) | [日本語](../ja/styles/flat-comic.md) | [中文](../zh/styles/flat-comic.md)
 
-## 環境変数
-`SUBJECT`、`ACTION`、`LOCATION`、`ACCENT`、`ASPECT`
+# Flat comic（flat-comic）
 
-## 忠実性アンカー
-- ミニマルなフラットカラーのコミック
-- 黒の極太主線（細い・繊細・薄い線なし）
-- 均一でクリーンな手描き風
-- 基本図形への単純化
-- 点の目・単純な鼻・小さな口
-- 2〜4 色のソリッドなフラットカラー、背景は白または無地で大きく残す
-- わずかにぎこちない親しみあるプロポーション
+- **Medium**: Digital ／ **Lineage**: Comic ／ **Era**: Contemporary
+- **Summary**: Ultra-thick black main lines and 2–4 flat colors make an endearing awkwardness.
 
-## 視覚の分解
-- **構成**: 主役を中央に、背景は白で大きく残す
-- **タイポ**: 文字なし（必要なら手書き）
-- **色彩**: 2〜4 色のソリッドなフラットカラー
-- **質感・照明**: 平坦、影なし、均一
+## Environment variables
+`SUBJECT`, `ACTION`, `LOCATION`, `ACCENT`, `ASPECT`
+
+## Fidelity anchors
+- A minimal flat-color comic
+- Thick black main lines only (no thin, delicate or faint lines)
+- Uniform, clean hand-drawn feel
+- Simplification into basic shapes
+- Dot eyes, simple nose, small mouth
+- 2–4 solid flat colors, a large white or plain background
+- Slightly awkward, endearing proportions
+
+## Visual decomposition
+- **Composition**: Subject at center, a large white background
+- **Typography**: No text (handwritten if necessary)
+- **Color**: 2–4 solid flat colors
+- **Texture & light**: Flat, no shadows, uniform
 
 ## do
-- 極太の黒主線、基本図形へ単純化
-- 背景は白で大きく残す
+- Ultra-thick black main lines, simplify into basic shapes
+- Leave the background largely white
 
 ## avoid
-- 陰影・グラデーション・写実的な質感・写真・文字
+- Shading, gradients, realistic texture, photography, text
 
-## ネガティブ
+## Negative
 `no shading, no gradient, no realistic texture, no photo, no text`
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template (English, fill-in-the-blank)
 ```text
 A minimal flat-color comic illustration of {SUBJECT} {ACTION} in {LOCATION}, with {ACCENT}.
 Bold black outlines only, no thin or fine lines, simple geometric forms,
@@ -39,8 +43,8 @@ dot eyes, simple nose, small mouth, 2-4 solid flat colors,
 large white background, slightly awkward friendly proportions.
 ```
 
-## 例
+## Examples
 - —
 
-## 出所
-Desktop 種「POPスタイル.txt」
+## Sources
+Desktop seed "POPスタイル.txt"

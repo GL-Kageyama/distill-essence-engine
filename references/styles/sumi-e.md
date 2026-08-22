@@ -1,43 +1,47 @@
-# 水墨画（sumi-e）
+<!-- i18n-version: 1.0.0 | canonical: references/styles/sumi-e.md | translated: 2026-08-22 -->
 
-- **メディウム**: 手描き ／ **系譜**: 水墨 ／ **時代**: 東アジア古典
-- **要約**: 墨の濃淡と一筆の省略が、余白に呼吸を残す。
+**Language:** [English](sumi-e.md) | [日本語](../ja/styles/sumi-e.md) | [中文](../zh/styles/sumi-e.md)
 
-## 環境変数
-`SUBJECT`、`ACTION`、`LOCATION`、`ACCENT`、`ASPECT`
+# Sumi-e ink wash（sumi-e）
 
-## 忠実性アンカー
-- 墨の濃淡（五色の墨）
-- 掠れ（dry brush）
-- にじみ
-- 余白（negative space）を大胆に残す
-- 一筆の省略、和紙の質感、濃墨の点
+- **Medium**: Hand-drawn ／ **Lineage**: Ink wash ／ **Era**: East Asian classical
+- **Summary**: The gradations of ink and the economy of a single stroke leave breath in the negative space.
 
-## 視覚の分解
-- **構成**: 大胆な余白、一筆の省略
-- **タイポ**: 墨の落款（必要時）
-- **色彩**: モノクロ（墨の濃淡）
-- **質感・照明**: 和紙の質感、にじみ、掠れ
+## Environment variables
+`SUBJECT`, `ACTION`, `LOCATION`, `ACCENT`, `ASPECT`
+
+## Fidelity anchors
+- Gradations of ink (the five inks)
+- Dry brush
+- Bleeding
+- Negative space boldly reserved
+- Single-stroke economy, washi texture, dark ink dots
+
+## Visual decomposition
+- **Composition**: Bold negative space, single-stroke economy
+- **Typography**: An ink seal (signature) when needed
+- **Color**: Monochrome (gradations of ink)
+- **Texture & light**: Washi texture, bleeding, dry brush
 
 ## do
-- 余白を大胆に、一筆の省略
-- 濃淡とにじみ・掠れを活かす
+- Be bold with negative space, single-stroke economy
+- Lean into gradation, bleeding and dry brush
 
 ## avoid
-- 色、写真の写実、硬い輪郭
+- Color, photographic realism, hard contours
 
-## ネガティブ
+## Negative
 `no color, no photorealistic, no hard outline`
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template (English, fill-in-the-blank)
 ```text
 A sumi-e ink painting of {SUBJECT} {ACTION} in {LOCATION}. Graded black ink (the five inks),
 dry-brush strokes, bleeding, boldly reserved negative space, single-stroke economy,
 washi paper grain, dark ink dots.
 ```
 
-## 例
+## Examples
 - —
 
-## 出所
-ネット調査（事前拡充・未検証）
+## Sources
+Online research (pre-expanded, unverified)

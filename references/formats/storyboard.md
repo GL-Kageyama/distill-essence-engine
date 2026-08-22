@@ -1,25 +1,29 @@
-# ストーリーボード（storyboard）
+<!-- i18n-version: 1.0.0 | canonical: references/formats/storyboard.md | translated: 2026-08-22 -->
 
-- **目的**: 叙述（伝達・検討） ／ **粒度×時間**: 全弧×展開 ／ **サイズ・比率**: 映画比 16:9・複数コマ
-- **要約**: コマ数とショット種別を明示し、カメラ語で全コマを一貫させる。
+**Language:** [English](storyboard.md) | [日本語](../ja/formats/storyboard.md) | [中文](../zh/formats/storyboard.md)
 
-## 環境変数
-`SUBJECT`＝物語、`N`＝コマ数（3×3 等）、`SHOT`＝ショット種別
+# Storyboard（storyboard）
 
-## 構成文法
-コマ数を明示（3×3／6 コマ等）、各コマにビートとショット種別（WIDE／OTS／CU／ローアングル）、左→右の進行、全コマで同一キャラ・衣装・照明を保持、カメラ語をコマごとに。**各カットは前のビートの結果（因果の連鎖）で接続する**
+- **Purpose**: Narration (communication / deliberation) ／ **Granularity×time**: whole arc × unfolding ／ **Size & aspect**: cinematic 16:9, multiple panels
+- **Summary**: Panel count and shot types made explicit; all panels kept consistent in camera language.
+
+## Environment variables
+`SUBJECT`＝the story, `N`＝number of panels (e.g., 3×3), `SHOT`＝shot type
+
+## Composition grammar
+Panel count made explicit (3×3 / 6 panels, etc.); each panel labeled with its beat and shot type (WIDE ／ OTS ／ CU ／ low angle); left-to-right progression; the same character, costume and lighting across all panels; camera language per panel. **Each cut connects as the consequence of the previous beat (a chain of causality)**
 
 ## do
-- コマ数とショット種別を明示
-- 左→右の進行
-- キャラ・衣装・照明を全コマで保持
-- **コマを因果で接続（後続コマが先行の結果になる）**
+- Make the panel count and shot types explicit
+- Progress left to right
+- Keep character, costume and lighting across all panels
+- **Connect panels by causality (each later panel is the consequence of the earlier one)**
 
 ## avoid
-- コマごとの一貫性のブレ、ショット種別の省略
-- **無関係なショットの並び（因果のないカット）**
+- Panel-to-panel consistency drift, omitting shot types
+- **An unrelated sequence of shots (cuts without causality)**
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A storyboard of {SUBJECT} in {N} panels (16:9). Each panel labeled with beat and shot type
 ({SHOT}: WIDE / OTS / CU / low angle), left-to-right progression, each cut the consequence of
@@ -27,8 +31,8 @@ the previous beat, same character, costume and lighting across all panels, camer
 per panel.
 ```
 
-## 例
+## Examples
 - —
 
-## 出所
-ネット調査（GPT-Image2-Skill ほか・事前拡充 → 0.1.13 検証済み）
+## Sources
+Web research (GPT-Image2-Skill and others, pre-expanded → verified in 0.1.13)

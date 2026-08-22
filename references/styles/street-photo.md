@@ -1,43 +1,47 @@
-# ストリートフォト（street-photo・フィルム）
+<!-- i18n-version: 1.0.0 | canonical: references/styles/street-photo.md | translated: 2026-08-22 -->
 
-- **メディウム**: 写真・記録 ／ **系譜**: スナップ／ドキュメンタリー ／ **時代**: Y2K（2000 年代）
-- **要約**: 不完全な焦点と色あせたフィルムが、撮影の瞬間を記録のまま残す。
+**Language:** [English](street-photo.md) | [日本語](../ja/styles/street-photo.md) | [中文](../zh/styles/street-photo.md)
 
-## 環境変数
-`SUBJECT`、`ACTION`、`SCENE`＝街の場、`LIGHT`＝光、`ASPECT`
+# Street photography（street-photo）
 
-## 忠実性アンカー
-- handheld snapshot の不完全な焦点・構図
-- 浅い被写界深度、動きのモーションブラー
-- フィルム粒子、色あせた Kodak Portra / Fuji Superia のトーン
-- にじむハイライト、コンパクトカメラのフラッシュ
-- 35mm／使い捨てカメラ、自然な肌の質感、低コントラスト
+- **Medium**: Photograph / documentary ／ **Lineage**: Snap / documentary ／ **Era**: Y2K (2000s)
+- **Summary**: Imperfect focus and faded film keep the moment of capture as a record.
 
-## 視覚の分解
-- **構成**: 偶発的な構図（切り取り・傾き）、被写体を中央に置かない
-- **タイポ**: 文字なし
-- **色彩**: 色あせた低彩度、低コントラスト、フィルムの色かぶり
-- **質感・照明**: フィルム粒子、自然光、フラッシュのハイライト
+## Environment variables
+`SUBJECT`, `ACTION`, `SCENE`＝street scene, `LIGHT`＝light, `ASPECT`
+
+## Fidelity anchors
+- The imperfect focus and framing of a handheld snapshot
+- Shallow depth of field, motion blur of movement
+- Film grain, faded Kodak Portra / Fuji Superia tones
+- Blown highlights, compact-camera flash
+- 35mm / disposable camera, natural skin texture, low contrast
+
+## Visual decomposition
+- **Composition**: Accidental framing (cropping, tilt), subject off-center
+- **Typography**: No text
+- **Color**: Faded low saturation, low contrast, film color cast
+- **Texture & light**: Film grain, natural light, flash highlights
 
 ## do
-- 偶発的な瞬間を、記録のまま撮る
-- フィルム粒子と色あせを残す
+- Capture the accidental moment as a record
+- Keep the film grain and fading
 
 ## avoid
-- スタジオ照明、完璧な焦点、滑らかな CGI、デジタルの磨き
+- Studio lighting, perfect focus, smooth CGI, digital polish
 
-## ネガティブ
+## Negative
 `not studio lighting, no perfect focus, no smooth CGI, no digital polish`
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template (English, fill-in-the-blank)
 ```text
 An imperfect handheld snapshot of {SUBJECT} {ACTION} in {SCENE}, under {LIGHT}.
 Shallow depth of field, slight motion blur, film grain, faded Kodak Portra / Fuji Superia tones,
 blown highlights and on-camera flash, 35mm disposable camera look, natural skin, low contrast.
 ```
 
-## 例
+## Examples
 - —
 
-## 出所
-Desktop 種「ストリートフォト.txt」
+## Sources
+Desktop seed "ストリートフォト.txt"

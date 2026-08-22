@@ -1,38 +1,42 @@
-# パステル（pastel）
+<!-- i18n-version: 1.0.0 | canonical: references/styles/pastel.md | translated: 2026-08-22 -->
 
-- **メディウム**: 手描き ／ **系譜**: パステル画 ／ **時代**: —
-- **要約**: チョークの粉っぽさとにじむ縁が、光を吸う柔らかな色を残す。
+**Language:** [English](pastel.md) | [日本語](../ja/styles/pastel.md) | [中文](../zh/styles/pastel.md)
 
-## 環境変数
-`SUBJECT`、`ACTION`、`LOCATION`、`ACCENT`、`ASPECT`
+# Pastel（pastel）
 
-## 忠実性アンカー
-- チョークの粉っぽさ
-- にじむ縁
-- 紙の目に残る顔料
-- 柔らかな色の重ね
-- 光を吸うマットな面、ぼかした輪郭
-- **固有小道具は形として残す**（軟らかさは背景・余白に、主役はやや硬めのキーで）
+- **Medium**: Hand-drawn ／ **Lineage**: Pastel painting ／ **Era**: —
+- **Summary**: Chalky powder and bleeding edges leave soft colors that absorb light.
 
-## 視覚の分解
-- **構成**: 柔らかな色面、ぼかした輪郭
-- **タイポ**: 文字なし
-- **色彩**: 柔らかなパステル、色の重ね
-- **質感・照明**: 粉っぽいマット、紙の目、柔らかな光
+## Environment variables
+`SUBJECT`, `ACTION`, `LOCATION`, `ACCENT`, `ASPECT`
+
+## Fidelity anchors
+- Chalky pigment
+- Bleeding edges
+- Pigment resting in the paper grain
+- Gentle layered color
+- Matte light-absorbing surface, smudged outlines
+- **Keep the particular props as shapes** (softness goes to the background and negative space; key the subject slightly harder)
+
+## Visual decomposition
+- **Composition**: soft color planes, smudged outlines
+- **Typography**: no text
+- **Color**: soft pastel, layered color
+- **Texture & lighting**: chalky matte, paper grain, soft light
 
 ## do
-- 粉っぽさとにじみ、柔らかな重ね
-- マットな面
-- **主役の固有小道具を先に形として置き、甘美さは背景色に留める**
+- Chalkiness, blur, gentle layering
+- Matte surface
+- **Place the subject's particular props as shapes first, and keep the sweetness in the background color**
 
 ## avoid
-- 硬い輪郭、写真の写実、光沢
-- **全体がぼやける、固有小道具の消失**
+- Hard outlines, photorealism, gloss
+- **Everything blurring, the particular props disappearing**
 
-## ネガティブ
+## Negative
 `no hard outline, no photorealistic, no glossy, no blur over the essential props`
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A pastel drawing of {SUBJECT} {ACTION} in {LOCATION}. The essential props kept as defined
 shapes in a slightly firmer key, softness confined to the surrounding color, chalky pigment,
@@ -40,8 +44,8 @@ blurred edges, pigment resting in the paper grain, gentle layered color, matte l
 surface.
 ```
 
-## 例
+## Examples
 - —
 
-## 出所
-ネット調査（事前拡充 → 0.1.13 検証済み）
+## Sources
+Web research (pre-expanded, verified in 0.1.13)

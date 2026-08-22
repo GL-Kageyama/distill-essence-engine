@@ -1,6 +1,10 @@
-# docs — ドキュメント
+<!-- i18n-version: 1.0.0 | canonical: docs/index.md | translated: 2026-08-22 -->
 
-> distill-essence-engine の補助文書。原理の深化は `references/`、開発履歴は `HISTORY.md`、現行機能は `README.md`。ここは運用・調査の文書。
+**Language:** [English](index.md) | [日本語](ja/index.md) | [中文](zh/index.md)
 
-- **usage.md** — 使い方（起動・入力・指定・url・出力）
-- **sources.md** — ネット調査の出所（プロンプト語彙の出典）
+# docs — Documentation
+
+> Supplementary documents for distill-essence-engine. The deepening of the principles lives in `references/`, the development history in `HISTORY.md`, current features in `README.md`. Here are the operational and research documents.
+
+- **usage.md** — How to use it (invocation, input, spec, url, output)
+- **sources.md** — Sources of the online research (the provenance of the prompt vocabulary)

@@ -1,29 +1,33 @@
-# インフォグラフィック（infographic）
+<!-- i18n-version: 1.0.0 | canonical: references/formats/infographic.md | translated: 2026-08-22 -->
 
-- **目的**: 説明（伝達） ／ **粒度×時間**: 全弧×畳み込み ／ **サイズ・比率**: 縦長
-- **要約**: 情報を上から下へ階層で並べ、最小の元素で伝える。
+**Language:** [English](infographic.md) | [日本語](../ja/formats/infographic.md) | [中文](../zh/formats/infographic.md)
 
-## 環境変数
-`SUBJECT`＝主題、`BLOCKS`＝情報ブロック列、`DATA`＝数値・ファクト
+# Infographic（infographic）
 
-## 構成文法
-階層的な情報の並び、上から下への視覚的誘導、元素最小限
+- **Purpose**: Explanation (communication) ／ **Granularity×time**: whole arc × convolution ／ **Size & aspect**: vertical
+- **Summary**: Information arranged hierarchically from top to bottom, conveyed with the fewest elements.
+
+## Environment variables
+`SUBJECT`＝the topic, `BLOCKS`＝the sequence of information blocks, `DATA`＝figures and facts
+
+## Composition grammar
+A hierarchical arrangement of information, visual guidance from top to bottom, minimal elements
 
 ## do
-- 上から下へ、階層を明確に
-- 元素を最小限に
+- From top to bottom, with a clear hierarchy
+- Keep the elements minimal
 
 ## avoid
-- 要素過多、装飾
+- Too many elements, decoration
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A vertical infographic about {SUBJECT}. Hierarchical information flow from top to bottom,
 blocks of {BLOCKS}, key figures {DATA}, minimal elements, clear visual guidance.
 ```
 
-## 例
-- 記事 → インフォ（article-infographic ／ attention-infographic）
+## Examples
+- Article → Infographic (article-infographic ／ attention-infographic)
 
-## 出所
+## Sources
 attention-infographic / article-infographic

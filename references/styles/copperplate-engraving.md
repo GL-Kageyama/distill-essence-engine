@@ -1,44 +1,48 @@
-# 銅版画（copperplate-engraving）
+<!-- i18n-version: 1.0.0 | canonical: references/styles/copperplate-engraving.md | translated: 2026-08-22 -->
 
-- **メディウム**: 版画・印刷 ／ **系譜**: エングレーヴィング／エッチング ／ **時代**: ルネサンス〜19 世紀
-- **要約**: 極細の平行線が、モノクロの陰を線の密度だけで刻む。
+**Language:** [English](copperplate-engraving.md) | [日本語](../ja/styles/copperplate-engraving.md) | [中文](../zh/styles/copperplate-engraving.md)
 
-## 環境変数
-`SUBJECT`、`ACTION`、`LOCATION`、`ACCENT`、`ASPECT`
+# Copperplate engraving（copperplate-engraving）
 
-## 忠実性アンカー
-- 平行線のクロスハッチング
-- 極細の刻線
-- モノクロ
-- 古紙の質感
-- 薬品で腐食した凹線の柔らかさ
-- 余白に残る版の圧痕
+- **Medium**: Printmaking ／ **Lineage**: Engraving / etching ／ **Era**: Renaissance–19th century
+- **Summary**: Extremely fine parallel lines carve monochrome shadow using only line density.
 
-## 視覚の分解
-- **構成**: ハッチングで陰を密度に、余白に圧痕
-- **タイポ**: 古い版の銘字（必要時）
-- **色彩**: モノクロ（黒インク）
-- **質感・照明**: 古紙の質感、凹線、版の圧痕
+## Environment variables
+`SUBJECT`, `ACTION`, `LOCATION`, `ACCENT`, `ASPECT`
+
+## Fidelity anchors
+- Parallel cross-hatching
+- Extremely fine incised lines
+- Monochrome
+- Aged-paper texture
+- The softness of acid-etched intaglio lines
+- A faint plate impression left in the margins
+
+## Visual decomposition
+- **Composition**: shadow carried by hatching density, plate impression in the negative space
+- **Typography**: old plate lettering (when needed)
+- **Color**: monochrome (black ink)
+- **Texture & lighting**: aged-paper texture, incised lines, plate impression
 
 ## do
-- 平行線のハッチングで陰を
-- 古紙と圧痕を残す
+- Shade with parallel hatching
+- Keep the aged paper and the plate impression
 
 ## avoid
-- 色、写真の写実、デジタルのグラデーション
+- Color, photorealism, digital gradients
 
-## ネガティブ
+## Negative
 `no color, no photorealistic, no digital gradient`
 
-## プロンプトテンプレ（英語・穴あき）
+## Prompt template
 ```text
 A copperplate engraving of {SUBJECT} {ACTION} in {LOCATION}, with {ACCENT}.
 Parallel cross-hatching, extremely fine incised lines, monochrome black ink on aged paper,
 soft acid-etched intaglio lines, faint plate impression in the margins.
 ```
 
-## 例
+## Examples
 - —
 
-## 出所
-ネット調査（Midjourney "vintage engraving" 系・事前拡充・未検証）
+## Sources
+Web research (Midjourney "vintage engraving" family, pre-expanded, unverified)
