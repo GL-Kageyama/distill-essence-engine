@@ -19,7 +19,7 @@
 
 ## Visual decomposition
 - **Composition**: one clear focal object centered; supports (rack, beaker) stay minimal and recede
-- **Typography**: no lettering; only small single symbols (a question mark, an exclamation mark) allowed, drawn in the same line style
+- **Typography**: no lettering; at most one small single symbol drawn in the same line style (e.g., a question mark or an exclamation mark) — optional, never a requirement
 - **Color**: pale pastel base, one saturated gold accent
 - **Texture & lighting**: flat, papery, minimal shadow, dry calm
 
@@ -27,7 +27,7 @@
 - Keep the thin precise line the lead; fill color in flat pastel planes
 - Keep cuteness restrained — **the round subject stays subordinated to the line language** (large but unglossy eyes, not glossy charm)
 - **Give the focal transition a causal mechanism**: when a state changes (e.g., observation bleeds gray into gold), draw it as a rough, fibrous, stepwise front advancing from a point — causality, not a smooth gradient fill
-- Bind any symbol into the meaning-system: the unresolved state carries one symbol (e.g., pale-gray "?"), the resolved state the other (e.g., warm-gold "!")
+- If a symbol is used, bind it into the meaning-system — it participates in the state change, never floats as decoration. (ai-schrodinger-cat used one such polarity: a pale-gray "?" for the unresolved state, a warm-gold "!" for the resolved.) Symbols are optional; the subject is complete without one
 
 ## avoid
 - Heavy shading, photorealistic rendering, 3D gloss, digital gradient
@@ -45,7 +45,8 @@ pale yellow, pale blue, off-white paper), flat color with only minimal shadow, c
 legible, the subject round and quiet with large flat unglossy eyes — drawn in the same
 restrained line language. {STATE-CHANGE} drawn as a rough, fibrous, stepwise front advancing
 from one point, causality not a smooth gradient. {SYMBOL} bound to the meaning-system, crisp
-and correct in the same thin line style. Quiet, not diagrammatic, not a meme.
+and correct in the same thin line style — optional; when no symbol carries meaning, drop the
+clause entirely. Quiet, not diagrammatic, not a meme.
 ```
 
 ## Examples

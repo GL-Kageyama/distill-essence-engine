@@ -19,7 +19,7 @@
 
 ## 視覚の分解
 - **構成**: 焦点の対象を中央にひとつ。支援（ラック・ビーカー）は最小限に控える
-- **タイポ**: 文字なし。単一の小さな記号（「？」「！」）のみ、同じ線言語で描く
+- **タイポ**: 文字なし。同じ線言語で描く小さな記号は高々ひとつまで（例：「？」「！」）——必須ではなく、あくまで任意
 - **色彩**: 淡いパステルを基調に、飽和した金色のアクセントひとつ
 - **質感・照明**: 平坦、紙のような、影最小、乾いた落ち着き
 
@@ -27,7 +27,7 @@
 - 細く正確な線を主役にし、色は淡いパステルの面で塗る
 - かわいさは抑える——**丸い主役は線言語に従属させる**（大きくても艶のない瞳。艶めかしい魅力にしない）
 - **状態変化に因果の機構を与える**：変化（例：観測で灰色が金色へ滲む）は、一点から外へ進む**粗い・繊維状・段階的な波面**として描く——滑らかなグラデーションでなく因果として
-- 記号は意味の体系に結びつける：未確定の状態は一方の記号（例：淡い灰色の「？」）、確定した状態は他方の記号（例：温かい金色の「！」）
+- 記号を使うなら意味の体系に結びつける——状態変化に参加させ、添えるだけの装飾にしない。（ai-schrodinger-cat ではこの対立の一例を使った：未確定＝淡い灰色の「？」、確定＝温かい金色の「！」）記号は任意であり、記号のない対象は記号なしで完成している
 
 ## avoid
 - 重い陰影、写真の写実、3D の光沢、デジタルのグラデーション
@@ -45,7 +45,8 @@ pale yellow, pale blue, off-white paper), flat color with only minimal shadow, c
 legible, the subject round and quiet with large flat unglossy eyes — drawn in the same
 restrained line language. {STATE-CHANGE} drawn as a rough, fibrous, stepwise front advancing
 from one point, causality not a smooth gradient. {SYMBOL} bound to the meaning-system, crisp
-and correct in the same thin line style. Quiet, not diagrammatic, not a meme.
+and correct in the same thin line style — optional; when no symbol carries meaning, drop the
+clause entirely. Quiet, not diagrammatic, not a meme.
 ```
 
 ## 例

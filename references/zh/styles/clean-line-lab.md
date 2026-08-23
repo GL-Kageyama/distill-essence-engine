@@ -19,7 +19,7 @@
 
 ## 视觉分解
 - **构成**: 焦点对象居中一个；支撑物（试管架、烧杯）克制地退后
-- **字体**: 无文字；只允许单一的小符号（「？」「！」），用同一种线条语言
+- **字体**: 无文字；至多一个小符号（例如「？」「！」），用同一种线条语言——非必须，纯属可选
 - **色彩**: 淡彩粉彩打底，一个饱和金色强调
 - **质感・光照**: 平坦、纸感、阴影极小、干燥的沉静
 
@@ -27,7 +27,7 @@
 - 让细而精确的线条当主角，颜色以淡彩粉彩平面涂布
 - 克制可爱——**圆润的主角从属于线条语言**（大而无光泽的眼睛，不搞油光魅力）
 - **给状态变化一个因果机制**：变化（例如观测让灰色渗成金色）要画成从一点向外推进的**粗糙、纤维状、阶梯状波前**——是因果，不是平滑渐变
-- 让符号参与意义体系：未确定的状态配一个符号（例如淡灰「？」），确定的状态配另一个（例如暖金「！」）
+- 若使用符号，就让它参与意义体系——参与状态变化，而不是浮作点缀。（ai-schrodinger-cat 用过这种对立的例子：未确定＝淡灰「？」、确定＝暖金「！」）符号可选，没有符号对象依然完整
 
 ## avoid
 - 重阴影、照片写实、3D 光泽、数字渐变
@@ -45,7 +45,8 @@ pale yellow, pale blue, off-white paper), flat color with only minimal shadow, c
 legible, the subject round and quiet with large flat unglossy eyes — drawn in the same
 restrained line language. {STATE-CHANGE} drawn as a rough, fibrous, stepwise front advancing
 from one point, causality not a smooth gradient. {SYMBOL} bound to the meaning-system, crisp
-and correct in the same thin line style. Quiet, not diagrammatic, not a meme.
+and correct in the same thin line style — optional; when no symbol carries meaning, drop the
+clause entirely. Quiet, not diagrammatic, not a meme.
 ```
 
 ## 示例
