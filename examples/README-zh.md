@@ -75,12 +75,13 @@
 | bocchan-gag-manga | 青空文库《哥儿》（实 URL） | 搞笑漫画 | 高能日常系漫画 | 诱引 |
 | youtube-agent-manager-diagram | YouTube 演讲（实 URL） | 图解 | 扁平漫画 | 理解 |
 | youtube-loop-engineering-manga | YouTube 演讲（实 URL） | 漫画 | 漫画线稿 | 记录 |
+| youtube-blueprint-vs-paint-infographic | YouTube 演讲（实 URL） | 信息图 | 扁平漫画 | 理解 |
 | youtube-thumbnail | YouTube 演讲 | 缩略图 | 扁平漫画 | 诱引 |
 | youtube-picture-book | YouTube 演讲 | 绘本 | 水彩 | 再体验 |
 | council-workshop-illustration | 5个工具仓库（智慧评议会） | 插画 | 等距 | 传达 |
 | council-evolution-triptych | 三种创作模式（仅人类／+AI／+5种工具） | 插画 | 等距 | 传达 |
 
-> URL 输入（YouTube 视频／首页／GitHub 仓库）通过 `url:` 接收，`scripts/fetch.py` 抽取转录／正文。实 URL 的验证案例有 4 件（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/)＝青空文库《哥儿》，均为实抓取）。其余因没有实 URL，用代表样例输入（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）验证转换。实抓取用 `python3 scripts/fetch.py url:https://...` 进入同一行。
+> URL 输入（YouTube 视频／首页／GitHub 仓库）通过 `url:` 接收，`scripts/fetch.py` 抽取转录／正文。实 URL 的验证案例有 5 件（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/)＝青空文库《哥儿》，均为实抓取）。其余因没有实 URL，用代表样例输入（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）验证转换。实抓取用 `python3 scripts/fetch.py url:https://...` 进入同一行。
 
 ## 验证方式
 
