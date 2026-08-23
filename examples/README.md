@@ -82,6 +82,7 @@
 | council-evolution-triptych | 3 creation patterns (human / +AI / +5 tools) | Illustration | Isometric | Communication |
 | ai-shikigami-analogy | AI user × shikigami user analogy (concept) | Illustration (mirror diptych) | Watercolor | Communication |
 | ai-schrodinger-cat | AI output needs observation (concept) | Illustration | Clean-line lab | Communication |
+| world-model-engines-loop | 3 world-model engines (deepening · generator · evaluation) | Illustration | Clean-line lab | Decoration |
 
 > URL inputs (YouTube video / homepage / GitHub repository) are received via `url:` and `scripts/fetch.py` extracts the transcript / body text. There are 5 real-URL verification cases ([youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/) = Aozora Bunko "Bocchan", all real fetches). The rest, lacking a real URL, verify the transformation with representative sample inputs ([youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)). A real fetch enters the same row with `python3 scripts/fetch.py url:https://...`.
 
