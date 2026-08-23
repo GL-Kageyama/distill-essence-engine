@@ -48,6 +48,7 @@
 | 等距 | 数字 | 游戏／信息图 | — | [isometric](styles/isometric.md) |
 | 暗光极简矢量 | 数字 | 极简・科技 | 实绩 hero 家族（藏青＋金橙＋白热的4色） | [dark-glow-vector](styles/dark-glow-vector.md) |
 | 高能日常系漫画 | 数字 | 搞笑漫画・日常系动画 | — | [high-energy-slice-of-life](styles/high-energy-slice-of-life.md) |
+| 干净线条实验室 | 手绘 | 教科书插图・实验图 | 实绩 ai-schrodinger-cat（anti-generic 3/10・aesthetic discovery_target） | [clean-line-lab](styles/clean-line-lab.md) |
 
 ## 格式卡片（formats/）
 

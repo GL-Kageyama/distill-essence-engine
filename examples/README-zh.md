@@ -22,7 +22,7 @@
 | 首页（木工所） | 图解 | — | 海报 | — | — | — |
 | GitHub 仓库 | — | — | 主视觉横幅 | — | — | — |
 
-**样式覆盖率**：注册样式为 **28 种（全部已验证）**。样式替换测试（[verify-rich/](verify-rich/)）例示并验证了新增 15 种样式·7 种格式。3 种样式（claymation／cyberpunk／vaporwave）在验证中**未采纳**，位于注册表之外（详见 [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)）。暗光极简矢量（实绩 hero 家族·藏蓝＋金橙＋白热的 4 色）于 0.1.17 的 distill-hero 加入。高能日常系漫画（搞笑漫画·日常系动画）于 0.1.18 的 bocchan-gag-manga（青空文库《哥儿》→10 页漫画）加入。
+**样式覆盖率**：注册样式为 **29 种（全部已验证）**。样式替换测试（[verify-rich/](verify-rich/)）例示并验证了新增 15 种样式·7 种格式。3 种样式（claymation／cyberpunk／vaporwave）在验证中**未采纳**，位于注册表之外（详见 [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)）。暗光极简矢量（实绩 hero 家族·藏蓝＋金橙＋白热的 4 色）于 0.1.17 的 distill-hero 加入。高能日常系漫画（搞笑漫画·日常系动画）于 0.1.18 的 bocchan-gag-manga（青空文库《哥儿》→10 页漫画）加入。干净线条实验室（教科书实验图的明快×安静的可爱）于 0.1.19 的 ai-schrodinger-cat 加入。
 
 **格式覆盖率**：注册格式为 **17 种（全部已验证）**。verify-rich/ 验证并升级了新增 7 种（分镜脚本／海报／绘本／标志／徽章／精灵图／塔罗牌）。主视觉横幅（hero·16:9 横幅）于 0.1.17 的 distill-hero 加入。搞笑漫画（多格·4 拍节奏）于 0.1.18 的 bocchan-gag-manga 加入。覆盖率矩阵例示了注册 17 种中的 15 种（图解／信息图／封面／图标／缩略图／海报／绘本／漫画／插画／影像板／分镜脚本／精灵图／塔罗牌／主视觉横幅／搞笑漫画）。
 
@@ -80,6 +80,8 @@
 | youtube-picture-book | YouTube 演讲 | 绘本 | 水彩 | 再体验 |
 | council-workshop-illustration | 5个工具仓库（智慧评议会） | 插画 | 等距 | 传达 |
 | council-evolution-triptych | 三种创作模式（仅人类／+AI／+5种工具） | 插画 | 等距 | 传达 |
+| ai-shikigami-analogy | AI使用者 × 式神使用者的类比（概念） | 插画（镜像双联画） | 水彩 | 传达 |
+| ai-schrodinger-cat | AI生成物需被观测才有意义（概念） | 插画 | 干净线条实验室 | 传达 |
 
 > URL 输入（YouTube 视频／首页／GitHub 仓库）通过 `url:` 接收，`scripts/fetch.py` 抽取转录／正文。实 URL 的验证案例有 5 件（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/)＝青空文库《哥儿》，均为实抓取）。其余因没有实 URL，用代表样例输入（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）验证转换。实抓取用 `python3 scripts/fetch.py url:https://...` 进入同一行。
 

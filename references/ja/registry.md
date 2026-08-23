@@ -48,6 +48,7 @@
 | アイソメトリック | デジタル | ゲーム／インフォ | — | [isometric](styles/isometric.md) |
 | ダークグロー・ミニマルベクター | デジタル | ミニマル・テック | 実績 hero ファミリー（紺＋金橙＋白熱の4色） | [dark-glow-vector](styles/dark-glow-vector.md) |
 | ハイテンション日常系コミック | デジタル | ギャグ漫画・日常系アニメ | — | [high-energy-slice-of-life](styles/high-energy-slice-of-life.md) |
+| クリーンラインラボ | 手描き | 教科書挿絵・実験図 | 実績 ai-schrodinger-cat（anti-generic 3/10・aesthetic discovery_target） | [clean-line-lab](styles/clean-line-lab.md) |
 
 ## フォーマットカード（formats/）
 

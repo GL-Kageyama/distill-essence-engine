@@ -22,7 +22,7 @@
 | Homepage (Woodworking shop) | Diagram | — | Poster | — | — | — |
 | GitHub repository | — | — | Hero image | — | — | — |
 
-**Style coverage**: registered styles are **28 (all verified)**. The style-swap tests ([verify-rich/](verify-rich/)) exemplify and verify 15 new styles and 7 formats. Three styles (claymation / cyberpunk / vaporwave) were **rejected** in verification and live outside the registry (details in [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)). Dark-glow minimal vector (the proven hero family · navy + gold-orange + white-hot, four colors) was added in 0.1.17's distill-hero. High-energy slice-of-life comic (gag manga · slice-of-life anime) was added in 0.1.18's bocchan-gag-manga (Aozora Bunko "Bocchan" → 10-page manga).
+**Style coverage**: registered styles are **29 (all verified)**. The style-swap tests ([verify-rich/](verify-rich/)) exemplify and verify 15 new styles and 7 formats. Three styles (claymation / cyberpunk / vaporwave) were **rejected** in verification and live outside the registry (details in [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)). Dark-glow minimal vector (the proven hero family · navy + gold-orange + white-hot, four colors) was added in 0.1.17's distill-hero. High-energy slice-of-life comic (gag manga · slice-of-life anime) was added in 0.1.18's bocchan-gag-manga (Aozora Bunko "Bocchan" → 10-page manga). Clean-line lab (textbook experiment-diagram clarity × quiet cuteness) was added in 0.1.19's ai-schrodinger-cat.
 
 **Format coverage**: registered formats are **17 (all verified)**. verify-rich/ verified and promoted 7 new ones (storyboard / poster / picture book / logo / emblem / sprite / tarot card). Hero image (hero · 16:9 banner) was added in 0.1.17's distill-hero. Gag manga (multi-panel · four-beat rhythm) was added in 0.1.18's bocchan-gag-manga. The coverage matrix exemplifies 15 of the 17 registered formats (diagram / infographic / cover / icon / thumbnail / poster / picture book / manga / illustration / image board / storyboard / sprite sheet / tarot card / hero image / gag manga).
 
@@ -80,6 +80,8 @@
 | youtube-picture-book | YouTube talk | Picture book | Watercolor | Re-experience |
 | council-workshop-illustration | Five tool repos (Council of Wisdom family) | Illustration | Isometric | Communication |
 | council-evolution-triptych | 3 creation patterns (human / +AI / +5 tools) | Illustration | Isometric | Communication |
+| ai-shikigami-analogy | AI user × shikigami user analogy (concept) | Illustration (mirror diptych) | Watercolor | Communication |
+| ai-schrodinger-cat | AI output needs observation (concept) | Illustration | Clean-line lab | Communication |
 
 > URL inputs (YouTube video / homepage / GitHub repository) are received via `url:` and `scripts/fetch.py` extracts the transcript / body text. There are 5 real-URL verification cases ([youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/) = Aozora Bunko "Bocchan", all real fetches). The rest, lacking a real URL, verify the transformation with representative sample inputs ([youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)). A real fetch enters the same row with `python3 scripts/fetch.py url:https://...`.
 

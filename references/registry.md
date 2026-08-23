@@ -48,6 +48,7 @@
 | Isometric | Digital | Games / infographics | — | [isometric](styles/isometric.md) |
 | Dark-glow minimal vector | Digital | Minimal / tech | Proven hero family (navy + gold-orange + white-hot, 4 colors) | [dark-glow-vector](styles/dark-glow-vector.md) |
 | High-energy slice-of-life comic | Digital | Gag manga / slice-of-life anime | — | [high-energy-slice-of-life](styles/high-energy-slice-of-life.md) |
+| Clean-line lab | Hand-drawn | Textbook illustration / lab diagram | Proven in ai-schrodinger-cat (anti-generic 3/10, aesthetic discovery_target) | [clean-line-lab](styles/clean-line-lab.md) |
 
 ## Format cards (formats/)
 
