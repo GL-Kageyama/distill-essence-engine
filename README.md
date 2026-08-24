@@ -32,14 +32,14 @@ What the text needs is not an illustration but a **distillation**: choose the on
 
 ## What you can make
 
-**17 formats × 29 styles** — all verified, reusable by name. The full index (with each card's reusable slug) is [references/registry.md](references/registry.md).
+**21 formats × 29 styles** — all verified, reusable by name. The full index (with each card's reusable slug) is [references/registry.md](references/registry.md).
 
 **Formats** — grouped by the purpose they serve:
 
 | Purpose | Formats |
 |---|---|
-| Understanding | diagram |
-| Communication | infographic · storyboard |
+| Understanding | diagram · timeline · flowchart |
+| Communication | infographic · storyboard · comparison matrix · data chart |
 | Attraction | cover · poster · thumbnail · hero image · gag manga |
 | Re-experience / record | image board · manga · picture book |
 | Decoration | illustration |
@@ -138,6 +138,6 @@ distill-essence-engine/
 
 - [docs/usage.md](docs/usage.md) — how to use (arguments · cards · output · verification)
 - [docs/sources.md](docs/sources.md) — the provenance of the card vocabulary
-- [references/registry.md](references/registry.md) — the named-card index (17 formats · 29 styles)
+- [references/registry.md](references/registry.md) — the named-card index (21 formats · 29 styles)
 - [references/types.md](references/types.md) — the typology (assumed purpose × format × style × compression's 2 layers)
 - [references/](references/) — the deepening of the principles (selection · translation · arrangement · …)

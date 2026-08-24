@@ -71,3 +71,7 @@
 | 塔罗牌 | 象征 | — | [tarot-card](formats/tarot-card.md) |
 | 主视觉横幅 | 象征（吸引） | 横长 16:9 横幅 | [hero](formats/hero.md) |
 | 搞笑漫画 | 叙述＋吸引 | 多格・4拍节奏 | [gag-manga](formats/gag-manga.md) |
+| 时间轴 | 说明（理解） | 单一连续的时间轴 | [timeline](formats/timeline.md) |
+| 流程图 | 说明（理解・传达） | 有向步骤序列 | [flowchart](formats/flowchart.md) |
+| 对比矩阵 | 说明（传达・理解） | — | [comparison-matrix](formats/comparison-matrix.md) |
+| 数据图 | 说明（传达・理解） | 只绘制输入中存在的值（⑧） | [data-chart](formats/data-chart.md) |

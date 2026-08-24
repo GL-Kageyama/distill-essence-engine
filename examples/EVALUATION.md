@@ -88,6 +88,21 @@
 - **admiration（弱PASS）**：必然性は満たす（名前からの直接的な視覚転写で誠実）が、蒸留が名前に宣言済みの比喩のため「予測超え（驚き）」が弱い。真の「おおっ」には比喩の一段の転倒が欲しい。
 - 改善候補（本質を損なわない任意の精錬）：断片の異質な描き分け、round の重複解消、品質管理語の美的語との分離。いずれも未適用（PASS のまま）。
 
+## 説明系フォーマット 4 枚（PASS 12/12・0.1.20）
+
+| ケース | 入力 | フォーマット | 様式 | 目的 | 判定 |
+|---|---|---|---|---|---|
+| attention-timeline | Attention 論文（系譜・機構・比較・数値） | タイムライン | バウハウス系ベクター | 理解 | **PASS**（anti-gen 2/10・aesthetic 9/10・admiration ⑧無） |
+| attention-flowchart | 同上 | フローチャート | バウハウス系ベクター | 理解 | **PASS**（anti-gen 2/10・aesthetic 8/10・admiration ⑧無） |
+| attention-comparison-matrix | 同上 | 比較マトリクス | バウハウス系ベクター | 伝達・理解 | **PASS**（anti-gen 3/10・aesthetic 9/10・admiration ⑧無） |
+| attention-data-chart | 同上 | データチャート | バウハウス系ベクター | 伝達・理解 | **PASS**（anti-gen 0/10・aesthetic 9/10・admiration ⑧無） |
+
+- 判定者：anti-generic-filter・aesthetic-critic・admiration の3名。同一入力（Attention 論文＝Transformer）・様式固定（バウハウス系ベクター）・**フォーマットだけ差し替え**＝フォーマット差し替え検証（verify-rich と同じ軸の独立）。構成文法（⑤）を測る。
+- **4枚とも全評価者 PASS（12/12）・条件付き 0・不採用 0** → レジストリへ登録（フォーマット 17→21 種）。
+- **固有×間接**：各ケースが論文固有の一点に絞る（タイムライン＝転回点 2017 の Transformer／フローチャート＝要の自己注意／マトリクス＝決定的差異の一斉・全対全／データチャート＝新 SOTA の 41.8）。genericness 0–3、汎用タグの羅列なし。
+- **⑧忠実性**：フォーマットが内容を消さない。data-chart の avoid「数値を創作しない」（入力に在る 28.4・41.8・8 GPU×3.5 日のみ図示・no invented figures）は、数値の創作という⑧違反をカードの規約で防ぐ。attention の「+2 BLEU」は省略されたが本質は保持され、⑧違反なし（admiration）。
+- 軽微な所見（全ケース共通）：末尾の否定句（not photorealistic, no 3D render …）は様式の制約として機能的な定型（anti-generic は失敗シグネチャと判定せず）。timeline の 2014（Bahdanau）は明示されないが「before minimal」の意図に包摂される（aesthetic）。
+
 ## 注記
 
 - URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ／青空文庫）は、実 URL の検証ケースが 4 件ある。いずれも `scripts/fetch.py` で実フェッチした内容を入力に使用し、カバレッジ行列の YouTube 動画 × 理解（解説図）・× 記録（漫画）・GitHub リポジトリ × 誘引（ヒーロー画像）セルを実 URL で埋めた（bocchan-gag-manga は小説入力＝青空文庫の実フェッチ例で、小説 × 誘引セルにギャグ漫画を追加）。

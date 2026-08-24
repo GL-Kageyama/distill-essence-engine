@@ -24,7 +24,7 @@
 
 **様式カバレッジ**：レジストリ登録様式は **29 種（全て検証済み）**。様式差し替えテスト（[verify-rich/](verify-rich/)）で新規 15 様式・7 フォーマットを例示・検証した。3 様式（claymation／cyberpunk／vaporwave）は検証で**不採用**となりレジストリ外（詳細は [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)）。ダークグロー・ミニマルベクター（実績 hero ファミリー・紺＋金橙＋白熱の4色）は 0.1.17 の distill-hero で追加。ハイテンション日常系コミック（ギャグ漫画・日常系アニメ）は 0.1.18 の bocchan-gag-manga（青空文庫『坊っちゃん』→10 ページ漫画）で追加。クリーンラインラボ（教科書の実験図の明快さ×静かなかわいさ）は 0.1.19 の ai-schrodinger-cat で追加。
 
-**フォーマットカバレッジ**：レジストリ登録フォーマットは **17 種（全て検証済み）**。verify-rich/ で新規 7 種（ストーリーボード／ポスター／絵本／ロゴ／エンブレム／スプライト／タロットカード）を検証・昇格した。ヒーロー画像（hero・16:9 バナー）は 0.1.17 の distill-hero で追加。ギャグ漫画（多コマ・4ビートリズム）は 0.1.18 の bocchan-gag-manga で追加。カバレッジ行列は登録 17 種のうち 15 種（解説図／インフォグラフィック／表紙／アイコン／サムネイル／ポスター／絵本／漫画／挿絵／イメージボード／ストーリーボード／スプライトシート／タロットカード／ヒーロー画像／ギャグ漫画）を例示する。
+**フォーマットカバレッジ**：レジストリ登録フォーマットは **21 種（全て検証済み）**。verify-rich/ で新規 7 種（ストーリーボード／ポスター／絵本／ロゴ／エンブレム／スプライト／タロットカード）を検証・昇格した。ヒーロー画像（hero・16:9 バナー）は 0.1.17 の distill-hero で追加。ギャグ漫画（多コマ・4ビートリズム）は 0.1.18 の bocchan-gag-manga で追加。説明系フォーマット 4 種（タイムライン／フローチャート／比較マトリクス／データチャート）は 0.1.20 の attention-* ケースで追加。カバレッジ行列は登録 21 種のうち 19 種（解説図／インフォグラフィック／表紙／アイコン／サムネイル／ポスター／絵本／漫画／挿絵／イメージボード／ストーリーボード／スプライトシート／タロットカード／ヒーロー画像／ギャグ漫画／タイムライン／フローチャート／比較マトリクス／データチャート）を例示する。
 
 ## ケース一覧
 
@@ -84,6 +84,10 @@
 | ai-schrodinger-cat | AI生成物は観測されて初めて意味を持つ（概念） | 挿絵 | クリーンラインラボ | 伝達 |
 | world-model-engines-loop | 世界モデル三構想（概念深掘り・生成器・評価レイヤー） | 挿絵 | クリーンラインラボ | 装飾 |
 | distill-engine-illustration | リポジトリの本質 — あらゆる内容→一枚のプロンプト（概念） | 挿絵 | クリーンラインラボ | 伝達 |
+| attention-timeline | Attention 論文（系譜・機構・比較・数値） | タイムライン | バウハウス系ベクター | 理解 |
+| attention-flowchart | Attention 論文（系譜・機構・比較・数値） | フローチャート | バウハウス系ベクター | 理解 |
+| attention-comparison-matrix | Attention 論文（系譜・機構・比較・数値） | 比較マトリクス | バウハウス系ベクター | 伝達・理解 |
+| attention-data-chart | Attention 論文（系譜・機構・比較・数値） | データチャート | バウハウス系ベクター | 伝達・理解 |
 
 > URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ）は `url:` で受け取り、`scripts/fetch.py` が文字起こし／本文を抽出する。実 URL の検証ケースが 5 件ある（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/)＝青空文庫『坊っちゃん』、いずれも実フェッチ）。残りは実 URL が無いため代表サンプル入力（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）で変換を検証している。実フェッチは `python3 scripts/fetch.py url:https://...` で同じ行に入る。
 

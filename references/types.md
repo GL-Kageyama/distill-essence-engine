@@ -32,12 +32,12 @@ Of the 4 axes of format space (granularity / time / purpose / size and aspect ra
 | **Symbolic** | Cover / poster | A single symbol × folding |
 | **Symbolic** | Icon | A single symbol × a single point |
 | **Attention** | Thumbnail | A single symbol × a single point |
-| **Explanatory** | Infographic / diagram | Full arc × folding |
+| **Explanatory** | Infographic / diagram / timeline / flowchart / comparison-matrix / data-chart | Full arc × folding |
 | **Decorative** | Illustration | A single scene × a single point |
 
 The combination of 5 purposes × granularity/time. The space itself is infinite, and these 7 types are nothing but **crystallized named formats** (＝ representative points).
 
-**Size and aspect ratio are also decided by the format** (decided by where it is seen): thumbnail = small, landscape 16:9; icon = square; cover = portrait (book ratio); poster = large, portrait; storyboard = cinema ratio 16:9; manga = page ratio; infographic = tall scroll.
+**Size and aspect ratio are also decided by the format** (decided by where it is seen): thumbnail = small, landscape 16:9; icon = square; cover = portrait (book ratio); poster = large, portrait; storyboard = cinema ratio 16:9; manga = page ratio; infographic = tall scroll; timeline = wide band (or vertical scroll); flowchart = vertical; comparison matrix = wide grid; data chart = wide, single panel.
 
 **The value of specialist skill** is decided by "the accumulation of particular composition grammar":
 

@@ -32,14 +32,14 @@
 
 ## 何を作れるか
 
-**フォーマット 17 種 × 様式 29 種**——全て検証済み、名前で再利用可。全索引（各カードの再利用 slug 付き）は [references/registry.md](references/registry.md)。
+**フォーマット 21 種 × 様式 29 種**——全て検証済み、名前で再利用可。全索引（各カードの再利用 slug 付き）は [references/registry.md](references/registry.md)。
 
 **フォーマット**——担う目的で分類：
 
 | 目的 | フォーマット |
 |---|---|
-| 理解 | 解説図 |
-| 伝達 | インフォグラフィック · ストーリーボード |
+| 理解 | 解説図 · タイムライン · フローチャート |
+| 伝達 | インフォグラフィック · ストーリーボード · 比較マトリクス · データチャート |
 | 誘引 | 表紙 · ポスター · サムネイル · ヒーロー画像 · ギャグ漫画 |
 | 再体験・記録 | イメージボード · 漫画 · 絵本 |
 | 装飾 | 挿絵 |
@@ -137,6 +137,6 @@ distill-essence-engine/
 
 - [docs/usage.md](docs/usage.md) — 使い方（引数 · カード · 出力 · 検証）
 - [docs/sources.md](docs/sources.md) — カード語彙の出所
-- [references/registry.md](references/registry.md) — 名前付きカードの索引（フォーマット 17 種 · 様式 29 種）
+- [references/registry.md](references/registry.md) — 名前付きカードの索引（フォーマット 21 種 · 様式 29 種）
 - [references/types.md](references/types.md) — 類型（想定目的×フォーマット×様式×圧縮 2 層）
 - [references/](references/) — 原理の深化（選定 · 翻訳 · 配置 …）

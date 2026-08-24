@@ -24,7 +24,7 @@
 
 **Style coverage**: registered styles are **29 (all verified)**. The style-swap tests ([verify-rich/](verify-rich/)) exemplify and verify 15 new styles and 7 formats. Three styles (claymation / cyberpunk / vaporwave) were **rejected** in verification and live outside the registry (details in [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)). Dark-glow minimal vector (the proven hero family · navy + gold-orange + white-hot, four colors) was added in 0.1.17's distill-hero. High-energy slice-of-life comic (gag manga · slice-of-life anime) was added in 0.1.18's bocchan-gag-manga (Aozora Bunko "Bocchan" → 10-page manga). Clean-line lab (textbook experiment-diagram clarity × quiet cuteness) was added in 0.1.19's ai-schrodinger-cat.
 
-**Format coverage**: registered formats are **17 (all verified)**. verify-rich/ verified and promoted 7 new ones (storyboard / poster / picture book / logo / emblem / sprite / tarot card). Hero image (hero · 16:9 banner) was added in 0.1.17's distill-hero. Gag manga (multi-panel · four-beat rhythm) was added in 0.1.18's bocchan-gag-manga. The coverage matrix exemplifies 15 of the 17 registered formats (diagram / infographic / cover / icon / thumbnail / poster / picture book / manga / illustration / image board / storyboard / sprite sheet / tarot card / hero image / gag manga).
+**Format coverage**: registered formats are **21 (all verified)**. verify-rich/ verified and promoted 7 new ones (storyboard / poster / picture book / logo / emblem / sprite / tarot card). Hero image (hero · 16:9 banner) was added in 0.1.17's distill-hero. Gag manga (multi-panel · four-beat rhythm) was added in 0.1.18's bocchan-gag-manga. Four explanatory formats (timeline / flowchart / comparison matrix / data chart) were added in 0.1.20's attention-* cases. The coverage matrix exemplifies 19 of the 21 registered formats (diagram / infographic / cover / icon / thumbnail / poster / picture book / manga / illustration / image board / storyboard / sprite sheet / tarot card / hero image / gag manga / timeline / flowchart / comparison matrix / data chart).
 
 ## Case list
 
@@ -84,6 +84,10 @@
 | ai-schrodinger-cat | AI output needs observation (concept) | Illustration | Clean-line lab | Communication |
 | world-model-engines-loop | 3 world-model engines (deepening · generator · evaluation) | Illustration | Clean-line lab | Decoration |
 | distill-engine-illustration | Repo essence — any content → one prompt (concept) | Illustration | Clean-line lab | Communication |
+| attention-timeline | Attention paper (lineage · mechanism · comparison · numbers) | Timeline | Bauhaus-style vector | Understanding |
+| attention-flowchart | Attention paper (lineage · mechanism · comparison · numbers) | Flowchart | Bauhaus-style vector | Understanding |
+| attention-comparison-matrix | Attention paper (lineage · mechanism · comparison · numbers) | Comparison matrix | Bauhaus-style vector | Communication · Understanding |
+| attention-data-chart | Attention paper (lineage · mechanism · comparison · numbers) | Data chart | Bauhaus-style vector | Communication · Understanding |
 
 > URL inputs (YouTube video / homepage / GitHub repository) are received via `url:` and `scripts/fetch.py` extracts the transcript / body text. There are 5 real-URL verification cases ([youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/) = Aozora Bunko "Bocchan", all real fetches). The rest, lacking a real URL, verify the transformation with representative sample inputs ([youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)). A real fetch enters the same row with `python3 scripts/fetch.py url:https://...`.
 

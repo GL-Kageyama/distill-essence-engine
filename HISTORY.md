@@ -1,5 +1,13 @@
 # 開発履歴
 
+## 0.1.20 — 2026-08-24
+
+- **説明系（Explanatory）フォーマット 4 枚を追加**：タイムライン（timeline）／フローチャート（flowchart）／比較マトリクス（comparison-matrix）／データチャート（data-chart）。説明機能の空洞（これまで diagram＝単一の対比/ループ・infographic＝階層の 2 枚のみ）を埋めた。4 枚とも粒度×時間＝全弧×畳み込み、差別化は構成文法（⑤）：timeline＝単一の時間軸＋転回点、flowchart＝有向の手順列＋要の一手順、comparison-matrix＝行×列の格子＋決定的差異の一セル、data-chart＝単一定量軸＋一つの傾向/外れ値。
+- **4 枚 × 3 言語＝12 ファイル**（en 正典＋ `references/ja/`・`references/zh/` ミラー）。card-schema のリッチ構造（Purpose/Granularity×time/Size&aspect → Summary → 環境変数 → 構成文法 → do/avoid → テンプレ → 例 → 出所）。環境変数は各カード固有（timeline=`SUBJECT`/`EVENTS`/`N`/`SPAN`、flowchart=`SUBJECT`/`STEPS`/`N`/`BRANCH`、comparison-matrix=`SUBJECT`/`ITEMS`/`AXES`、data-chart=`SUBJECT`/`VALUES`）。テンプレは英語不変。
+- **data-chart の⑧忠実性ガード**：do「入力に在る数値だけを図示する・単一データセット」／ avoid「数値を創作する・複数データセット・詰め込み」——数値の創作という⑧違反をカードの規約で防ぐ。
+- **検証ケース 4 件**（examples/attention-timeline・flowchart・comparison-matrix・data-chart）：同一入力（Attention 論文＝Transformer の系譜・機構・比較・数値）× 様式固定（バウハウス系ベクター）× **フォーマットだけ差し替え**。構成文法（⑤）を測るフォーマット差し替え検証。
+- **判定 12/12 PASS（anti-generic-filter 0–3・aesthetic-critic 8–9・admiration ⑧違反なし）・条件付き 0・不採用 0** → 全 4 枚をレジストリ登録（フォーマット 17→21 種）。各ケースが論文固有の一点に絞る（タイムライン＝転回点 2017 の Transformer／フローチャート＝要の自己注意／マトリクス＝一斉・全対全の決定的差異／データチャート＝新 SOTA の 41.8）。判定の詳細は [examples/EVALUATION.md](examples/EVALUATION.md)。
+
 ## 0.1.19 — 2026-08-22
 
 - **i18n（en/zh・3 層方式）完了**。実装計画の最終項目に区切りをつけた。正規言語＝**英語（canonical en）**、完全ミラー。

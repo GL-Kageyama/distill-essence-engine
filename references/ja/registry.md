@@ -71,3 +71,7 @@
 | タロットカード | 象徴 | — | [tarot-card](formats/tarot-card.md) |
 | ヒーロー画像 | 象徴（誘引） | 横長 16:9 バナー | [hero](formats/hero.md) |
 | ギャグ漫画 | 叙述＋誘引 | 多コマ・4ビートリズム | [gag-manga](formats/gag-manga.md) |
+| タイムライン | 説明（理解） | 単一の連続した時間軸 | [timeline](formats/timeline.md) |
+| フローチャート | 説明（理解・伝達） | 有向の手順列 | [flowchart](formats/flowchart.md) |
+| 比較マトリクス | 説明（伝達・理解） | — | [comparison-matrix](formats/comparison-matrix.md) |
+| データチャート | 説明（伝達・理解） | 入力に在る値だけを図示（⑧） | [data-chart](formats/data-chart.md) |

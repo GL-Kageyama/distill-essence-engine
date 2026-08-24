@@ -71,3 +71,7 @@
 | Tarot card | Symbolic | — | [tarot-card](formats/tarot-card.md) |
 | Hero image | Symbolic (attraction) | Wide 16:9 banner | [hero](formats/hero.md) |
 | Gag manga | Narrative + attraction | Multi-panel, 4-beat rhythm | [gag-manga](formats/gag-manga.md) |
+| Timeline | Explanatory (understanding) | Single continuous time axis | [timeline](formats/timeline.md) |
+| Flowchart | Explanatory (understanding / communication) | Directed step sequence | [flowchart](formats/flowchart.md) |
+| Comparison matrix | Explanatory (communication / understanding) | — | [comparison-matrix](formats/comparison-matrix.md) |
+| Data chart | Explanatory (communication / understanding) | Plots only input-existing values (⑧) | [data-chart](formats/data-chart.md) |
