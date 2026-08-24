@@ -49,6 +49,12 @@
 | ダークグロー・ミニマルベクター | デジタル | ミニマル・テック | 実績 hero ファミリー（紺＋金橙＋白熱の4色） | [dark-glow-vector](styles/dark-glow-vector.md) |
 | ハイテンション日常系コミック | デジタル | ギャグ漫画・日常系アニメ | — | [high-energy-slice-of-life](styles/high-energy-slice-of-life.md) |
 | クリーンラインラボ | 手描き | 教科書挿絵・実験図 | 実績 ai-schrodinger-cat（anti-generic 3/10・aesthetic discovery_target） | [clean-line-lab](styles/clean-line-lab.md) |
+| セル画調 | デジタル | アニメセル画 | — | [cel-shade](styles/cel-shade.md) |
+| 少女漫画調 | 手描き | 少女漫画 | — | [shojo](styles/shojo.md) |
+| ウェブトゥーンソフトレンダー | デジタル | 韓国ウェブトゥーン | — | [webtoon-soft-render](styles/webtoon-soft-render.md) |
+| 少年バトル調 | デジタル | 少年バトル漫画 | — | [shonen-battle](styles/shonen-battle.md) |
+| 劇画調 | 手描き | 劇画 | — | [gekiga](styles/gekiga.md) |
+| 漫画CMYKハーフトーン | 版画・デジタル | 欧米コミック印刷 | — | [manga-halftone](styles/manga-halftone.md) |
 
 ## フォーマットカード（formats/）
 
@@ -75,3 +81,11 @@
 | フローチャート | 説明（理解・伝達） | 有向の手順列 | [flowchart](formats/flowchart.md) |
 | 比較マトリクス | 説明（伝達・理解） | — | [comparison-matrix](formats/comparison-matrix.md) |
 | データチャート | 説明（伝達・理解） | 入力に在る値だけを図示（⑧） | [data-chart](formats/data-chart.md) |
+| 4コマ漫画 | 叙述＋誘引 | 固定4コマ縦積み・起承転結 | [four-panel](formats/four-panel.md) |
+| ウェブトゥーン | 叙述 | 縦スクロール単一キャンバス | [webtoon](formats/webtoon.md) |
+| 横長ストリップ | 叙述＋誘引 | 横一列ストリップ | [comic-strip](formats/comic-strip.md) |
+| 見開きスプラッシュ | 叙述 | 単一全面コマ | [splash-page](formats/splash-page.md) |
+| 1コマ漫画（風刺） | 誘引（風刺） | キャプション付き単一コマ | [single-panel-cartoon](formats/single-panel-cartoon.md) |
+| エッセイ漫画 | 叙述（内省） | 一人称ナレーション | [comic-essay](formats/comic-essay.md) |
+| ルポ漫画 | 叙述（記録） | 事実主導の記録コマ（⑧） | [reportage-manga](formats/reportage-manga.md) |
+| 学習漫画 | 説明 | キャラクターが教える | [educational-manga](formats/educational-manga.md) |

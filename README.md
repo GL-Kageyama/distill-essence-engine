@@ -32,16 +32,16 @@ What the text needs is not an illustration but a **distillation**: choose the on
 
 ## What you can make
 
-**21 formats × 29 styles** — all verified, reusable by name. The full index (with each card's reusable slug) is [references/registry.md](references/registry.md).
+**29 formats × 35 styles** — all verified, reusable by name. The full index (with each card's reusable slug) is [references/registry.md](references/registry.md).
 
 **Formats** — grouped by the purpose they serve:
 
 | Purpose | Formats |
 |---|---|
-| Understanding | diagram · timeline · flowchart |
+| Understanding | diagram · timeline · flowchart · educational manga |
 | Communication | infographic · storyboard · comparison matrix · data chart |
-| Attraction | cover · poster · thumbnail · hero image · gag manga |
-| Re-experience / record | image board · manga · picture book |
+| Attraction | cover · poster · thumbnail · hero image · gag manga · four-panel · comic strip · single-panel cartoon |
+| Re-experience / record | image board · manga · picture book · webtoon · splash page · comic essay · reportage manga |
 | Decoration | illustration |
 | Symbolic mark | icon · logo · emblem · tarot card |
 | Game asset | sprite sheet |
@@ -50,9 +50,9 @@ What the text needs is not an illustration but a **distillation**: choose the on
 
 | Medium | Styles |
 |---|---|
-| Printmaking | woodblock print · linocut · copperplate engraving · risograph · solemn ledger |
-| Hand-drawn | watercolor · oil painting · sumi-e ink wash · gouache abstract · pencil · charcoal · pastel · sketch · manga ink · clean-line lab |
-| Digital | pixel art · PS1 low-poly · Bauhaus vector · flat comic · line art · isometric · dark-glow minimal vector · high-energy slice-of-life comic |
+| Printmaking | woodblock print · linocut · copperplate engraving · risograph · solemn ledger · manga halftone |
+| Hand-drawn | watercolor · oil painting · sumi-e ink wash · gouache abstract · pencil · charcoal · pastel · sketch · manga ink · clean-line lab · shojo · gekiga |
+| Digital | pixel art · PS1 low-poly · Bauhaus vector · flat comic · line art · isometric · dark-glow minimal vector · high-energy slice-of-life comic · cel-shade · webtoon soft-render · shonen battle |
 | Photography · decorative | street photography · film noir · stained glass · paper cutout · art nouveau · art deco |
 
 ## Quick start
@@ -138,6 +138,6 @@ distill-essence-engine/
 
 - [docs/usage.md](docs/usage.md) — how to use (arguments · cards · output · verification)
 - [docs/sources.md](docs/sources.md) — the provenance of the card vocabulary
-- [references/registry.md](references/registry.md) — the named-card index (21 formats · 29 styles)
+- [references/registry.md](references/registry.md) — the named-card index (29 formats · 35 styles)
 - [references/types.md](references/types.md) — the typology (assumed purpose × format × style × compression's 2 layers)
 - [references/](references/) — the deepening of the principles (selection · translation · arrangement · …)

@@ -22,9 +22,9 @@
 | Homepage (Woodworking shop) | Diagram | — | Poster | — | — | — |
 | GitHub repository | — | — | Hero image | — | — | — |
 
-**Style coverage**: registered styles are **29 (all verified)**. The style-swap tests ([verify-rich/](verify-rich/)) exemplify and verify 15 new styles and 7 formats. Three styles (claymation / cyberpunk / vaporwave) were **rejected** in verification and live outside the registry (details in [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)). Dark-glow minimal vector (the proven hero family · navy + gold-orange + white-hot, four colors) was added in 0.1.17's distill-hero. High-energy slice-of-life comic (gag manga · slice-of-life anime) was added in 0.1.18's bocchan-gag-manga (Aozora Bunko "Bocchan" → 10-page manga). Clean-line lab (textbook experiment-diagram clarity × quiet cuteness) was added in 0.1.19's ai-schrodinger-cat.
+**Style coverage**: registered styles are **35 (all verified)**. The style-swap tests ([verify-rich/](verify-rich/)) exemplify and verify 15 new styles and 7 formats. Three styles (claymation / cyberpunk / vaporwave) were **rejected** in verification and live outside the registry (details in [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)). Dark-glow minimal vector (the proven hero family · navy + gold-orange + white-hot, four colors) was added in 0.1.17's distill-hero. High-energy slice-of-life comic (gag manga · slice-of-life anime) was added in 0.1.18's bocchan-gag-manga (Aozora Bunko "Bocchan" → 10-page manga). Clean-line lab (textbook experiment-diagram clarity × quiet cuteness) was added in 0.1.19's ai-schrodinger-cat. Six manga styles — cel-shade / shojo / webtoon soft-render / shonen battle / gekiga / manga halftone — were added in 0.1.21's melos-* style-swap cases (the first color-manga styles; manga halftone is the first printmaking-process style for comics).
 
-**Format coverage**: registered formats are **21 (all verified)**. verify-rich/ verified and promoted 7 new ones (storyboard / poster / picture book / logo / emblem / sprite / tarot card). Hero image (hero · 16:9 banner) was added in 0.1.17's distill-hero. Gag manga (multi-panel · four-beat rhythm) was added in 0.1.18's bocchan-gag-manga. Four explanatory formats (timeline / flowchart / comparison matrix / data chart) were added in 0.1.20's attention-* cases. The coverage matrix exemplifies 19 of the 21 registered formats (diagram / infographic / cover / icon / thumbnail / poster / picture book / manga / illustration / image board / storyboard / sprite sheet / tarot card / hero image / gag manga / timeline / flowchart / comparison matrix / data chart).
+**Format coverage**: registered formats are **29 (all verified)**. verify-rich/ verified and promoted 7 new ones (storyboard / poster / picture book / logo / emblem / sprite / tarot card). Hero image (hero · 16:9 banner) was added in 0.1.17's distill-hero. Gag manga (multi-panel · four-beat rhythm) was added in 0.1.18's bocchan-gag-manga. Four explanatory formats (timeline / flowchart / comparison matrix / data chart) were added in 0.1.20's attention-* cases. Eight manga formats — four-panel / webtoon / comic strip / splash page / single-panel cartoon / comic essay / reportage manga / educational manga — were added in 0.1.21's melos-* / attention-educational-manga format-swap cases. The coverage matrix exemplifies 19 of the 29 registered formats (diagram / infographic / cover / icon / thumbnail / poster / picture book / manga / illustration / image board / storyboard / sprite sheet / tarot card / hero image / gag manga / timeline / flowchart / comparison matrix / data chart); the manga formats are exemplified in the dedicated melos-* / attention-educational-manga cases in the case list.
 
 ## Case list
 
@@ -88,6 +88,20 @@
 | attention-flowchart | Attention paper (lineage · mechanism · comparison · numbers) | Flowchart | Bauhaus-style vector | Understanding |
 | attention-comparison-matrix | Attention paper (lineage · mechanism · comparison · numbers) | Comparison matrix | Bauhaus-style vector | Communication · Understanding |
 | attention-data-chart | Attention paper (lineage · mechanism · comparison · numbers) | Data chart | Bauhaus-style vector | Communication · Understanding |
+| melos-four-panel | Run, Melos! | Four-panel | Manga ink lineart | Re-experience |
+| melos-webtoon | Run, Melos! | Webtoon | Manga ink lineart | Re-experience |
+| melos-comic-strip | Run, Melos! | Comic strip | Manga ink lineart | Re-experience |
+| melos-splash-page | Run, Melos! | Splash page | Manga ink lineart | Re-experience |
+| melos-cartoon | Run, Melos! | Single-panel cartoon | Manga ink lineart | Attraction |
+| melos-comic-essay | Run, Melos! | Comic essay | Manga ink lineart | Re-experience |
+| melos-reportage | Run, Melos! | Reportage manga | Manga ink lineart | Record |
+| attention-educational-manga | Attention paper | Educational manga | Manga ink lineart | Understanding |
+| melos-cel-shade | Run, Melos! | Manga | Cel-shade | Re-experience |
+| melos-shojo | Run, Melos! | Manga | Shojo | Re-experience |
+| melos-webtoon-soft-render | Run, Melos! | Manga | Webtoon soft-render | Re-experience |
+| melos-shonen-battle | Run, Melos! | Manga | Shonen battle | Re-experience |
+| melos-gekiga | Run, Melos! | Manga | Gekiga | Re-experience |
+| melos-manga-halftone | Run, Melos! | Manga | Manga halftone | Re-experience |
 
 > URL inputs (YouTube video / homepage / GitHub repository) are received via `url:` and `scripts/fetch.py` extracts the transcript / body text. There are 5 real-URL verification cases ([youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/) = Aozora Bunko "Bocchan", all real fetches). The rest, lacking a real URL, verify the transformation with representative sample inputs ([youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)). A real fetch enters the same row with `python3 scripts/fetch.py url:https://...`.
 

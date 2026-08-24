@@ -49,6 +49,12 @@
 | Dark-glow minimal vector | Digital | Minimal / tech | Proven hero family (navy + gold-orange + white-hot, 4 colors) | [dark-glow-vector](styles/dark-glow-vector.md) |
 | High-energy slice-of-life comic | Digital | Gag manga / slice-of-life anime | — | [high-energy-slice-of-life](styles/high-energy-slice-of-life.md) |
 | Clean-line lab | Hand-drawn | Textbook illustration / lab diagram | Proven in ai-schrodinger-cat (anti-generic 3/10, aesthetic discovery_target) | [clean-line-lab](styles/clean-line-lab.md) |
+| Cel-shade anime | Digital | Anime cel animation | — | [cel-shade](styles/cel-shade.md) |
+| Shojo manga | Hand-drawn | Shojo manga | — | [shojo](styles/shojo.md) |
+| Webtoon soft-render | Digital | Korean webtoon | — | [webtoon-soft-render](styles/webtoon-soft-render.md) |
+| Shonen battle manga | Digital | Shonen battle manga | — | [shonen-battle](styles/shonen-battle.md) |
+| Gekiga | Hand-drawn | Gekiga (dramatic comics) | — | [gekiga](styles/gekiga.md) |
+| Manga halftone CMYK | Printmaking / digital | Western comic printing | — | [manga-halftone](styles/manga-halftone.md) |
 
 ## Format cards (formats/)
 
@@ -75,3 +81,11 @@
 | Flowchart | Explanatory (understanding / communication) | Directed step sequence | [flowchart](formats/flowchart.md) |
 | Comparison matrix | Explanatory (communication / understanding) | — | [comparison-matrix](formats/comparison-matrix.md) |
 | Data chart | Explanatory (communication / understanding) | Plots only input-existing values (⑧) | [data-chart](formats/data-chart.md) |
+| Four-panel manga | Narration + attraction | Fixed 4-panel column, kishotenketsu | [four-panel](formats/four-panel.md) |
+| Webtoon | Narration | Single vertical scroll canvas | [webtoon](formats/webtoon.md) |
+| Comic strip | Narration + attraction | Horizontal one-row strip | [comic-strip](formats/comic-strip.md) |
+| Splash page | Narration | Full-bleed single panel | [splash-page](formats/splash-page.md) |
+| Single-panel cartoon | Attraction (satire) | One panel + caption | [single-panel-cartoon](formats/single-panel-cartoon.md) |
+| Comic essay | Narration (introspection) | First-person narration boxes | [comic-essay](formats/comic-essay.md) |
+| Reportage manga | Narration (record) | Fact-led documentary panels (⑧) | [reportage-manga](formats/reportage-manga.md) |
+| Educational manga | Explanatory | Teacher character teaches | [educational-manga](formats/educational-manga.md) |

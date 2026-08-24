@@ -49,6 +49,12 @@
 | 暗光极简矢量 | 数字 | 极简・科技 | 实绩 hero 家族（藏青＋金橙＋白热的4色） | [dark-glow-vector](styles/dark-glow-vector.md) |
 | 高能日常系漫画 | 数字 | 搞笑漫画・日常系动画 | — | [high-energy-slice-of-life](styles/high-energy-slice-of-life.md) |
 | 干净线条实验室 | 手绘 | 教科书插图・实验图 | 实绩 ai-schrodinger-cat（anti-generic 3/10・aesthetic discovery_target） | [clean-line-lab](styles/clean-line-lab.md) |
+| 赛璐璐上色 | 数字 | 动画赛璐璐 | — | [cel-shade](styles/cel-shade.md) |
+| 少女漫画风 | 手绘 | 少女漫画 | — | [shojo](styles/shojo.md) |
+| 网页漫画柔渲染 | 数字 | 韩国网页漫画 | — | [webtoon-soft-render](styles/webtoon-soft-render.md) |
+| 少年战斗风 | 数字 | 少年战斗漫画 | — | [shonen-battle](styles/shonen-battle.md) |
+| 剧画风 | 手绘 | 剧画 | — | [gekiga](styles/gekiga.md) |
+| 漫画CMYK网目 | 版画・数字 | 欧美漫画印刷 | — | [manga-halftone](styles/manga-halftone.md) |
 
 ## 格式卡片（formats/）
 
@@ -75,3 +81,11 @@
 | 流程图 | 说明（理解・传达） | 有向步骤序列 | [flowchart](formats/flowchart.md) |
 | 对比矩阵 | 说明（传达・理解） | — | [comparison-matrix](formats/comparison-matrix.md) |
 | 数据图 | 说明（传达・理解） | 只绘制输入中存在的值（⑧） | [data-chart](formats/data-chart.md) |
+| 四格漫画 | 叙述＋吸引 | 固定四格竖排・起承转合 | [four-panel](formats/four-panel.md) |
+| 网页漫画 | 叙述 | 纵向滚动单画布 | [webtoon](formats/webtoon.md) |
+| 横长条漫 | 叙述＋吸引 | 横向单行条 | [comic-strip](formats/comic-strip.md) |
+| 跨页大图 | 叙述 | 通栏单一分格 | [splash-page](formats/splash-page.md) |
+| 单格漫画（讽刺） | 吸引（讽刺） | 单格＋题注 | [single-panel-cartoon](formats/single-panel-cartoon.md) |
+| 随笔漫画 | 叙述（内省） | 第一人称叙述框 | [comic-essay](formats/comic-essay.md) |
+| 纪实漫画 | 叙述（记录） | 事实主导的记录分格（⑧） | [reportage-manga](formats/reportage-manga.md) |
+| 学习漫画 | 说明 | 角色来讲解 | [educational-manga](formats/educational-manga.md) |

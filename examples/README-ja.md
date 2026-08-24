@@ -22,9 +22,9 @@
 | ホームページ（木工所） | 解説図 | — | ポスター | — | — | — |
 | GitHub リポジトリ | — | — | ヒーロー画像 | — | — | — |
 
-**様式カバレッジ**：レジストリ登録様式は **29 種（全て検証済み）**。様式差し替えテスト（[verify-rich/](verify-rich/)）で新規 15 様式・7 フォーマットを例示・検証した。3 様式（claymation／cyberpunk／vaporwave）は検証で**不採用**となりレジストリ外（詳細は [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)）。ダークグロー・ミニマルベクター（実績 hero ファミリー・紺＋金橙＋白熱の4色）は 0.1.17 の distill-hero で追加。ハイテンション日常系コミック（ギャグ漫画・日常系アニメ）は 0.1.18 の bocchan-gag-manga（青空文庫『坊っちゃん』→10 ページ漫画）で追加。クリーンラインラボ（教科書の実験図の明快さ×静かなかわいさ）は 0.1.19 の ai-schrodinger-cat で追加。
+**様式カバレッジ**：レジストリ登録様式は **35 種（全て検証済み）**。様式差し替えテスト（[verify-rich/](verify-rich/)）で新規 15 様式・7 フォーマットを例示・検証した。3 様式（claymation／cyberpunk／vaporwave）は検証で**不採用**となりレジストリ外（詳細は [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)）。ダークグロー・ミニマルベクター（実績 hero ファミリー・紺＋金橙＋白熱の4色）は 0.1.17 の distill-hero で追加。ハイテンション日常系コミック（ギャグ漫画・日常系アニメ）は 0.1.18 の bocchan-gag-manga（青空文庫『坊っちゃん』→10 ページ漫画）で追加。クリーンラインラボ（教科書の実験図の明快さ×静かなかわいさ）は 0.1.19 の ai-schrodinger-cat で追加。マンガ様式 6 種（セル画調／少女漫画調／ウェブトゥーンソフトレンダー／少年バトル調／劇画調／漫画CMYKハーフトーン）は 0.1.21 の melos-* スタイル差し替えケースで追加（初のカラーマンガ様式。漫画CMYKハーフトーンは初の漫画向け印刷工程様式）。
 
-**フォーマットカバレッジ**：レジストリ登録フォーマットは **21 種（全て検証済み）**。verify-rich/ で新規 7 種（ストーリーボード／ポスター／絵本／ロゴ／エンブレム／スプライト／タロットカード）を検証・昇格した。ヒーロー画像（hero・16:9 バナー）は 0.1.17 の distill-hero で追加。ギャグ漫画（多コマ・4ビートリズム）は 0.1.18 の bocchan-gag-manga で追加。説明系フォーマット 4 種（タイムライン／フローチャート／比較マトリクス／データチャート）は 0.1.20 の attention-* ケースで追加。カバレッジ行列は登録 21 種のうち 19 種（解説図／インフォグラフィック／表紙／アイコン／サムネイル／ポスター／絵本／漫画／挿絵／イメージボード／ストーリーボード／スプライトシート／タロットカード／ヒーロー画像／ギャグ漫画／タイムライン／フローチャート／比較マトリクス／データチャート）を例示する。
+**フォーマットカバレッジ**：レジストリ登録フォーマットは **29 種（全て検証済み）**。verify-rich/ で新規 7 種（ストーリーボード／ポスター／絵本／ロゴ／エンブレム／スプライト／タロットカード）を検証・昇格した。ヒーロー画像（hero・16:9 バナー）は 0.1.17 の distill-hero で追加。ギャグ漫画（多コマ・4ビートリズム）は 0.1.18 の bocchan-gag-manga で追加。説明系フォーマット 4 種（タイムライン／フローチャート／比較マトリクス／データチャート）は 0.1.20 の attention-* ケースで追加。マンガフォーマット 8 種（4コマ漫画／ウェブトゥーン／横長ストリップ／見開きスプラッシュ／1コマ漫画（風刺）／エッセイ漫画／ルポ漫画／学習漫画）は 0.1.21 の melos-*／attention-educational-manga フォーマット差し替えケースで追加。カバレッジ行列は登録 29 種のうち 19 種（解説図／インフォグラフィック／表紙／アイコン／サムネイル／ポスター／絵本／漫画／挿絵／イメージボード／ストーリーボード／スプライトシート／タロットカード／ヒーロー画像／ギャグ漫画／タイムライン／フローチャート／比較マトリクス／データチャート）を例示する（マンガフォーマットは下記の melos-*／attention-educational-manga ケースで例示）。
 
 ## ケース一覧
 
@@ -88,6 +88,20 @@
 | attention-flowchart | Attention 論文（系譜・機構・比較・数値） | フローチャート | バウハウス系ベクター | 理解 |
 | attention-comparison-matrix | Attention 論文（系譜・機構・比較・数値） | 比較マトリクス | バウハウス系ベクター | 伝達・理解 |
 | attention-data-chart | Attention 論文（系譜・機構・比較・数値） | データチャート | バウハウス系ベクター | 伝達・理解 |
+| melos-four-panel | 走れメロス | 4コマ漫画 | マンガ線画 | 再体験 |
+| melos-webtoon | 走れメロス | ウェブトゥーン | マンガ線画 | 再体験 |
+| melos-comic-strip | 走れメロス | 横長ストリップ | マンガ線画 | 再体験 |
+| melos-splash-page | 走れメロス | 見開きスプラッシュ | マンガ線画 | 再体験 |
+| melos-cartoon | 走れメロス | 1コマ漫画（風刺） | マンガ線画 | 誘引 |
+| melos-comic-essay | 走れメロス | エッセイ漫画 | マンガ線画 | 再体験 |
+| melos-reportage | 走れメロス | ルポ漫画 | マンガ線画 | 記録 |
+| attention-educational-manga | Attention 論文 | 学習漫画 | マンガ線画 | 理解 |
+| melos-cel-shade | 走れメロス | 漫画 | セル画調 | 再体験 |
+| melos-shojo | 走れメロス | 漫画 | 少女漫画調 | 再体験 |
+| melos-webtoon-soft-render | 走れメロス | 漫画 | ウェブトゥーンソフトレンダー | 再体験 |
+| melos-shonen-battle | 走れメロス | 漫画 | 少年バトル調 | 再体験 |
+| melos-gekiga | 走れメロス | 漫画 | 劇画調 | 再体験 |
+| melos-manga-halftone | 走れメロス | 漫画 | 漫画CMYKハーフトーン | 再体験 |
 
 > URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ）は `url:` で受け取り、`scripts/fetch.py` が文字起こし／本文を抽出する。実 URL の検証ケースが 5 件ある（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/)＝青空文庫『坊っちゃん』、いずれも実フェッチ）。残りは実 URL が無いため代表サンプル入力（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）で変換を検証している。実フェッチは `python3 scripts/fetch.py url:https://...` で同じ行に入る。
 

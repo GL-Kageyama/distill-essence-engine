@@ -1,5 +1,15 @@
 # 開発履歴
 
+## 0.1.21 — 2026-08-24
+
+- **マンガ（カラー含む）のフォーマット・スタイルを拡充**：フォーマット 8 枚（4コマ漫画 four-panel／ウェブトゥーン webtoon／横長ストリップ comic-strip／見開きスプラッシュ splash-page／1コマ漫画（風刺） single-panel-cartoon／エッセイ漫画 comic-essay／ルポ漫画 reportage-manga／学習漫画 educational-manga）＋ スタイル 6 枚（セル画調 cel-shade／少女漫画調 shojo／ウェブトゥーンソフトレンダー webtoon-soft-render／少年バトル調 shonen-battle／劇画調 gekiga／漫画CMYKハーフトーン manga-halftone）＝**14 枚を追加**。これまで manga（叙述＝記録・再体験）・gag-manga（娯楽・4ビート）・manga-ink（白黒のみ）しかなかったマンガ対応に、カラー・レイアウト・媒体・目的の軸を一気に広げた。
+- **フォーマットの差別化は構成文法（⑤）**：既存と被らない核を各カードに持たせた。four-panel＝固定4コマ縦積み・起承転結・カメラ不動・4コマ目にオチ一点集中、webtoon＝縦スクロール単一キャンバス・コマ間のクリフハンガー、comic-strip＝横一列 2〜6 コマ・一行オチ、splash-page＝単一全面コマ・コマ割り無し・見開き、single-panel-cartoon＝キャプション付き単一コマ・風刺・一枚完結、comic-essay＝一人称ナレーション・最小背景・単一人物中心、reportage-manga＝事実主導の記録コマ（⑧忠実性を明記）、educational-manga＝キャラクターが説明する知識伝達。
+- **スタイルの差別化は Fidelity anchors**：cel-shade＝平塗り＋ハードシャドウ＋クリーンな閉じた輪郭線（2段階陰影）、shojo＝繊細な線・大きな艶のある瞳・花とキラキラ・淡いパステル・装飾枠、webtoon-soft-render＝柔らかいグラデ影・艶のある瞳・輪郭光とグロー、shonen-battle＝スピード線・衝撃エフェクト・ダイナミックな斜構図・強いコントラスト、gekiga＝リアルな白黒・クロスハッチ・硬質な陰影と墨の溜まり、manga-halftone＝ベン・デイドット／CMYK網点・ポップな平塗り・印刷感（版ズレ）。
+- **14 枚 × 3 言語＝42 ファイル**（en 正典＋ `references/ja/`・`references/zh/` ミラー）。テンプレ・Negative・環境変数名は英語不変（3言語バイト一致 14/14 検証済み）。registry.md に 14 行（フォーマット 21→29・様式 29→35）・types.md に反映（Narrative 行の拡張・single-panel-cartoon は Attention 行・Explanatory 行に educational-manga）。
+- **検証ケース 14 件**（examples/）：**フォーマット差し替え 8 件**（同一入力×様式固定×フォーマットだけ差し替え＝構成文法を測る）＋**スタイル差し替え 6 件**（同一入力×フォーマット固定＝manga×スタイルだけ差し替え）。教育漫画のみ Transformer 入力（attention-timeline を参照）。フォーマット差し替えの固定様式は当初 flat-comic を検討したが「no text」が吹き出しと衝突するため **manga-ink**（白黒インク・吹き出し可）に変更。
+- **判定 42/42 PASS**（anti-generic-filter genericness 0–3・comic-strip は 78 相当・aesthetic-critic 7.5–9・admiration PASS 5／弱PASS 9）。**manga-halftone は初回 FAIL**：admiration が⑧忠実性違反（出来事の捏造＝「二人で死刑執行人を殴る」場面は原作に存在しない）を指摘 → 原作の名場面（メロスとセリヌンティウスの互いの頬の打ち合い→抱擁、input 63–67 行）に合成プロンプトを修正して再判定 → **PASS**。判定の詳細は [examples/EVALUATION.md](examples/EVALUATION.md)。
+- **軽微な所見**：末尾の否定句（not photorealistic, no 3D render …）は様式の制約として機能する定型（anti-generic は失敗シグネチャと判定せず）。comic-strip は汎用形式の返答（78）だったが次元スコアから低い紋切型と解釈。splash-page は「見開き1コマ」の呼称揺れ（aesthetic）、shonen-battle は genericness 3 が最高値（汎用バトル形容詞の混入）。
+
 ## 0.1.20 — 2026-08-24
 
 - **説明系（Explanatory）フォーマット 4 枚を追加**：タイムライン（timeline）／フローチャート（flowchart）／比較マトリクス（comparison-matrix）／データチャート（data-chart）。説明機能の空洞（これまで diagram＝単一の対比/ループ・infographic＝階層の 2 枚のみ）を埋めた。4 枚とも粒度×時間＝全弧×畳み込み、差別化は構成文法（⑤）：timeline＝単一の時間軸＋転回点、flowchart＝有向の手順列＋要の一手順、comparison-matrix＝行×列の格子＋決定的差異の一セル、data-chart＝単一定量軸＋一つの傾向/外れ値。

@@ -103,6 +103,31 @@
 - **⑧忠実性**：フォーマットが内容を消さない。data-chart の avoid「数値を創作しない」（入力に在る 28.4・41.8・8 GPU×3.5 日のみ図示・no invented figures）は、数値の創作という⑧違反をカードの規約で防ぐ。attention の「+2 BLEU」は省略されたが本質は保持され、⑧違反なし（admiration）。
 - 軽微な所見（全ケース共通）：末尾の否定句（not photorealistic, no 3D render …）は様式の制約として機能的な定型（anti-generic は失敗シグネチャと判定せず）。timeline の 2014（Bahdanau）は明示されないが「before minimal」の意図に包摂される（aesthetic）。
 
+## マンガ拡充 14 枚（PASS 42/42・0.1.21）
+
+| ケース | 入力 | フォーマット | 様式 | 目的 | 判定 |
+|---|---|---|---|---|---|
+| melos-four-panel | 走れメロス | 4コマ漫画 | マンガ線画 | 再体験 | **PASS**（anti-gen 2/10・aesthetic 8/10・admiration 弱PASS） |
+| melos-webtoon | 走れメロス | ウェブトゥーン | マンガ線画 | 再体験 | **PASS**（anti-gen 1/10・aesthetic 9/10・admiration PASS） |
+| melos-comic-strip | 走れメロス | 横長ストリップ | マンガ線画 | 再体験 | **PASS**（anti-gen 78 相当・aesthetic 9/10・admiration 弱PASS） |
+| melos-splash-page | 走れメロス | 見開きスプラッシュ | マンガ線画 | 再体験 | **PASS**（anti-gen 2/10・aesthetic 9/10・admiration PASS） |
+| melos-cartoon | 走れメロス | 1コマ漫画（風刺） | マンガ線画 | 誘引 | **PASS**（anti-gen 2/10・aesthetic 7.5/10・admiration 弱PASS） |
+| melos-comic-essay | 走れメロス | エッセイ漫画 | マンガ線画 | 再体験 | **PASS**（anti-gen 2/10・aesthetic 8/10・admiration 弱PASS） |
+| melos-reportage | 走れメロス | ルポ漫画 | マンガ線画 | 記録 | **PASS**（anti-gen 2/10・aesthetic 8/10・admiration 弱PASS） |
+| attention-educational-manga | Attention 論文 | 学習漫画 | マンガ線画 | 理解 | **PASS**（anti-gen 2/10・aesthetic 8/10・admiration 弱PASS） |
+| melos-cel-shade | 走れメロス | 漫画 | セル画調 | 再体験 | **PASS**（anti-gen 1/10・aesthetic 9/10・admiration PASS） |
+| melos-shojo | 走れメロス | 漫画 | 少女漫画調 | 再体験 | **PASS**（anti-gen 2/10・aesthetic 8/10・admiration 弱PASS） |
+| melos-webtoon-soft-render | 走れメロス | 漫画 | ウェブトゥーンソフトレンダー | 再体験 | **PASS**（anti-gen 2/10・aesthetic 8/10・admiration PASS） |
+| melos-shonen-battle | 走れメロス | 漫画 | 少年バトル調 | 再体験 | **PASS**（anti-gen 3/10・aesthetic 8/10・admiration 弱PASS） |
+| melos-gekiga | 走れメロス | 漫画 | 劇画調 | 再体験 | **PASS**（anti-gen 2/10・aesthetic 8/10・admiration PASS） |
+| melos-manga-halftone | 走れメロス | 漫画 | 漫画CMYKハーフトーン | 再体験 | **PASS**（anti-gen 2/10・aesthetic 8/10・admiration 弱PASS・初回⑧違反→修正後再判定） |
+
+- 判定者：anti-generic-filter・aesthetic-critic・admiration の3名。検証は 0.1.20 と同じ 2 軸の検証パターンで、**フォーマット差し替え 8 件**（同一入力×様式固定＝manga-ink×フォーマットだけ差し替え）と**スタイル差し替え 6 件**（同一入力×フォーマット固定＝manga×スタイルだけ差し替え）。
+- フォーマット差し替えの固定様式は当初 flat-comic を検討したが、flat-comic の Negative「no text」が吹き出し・キャプションと衝突するため **manga-ink**（白黒インク・吹き出し可）に変更。共通入力は melos-imageboard/input.md（走れメロス全文）・学習漫画のみ attention-timeline/input.md（Transformer 論文）。**14 枚とも全評価者 PASS（42/42）・条件付き 0・不採用 0** → レジストリへ登録（フォーマット 21→29・様式 29→35）。
+- **固有×間接**：各ケースが物語固有の一点に絞る（four-panel＝王の「遅れて来い」の囁き、webtoon＝一晩の逃避行のフック連鎖、splash-page＝処刑場へ飛び込む一瞬、cartoon＝王の提案のアイロニー、shonen-battle＝濁流への飛び込み）。genericness 1–3、汎用タグの羅列なし。comic-strip のみ汎用形式の返答（78 相当）だったが、次元スコアから低い紋切型と解釈し PASS。
+- **⑧忠実性**：フォーマット・様式が内容を消さない。**manga-halftone は初回 FAIL**——admiration が「二人で死刑執行人を殴る」という原作にない場面（出来事の捏造）を指摘。原作の名場面（メロスとセリヌンティウスの互いの頬の打ち合い→抱擁、input 63–67 行）に合成プロンプトを修正し再判定 → **PASS**（⑧違反なし・弱PASS）。reportage-manga はカードの構成文法に「事実のナレーション」を明記し⑧を規約で防ぐ。
+- 軽微な所見：末尾の否定句（not photorealistic, no 3D render …）は様式の制約として機能する定型（anti-generic は失敗シグネチャと判定せず）。splash-page は「見開き1コマ」の呼称揺れ（aesthetic）・shonen-battle は genericness 3 が最高値（汎用バトル形容詞の混入）。いずれも PASS の範囲内。
+
 ## 注記
 
 - URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ／青空文庫）は、実 URL の検証ケースが 4 件ある。いずれも `scripts/fetch.py` で実フェッチした内容を入力に使用し、カバレッジ行列の YouTube 動画 × 理解（解説図）・× 記録（漫画）・GitHub リポジトリ × 誘引（ヒーロー画像）セルを実 URL で埋めた（bocchan-gag-manga は小説入力＝青空文庫の実フェッチ例で、小説 × 誘引セルにギャグ漫画を追加）。
