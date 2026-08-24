@@ -55,6 +55,13 @@
 | 少年バトル調 | デジタル | 少年バトル漫画 | — | [shonen-battle](styles/shonen-battle.md) |
 | 劇画調 | 手描き | 劇画 | — | [gekiga](styles/gekiga.md) |
 | 漫画CMYKハーフトーン | 版画・デジタル | 欧米コミック印刷 | — | [manga-halftone](styles/manga-halftone.md) |
+| ドキュメンタリー写真 | 写真 | 社会ドキュメンタリー | — | [documentary-photo](styles/documentary-photo.md) |
+| スタジオポートレート | 写真 | スタジオポートレート | — | [studio-portrait](styles/studio-portrait.md) |
+| 大判風景写真 | 写真 | 大判風景 | — | [landscape-photo](styles/landscape-photo.md) |
+| マクロ写真 | 写真 | マクロ | — | [macro-photo](styles/macro-photo.md) |
+| シネマティックスチル | 写真・映画 | 長編映画 | — | [cinematic-still](styles/cinematic-still.md) |
+| 1970年代ニュー・ハリウッド | 写真・映画 | ニュー・ハリウッド | — | [new-hollywood](styles/new-hollywood.md) |
+| インスタント写真 | 写真 | インスタントフィルム | — | [instant-photo](styles/instant-photo.md) |
 
 ## フォーマットカード（formats/）
 

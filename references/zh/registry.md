@@ -55,6 +55,13 @@
 | 少年战斗风 | 数字 | 少年战斗漫画 | — | [shonen-battle](styles/shonen-battle.md) |
 | 剧画风 | 手绘 | 剧画 | — | [gekiga](styles/gekiga.md) |
 | 漫画CMYK网目 | 版画・数字 | 欧美漫画印刷 | — | [manga-halftone](styles/manga-halftone.md) |
+| 纪实摄影 | 摄影 | 社会纪实 | — | [documentary-photo](styles/documentary-photo.md) |
+| 影棚肖像 | 摄影 | 影棚肖像 | — | [studio-portrait](styles/studio-portrait.md) |
+| 大画幅风景 | 摄影 | 大画幅风景 | — | [landscape-photo](styles/landscape-photo.md) |
+| 微距摄影 | 摄影 | 微距 | — | [macro-photo](styles/macro-photo.md) |
+| 电影剧照 | 摄影・电影 | 长片电影 | — | [cinematic-still](styles/cinematic-still.md) |
+| 1970年代新好莱坞 | 摄影・电影 | 新好莱坞 | — | [new-hollywood](styles/new-hollywood.md) |
+| 拍立得照片 | 摄影 | 即时胶片 | — | [instant-photo](styles/instant-photo.md) |
 
 ## 格式卡片（formats/）
 

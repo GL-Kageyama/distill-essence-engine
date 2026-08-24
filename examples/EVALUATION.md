@@ -140,6 +140,49 @@
 - **aesthetic-critic（coherent・8/10）**：網点そのものが連続的な現実像を4色の点へ還元する「視覚の蒸留」で、メディアがメッセージを体現する。黄金の一滴がCMYK平塗り世界の中で際立つ異常体として「本質」を印す。弱点＝10コマ×5ステップ×8原則の情報過密が「clean and didactic」の均衡をやや妨げる（PASSの範囲内）。「heroic composition」は唯一の曖昧な技法語。
 - **admiration（PASS・⑧違反なし）**：自己言及のオチが「第四の壁を破る」形で、説明的教材マンガの予想される終わり方（出力の実例を示して終わる）を超える。ページは最初からプロンプトであり、エンジンの核心「真実を、委ねて示す」をマンガ自身の形式が実行している——**驚きと必然が同時成立**。「①→②→③→⑤→⑥→⑦＋④⑧横断」の描写はリポジトリの実際の主張（README の流れ）と正確に一致し、捏造なし。
 
+## 実写系（写真・映画）スタイル拡充 7 枚（PASS 全7・0.1.22）
+
+- **追加**：実写系（レンズと光のメディウム）スタイル 7 枚を追加（写真 4：ドキュメンタリー・スタジオポートレート・大判風景・マクロ、映画 2：シネマティックスチル・1970年代ニューハリウッド、インスタント 1）。エンジンは Negative の英語不変部で `not photorealistic, no 3D render` により**フォトリアル3Dレンダー（CGI）を意図的に排除**しているため、今回の「実写系」は 3D ではなく **写真・映画というメディウム**（既存 street-photo／film-noir と同じ Medium=Photography 軸）として定義した。各カードの Negative は `no CGI, no illustration` 等で「イラスト・CGI でない」を様式の声の一部として保証する。
+- **検証方法**：様式差し替え（同一入力＝走れメロス × フォーマット＝イメージボード固定 × 様式だけ 7 種に差し替え）。語る一点＝**泉**（両手で水を掬う）に統一し、⑧忠実性（原作の実在要素：泉・縄打たれた友・壊れた橋・シラクスの塔）を保持。判定は anti-generic-filter・aesthetic-critic・admiration の 3 系統（7×3＝21 判定・バッチ並列）。
+
+### 初回判定（7×3）
+
+| ケース | anti-generic | aesthetic | admiration |
+|---|---|---|---|
+| documentary-photo | 3 PASS | 8 PASS | PASS（⑧違反なし） |
+| studio-portrait | 4 **FAIL** | 7 PASS | 弱PASS（⑧違反なし） |
+| landscape-photo | 5 **FAIL** | 9 PASS | 弱PASS（⑧違反なし） |
+| macro-photo | 5 **FAIL** | 8 PASS | PASS（⑧違反なし） |
+| cinematic-still | 6 **FAIL** | 7 PASS | 弱PASS（⑧違反なし） |
+| new-hollywood | 3 PASS | 9 PASS | PASS（⑧違反なし） |
+| instant-photo | 4 **FAIL** | 7 PASS | PASS（⑧違反なし） |
+
+### 精錬（anti-generic FAIL 5 枚）
+
+anti-generic の指摘はすべて具体的：①**紋切型トークン**（teal-and-orange・cinematic composition・creamy bokeh・majestic scale・nostalgic keepsake）を「実際のカメラ・光・構図の決定」へ置換、②重複（Rembrandt lighting・no people の二重表記）解消、③感傷タグ除去。**カードのテンプレート自体も精錬**（英語不変部は en/ja/zh 3言語バイト一致を再検証）。
+
+- **studio-portrait**：`LIGHT` スロットを「Rembrandt or clamshell」にし、テンプレから固定語を除去（Rembrandt の二重表記を解消）→ **2 PASS**
+- **landscape-photo**：`majestic scale` → `fine detail at every scale, unbroken depth from near ground to far horizon`（f/64 派の具体的語彙）、本体の `no people` 重複解消 → **2 PASS**
+- **macro-photo**：`creamy bokeh` → `smooth rounded defocus`、`natural object color` → `the material's own color unretouched` → **1 PASS**
+- **cinematic-still**：`teal-and-orange`・`cinematic composition`・`motivated lighting that carries mood` を除去 → 再判定 4 で**再精錬**（グレード廃止 → `lit by the dying sun alone` の単一光源決定、`resolve returning to his eyes` → 飲む所作の観察 `the water running cold down his chin, the mud on his face thinning where the wet seeps in`）→ **3 PASS**
+- **instant-photo**：`a nostalgic keepsake`・`handwritten memories` 除去 → 再判定 3 PASS の後、白フチ arc の物理的矛盾（白いインスタント枠には場面を支える奥行きがない）を両評価者が独立指摘 → **フラッシュの圏外の暗がり**（`Dim beyond the flash's reach`）へ移設。光の論理と「救いが届く手前の昏さ」が同一の選択になる → **2 PASS**
+
+### 最終判定（全 7 PASS）
+
+| ケース | anti-generic | aesthetic | admiration |
+|---|---|---|---|
+| documentary-photo | 3 PASS | 8 PASS | PASS |
+| studio-portrait | 2 PASS | 8 PASS | 弱PASS |
+| landscape-photo | 2 PASS | 9 PASS | 弱PASS |
+| macro-photo | 1 PASS | 8 PASS | PASS |
+| cinematic-still | 3 PASS | 9 PASS | 弱PASS |
+| new-hollywood | 3 PASS | 9 PASS | PASS |
+| instant-photo | 2 PASS | 9 PASS | PASS |
+
+- **所見**：aesthetic は「写真の間接性（粒・ボケ・レターボックス・白枠）が語り手となり、**適切さから生まれる美**」と総評（prettiness ではない）。anti-generic は「内容アンカー（泉・約束・縄打たれた友）が全様式で健在、様式の声が中核に沈む」と総評。末尾の `no CGI, no illustration` 等の Negative は**⑦原則による意図的な様式ガード**であり、様式の声の一部と見なさない（anti-generic も判定から除外）。
+- **admiration の弱PASS 3 件**（⑧違反なし）：①studio-portrait＝語る一点が顔に置換され泉が後退 ②landscape-photo＝人物不在（様式の identity＝no people）で核心が空間化 ③cinematic-still＝映画様式が「英雄の転機」の予測をなぞる。いずれも様式の identity に由来し、0.1.21 と同じく合格範囲（弱PASS は合格）。
+- **登録**：7 枚 × 3 言語＝21 ファイル（en 正典＋ `references/ja/`・`references/zh/` ミラー）。環境変数名・Negative・テンプレは英語不変（3言語バイト一致 7/7 検証済み）。registry.md に 7 行（様式 35→42）。types.md は変更なし（Photography メディウム既存・新メディウム開拓ではない）。
+
 ## 注記
 
 - URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ／青空文庫）は、実 URL の検証ケースが 4 件ある。いずれも `scripts/fetch.py` で実フェッチした内容を入力に使用し、カバレッジ行列の YouTube 動画 × 理解（解説図）・× 記録（漫画）・GitHub リポジトリ × 誘引（ヒーロー画像）セルを実 URL で埋めた（bocchan-gag-manga は小説入力＝青空文庫の実フェッチ例で、小説 × 誘引セルにギャグ漫画を追加）。

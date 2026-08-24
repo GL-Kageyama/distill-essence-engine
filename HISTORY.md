@@ -1,5 +1,16 @@
 # 開発履歴
 
+## 0.1.22 — 2026-08-24
+
+- **実写系（写真・映画）のスタイルを一気に体系化**：これまで実写系は street-photo（2000年代フィルムスナップ）・film-noir（1940–50年代モノクロ）の 2 枚だけだった空白を、**7 枚**（写真 4：ドキュメンタリー写真 documentary-photo／スタジオポートレート studio-portrait／大判風景写真 landscape-photo／マクロ写真 macro-photo、映画 2：シネマティックスチル cinematic-still／1970年代ニュー・ハリウッド new-hollywood、インスタント 1：インスタント写真 instant-photo）で埋めた（様式 35→42）。
+- **メディウム設計の要**：エンジンは Negative の英語不変部で `not photorealistic, no 3D render` により**フォトリアル3Dレンダー（CGI）を意図的に排除**している。したがって実写系は 3D レンダーではなく **「レンズと光」のメディウム**（既存 street-photo／film-noir と同じ Medium=Photography 軸）として定義した。各カードの Negative は `no CGI, no illustration` 等で「イラスト・CGI でない」を様式の声として保証（既存 street-photo の `no smooth CGI` に倣う）。
+- **スタイルの差別化は Fidelity anchors**：documentary-photo＝無演出の瞬間・自然光・35mm 粒子・誠実な報告の構図、studio-portrait＝レンブラント／クラムシェル照明・浅い被写界深度・瞳のキャッチライト・背景分離、landscape-photo＝f/64 の深い焦点・シャドウからハイライトまでの全階調・近景から遠い地平までの途切れない深度・人物なし、macro-photo＝極接写・剃刀のような薄い焦点面・滑らかな丸みのあるボケ・質感の拡大、cinematic-still＝アナモルフィック・浅い被写界深度・場面自身の光源に従う光・レターボックス 2.39:1、new-hollywood＝重いフィルム粒子・ありのままの光・褪色した低彩度・手持ち感・1970年代のプロダクションデザイン、instant-photo＝白フチ・オンカメラフラッシュ・褪色したヴィンテージカラー・わずかな柔らかさとぼけ。
+- **7 枚 × 3 言語＝21 ファイル**（en 正典＋ `references/ja/`・`references/zh/` ミラー）。テンプレ・Negative・環境変数名は英語不変（3言語バイト一致 7/7 検証済み）。registry.md に 7 行（様式 35→42）。types.md は変更なし（Photography メディウム既存・新メディウム開拓ではない）。
+- **検証ケース 7 件**（examples/melos-*）：**スタイル差し替え 7 件**（同一入力＝走れメロス × フォーマット＝イメージボード固定 × 様式だけ差し替え）。語る一点＝**泉**（両手で水を掬い「信じられている」を思い出す一瞬）に統一し、⑧忠実性（泉・縄打たれた友・壊れた橋・シラクスの塔）を保持。manga-halftone の⑧違反（処刑人殴打の捏造）の再発を避けるため、全ケースを原作実在の「泉」に固定。
+- **判定 7/7 PASS**（anti-generic genericness 1–3・aesthetic-critic 8–9・admiration PASS 4／弱PASS 3、⑧違反なし）。**初回は 5 枚 FAIL**（anti-generic）：紋切型トークン（teal-and-orange・cinematic composition・creamy bokeh・majestic scale・nostalgic keepsake）を「実際のカメラ・光・構図の決定」へ置換、重複（Rembrandt lighting・no people）解消、感傷タグ除去で精錬（**カードのテンプレート自体も精錬**し、英語不変部を3言語で再検証）。**cinematic-still は 2 回目の再精錬**まで要した：グレード表現が抹殺したはずの teal-and-orange の言い換え（amber-and-deep-blue）に過ぎないと再指摘され、グレードを廃して `lit by the dying sun alone` の単一光源決定＋飲む所作の観察（`the water running cold down his chin, the mud on his face thinning`）に改めて **PASS**。instant-photo は白フチ arc の物理的矛盾（白い枠には場面を支える奥行きがない）を両評価者が独立指摘 → `Dim beyond the flash's reach`（フラッシュの圏外の暗がり）へ移設。判定の詳細は [examples/EVALUATION.md](examples/EVALUATION.md)。
+- **軽微な所見**：末尾の `no CGI, no illustration` 等の Negative は⑦原則による意図的な様式ガード（anti-generic も判定から除外）。admiration の弱PASS 3 件（studio-portrait＝泉が顔に置換、landscape＝人物不在、cinematic＝映画様式が予測をなぞる）はいずれも様式の identity に由来し⑧違反なし。aesthetic は「写真の間接性（粒・ボケ・レターボックス・白枠）が語り手となり、適切さから生まれる美」と総評。
+- **README カタログ再編**：「Photography · decorative」複合カテゴリを「Photography / Film」に昇格（実写系 9 枚が単独軸に）、装飾系 4 枚（stained-glass／art-nouveau／art-deco／paper-cut）は「Decorative」に分離。
+
 ## 0.1.21 — 2026-08-24
 
 - **マンガ（カラー含む）のフォーマット・スタイルを拡充**：フォーマット 8 枚（4コマ漫画 four-panel／ウェブトゥーン webtoon／横長ストリップ comic-strip／見開きスプラッシュ splash-page／1コマ漫画（風刺） single-panel-cartoon／エッセイ漫画 comic-essay／ルポ漫画 reportage-manga／学習漫画 educational-manga）＋ スタイル 6 枚（セル画調 cel-shade／少女漫画調 shojo／ウェブトゥーンソフトレンダー webtoon-soft-render／少年バトル調 shonen-battle／劇画調 gekiga／漫画CMYKハーフトーン manga-halftone）＝**14 枚を追加**。これまで manga（叙述＝記録・再体験）・gag-manga（娯楽・4ビート）・manga-ink（白黒のみ）しかなかったマンガ対応に、カラー・レイアウト・媒体・目的の軸を一気に広げた。

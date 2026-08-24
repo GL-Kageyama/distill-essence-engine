@@ -55,6 +55,13 @@
 | Shonen battle manga | Digital | Shonen battle manga | — | [shonen-battle](styles/shonen-battle.md) |
 | Gekiga | Hand-drawn | Gekiga (dramatic comics) | — | [gekiga](styles/gekiga.md) |
 | Manga halftone CMYK | Printmaking / digital | Western comic printing | — | [manga-halftone](styles/manga-halftone.md) |
+| Documentary photography | Photography | Social documentary | — | [documentary-photo](styles/documentary-photo.md) |
+| Studio portrait | Photography | Studio portrait | — | [studio-portrait](styles/studio-portrait.md) |
+| Landscape photography | Photography | Large-format landscape | — | [landscape-photo](styles/landscape-photo.md) |
+| Macro photography | Photography | Macro | — | [macro-photo](styles/macro-photo.md) |
+| Cinematic still | Photography / film | Feature film | — | [cinematic-still](styles/cinematic-still.md) |
+| 1970s New Hollywood | Photography / film | New Hollywood | — | [new-hollywood](styles/new-hollywood.md) |
+| Instant photo | Photography | Instant film | — | [instant-photo](styles/instant-photo.md) |
 
 ## Format cards (formats/)
 
