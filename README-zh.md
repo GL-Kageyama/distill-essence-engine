@@ -32,7 +32,7 @@
 
 ## 能做什么
 
-**格式 30 种 × 样式 42 种**——全部已验证，可用名字复用。完整索引（含各卡的可复用 slug）见 [references/registry.md](references/registry.md)。
+**格式 30 种 × 样式 48 种**——可用名字复用。完整索引（含各卡的可复用 slug）见 [references/registry.md](references/registry.md)。
 
 **格式**——按所担的目的分类：
 
@@ -51,7 +51,7 @@
 | 媒介 | 样式 |
 |---|---|
 | 版画·印刷 | 木刻版画 · 麻胶版画 · 铜版雕刻 · 孔版印刷 · 庄重账册 · 漫画CMYK网目 |
-| 手绘 | 水彩 · 油画 · 水墨画 · 水粉抽象 · 铅笔 · 炭笔 · 粉彩 · 速写 · 漫画线稿 · 干净线条实验室 · 少女漫画风 · 剧画风 |
+| 手绘 | 水彩 · 油画 · 水墨画 · 水粉抽象 · 铅笔 · 炭笔 · 粉彩 · 速写 · 漫画线稿 · 干净线条实验室 · 蓝图・设计图 · 食谱・步骤卡 · 电路图 · 机构・做功图 · 尺规作图 · 实验笔记 · 少女漫画风 · 剧画风 |
 | 数字 | 像素 · PS1低多边形 · 包豪斯风格矢量 · 扁平漫画 · 线稿 · 等距 · 暗光极简矢量 · 高能日常系漫画 · 赛璐璐上色 · 网页漫画柔渲染 · 少年战斗风 |
 | 摄影／电影 | 街头摄影 · 黑色电影 · 纪实摄影 · 影棚肖像 · 大画幅风景 · 微距摄影 · 电影剧照 · 1970年代新好莱坞 · 拍立得照片 |
 | 装饰 | 彩色玻璃 · 剪纸 · 新艺术运动 · 装饰艺术 |
@@ -139,6 +139,6 @@ distill-essence-engine/
 
 - [docs/usage.md](docs/usage.md) — 用法（参数 · 卡片 · 输出 · 验证）
 - [docs/sources.md](docs/sources.md) — 卡片语汇的来源
-- [references/registry.md](references/registry.md) — 命名卡索引（格式 30 种 · 样式 42 种）
+- [references/registry.md](references/registry.md) — 命名卡索引（格式 30 种 · 样式 48 种）
 - [references/types.md](references/types.md) — 类型（预想目的×格式×样式×压缩 2 层）
 - [references/](references/) — 原理的深化（选材 · 转译 · 配置 …）

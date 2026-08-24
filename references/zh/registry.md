@@ -15,6 +15,7 @@
 - 这里是**结晶化的命名卡**。类型**空间**（可能存在的全部格式）在 [types.md](types.md)。
 
 > **预扩展批次（2026-08-22）已通过验证**：将样式 15 种・格式 7 种升级（详细判定・分数见 [examples/verify-rich/EVALUATION.md](../../examples/verify-rich/EVALUATION.md)）。**不采用（删除）**：claymation・cyberpunk・vaporwave（样式的世界覆盖内容的⑧违规，或堆砌）。9 张有条件卡片已通过精炼（添加针对弱点的 do/avoid・锚点・构成文法）＋重新验证全部解除。**全部卡片无条件**・未验证 0。
+> **0.1.24**：功能文档家族的 6 张卡片——[clean-line-lab](styles/clean-line-lab.md) 的兄弟（蓝图・设计图／食谱・步骤卡／电路图／机构・做功图／尺规作图／实验笔记）——已添加至下表并**已验证**（power-* 样式替换用例。判定见 [examples/EVALUATION.md](../examples/EVALUATION.md)）。
 
 ## 样式卡片（styles/）
 
@@ -62,6 +63,12 @@
 | 电影剧照 | 摄影・电影 | 长片电影 | — | [cinematic-still](styles/cinematic-still.md) |
 | 1970年代新好莱坞 | 摄影・电影 | 新好莱坞 | — | [new-hollywood](styles/new-hollywood.md) |
 | 拍立得照片 | 摄影 | 即时胶片 | — | [instant-photo](styles/instant-photo.md) |
+| 蓝图・设计图 | 手绘 | 制图 | 功能文档家族・已验证（0.1.24） | [blueprint-plan](styles/blueprint-plan.md) |
+| 食谱・步骤卡 | 手绘 | 家庭步骤卡 | 功能文档家族・已验证（0.1.24） | [recipe-howto](styles/recipe-howto.md) |
+| 电路图 | 手绘 | 电子电路图 | 功能文档家族・已验证（0.1.24） | [circuit-schematic](styles/circuit-schematic.md) |
+| 机构・做功图 | 手绘 | 机构・机械图解 | 功能文档家族・已验证（0.1.24） | [mechanism-work](styles/mechanism-work.md) |
+| 尺规作图 | 手绘 | 尺规作图 | 功能文档家族・已验证（0.1.24） | [geometric-construction](styles/geometric-construction.md) |
+| 实验笔记 | 手绘 | 实验笔记 | 功能文档家族・已验证（0.1.24） | [lab-notebook](styles/lab-notebook.md) |
 
 ## 格式卡片（formats/）
 

@@ -1,5 +1,16 @@
 # 開発履歴
 
+## 0.1.24 — 2026-08-25
+
+- **機能文書ファミリーの様式 6 種を追加**（references/styles/・ja/zh ミラー）：clean-line-lab の方法を抽象化した「共有DNA」——①機能文書の文法を借りる ②概念が目に見える物理的な仕組みになる ③抑制＋一点の意味アクセント ④記号は意味に参加 ⑤線に従属する温かさ——を保ったまま、**文書の世界だけを変えた方言**として横展開。
+- **6 種の内訳**（各カードの「概念がなる仕組み」で差別化）：blueprint-plan（青図・設計図＝計画・分解組立／断面）、recipe-howto（レシピ・手順カード＝手順の連鎖）、circuit-schematic（回路図＝接続・ネットワーク）、mechanism-work（機構・働きの図＝働きの伝達）、geometric-construction（定規とコンパスの作図＝作図・証明）、lab-notebook（実験ノート＝記録・注釈）。
+- **選定はユーザーと数往復で確定**：OK だった blueprint／recipe に共通する「**場面なし・純粋な機能の参照文書**」という軸を抽出し、残りを同軸で揃えた（場面系の chalkboard／field-notebook／atlas／celestial は不採用）。mechanism-clockwork→**mechanism-work に改名**（歯車・時計に限定せず機構一般へ）。instrument-gauge は「概念が構造に宿らない（計器は受動表示）」として不採用。
+- **18 ファイル**（en 正典＋ `references/ja/`・`references/zh/` ミラー）。テンプレ・Negative・環境変数名は英語不変（3言語バイト一致 6/6 検証済み）。
+- **registry.md に 6 行**（様式 42→48、**検証後に備考を「検証済み」へ**）・**types.md に機能文書ファミリー注記**（手描きメディウムを横断する系譜として）・**README カタログ更新**（手描き行に 6 種追加・検証完了後 `all verified` を復活）。HISTORY.md の例はこのとおり日本語。
+- **検証 6/6 PASS（18/18 判定）**：**スタイル差し替え 6 件**（同一入力＝概念「継続の力」× 同一フォーマット＝概念図固定 × 様式だけ差し替え）。語る一点＝一歩一歩の前進が滑り落ちない（進んだ分は必ず残る蓄積）に統一。各様式は概念を**自分の機構**で担う——blueprint＝毎日の薄い層の断面／recipe＝手順の順序（昨日を今日へ折り返す・何も捨てない）／circuit＝出力ノード→入力ノードの利得連鎖（ループを閉じるライブトレース）／mechanism＝ラチェット（爪が滑り落ちを防ぐ）／geometric＝各弧の終点が次の弧の中心になる螺旋／lab＝打ち消し線×矢印×累積の列。判定は anti-generic-filter（genericness 1–3）・aesthetic-critic（coherent 8–9）・admiration（PASS 5／弱PASS 1・⑧違反なし全6件）。registry の「検証待ち」を外し、様式 42→48 全カード検証済みに。判定の詳細は [examples/EVALUATION.md](examples/EVALUATION.md)。
+- **geometric-construction のみ anti-gen 初回が条件付き（primary 58・discovery_target）**：指摘は①末尾の Negative 列（カードの英語不変部＝0.1.22 と同じく⑦原則の様式ガードとして判定から除外）②冒頭「the power of persistence」が抽象タグ。**冒頭を「proves the compounding of small steps — persistence drawn as a proof with compass and straightedge」という作図の具体的主張に精錬して再判定 → genericness 1/10 PASS**。カード本体は変更なし（prompt.md に精錬記録）。
+- **出力サンプル 6 件を examples/ に追加**（distill-<style>）：テーマ＝蒸留エンジン（distill-essence-engine）自身の解説。6 種をそれぞれ使って、エンジンを各様式の機能文書（設計図断面・手順カード・利得連鎖・蒸留器・作図の証明・実験ノート）で描く。検証済みカードの実演として examples/README 3言語のケース一覧に追加。
+
 ## 0.1.23 — 2026-08-24
 
 - **概念一枚絵の手法を取り込み、フォーマットカード「概念図」を新設**：ユーザー資料 `資料/イラストの拡張/illustration_format_style_guide.md` の「複雑な概念を一枚絵にする手法」を読了・納得（根拠3点：①エンジンは既に概念一枚絵を ad hoc で実施＝ai-shikigami ミラー双連画・world-model 氷山メタファー ②資料がその装置に英語標準用語で名前を与える ③固有×間接と整合可能）し、取り込んだ。

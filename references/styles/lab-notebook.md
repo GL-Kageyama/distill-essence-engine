@@ -1,0 +1,56 @@
+<!-- i18n-version: 1.0.0 | canonical: references/styles/lab-notebook.md | translated: 2026-08-25 -->
+
+**Language:** [English](lab-notebook.md) | [日本語](../ja/styles/lab-notebook.md) | [中文](../zh/styles/lab-notebook.md)
+
+# Lab notebook（lab-notebook）
+
+- **Medium**: Hand-drawn ／ **Lineage**: Laboratory notebook ／ **Era**: —
+- **Summary**: A concept as a working page of a lab notebook — the record of finding it out, handwritten lines with margin notes and cross-outs, one observed result in color.
+
+## Environment variables
+`SUBJECT`, `ACTION`, `LOCATION`, `RECORD`＝the record of notes, `ACCENT`＝the observed result, `ASPECT`
+
+## Fidelity anchors
+- The working lab-notebook page: ruled or grid paper, handwritten line, margin annotations, a cross-out or correction, an arrow linking notes
+- The line slightly loose and hand-drawn — warmer, less polished than a textbook figure
+- Flat pale paper, minimal shading
+- One accent on the observed result — the entry the whole page was leading to
+- Quiet, the page itself is the world
+
+## Visual breakdown
+- **Composition**: the page centered; notes lead down the page to the observed result
+- **Typography**: no lettering; at most small handwritten marks in the same line language — optional
+- **Color**: pale paper + ink line + one accent on the observed result
+- **Texture & lighting**: flat, papery, dry
+
+## do
+- Draw the concept as a record: entries, a cross-out, a margin note, an arrow — the sequence of finding it out is the causality
+- Let the accent mark the observed result that closes the record
+- Keep handwritten grammar (margin arrows, a circled result) as participating in meaning
+- Keep cuteness subordinated — a small round subject in the same hand-drawn line, looser than the lab figure
+
+## avoid
+- Heavy shading, photorealistic rendering, 3D gloss, digital gradient
+- Grunginess for its own sake — restraint still holds
+- The accent as a random highlighter — it marks the observed result
+- Making it a clean textbook figure — this is the working page, not the printed one
+
+## Negative
+`not photorealistic, no 3D render, no digital gradient, no oil texture, no heavy shading, no extra text or lettering (only the small handwritten marks), no mojibake, no garbled characters`
+
+## Prompt template (English, fill-in-the-blank)
+```text
+A lab-notebook page of {SUBJECT} {ACTION} in {LOCATION}. A working page — ruled or grid
+paper, slightly loose handwritten line, margin annotations, a cross-out or correction, an
+arrow linking notes — the concept drawn as a record of finding it out, {RECORD} the sequence
+of notes leading to one observed result. Flat pale paper, minimal shading, dry and quiet.
+One accent color {ACCENT} on the observed result that closes the record — meaning, not a
+highlighter. Any character small and round with large flat unglossy eyes — drawn in the same
+hand-drawn line, warmer than a printed figure. Quiet, the page itself the world.
+```
+
+## Examples
+- —
+
+## Sources
+Functional-document family expansion (0.1.24) — sibling of clean-line-lab

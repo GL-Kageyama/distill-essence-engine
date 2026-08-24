@@ -22,7 +22,7 @@
 | ホームページ（木工所） | 解説図 | — | ポスター | — | — | — |
 | GitHub リポジトリ | — | — | ヒーロー画像 | — | — | — |
 
-**様式カバレッジ**：レジストリ登録様式は **42 種（全て検証済み）**。様式差し替えテスト（[verify-rich/](verify-rich/)）で新規 15 様式・7 フォーマットを例示・検証した。3 様式（claymation／cyberpunk／vaporwave）は検証で**不採用**となりレジストリ外（詳細は [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)）。ダークグロー・ミニマルベクター（実績 hero ファミリー・紺＋金橙＋白熱の4色）は 0.1.17 の distill-hero で追加。ハイテンション日常系コミック（ギャグ漫画・日常系アニメ）は 0.1.18 の bocchan-gag-manga（青空文庫『坊っちゃん』→10 ページ漫画）で追加。クリーンラインラボ（教科書の実験図の明快さ×静かなかわいさ）は 0.1.19 の ai-schrodinger-cat で追加。マンガ様式 6 種（セル画調／少女漫画調／ウェブトゥーンソフトレンダー／少年バトル調／劇画調／漫画CMYKハーフトーン）は 0.1.21 の melos-* スタイル差し替えケースで追加（初のカラーマンガ様式。漫画CMYKハーフトーンは初の漫画向け印刷工程様式）。実写系（写真・映画）様式 7 種（ドキュメンタリー写真／スタジオポートレート／大判風景写真／マクロ写真／シネマティックスチル／1970年代ニュー・ハリウッド／インスタント写真）は 0.1.22 の melos-* スタイル差し替えケースで追加（初のレンズと光のメディウム様式。ストリートフォト・フィルムノワールと並んで実写軸を完成）。
+**様式カバレッジ**：レジストリ登録様式は **48 種（全て検証済み）**。様式差し替えテスト（[verify-rich/](verify-rich/)）で新規 15 様式・7 フォーマットを例示・検証した。3 様式（claymation／cyberpunk／vaporwave）は検証で**不採用**となりレジストリ外（詳細は [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)）。ダークグロー・ミニマルベクター（実績 hero ファミリー・紺＋金橙＋白熱の4色）は 0.1.17 の distill-hero で追加。ハイテンション日常系コミック（ギャグ漫画・日常系アニメ）は 0.1.18 の bocchan-gag-manga（青空文庫『坊っちゃん』→10 ページ漫画）で追加。クリーンラインラボ（教科書の実験図の明快さ×静かなかわいさ）は 0.1.19 の ai-schrodinger-cat で追加。マンガ様式 6 種（セル画調／少女漫画調／ウェブトゥーンソフトレンダー／少年バトル調／劇画調／漫画CMYKハーフトーン）は 0.1.21 の melos-* スタイル差し替えケースで追加（初のカラーマンガ様式。漫画CMYKハーフトーンは初の漫画向け印刷工程様式）。実写系（写真・映画）様式 7 種（ドキュメンタリー写真／スタジオポートレート／大判風景写真／マクロ写真／シネマティックスチル／1970年代ニュー・ハリウッド／インスタント写真）は 0.1.22 の melos-* スタイル差し替えケースで追加（初のレンズと光のメディウム様式。ストリートフォト・フィルムノワールと並んで実写軸を完成）。機能文書ファミリーの様式 6 種（青図・設計図／レシピ・手順カード／回路図／機構・働きの図／定規とコンパスの作図／実験ノート）——clean-line-lab の兄弟で、それぞれが概念を自分自身の文書（計画／手順／接続／働き／証明／記録）で描く——は 0.1.24 の power-* スタイル差し替えケース（同一入力 × 概念図固定 × 様式だけ差し替え）で追加・検証済み。実演は下記の distill-* 出力サンプル。
 
 **フォーマットカバレッジ**：レジストリ登録フォーマットは **30 種（全て検証済み）**。verify-rich/ で新規 7 種（ストーリーボード／ポスター／絵本／ロゴ／エンブレム／スプライト／タロットカード）を検証・昇格した。ヒーロー画像（hero・16:9 バナー）は 0.1.17 の distill-hero で追加。ギャグ漫画（多コマ・4ビートリズム）は 0.1.18 の bocchan-gag-manga で追加。説明系フォーマット 4 種（タイムライン／フローチャート／比較マトリクス／データチャート）は 0.1.20 の attention-* ケースで追加。マンガフォーマット 8 種（4コマ漫画／ウェブトゥーン／横長ストリップ／見開きスプラッシュ／1コマ漫画（風刺）／エッセイ漫画／ルポ漫画／学習漫画）は 0.1.21 の melos-*／attention-educational-manga フォーマット差し替えケースで追加。概念図（conceptual illustration：ビジュアルメタファー／スプリットコンポジション／カラーコーディングで全概念を一枚の象徴の絵に折り込む）は 0.1.23 の concept-average-vs-particular で追加。カバレッジ行列は登録 30 種のうち 20 種（解説図／インフォグラフィック／表紙／アイコン／サムネイル／ポスター／絵本／漫画／挿絵／イメージボード／ストーリーボード／スプライトシート／タロットカード／ヒーロー画像／ギャグ漫画／タイムライン／フローチャート／比較マトリクス／データチャート／概念図）を例示する（マンガフォーマットは下記の melos-*／attention-educational-manga ケースで例示）。
 
@@ -111,6 +111,18 @@
 | melos-instant-photo | 走れメロス | イメージボード | インスタント写真 | 再体験 |
 | distill-engine-educational-manga | リポジトリの本質 — あらゆる内容→一枚のプロンプト（概念） | 学習漫画 | 漫画CMYKハーフトーン | 理解 |
 | concept-average-vs-particular | 平均 × 固有（概念） | 概念図 | ダークグロー・ミニマルベクター | 伝達 |
+| power-blueprint-plan | 継続の力（概念） | 概念図 | 青図・設計図 | 伝達 |
+| power-recipe-howto | 継続の力（概念） | 概念図 | レシピ・手順カード | 伝達 |
+| power-circuit-schematic | 継続の力（概念） | 概念図 | 回路図 | 伝達 |
+| power-mechanism-work | 継続の力（概念） | 概念図 | 機構・働きの図 | 伝達 |
+| power-geometric-construction | 継続の力（概念） | 概念図 | 定規とコンパスの作図 | 伝達 |
+| power-lab-notebook | 継続の力（概念） | 概念図 | 実験ノート | 伝達 |
+| distill-blueprint-plan | 蒸留エンジン（概念） | 概念図 | 青図・設計図 | 伝達 |
+| distill-recipe-howto | 蒸留エンジン（概念） | 概念図 | レシピ・手順カード | 伝達 |
+| distill-circuit-schematic | 蒸留エンジン（概念） | 概念図 | 回路図 | 伝達 |
+| distill-mechanism-work | 蒸留エンジン（概念） | 概念図 | 機構・働きの図 | 伝達 |
+| distill-geometric-construction | 蒸留エンジン（概念） | 概念図 | 定規とコンパスの作図 | 伝達 |
+| distill-lab-notebook | 蒸留エンジン（概念） | 概念図 | 実験ノート | 伝達 |
 
 > URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ）は `url:` で受け取り、`scripts/fetch.py` が文字起こし／本文を抽出する。実 URL の検証ケースが 5 件ある（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/)＝青空文庫『坊っちゃん』、いずれも実フェッチ）。残りは実 URL が無いため代表サンプル入力（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）で変換を検証している。実フェッチは `python3 scripts/fetch.py url:https://...` で同じ行に入る。
 

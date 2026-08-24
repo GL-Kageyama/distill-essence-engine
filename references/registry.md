@@ -15,6 +15,7 @@
 - This is the home of **crystallized named cards**. The **space** of types (the whole of possible formats) is in [types.md](types.md).
 
 > **The pre-expansion batch (2026-08-22) has passed verification**: 15 styles and 7 formats were promoted (detailed judgments and scores are in [examples/verify-rich/EVALUATION.md](../examples/verify-rich/EVALUATION.md)). **Not adopted (deleted)**: claymation, cyberpunk, vaporwave (⑧ violations where the style's world overwrites the content, or cramming). The 9 conditional cards were all resolved by refinement (adding do/avoid, anchors, and composition grammar that address the weaknesses) + re-verification. **All cards are unconditional** and unverified is 0.
+> **0.1.24**: 6 functional-document family cards — siblings of [clean-line-lab](styles/clean-line-lab.md) (blueprint plan / recipe how-to / circuit schematic / mechanism work / geometric construction / lab notebook) — were added and **verified** below via the power-* style-swap cases (judgments in [examples/EVALUATION.md](../examples/EVALUATION.md)).
 
 ## Style cards (styles/)
 
@@ -62,6 +63,12 @@
 | Cinematic still | Photography / film | Feature film | — | [cinematic-still](styles/cinematic-still.md) |
 | 1970s New Hollywood | Photography / film | New Hollywood | — | [new-hollywood](styles/new-hollywood.md) |
 | Instant photo | Photography | Instant film | — | [instant-photo](styles/instant-photo.md) |
+| Blueprint plan | Hand-drawn | Technical drafting | Functional-document family · verified (0.1.24) | [blueprint-plan](styles/blueprint-plan.md) |
+| Recipe / how-to card | Hand-drawn | Domestic how-to | Functional-document family · verified (0.1.24) | [recipe-howto](styles/recipe-howto.md) |
+| Circuit schematic | Hand-drawn | Electronics schematic | Functional-document family · verified (0.1.24) | [circuit-schematic](styles/circuit-schematic.md) |
+| Mechanism work | Hand-drawn | Mechanism / machine diagram | Functional-document family · verified (0.1.24) | [mechanism-work](styles/mechanism-work.md) |
+| Geometric construction | Hand-drawn | Compass-and-straightedge | Functional-document family · verified (0.1.24) | [geometric-construction](styles/geometric-construction.md) |
+| Lab notebook | Hand-drawn | Laboratory notebook | Functional-document family · verified (0.1.24) | [lab-notebook](styles/lab-notebook.md) |
 
 ## Format cards (formats/)
 

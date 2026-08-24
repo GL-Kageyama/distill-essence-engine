@@ -195,6 +195,24 @@ anti-generic の指摘はすべて具体的：①**紋切型トークン**（tea
 - **様式カードからの明示的逸脱**：dark-glow-vector カードの文字入れスロット（TITLE／TAGLINE）は、概念図の「テキストは担い手にしない」を優先し**空**にした（prompt.md に記録済み・明示的逸脱として許容）。
 - **再分類（概念6ケース）**：プラン記載の4ケースに加え、同一条件（概念入力・伝達目的・比喩駆動）の ai-schrodinger-cat・distill-engine-illustration も **概念図**へ再分類（計6ケース）。examples/README 3言語のフォーマット列を挿絵→概念図に更新し、フォーマット 29→30。types.md は機能表に **Conceptual**（Conceptual illustration＝full concept × folding）を追加（6目的→8種）。
 
+## 機能文書ファミリー拡充 6 枚（PASS 18/18・0.1.24）
+
+| ケース | 入力 | フォーマット | 様式 | 目的 | 判定 |
+|---|---|---|---|---|---|
+| power-blueprint-plan | 継続の力（概念） | 概念図 | 青図・設計図 | 伝達 | **PASS**（anti-gen 3/10・aesthetic 9/10・admiration PASS） |
+| power-recipe-howto | 同上 | 概念図 | レシピ・手順カード | 伝達 | **PASS**（anti-gen 1/10・aesthetic 8/10・admiration 弱PASS） |
+| power-circuit-schematic | 同上 | 概念図 | 回路図 | 伝達 | **PASS**（anti-gen 1/10・aesthetic 9/10・admiration PASS） |
+| power-mechanism-work | 同上 | 概念図 | 機構・働きの図 | 伝達 | **PASS**（anti-gen 2/10・aesthetic 8/10・admiration PASS） |
+| power-geometric-construction | 同上 | 概念図 | 定規とコンパスの作図 | 伝達 | **PASS**（anti-gen 初回58→精錬後1/10・aesthetic 8/10・admiration PASS） |
+| power-lab-notebook | 同上 | 概念図 | 実験ノート | 伝達 | **PASS**（anti-gen 2/10・aesthetic 9/10・admiration PASS） |
+
+- 判定者：anti-generic-filter・aesthetic-critic・admiration の3系統（6×3＝18判定・並列）。判定対象テキスト（Merged プロンプト）をエージェントプロンプトに直接埋め込み、ファイル/ツール読取禁止、model='sonnet'（0.1.20〜0.1.23 と同手順）。**6 枚とも全系統 PASS（18/18）→ レジストリへ登録（様式 42→48、検証待ち解除）**。
+- **検証パターン**：**スタイル差し替え 6 件**（同一入力＝概念「継続の力」× 同一フォーマット＝概念図固定 × 様式だけ差し替え）。語る一点＝**一歩一歩の前進が滑り落ちない**（進んだ分は必ず残る蓄積）に統一。各様式は概念を**自分の機構**で担う——blueprint＝毎日の薄い層の断面／recipe＝手順の順序（昨日を今日へ折り返す・何も捨てない）／circuit＝出力ノード→入力ノードの利得連鎖（ループを閉じるライブトレース）／mechanism＝ラチェット（爪が滑り落ちを防ぐ）／geometric＝各弧の終点が次の弧の中心になる螺旋／lab＝打ち消し線×余白の矢印×積み上がる累積の列。
+- **固有×間接**：各ケースが概念固有の一点に絞る（上記の機構）。genericness 1–3（再判定含む）、汎用タグの羅列なし。aesthetic は「機能文書の文法そのものが意味を担う＝計画・手順・接続・働き・証明・記録が、概念を説明するのではなく概念になる」と総評（coherent 78–87）。admiration は「比喩は借り物でなく概念から引き出された必然（ラチェット・螺旋・累積列）」と総評、⑧違反なし（全6件・電球・鎖・雨などの借り物記号なし）。
+- **geometric-construction のみ anti-gen 初回が条件付き（primary 58・discovery_target）**：指摘は①末尾の Negative 列（カードの英語不変部＝0.1.22 と同じく⑦原則の様式ガードとして判定から除外）②冒頭「the power of persistence」が抽象タグ。**冒頭を「proves the compounding of small steps — persistence drawn as a proof with compass and straightedge」という作図の具体的主張に精錬して再判定 → genericness 1/10 PASS**。カード本体は変更なし（prompt.md に精錬記録）。
+- **admiration の弱PASS 1 件**（recipe-howto・⑧違反なし）：折り返し＝「何も捨てない蓄積」の再文脈化は必然だが、不随意的な頂点まで届かず。合格の範囲内（0.1.21/0.1.22 と同じく弱PASS は合格）。
+- **軽微な所見**：末尾の否定句（not photorealistic, no 3D render …）は様式の制約として機能する定型（anti-generic は失敗シグネチャと判定せず）。aesthetic は「negative 列が詩から仕様書へ落ちる」と共通の注記（PASS の範囲内）。
+
 ## 注記
 
 - URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ／青空文庫）は、実 URL の検証ケースが 4 件ある。いずれも `scripts/fetch.py` で実フェッチした内容を入力に使用し、カバレッジ行列の YouTube 動画 × 理解（解説図）・× 記録（漫画）・GitHub リポジトリ × 誘引（ヒーロー画像）セルを実 URL で埋めた（bocchan-gag-manga は小説入力＝青空文庫の実フェッチ例で、小説 × 誘引セルにギャグ漫画を追加）。

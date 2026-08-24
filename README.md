@@ -32,7 +32,7 @@ What the text needs is not an illustration but a **distillation**: choose the on
 
 ## What you can make
 
-**30 formats × 42 styles** — all verified, reusable by name. The full index (with each card's reusable slug) is [references/registry.md](references/registry.md).
+**30 formats × 48 styles** — reusable by name. The full index (with each card's reusable slug) is [references/registry.md](references/registry.md).
 
 **Formats** — grouped by the purpose they serve:
 
@@ -51,7 +51,7 @@ What the text needs is not an illustration but a **distillation**: choose the on
 | Medium | Styles |
 |---|---|
 | Printmaking | woodblock print · linocut · copperplate engraving · risograph · solemn ledger · manga halftone |
-| Hand-drawn | watercolor · oil painting · sumi-e ink wash · gouache abstract · pencil · charcoal · pastel · sketch · manga ink · clean-line lab · shojo · gekiga |
+| Hand-drawn | watercolor · oil painting · sumi-e ink wash · gouache abstract · pencil · charcoal · pastel · sketch · manga ink · clean-line lab · blueprint plan · recipe how-to · circuit schematic · mechanism work · geometric construction · lab notebook · shojo · gekiga |
 | Digital | pixel art · PS1 low-poly · Bauhaus vector · flat comic · line art · isometric · dark-glow minimal vector · high-energy slice-of-life comic · cel-shade · webtoon soft-render · shonen battle |
 | Photography / Film | street photography · film noir · documentary photography · studio portrait · landscape photography · macro photography · cinematic still · 1970s New Hollywood · instant photo |
 | Decorative | stained glass · paper cutout · art nouveau · art deco |
@@ -139,6 +139,6 @@ distill-essence-engine/
 
 - [docs/usage.md](docs/usage.md) — how to use (arguments · cards · output · verification)
 - [docs/sources.md](docs/sources.md) — the provenance of the card vocabulary
-- [references/registry.md](references/registry.md) — the named-card index (30 formats · 42 styles)
+- [references/registry.md](references/registry.md) — the named-card index (30 formats · 48 styles)
 - [references/types.md](references/types.md) — the typology (assumed purpose × format × style × compression's 2 layers)
 - [references/](references/) — the deepening of the principles (selection · translation · arrangement · …)

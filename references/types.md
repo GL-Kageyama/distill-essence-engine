@@ -61,6 +61,7 @@ Two axes **cross-cut** this:
 
 - **Lineage** (cultural and historical traditions): ukiyo-e / sumi-e / Impressionism / Bauhaus / manga / American comics
 - **Era and technology**: retro / PS1 / 8-bit / cyberpunk / retro-future
+- **Functional-document family** (a lineage cross-cut of the hand-drawn medium): [clean-line-lab](styles/clean-line-lab.md) and its siblings — blueprint-plan / recipe-howto / circuit-schematic / mechanism-work / geometric-construction / lab-notebook — share one DNA (a functional document's grammar, the concept as a visible mechanism, restraint + one semantic accent) and differ only in the dialect of the document. Added and verified 0.1.24 (power-* style-swap cases; judgments in [examples/EVALUATION.md](../examples/EVALUATION.md)).
 
 Style = the intersection of **medium × lineage × era**, each carrying vocabulary + grammar + norms.
 

@@ -60,6 +60,7 @@
 これに**交差する 2 軸**がある：
 
 - **系譜**（文化・歴史の伝統）：浮世絵 / 水墨画 / 印象派 / バウハウス / マンガ / アメコミ
+- **機能文書ファミリー**（手描きメディウムを横断する系譜）：[clean-line-lab](styles/clean-line-lab.md) とその兄弟——blueprint-plan / recipe-howto / circuit-schematic / mechanism-work / geometric-construction / lab-notebook——はひとつのDNA（機能文書の文法・概念が目に見える仕組みになる・抑制＋一点の意味アクセント）を共有し、文書の方言だけが違う。0.1.24 追加・検証済み（power-* 様式差し替えケース。判定は [examples/EVALUATION.md](../../examples/EVALUATION.md)）。
 - **時代・技術**：レトロ / PS1 / 8bit / サイバーパンク / レトロフューチャー
 
 様式＝**メディウム × 系譜 × 時代**の交点で、それぞれ語彙＋文法＋規範を持つ。

@@ -61,6 +61,7 @@
 
 - **系谱**（文化・历史的传统）：浮世绘 / 水墨画 / 印象派 / 包豪斯 / 漫画 / 美漫
 - **时代・技术**：复古 / PS1 / 8bit / 赛博朋克 / 复古未来
+- **功能文档家族**（横贯手绘媒介的系谱）：[clean-line-lab](styles/clean-line-lab.md) 及其兄弟——blueprint-plan / recipe-howto / circuit-schematic / mechanism-work / geometric-construction / lab-notebook——共享同一种 DNA（功能文档的文法・概念成为可见的机制・克制＋一点意义强调），只有文档的方言不同。0.1.24 新增・已验证（power-* 样式替换用例。判定见 [examples/EVALUATION.md](../../examples/EVALUATION.md)）。
 
 样式＝**媒介 × 系谱 × 时代**的交点，各自拥有词汇＋文法＋规范。
 

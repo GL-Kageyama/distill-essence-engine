@@ -15,6 +15,7 @@
 - ここは**結晶化した名前付きカード**。類型の**空間**（ありえるフォーマット全体）は [types.md](types.md)。
 
 > **事前拡充バッチ（2026-08-22）は検証完了**：様式 15 種・フォーマット 7 種を昇格（詳細な判定・スコアは [examples/verify-rich/EVALUATION.md](../../examples/verify-rich/EVALUATION.md)）。**不採用（削除）**：claymation・cyberpunk・vaporwave（様式の世界が内容を上書きする⑧違反、または詰め込み）。条件付き 9 枚は精錬（弱点に対応する do/avoid・アンカー・構成文法を追加）＋再検証で全て解消。**全カード 条件付きなし**・未検証 0。
+> **0.1.24**：機能文書ファミリーのカード 6 枚——[clean-line-lab](styles/clean-line-lab.md) の兄弟（青図・設計図／レシピ・手順カード／回路図／機構・働きの図／定規とコンパスの作図／実験ノート）——を下記に追加・**検証済み**（power-* 様式差し替えケース。判定は [examples/EVALUATION.md](../examples/EVALUATION.md)）。
 
 ## 様式カード（styles/）
 
@@ -62,6 +63,12 @@
 | シネマティックスチル | 写真・映画 | 長編映画 | — | [cinematic-still](styles/cinematic-still.md) |
 | 1970年代ニュー・ハリウッド | 写真・映画 | ニュー・ハリウッド | — | [new-hollywood](styles/new-hollywood.md) |
 | インスタント写真 | 写真 | インスタントフィルム | — | [instant-photo](styles/instant-photo.md) |
+| 青図・設計図 | 手描き | 製図 | 機能文書ファミリー・検証済み（0.1.24） | [blueprint-plan](styles/blueprint-plan.md) |
+| レシピ・手順カード | 手描き | 家庭の手順カード | 機能文書ファミリー・検証済み（0.1.24） | [recipe-howto](styles/recipe-howto.md) |
+| 回路図 | 手描き | 電子回路図 | 機能文書ファミリー・検証済み（0.1.24） | [circuit-schematic](styles/circuit-schematic.md) |
+| 機構・働きの図 | 手描き | 機構・機械の図解 | 機能文書ファミリー・検証済み（0.1.24） | [mechanism-work](styles/mechanism-work.md) |
+| 定規とコンパスの作図 | 手描き | 定規とコンパスによる作図 | 機能文書ファミリー・検証済み（0.1.24） | [geometric-construction](styles/geometric-construction.md) |
+| 実験ノート | 手描き | 実験ノート | 機能文書ファミリー・検証済み（0.1.24） | [lab-notebook](styles/lab-notebook.md) |
 
 ## フォーマットカード（formats/）
 
