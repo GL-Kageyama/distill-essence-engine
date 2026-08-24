@@ -32,14 +32,14 @@
 
 ## 能做什么
 
-**格式 29 种 × 样式 42 种**——全部已验证，可用名字复用。完整索引（含各卡的可复用 slug）见 [references/registry.md](references/registry.md)。
+**格式 30 种 × 样式 42 种**——全部已验证，可用名字复用。完整索引（含各卡的可复用 slug）见 [references/registry.md](references/registry.md)。
 
 **格式**——按所担的目的分类：
 
 | 目的 | 格式 |
 |---|---|
 | 理解 | 图解 · 时间轴 · 流程图 · 学习漫画 |
-| 传达 | 信息图 · 分镜脚本 · 对比矩阵 · 数据图 |
+| 传达 | 信息图 · 分镜脚本 · 对比矩阵 · 数据图 · 概念图 |
 | 吸引 | 封面 · 海报 · 缩略图 · 主视觉横幅 · 搞笑漫画 · 四格漫画 · 横长条漫 · 单格漫画（讽刺） |
 | 再体验·记录 | 影像板 · 漫画 · 绘本 · 网页漫画 · 跨页大图 · 随笔漫画 · 纪实漫画 |
 | 装饰 | 插画 |
@@ -139,6 +139,6 @@ distill-essence-engine/
 
 - [docs/usage.md](docs/usage.md) — 用法（参数 · 卡片 · 输出 · 验证）
 - [docs/sources.md](docs/sources.md) — 卡片语汇的来源
-- [references/registry.md](references/registry.md) — 命名卡索引（格式 29 种 · 样式 42 种）
+- [references/registry.md](references/registry.md) — 命名卡索引（格式 30 种 · 样式 42 种）
 - [references/types.md](references/types.md) — 类型（预想目的×格式×样式×压缩 2 层）
 - [references/](references/) — 原理的深化（选材 · 转译 · 配置 …）

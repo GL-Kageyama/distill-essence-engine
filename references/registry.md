@@ -75,6 +75,7 @@
 | Icon | Symbolic | — | [icon](formats/icon.md) |
 | Diagram | Explanatory (understanding) | — | [diagram](formats/diagram.md) |
 | Illustration | Decorative | — | [illustration](formats/illustration.md) |
+| Conceptual illustration | Symbolic (communication) | Editorial / metaphorical variants | [conceptual-illustration](formats/conceptual-illustration.md) |
 | Poster | Symbolic (attraction) | — | [poster](formats/poster.md) |
 | Picture book | Narrative (re-experience) | — | [picture-book](formats/picture-book.md) |
 | Logo | Symbolic | — | [logo](formats/logo.md) |

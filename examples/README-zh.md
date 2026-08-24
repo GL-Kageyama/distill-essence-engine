@@ -24,7 +24,7 @@
 
 **样式覆盖率**：注册样式为 **42 种（全部已验证）**。样式替换测试（[verify-rich/](verify-rich/)）例示并验证了新增 15 种样式·7 种格式。3 种样式（claymation／cyberpunk／vaporwave）在验证中**未采纳**，位于注册表之外（详见 [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)）。暗光极简矢量（实绩 hero 家族·藏蓝＋金橙＋白热的 4 色）于 0.1.17 的 distill-hero 加入。高能日常系漫画（搞笑漫画·日常系动画）于 0.1.18 的 bocchan-gag-manga（青空文库《哥儿》→10 页漫画）加入。干净线条实验室（教科书实验图的明快×安静的可爱）于 0.1.19 的 ai-schrodinger-cat 加入。漫画样式 6 种（赛璐璐上色／少女漫画风／网页漫画柔渲染／少年战斗风／剧画风／漫画CMYK网目）于 0.1.21 的 melos-* 样式替换案例加入（首批彩色漫画样式；漫画CMYK网目是首个面向漫画的印刷工序样式）。实拍系（摄影／电影）样式 7 种（纪实摄影／影棚肖像／大画幅风景／微距摄影／电影剧照／1970年代新好莱坞／拍立得照片）于 0.1.22 的 melos-* 样式替换案例加入（首批镜头与光线的媒介样式，与街头摄影、黑色电影并列，补齐实拍轴）。
 
-**格式覆盖率**：注册格式为 **29 种（全部已验证）**。verify-rich/ 验证并升级了新增 7 种（分镜脚本／海报／绘本／标志／徽章／精灵图／塔罗牌）。主视觉横幅（hero·16:9 横幅）于 0.1.17 的 distill-hero 加入。搞笑漫画（多格·4 拍节奏）于 0.1.18 的 bocchan-gag-manga 加入。4 种说明性格式（时间轴／流程图／对比矩阵／数据图）于 0.1.20 的 attention-* 案例加入。漫画格式 8 种（四格漫画／网页漫画／横长条漫／跨页大图／单格漫画（讽刺）／随笔漫画／纪实漫画／学习漫画）于 0.1.21 的 melos-*／attention-educational-manga 格式替换案例加入。覆盖率矩阵例示了注册 29 种中的 19 种（图解／信息图／封面／图标／缩略图／海报／绘本／漫画／插画／影像板／分镜脚本／精灵图／塔罗牌／主视觉横幅／搞笑漫画／时间轴／流程图／对比矩阵／数据图）（漫画格式在下方的 melos-*／attention-educational-manga 案例中例示）。
+**格式覆盖率**：注册格式为 **30 种（全部已验证）**。verify-rich/ 验证并升级了新增 7 种（分镜脚本／海报／绘本／标志／徽章／精灵图／塔罗牌）。主视觉横幅（hero·16:9 横幅）于 0.1.17 的 distill-hero 加入。搞笑漫画（多格·4 拍节奏）于 0.1.18 的 bocchan-gag-manga 加入。4 种说明性格式（时间轴／流程图／对比矩阵／数据图）于 0.1.20 的 attention-* 案例加入。漫画格式 8 种（四格漫画／网页漫画／横长条漫／跨页大图／单格漫画（讽刺）／随笔漫画／纪实漫画／学习漫画）于 0.1.21 的 melos-*／attention-educational-manga 格式替换案例加入。概念图（conceptual illustration：通过视觉隐喻／分镜对比／色彩编码，把整个概念折进一张象征性图画）于 0.1.23 的 concept-average-vs-particular 加入。覆盖率矩阵例示了注册 30 种中的 20 种（图解／信息图／封面／图标／缩略图／海报／绘本／漫画／插画／影像板／分镜脚本／精灵图／塔罗牌／主视觉横幅／搞笑漫画／时间轴／流程图／对比矩阵／数据图／概念图）（漫画格式在下方的 melos-*／attention-educational-manga 案例中例示）。
 
 ## 案例列表
 
@@ -78,12 +78,12 @@
 | youtube-blueprint-vs-paint-infographic | YouTube 演讲（实 URL） | 信息图 | 扁平漫画 | 理解 |
 | youtube-thumbnail | YouTube 演讲 | 缩略图 | 扁平漫画 | 诱引 |
 | youtube-picture-book | YouTube 演讲 | 绘本 | 水彩 | 再体验 |
-| council-workshop-illustration | 5个工具仓库（智慧评议会） | 插画 | 等距 | 传达 |
-| council-evolution-triptych | 三种创作模式（仅人类／+AI／+5种工具） | 插画 | 等距 | 传达 |
-| ai-shikigami-analogy | AI使用者 × 式神使用者的类比（概念） | 插画（镜像双联画） | 水彩 | 传达 |
-| ai-schrodinger-cat | AI生成物需被观测才有意义（概念） | 插画 | 干净线条实验室 | 传达 |
-| world-model-engines-loop | 世界模型三构想（概念深挖・生成器・评价） | 插画 | 干净线条实验室 | 装饰 |
-| distill-engine-illustration | 仓库本质 — 任意内容→一条提示词（概念） | 插画 | 干净线条实验室 | 传达 |
+| council-workshop-illustration | 5个工具仓库（智慧评议会） | 概念图 | 等距 | 传达 |
+| council-evolution-triptych | 三种创作模式（仅人类／+AI／+5种工具） | 概念图 | 等距 | 传达 |
+| ai-shikigami-analogy | AI使用者 × 式神使用者的类比（概念） | 概念图（镜像双联画） | 水彩 | 传达 |
+| ai-schrodinger-cat | AI生成物需被观测才有意义（概念） | 概念图 | 干净线条实验室 | 传达 |
+| world-model-engines-loop | 世界模型三构想（概念深挖・生成器・评价） | 概念图 | 干净线条实验室 | 装饰 |
+| distill-engine-illustration | 仓库本质 — 任意内容→一条提示词（概念） | 概念图 | 干净线条实验室 | 传达 |
 | attention-timeline | Attention 论文（谱系・机制・比较・数值） | 时间轴 | 包豪斯风格矢量 | 理解 |
 | attention-flowchart | Attention 论文（谱系・机制・比较・数值） | 流程图 | 包豪斯风格矢量 | 理解 |
 | attention-comparison-matrix | Attention 论文（谱系・机制・比较・数值） | 对比矩阵 | 包豪斯风格矢量 | 传达・理解 |
@@ -110,6 +110,7 @@
 | melos-new-hollywood | 奔跑吧美乐斯 | 影像板 | 1970年代新好莱坞 | 再体验 |
 | melos-instant-photo | 奔跑吧美乐斯 | 影像板 | 拍立得照片 | 再体验 |
 | distill-engine-educational-manga | 仓库本质 — 任意内容→一条提示词（概念） | 学习漫画 | 漫画CMYK网目 | 理解 |
+| concept-average-vs-particular | 平均 × 固有（概念） | 概念图 | 暗光极简矢量 | 传达 |
 
 > URL 输入（YouTube 视频／首页／GitHub 仓库）通过 `url:` 接收，`scripts/fetch.py` 抽取转录／正文。实 URL 的验证案例有 5 件（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/)＝青空文库《哥儿》，均为实抓取）。其余因没有实 URL，用代表样例输入（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）验证转换。实抓取用 `python3 scripts/fetch.py url:https://...` 进入同一行。
 

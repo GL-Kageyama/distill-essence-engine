@@ -30,6 +30,18 @@ Position / size / distance / light and shadow / focus / negative space / croppin
 - **Speak through distance** — near = intimacy, pressure; far = estrangement, isolation; diagonal = opposition.
 - **Speak through negative space** — empty space = absence, solitude, lingering resonance.
 
+## Devices for concepts (conceptual illustration)
+
+To fold a complex concept into a single image, five further devices — the standard vocabulary of editorial illustration — carry the whole concept through relationship:
+
+- **Visual metaphor** — the concept becomes its own concrete object. The vehicle must be the concept's own material; a borrowed universal symbol (rain = sorrow, heart = love) is a lie (⑧).
+- **Split composition / dichotomy** — two poles opposed across a divide (left / right, above / below, mirror halves), so the frame itself speaks the comparison.
+- **Color coding / semantic color** — the same concept is carried by the same hue across the whole frame; color becomes a channel of information, not decoration.
+- **Iconography / symbolism** — one central symbol with layered supporting symbols around it, each in a relationship to the center.
+- **Narrative composition** — the eye is led subject → meaning by position, sight line, and cropping; the order of reading is told by the composition itself.
+
+These form the composition grammar of the conceptual-illustration format card; they also apply wherever a single image must fold a full concept (split → before / after, color coding → infographic).
+
 ## Failure modes
 
 - **Central symmetry** — a mediocre composition. No subordination, no tension.

@@ -75,6 +75,7 @@
 | アイコン | 象徴 | — | [icon](formats/icon.md) |
 | 解説図 | 説明（理解） | — | [diagram](formats/diagram.md) |
 | 挿絵 | 装飾 | — | [illustration](formats/illustration.md) |
+| 概念図 | 象徴（伝達） | エディトリアル・メタファリカルな変種 | [conceptual-illustration](formats/conceptual-illustration.md) |
 | ポスター | 象徴（誘引） | — | [poster](formats/poster.md) |
 | 絵本 | 叙述（再体験） | — | [picture-book](formats/picture-book.md) |
 | ロゴ | 象徴 | — | [logo](formats/logo.md) |

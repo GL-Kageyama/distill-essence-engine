@@ -1,5 +1,16 @@
 # 開発履歴
 
+## 0.1.23 — 2026-08-24
+
+- **概念一枚絵の手法を取り込み、フォーマットカード「概念図」を新設**：ユーザー資料 `資料/イラストの拡張/illustration_format_style_guide.md` の「複雑な概念を一枚絵にする手法」を読了・納得（根拠3点：①エンジンは既に概念一枚絵を ad hoc で実施＝ai-shikigami ミラー双連画・world-model 氷山メタファー ②資料がその装置に英語標準用語で名前を与える ③固有×間接と整合可能）し、取り込んだ。
+- **構成文法（⑤）の語彙を arrangement.md に追加**（en 正典＋ja/zh ミラー）：visual metaphor（視覚的メタファー）／split composition・dichotomy（対比構造）／iconography・symbolism（象徴の多層配置）／color coding・semantic color（色彩コード化）／narrative composition（構図の物語性）の英語標準用語を Tools 節の後に追記。既存カバー済みの visual hierarchy・negative space は重複せず参照のみ。これらは概念図フォーマットが選択する構成文法であると注記（他フォーマットへの応用可：split→before/after・color coding→infographic）。
+- **新フォーマットカード `conceptual-illustration`（概念図）3言語**：Purpose=Communication（抽象概念・比較・仕組みを一枚の象徴で）／Granularity×time=full concept × folding／Size=single image（柔軟）／Env vars=`CONCEPT`・`METAPHOR`・`CONTRAST`・`SYMBOLS`・`ASPECT`／構成文法＝7手法（⑧ガード付き：メタファーは概念自身の固有な素材で担う・借り物の普遍記号は禁止・テキストは担い手にしない・図解の詰め込み回避）。既存の概念ケース（ai-shikigami-analogy／council-workshop-illustration／council-evolution-triptych／world-model-engines-loop／ai-schrodinger-cat／distill-engine-illustration）の実践を結晶化。英語不変部（環境変数名・テンプレ）は3言語バイト一致検証済み。
+- **registry.md に 1 行・フォーマット 29→30**。**types.md に Conceptual 機能を追加**（機能表に `Conceptual`＝Conceptual illustration＝full concept × folding、目的表の伝達行に概念図、サイズ段落に「一枚絵・比率は柔軟」、6目的→8種）。
+- **検証ケース 1 件**（examples/concept-average-vs-particular）：概念＝「平均 × 固有」（生成AI時代、価値は平均でなく固有の一点が生む）。format=conceptual-illustration（新カード）／style=dark-glow-vector（既存・実績スタイル。4色パレットが「平均＝無彩色／固有＝琥珀→白熱」を意味色として直接エンコード）。語る一点＝均一な無彩色の複製の中のただ一点だけ光る固有。⑧ガード＝比喩は概念自身の素材（複製／一点の光）で担い借り物記号なし。**様式カードの文字入れスロット（TITLE／TAGLINE）は概念図の「テキストは担い手にしない」に従い空にする**（明示的逸脱・prompt.md に記録）。
+- **判定 3/3 PASS・初回全部 PASS（精錬 0）**：anti-generic **genericness 1**・aesthetic-critic **coherent 9**・admiration **⑧違反なし**。判定の詳細は [examples/EVALUATION.md](examples/EVALUATION.md)。
+- **既存概念 6 ケースを再分類**：プラン記載の 4 ケースに加え、同一条件（概念入力・伝達目的・比喩駆動）の ai-schrodinger-cat・distill-engine-illustration も「挿絵」→「概念図」へ（計6ケース）。examples/README 3言語のフォーマット列・カバレッジ（29→30・19→20）・ケース一覧を更新。
+- **README カタログ更新**：フォーマット一覧の伝達行に「概念図」追加、`29 formats × 42 styles` → `30 formats × 42 styles`（3言語）。
+
 ## 0.1.22 — 2026-08-24
 
 - **実写系（写真・映画）のスタイルを一気に体系化**：これまで実写系は street-photo（2000年代フィルムスナップ）・film-noir（1940–50年代モノクロ）の 2 枚だけだった空白を、**7 枚**（写真 4：ドキュメンタリー写真 documentary-photo／スタジオポートレート studio-portrait／大判風景写真 landscape-photo／マクロ写真 macro-photo、映画 2：シネマティックスチル cinematic-still／1970年代ニュー・ハリウッド new-hollywood、インスタント 1：インスタント写真 instant-photo）で埋めた（様式 35→42）。

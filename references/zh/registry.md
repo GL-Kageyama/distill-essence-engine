@@ -75,6 +75,7 @@
 | 图标 | 象征 | — | [icon](formats/icon.md) |
 | 图解 | 说明（理解） | — | [diagram](formats/diagram.md) |
 | 插画 | 装饰 | — | [illustration](formats/illustration.md) |
+| 概念图 | 象征（传达） | 编辑・隐喻的变体 | [conceptual-illustration](formats/conceptual-illustration.md) |
 | 海报 | 象征（吸引） | — | [poster](formats/poster.md) |
 | 绘本 | 叙述（再体验） | — | [picture-book](formats/picture-book.md) |
 | 标志 | 象征 | — | [logo](formats/logo.md) |

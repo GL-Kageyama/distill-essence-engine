@@ -15,7 +15,7 @@ Even further upstream of the format's "function". Organize **why the user transf
 | Self | **Understanding** | Grasp the content | Diagram / infographic |
 | Both | **Re-experience** | Enjoy the work in another form | Image board / manga |
 | Self | **Record** | Keep events and thoughts | Manga (conversation transcript → manga) |
-| Others | **Communication** | Convey the content | Infographic |
+| Others | **Communication** | Convey the content | Infographic / conceptual illustration |
 | Others | **Attraction** | Draw attention | Thumbnail / cover |
 | Both | **Decoration** | Adorn the text | Illustration |
 
@@ -31,18 +31,20 @@ Of the 4 axes of format space (granularity / time / purpose / size and aspect ra
 | **Symbolic** | Image board | Full arc × folding (multiple panels) |
 | **Symbolic** | Cover / poster | A single symbol × folding |
 | **Symbolic** | Icon | A single symbol × a single point |
+| **Conceptual** | Conceptual illustration | Full concept × folding |
 | **Attention** | Thumbnail / single-panel-cartoon | A single symbol or scene × a single point |
 | **Explanatory** | Infographic / diagram / timeline / flowchart / comparison-matrix / data-chart / educational-manga | Full arc × folding |
 | **Decorative** | Illustration | A single scene × a single point |
 
-The combination of 5 purposes × granularity/time. The space itself is infinite, and these 7 types are nothing but **crystallized named formats** (＝ representative points).
+The combination of 6 purposes × granularity/time. The space itself is infinite, and these 8 types are nothing but **crystallized named formats** (＝ representative points).
 
-**Size and aspect ratio are also decided by the format** (decided by where it is seen): thumbnail = small, landscape 16:9; icon = square; cover = portrait (book ratio); poster = large, portrait; storyboard = cinema ratio 16:9; manga = page ratio; infographic = tall scroll; timeline = wide band (or vertical scroll); flowchart = vertical; comparison matrix = wide grid; data chart = wide, single panel. The manga family adds its own: four-panel = a tall fixed 4-panel column; webtoon = a long single vertical scroll canvas (mobile); comic strip = a wide horizontal one-row strip (newspaper); splash page = a full-bleed single panel (double-page spread); single-panel cartoon = a compact single panel; comic essay / reportage manga / educational manga = manga page ratio.
+**Size and aspect ratio are also decided by the format** (decided by where it is seen): thumbnail = small, landscape 16:9; icon = square; cover = portrait (book ratio); poster = large, portrait; storyboard = cinema ratio 16:9; manga = page ratio; infographic = tall scroll; timeline = wide band (or vertical scroll); flowchart = vertical; comparison matrix = wide grid; data chart = wide, single panel; conceptual illustration = a single image, flexible ratio (square to wide). The manga family adds its own: four-panel = a tall fixed 4-panel column; webtoon = a long single vertical scroll canvas (mobile); comic strip = a wide horizontal one-row strip (newspaper); splash page = a full-bleed single panel (double-page spread); single-panel cartoon = a compact single panel; comic essay / reportage manga / educational manga = manga page ratio.
 
 **The value of specialist skill** is decided by "the accumulation of particular composition grammar":
 
 - Manga (panel division, speech balloons, double-page spreads, eye guidance) is the prime example.
 - Illustration (a single scene) is the thinnest — a "default" with no time to unfold, no extreme, and no special purpose.
+- Conceptual illustration (one image that folds a whole concept through visual metaphor / split composition / color coding) is the reverse of the thin default: its specialist value is the discipline of selecting and combining these devices for the particular concept.
 
 ## Types of style
 

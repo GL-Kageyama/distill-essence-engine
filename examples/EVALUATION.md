@@ -183,6 +183,18 @@ anti-generic の指摘はすべて具体的：①**紋切型トークン**（tea
 - **admiration の弱PASS 3 件**（⑧違反なし）：①studio-portrait＝語る一点が顔に置換され泉が後退 ②landscape-photo＝人物不在（様式の identity＝no people）で核心が空間化 ③cinematic-still＝映画様式が「英雄の転機」の予測をなぞる。いずれも様式の identity に由来し、0.1.21 と同じく合格範囲（弱PASS は合格）。
 - **登録**：7 枚 × 3 言語＝21 ファイル（en 正典＋ `references/ja/`・`references/zh/` ミラー）。環境変数名・Negative・テンプレは英語不変（3言語バイト一致 7/7 検証済み）。registry.md に 7 行（様式 35→42）。types.md は変更なし（Photography メディウム既存・新メディウム開拓ではない）。
 
+## 概念図フォーマット新設（PASS 3/3・0.1.23）
+
+| ケース | 入力 | フォーマット | 様式 | 目的 | 判定 |
+|---|---|---|---|---|---|
+| concept-average-vs-particular | 平均 × 固有（生成AI時代の対比・概念） | **概念図（conceptual-illustration・新カード）** | ダークグロー・ミニマルベクター | 伝達 | **PASS**（anti-gen 1/10・aesthetic 9/10・admiration ⑧違反なし） |
+
+- 判定者：anti-generic-filter・aesthetic-critic・admiration の3系統。判定対象テキスト（Merged プロンプト）をエージェントプロンプトに直接埋め込み、ファイル/ツール読取禁止、model='sonnet'（0.1.20〜0.1.22 と同手順）。**全3系統初回 PASS・精錬 0**。
+- **新カード検証**：`資料/イラストの拡張/illustration_format_style_guide.md` の「複雑な概念を一枚絵にする手法」7手法（visual metaphor／visual hierarchy／split composition・dichotomy／iconography・symbolism／color coding・semantic color／narrative composition／negative space）を取り込み、構成文法として `references/arrangement.md`（3言語）に英語標準語彙を追加。`references/formats/conceptual-illustration.md`（3言語）を新設（Purpose=Communication／Granularity×time=full concept × folding／Size=single image flexible／Env vars=CONCEPT・METAPHOR・CONTRAST・SYMBOLS・ASPECT／do/avoid＝借り物の普遍記号禁止・テキストは担い手にしない・図解の詰め込み回避）。
+- **⑧ガード**：メタファーは概念自身の固有な素材で担う（今回＝平均＝均一な無彩色の複製／固有＝琥珀→白熱の一点の光）。雨=悲しみ・電球=アイデア等の借り物記号は do/avoid で禁止。anti-generic（genericness 1）は「矩形でない唯一の形＝白熱の一点」が比喩と具象の二重に機能する点を、admiration は⑧違反（様式・借り物記号）なしを確認。
+- **様式カードからの明示的逸脱**：dark-glow-vector カードの文字入れスロット（TITLE／TAGLINE）は、概念図の「テキストは担い手にしない」を優先し**空**にした（prompt.md に記録済み・明示的逸脱として許容）。
+- **再分類（概念6ケース）**：プラン記載の4ケースに加え、同一条件（概念入力・伝達目的・比喩駆動）の ai-schrodinger-cat・distill-engine-illustration も **概念図**へ再分類（計6ケース）。examples/README 3言語のフォーマット列を挿絵→概念図に更新し、フォーマット 29→30。types.md は機能表に **Conceptual**（Conceptual illustration＝full concept × folding）を追加（6目的→8種）。
+
 ## 注記
 
 - URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ／青空文庫）は、実 URL の検証ケースが 4 件ある。いずれも `scripts/fetch.py` で実フェッチした内容を入力に使用し、カバレッジ行列の YouTube 動画 × 理解（解説図）・× 記録（漫画）・GitHub リポジトリ × 誘引（ヒーロー画像）セルを実 URL で埋めた（bocchan-gag-manga は小説入力＝青空文庫の実フェッチ例で、小説 × 誘引セルにギャグ漫画を追加）。
