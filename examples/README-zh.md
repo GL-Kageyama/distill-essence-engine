@@ -83,6 +83,7 @@
 | ai-shikigami-analogy | AI使用者 × 式神使用者的类比（概念） | 插画（镜像双联画） | 水彩 | 传达 |
 | ai-schrodinger-cat | AI生成物需被观测才有意义（概念） | 插画 | 干净线条实验室 | 传达 |
 | world-model-engines-loop | 世界模型三构想（概念深挖・生成器・评价） | 插画 | 干净线条实验室 | 装饰 |
+| distill-engine-illustration | 仓库本质 — 任意内容→一条提示词（概念） | 插画 | 干净线条实验室 | 传达 |
 
 > URL 输入（YouTube 视频／首页／GitHub 仓库）通过 `url:` 接收，`scripts/fetch.py` 抽取转录／正文。实 URL 的验证案例有 5 件（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/)＝青空文库《哥儿》，均为实抓取）。其余因没有实 URL，用代表样例输入（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）验证转换。实抓取用 `python3 scripts/fetch.py url:https://...` 进入同一行。
 

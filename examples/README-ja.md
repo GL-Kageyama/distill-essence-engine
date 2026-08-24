@@ -83,6 +83,7 @@
 | ai-shikigami-analogy | AI使い × 式神使いの類比（概念） | 挿絵（ミラーダイプティク） | 水彩 | 伝達 |
 | ai-schrodinger-cat | AI生成物は観測されて初めて意味を持つ（概念） | 挿絵 | クリーンラインラボ | 伝達 |
 | world-model-engines-loop | 世界モデル三構想（概念深掘り・生成器・評価レイヤー） | 挿絵 | クリーンラインラボ | 装飾 |
+| distill-engine-illustration | リポジトリの本質 — あらゆる内容→一枚のプロンプト（概念） | 挿絵 | クリーンラインラボ | 伝達 |
 
 > URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ）は `url:` で受け取り、`scripts/fetch.py` が文字起こし／本文を抽出する。実 URL の検証ケースが 5 件ある（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/)＝青空文庫『坊っちゃん』、いずれも実フェッチ）。残りは実 URL が無いため代表サンプル入力（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）で変換を検証している。実フェッチは `python3 scripts/fetch.py url:https://...` で同じ行に入る。
 
