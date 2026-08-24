@@ -102,6 +102,7 @@
 | melos-shonen-battle | 奔跑吧美乐斯 | 漫画 | 少年战斗风 | 再体验 |
 | melos-gekiga | 奔跑吧美乐斯 | 漫画 | 剧画风 | 再体验 |
 | melos-manga-halftone | 奔跑吧美乐斯 | 漫画 | 漫画CMYK网目 | 再体验 |
+| distill-engine-educational-manga | 仓库本质 — 任意内容→一条提示词（概念） | 学习漫画 | 漫画CMYK网目 | 理解 |
 
 > URL 输入（YouTube 视频／首页／GitHub 仓库）通过 `url:` 接收，`scripts/fetch.py` 抽取转录／正文。实 URL 的验证案例有 5 件（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/)＝青空文库《哥儿》，均为实抓取）。其余因没有实 URL，用代表样例输入（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）验证转换。实抓取用 `python3 scripts/fetch.py url:https://...` 进入同一行。
 

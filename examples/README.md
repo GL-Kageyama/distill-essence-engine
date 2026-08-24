@@ -102,6 +102,7 @@
 | melos-shonen-battle | Run, Melos! | Manga | Shonen battle | Re-experience |
 | melos-gekiga | Run, Melos! | Manga | Gekiga | Re-experience |
 | melos-manga-halftone | Run, Melos! | Manga | Manga halftone | Re-experience |
+| distill-engine-educational-manga | Repo essence — any content → one prompt (concept) | Educational manga | Manga halftone | Understanding |
 
 > URL inputs (YouTube video / homepage / GitHub repository) are received via `url:` and `scripts/fetch.py` extracts the transcript / body text. There are 5 real-URL verification cases ([youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/) = Aozora Bunko "Bocchan", all real fetches). The rest, lacking a real URL, verify the transformation with representative sample inputs ([youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)). A real fetch enters the same row with `python3 scripts/fetch.py url:https://...`.
 
