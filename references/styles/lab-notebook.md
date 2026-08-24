@@ -15,11 +15,12 @@
 - The line slightly loose and hand-drawn — warmer, less polished than a textbook figure
 - Flat pale paper, minimal shading
 - One accent on the observed result — the entry the whole page was leading to
+- Short clean handwritten labels and one simple explanatory caption — the functional document's own grammar; they annotate, they never carry the concept
 - Quiet, the page itself is the world
 
 ## Visual breakdown
 - **Composition**: the page centered; notes lead down the page to the observed result
-- **Typography**: no lettering; at most small handwritten marks in the same line language — optional
+- **Typography**: short clean handwritten labels and one simple caption line in the same line language — default (functional-document labeling); labels support, never carry
 - **Color**: pale paper + ink line + one accent on the observed result
 - **Texture & lighting**: flat, papery, dry
 
@@ -28,19 +29,21 @@
 - Let the accent mark the observed result that closes the record
 - Keep handwritten grammar (margin arrows, a circled result) as participating in meaning
 - Keep cuteness subordinated — a small round subject in the same hand-drawn line, looser than the lab figure
+- Label the entries briefly (one or two words each) and give the notebook page one simple explanatory caption — the functional document's own grammar; the labels annotate, the page carries — the label text and the caption line follow the resolved language (en/ja/zh), the viewer's language, not English
 
 ## avoid
 - Heavy shading, photorealistic rendering, 3D gloss, digital gradient
 - Grunginess for its own sake — restraint still holds
 - The accent as a random highlighter — it marks the observed result
 - Making it a clean textbook figure — this is the working page, not the printed one
+- Long sentences, paragraphs, or decorative lettering — only short labels and one simple caption
 
 ## Negative
-`not photorealistic, no 3D render, no digital gradient, no oil texture, no heavy shading, no extra text or lettering (only the small handwritten marks), no mojibake, no garbled characters`
+`not photorealistic, no 3D render, no digital gradient, no oil texture, no heavy shading, no long text (only short labels and one simple caption), no mojibake, no garbled characters`
 
 ## Prompt template (English, fill-in-the-blank)
 ```text
-A lab-notebook page of {SUBJECT} {ACTION} in {LOCATION}. A working page — ruled or grid
+A lab-notebook page of {SUBJECT} {ACTION} in {LOCATION}.; short clean labels and one simple explanatory caption in the same restrained line language — the labels annotate, they never carry the concept A working page — ruled or grid
 paper, slightly loose handwritten line, margin annotations, a cross-out or correction, an
 arrow linking notes — the concept drawn as a record of finding it out, {RECORD} the sequence
 of notes leading to one observed result. Flat pale paper, minimal shading, dry and quiet.

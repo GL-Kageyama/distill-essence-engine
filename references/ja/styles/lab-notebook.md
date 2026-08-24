@@ -15,11 +15,12 @@
 - 線はやや緩く手描き——教科書の図より温かく、磨かれていない
 - 平坦な淡い紙、影最小
 - 観測された結果——ページ全体が向かっていた記入——に一点のアクセント
+- 短い清潔な手書きラベルと、シンプルな説明の一行——機能文書自身の文法。ラベルは注記であり、概念の担い手にならない
 - 静かで、ページそのものが世界
 
 ## 視覚の分解
 - **構成**: ページを中央に。ノートがページの下へ向かい、観測された結果へ至る
-- **タイポ**: 文字なし。小さな手書きの印を同じ線言語で高々ひとつまで——任意
+- **タイポ**: 短い清潔な手書きラベルと一行のシンプルな説明を同じ線言語で——デフォルト（機能文書のラベリング）。ラベルは支えるだけで担わない
 - **色彩**: 淡い紙＋インク線＋観測された結果に一点のアクセント
 - **質感・照明**: 平坦、紙のような、乾いた
 
@@ -28,19 +29,21 @@
 - アクセントで記録を閉じる観測された結果を印す
 - 手書きの文法（欄外の矢印、丸で囲んだ結果）は意味に参加させる
 - 可愛さは従属させる——小さく丸い主役を同じ手書きの線で、教科書の図より緩く
+- 記入項目に簡潔なラベル（各一・二語）を付け、ノートに一行のシンプルな説明を与える——機能文書自身の文法。ラベルは注記、ノートが担う——ラベル文字と一行の説明は解決済み言語（en/ja/zh）＝見る人の言語に従う（指示文は英語のまま）
 
 ## avoid
 - 重い陰影、写真の写実、3D の光沢、デジタルのグラデーション
 - それ自体目的の汚し——抑制は依然として効いている
 - アクセントを偶然の蛍光ペンにする——それは観測された結果を印すもの
 - きれいな教科書の図にする——これは作業ページであって印刷された図ではない
+- 長い文章・段落・装飾的な文字——短いラベルと一行の説明だけにする
 
 ## ネガティブ
-`not photorealistic, no 3D render, no digital gradient, no oil texture, no heavy shading, no extra text or lettering (only the small handwritten marks), no mojibake, no garbled characters`
+`not photorealistic, no 3D render, no digital gradient, no oil texture, no heavy shading, no long text (only short labels and one simple caption), no mojibake, no garbled characters`
 
 ## プロンプトテンプレ（英語・穴あき）
 ```text
-A lab-notebook page of {SUBJECT} {ACTION} in {LOCATION}. A working page — ruled or grid
+A lab-notebook page of {SUBJECT} {ACTION} in {LOCATION}.; short clean labels and one simple explanatory caption in the same restrained line language — the labels annotate, they never carry the concept A working page — ruled or grid
 paper, slightly loose handwritten line, margin annotations, a cross-out or correction, an
 arrow linking notes — the concept drawn as a record of finding it out, {RECORD} the sequence
 of notes leading to one observed result. Flat pale paper, minimal shading, dry and quiet.

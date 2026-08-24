@@ -32,6 +32,7 @@ Rules:
 
 - **The three-column output** — Content / Format / Style — its headings, explanations, and the step trace (verification mode) are written in the resolved language.
 - **The merged English image prompt is always English**, in every language. Never translate it.
+- **Text drawn inside the image follows the resolved language** — labels and the one-line explanation/caption (e.g. the functional-document labeling default) are written in the resolved language (en/ja/zh), the viewer's language, not English; the instruction around them stays English. (The Negative's `no mojibake, no garbled characters` guards this drawn text.)
 - **Cards are read from the language mirror**: `lang=ja` → read `references/ja/…`, `lang=zh` → read `references/zh/…`, `lang=en` → read `references/…`. Card slugs (file names) are English in every language.
 
 ## When to run

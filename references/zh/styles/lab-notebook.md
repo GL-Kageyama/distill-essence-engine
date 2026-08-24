@@ -15,11 +15,12 @@
 - 线条略松、手绘——比教科书的图更温暖、更未打磨
 - 平坦的淡纸，阴影极小
 - 观测到的结果——整页都在走向的那条记录——上一点强调
+- 简短干净的手写标签与一行简单的说明——功能文档自身的语法；它们标注，绝不当概念的载体
 - 安静，页面本身就是世界
 
 ## 视觉分解
 - **构成**: 页面居中；笔记向下引向观测到的结果
-- **字体**: 无文字；至多一个小手写记号，用同一种线条语言——可选
+- **字体**: 简短干净的手写标签＋一行简单说明，用同一种线条语言——默认（功能文档的标注）；标签只支撑，不承载
 - **色彩**: 淡纸＋墨线＋观测结果上一点强调
 - **质感・光照**: 平坦、纸感、干燥
 
@@ -28,19 +29,21 @@
 - 用强调标出闭合记录的那个观测结果
 - 让手写语法（页边箭头、圈出的结果）参与意义
 - 克制可爱——小而圆的主体用同一种手绘线条，比教科书的图更松
+- 给条目简短的标签（每个一两词），并给笔记一行简单的说明——功能文档自身的语法；标签只作注记，笔记承载概念——标签文字与一行说明遵循已解析语言（en/ja/zh）＝观看者的语言（指令性文字仍为英语）
 
 ## avoid
 - 重阴影、照片写实、3D 光泽、数字渐变
 - 为脏而脏——克制依然有效
 - 把强调当随机的荧光笔——它标记观测到的结果
 - 做成干净的教科书插图——这是工作页，不是印出来的图
+- 长句、段落或装饰性文字——只保留简短的标签和一行说明
 
 ## 负面提示
-`not photorealistic, no 3D render, no digital gradient, no oil texture, no heavy shading, no extra text or lettering (only the small handwritten marks), no mojibake, no garbled characters`
+`not photorealistic, no 3D render, no digital gradient, no oil texture, no heavy shading, no long text (only short labels and one simple caption), no mojibake, no garbled characters`
 
 ## 提示词模板
 ```text
-A lab-notebook page of {SUBJECT} {ACTION} in {LOCATION}. A working page — ruled or grid
+A lab-notebook page of {SUBJECT} {ACTION} in {LOCATION}.; short clean labels and one simple explanatory caption in the same restrained line language — the labels annotate, they never carry the concept A working page — ruled or grid
 paper, slightly loose handwritten line, margin annotations, a cross-out or correction, an
 arrow linking notes — the concept drawn as a record of finding it out, {RECORD} the sequence
 of notes leading to one observed result. Flat pale paper, minimal shading, dry and quiet.

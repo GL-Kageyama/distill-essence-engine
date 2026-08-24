@@ -16,10 +16,11 @@
 - 作図線は淡く、完成した図形は明確に——線の太さが論理
 - 平坦、正確、静か
 - 作図が閉じる点——証明された点——に一点のアクセント
+- 点の短い清潔なラベルと、シンプルな説明の一行——機能文書自身の文法。ラベルは注記であり、概念の担い手にならない
 
 ## 視覚の分解
 - **構成**: 図形を中央に。作図線がひとつの閉じた結果へ導く
-- **タイポ**: 文字なし。小さな点ラベルを同じ線言語で高々ひとつまで——任意
+- **タイポ**: 短い清潔な点ラベルと一行のシンプルな説明を同じ線言語で——デフォルト（機能文書のラベリング）。ラベルは支えるだけで担わない
 - **色彩**: 白／クリームの地＋インク線＋閉じる点に一点のアクセント
 - **質感・照明**: 平坦、紙のような、影なし
 
@@ -28,22 +29,26 @@
 - アクセントで作図が閉じる点——証明された結果——を印す
 - 作図線は参加する文法として保つ。線の太さが論証を行う
 - 可愛さは従属させる——小さく丸い主役を同じ抑制された線言語で。あるいは主役なし（図形そのものが主役）
+- 点に簡潔なラベル（各一・二語）を付け、作図に一行のシンプルな説明を与える——機能文書自身の文法。ラベルは注記、作図が担う——ラベル文字と一行の説明は解決済み言語（en/ja/zh）＝見る人の言語に従う（指示文は英語のまま）
 
 ## avoid
 - 重い陰影、写真の写実、3D の光沢、デジタルのグラデーション、濃い塗り
 - 装飾的な幾何学パターン——作図は論証しなければならない
 - 偶然のアクセント点——アクセントは閉じる点である
 - 場面にする——これは描かれた証明である
+- 長い文章・段落・装飾的な文字——短い点ラベルと一行の説明だけにする
 
 ## ネガティブ
-`not photorealistic, no 3D render, no digital gradient, no oil texture, no heavy shading, no extra text or lettering (only the small point labels), no mojibake, no garbled characters`
+`not photorealistic, no 3D render, no digital gradient, no oil texture, no heavy shading, no long text (only short point labels and one simple caption), no mojibake, no garbled characters`
 
 ## プロンプトテンプレ（英語・穴あき）
 ```text
 A geometric construction of {SUBJECT} {ACTION} in {LOCATION}. Compass-and-straightedge
 vocabulary on a clean white ground — thin construction lines, dashed arcs, circles, points,
 small tick marks — the concept drawn as a proof: {POINT} faint construction lines lead to one
-finished figure, line weight the logic, the drawing itself the argument. Flat, precise,
+finished figure, line weight the logic, the drawing itself the argument; short clean labels
+and one simple explanatory caption in the same restrained line language — the labels annotate,
+they never carry the concept. Flat, precise,
 quiet, no shadow. One accent color {ACCENT} at the point where the construction closes — the
 proven result, meaning not decoration. Any character small and round with large flat unglossy
 eyes — drawn in the same restrained line language. Quiet, precise, not a pattern, not a scene.

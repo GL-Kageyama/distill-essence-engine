@@ -16,10 +16,11 @@
 - Flat color with minimal shadow
 - Clean, legible, quiet
 - A single saturated accent (warm gold) for the focal point while the rest stays pale
+- Short clean labels on the parts and one simple explanatory caption — the textbook figure's own grammar; they annotate, they never carry the concept
 
 ## Visual decomposition
 - **Composition**: one clear focal object centered; supports (rack, beaker) stay minimal and recede
-- **Typography**: no lettering; at most one small single symbol drawn in the same line style (e.g., a question mark or an exclamation mark) — optional, never a requirement
+- **Typography**: short clean part labels and one simple caption line in the same line language — default; the small single symbol stays an optional, separate element
 - **Color**: pale pastel base, one saturated gold accent
 - **Texture & lighting**: flat, papery, minimal shadow, dry calm
 
@@ -28,19 +29,23 @@
 - Keep cuteness restrained — **the round subject stays subordinated to the line language** (large but unglossy eyes, not glossy charm)
 - **Give the focal transition a causal mechanism**: when a state changes (e.g., observation bleeds gray into gold), draw it as a rough, fibrous, stepwise front advancing from a point — causality, not a smooth gradient fill
 - If a symbol is used, bind it into the meaning-system — it participates in the state change, never floats as decoration. (ai-schrodinger-cat used one such polarity: a pale-gray "?" for the unresolved state, a warm-gold "!" for the resolved.) Symbols are optional; the subject is complete without one
+- Label the parts briefly (one or two words each) and give the figure one simple explanatory caption — the textbook figure's own grammar; the labels annotate, the figure carries — the label text and the caption line follow the resolved language (en/ja/zh), the viewer's language, not English
 
 ## avoid
 - Heavy shading, photorealistic rendering, 3D gloss, digital gradient
 - Cuteness becoming the subject (glossy big eyes, kitsch)
 - Meme-decoration: floating symbols that annotate rather than participate in the polarity
+- Long sentences, paragraphs, or decorative lettering — only short part labels and one simple caption
 
 ## Negative
-`not photorealistic, no 3D render, no digital gradient, no oil texture, no heavy shading, no extra text or lettering (only the small symbols), no mojibake, no garbled characters`
+`not photorealistic, no 3D render, no digital gradient, no oil texture, no heavy shading, no long text (only short part labels and one simple caption), no mojibake, no garbled characters`
 
 ## Prompt template (English, fill-in-the-blank)
 ```text
-A clean-line laboratory illustration of {SUBJECT} {ACTION} in {LOCATION}, with {ACCENT}.
-Thin precise ink lines like a textbook experiment diagram, pale pastel flat fills (mint,
+A clean-line laboratory illustration of {SUBJECT} {ACTION} in {LOCATION}, with {ACCENT};
+short clean labels on the parts and one simple explanatory caption in the same restrained line
+language — the labels annotate, they never carry the concept. Thin precise ink lines like a
+textbook experiment diagram, pale pastel flat fills (mint,
 pale yellow, pale blue, off-white paper), flat color with only minimal shadow, clean and
 legible, the subject round and quiet with large flat unglossy eyes — drawn in the same
 restrained line language. {STATE-CHANGE} drawn as a rough, fibrous, stepwise front advancing

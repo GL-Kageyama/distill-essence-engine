@@ -16,11 +16,12 @@
 - 番号付きの段階（1, 2, 3）は控えめな支えの文法——順序そのものが因果
 - フラットな色彩、影最小
 - 唯一の決定的な段階——それが欠けると全体が失敗する段階——に一点のアクセント色
+- 短い清潔なラベルと、シンプルな説明の一行——機能文書自身の文法。ラベルは注記であり、概念の担い手にならない
 - 静かで、温かく、抑制が効いている
 
 ## 視覚の分解
 - **構成**: カードの下へ段階を順に並べる。アクセントを担うのは決定的な一段階だけ
-- **タイポ**: 小さな段階番号のみ、同じ線言語で——任意
+- **タイポ**: 短い清潔なラベルと一行のシンプルな説明を同じ線言語で——デフォルト（機能文書のラベリング）。ラベルは支えるだけで担わない
 - **色彩**: 温かい生成りのカード＋インク線＋決め手の段階に一点のアクセント
 - **質感・照明**: 平坦、紙のような、乾いた静けさ
 
@@ -29,19 +30,21 @@
 - 唯一のアクセントで決め手の段階を印す——レシピ全体がそれで成り立つ段階
 - 各段階は小さく揃え、番号記号は最小限に
 - 可愛さは従属させる——どんな登場人物も小さく丸く、艶のない瞳で、同じ線言語で
+- 手順に簡潔なラベル（番号か各一・二語）を付け、レシピに一行のシンプルな説明を与える——機能文書自身の文法。ラベルは注記、手順が担う——ラベル文字と一行の説明は解決済み言語（en/ja/zh）＝見る人の言語に従う（指示文は英語のまま）
 
 ## avoid
 - 重い陰影、写真の写実、3D の光沢、デジタルのグラデーション、料理写真
 - アクセントを装飾にする——それは転換点を印すもの
 - 段階をぎっしり並べた在庫表——大事なのは数ではなく順序
 - 場面にする——これは読むカードである
+- 長い文章・段落・装飾的な文字——短いラベルと一行の説明だけにする
 
 ## ネガティブ
-`not photorealistic, no 3D render, no digital gradient, no oil texture, no heavy shading, no extra text or lettering (only the small step numbers), no mojibake, no garbled characters`
+`not photorealistic, no 3D render, no digital gradient, no oil texture, no heavy shading, no long text (only short labels and one simple caption), no mojibake, no garbled characters`
 
 ## プロンプトテンプレ（英語・穴あき）
 ```text
-A how-to recipe card of {SUBJECT} {ACTION}. A warm off-white card, thin clean ink-line
+A how-to recipe card of {SUBJECT} {ACTION}; short clean labels and one simple explanatory caption in the same restrained line language — the labels annotate, they never carry the concept. A warm off-white card, thin clean ink-line
 sketches of each step laid out in order — {STEPS} numbered 1, 2, 3, the sequence itself the
 causality, how the thing gets made. Each step small, even, legible; flat color, minimal
 shadow, dry and quiet. One accent color {ACCENT} on the single decisive step, the one the

@@ -15,11 +15,12 @@
 - 平坦で淡い地（生成り／クリーム）
 - 力と動きを細い流線か破線の移動線で示す——動きとしての因果
 - 決定的な働きが行われる部品に一点のアクセント色
+- 部品の短い清潔なラベルと、シンプルな説明の一行——機能文書自身の文法。ラベルは注記であり、概念の担い手にならない
 - 静かで、場面なし
 
 ## 視覚の分解
 - **構成**: ひとつの機構を中央に。力の線（破線）が作用から結果へ導く
-- **タイポ**: 文字なし。小さな矢印や印を同じ線言語で高々ひとつまで——任意
+- **タイポ**: 短い清潔な部品ラベルと一行のシンプルな説明を同じ線言語で——デフォルト（機能文書のラベリング）。ラベルは支えるだけで担わない
 - **色彩**: 淡い地＋細い濃い線＋働く部品に一点のアクセント
 - **質感・照明**: 平坦、紙のような、乾いた
 
@@ -28,22 +29,26 @@
 - アクセントで決定的な変換が起きる部品を印す
 - 流線や破線の移動線は参加する文法として保つ
 - 可愛さは従属させる——小さく丸い主役を同じ抑制された線言語で
+- 部品に簡潔なラベル（各一・二語）を付け、機構に一行のシンプルな説明を与える——機能文書自身の文法。ラベルは注記、機構が担う——ラベル文字と一行の説明は解決済み言語（en/ja/zh）＝見る人の言語に従う（指示文は英語のまま）
 
 ## avoid
 - 重い陰影、写真の写実、3D の光沢、デジタルのグラデーション
 - アクセントをハイライトにする——それは仕事がなされる場所を印すもの
 - 機械全体を詰め込む——ひとつの機構で足りる
 - 場面にする——これは仕事がどうなされるかの図解である
+- 長い文章・段落・装飾的な文字——短い部品ラベルと一行の説明だけにする
 
 ## ネガティブ
-`not photorealistic, no 3D render, no digital gradient, no oil texture, no heavy shading, no extra text or lettering (only the small arrows and marks), no mojibake, no garbled characters`
+`not photorealistic, no 3D render, no digital gradient, no oil texture, no heavy shading, no long text (only short part labels and one simple caption), no mojibake, no garbled characters`
 
 ## プロンプトテンプレ（英語・穴あき）
 ```text
 A mechanism diagram of {SUBJECT} {ACTION} in {LOCATION}. Thin precise line drawing of a
 simple machine — lever, pulley, linkage, ratchet, cam — the concept drawn as how work happens,
 {PARTS} effort in, effect out, the line of force shown as a thin flow line or dashed travel
-line, causality as motion. Flat pale ground, no shading, no gradient, dry and quiet. One
+line, causality as motion; short clean labels on the parts and one simple explanatory caption
+in the same restrained line language — the labels annotate, they never carry the concept. Flat
+pale ground, no shading, no gradient, dry and quiet. One
 accent color {ACCENT} on the part where the decisive work is done — meaning, not a highlight.
 Any character small and round with large flat unglossy eyes — drawn in the same restrained
 line language. Quiet, precise, not a scene.
