@@ -4,11 +4,19 @@
 
 # Usage
 
-## Invocation
+## Quick walkthrough
 
-In VSCode, select an input and specify in natural language, e.g. "make an image board of this", "turn this paper into a thumbnail in pixel art".
+1. **Install** — `./install.sh` (global) or `./install.sh --local` (this project).
+2. **Select** the input text in VSCode (the selection becomes the content slot).
+3. **Say** what you want, in natural language — "make an image board of this, in woodblock print".
 
-## Input
+The engine returns the English image prompt in three columns (Content / Format / Style) plus a merged prompt, ready to paste into Stable Diffusion / Midjourney etc..
+
+If the same content should become *another* output, swap only one axis: "same thing, but a thumbnail" (format) or "same thing, but pixel art" (style).
+
+Worked input→output cases are in [`../examples/`](../examples/).
+
+## Arguments
 
 | Argument | Meaning |
 |---|---|
@@ -27,7 +35,7 @@ Specify **by name** (`format: comic` / `style: woodblock`) to expand and reuse t
 
 ## Output
 
-Output the English image prompt in three columns (Content / Format / Style) plus a merged prompt at the end. Ready to paste into SD/MJ.
+Output the English image prompt in three columns (Content / Format / Style) plus a merged prompt at the end. Ready to paste into SD/MJ etc.
 
 ## Verification
 

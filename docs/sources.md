@@ -4,7 +4,7 @@
 
 # Sources of the online research
 
-> External sources referenced to distill the vocabulary of the pre-expanded cards (18 styles · 7 formats). The cards are not "copies of raw prompts" but the distillation of this vocabulary into the engine's own form (medium × lineage × era / vocabulary / negative pairs).
+> External sources referenced to distill the vocabulary of the style and format cards. The cards are not "copies of raw prompts" but the distillation of this vocabulary into the engine's own form (medium × lineage × era / vocabulary / negative pairs).
 
 ## OSS (downloaded to incorporate structure and templates)
 
