@@ -8,9 +8,11 @@
 
 ## Concept
 
-**"Compressing the essence of the content into a static visual"** — this is everything the engine does. How many images to compress into is decided by the format.
+**"Compressing the essence of the content into imagery"** — this is everything the engine does. What that imagery is, the format decides.
 
-The input (the infinite information of time × meaning × elements) is folded into the constraint of a 2D static image (one image, or several) while preserving the essence. How many images to fold into is decided by the format's granularity (one image = thumbnail, cover, illustration, icon; several = manga, storyboard, picture book). A format is nothing more than a difference of strategy in that compression's "granularity" and "arrangement".
+The input (the infinite information of time × meaning × elements) is folded into **the capacity of one generation** while preserving the essence. The format card declares what that capacity is: one frame with no time axis (thumbnail, cover, illustration, icon), several frames (manga, storyboard, picture book), or a fixed duration (a video specification — thirty seconds at 16:9).
+
+**A 2D static image is not the engine's terminus.** It is the case where the capacity has no time axis — historically the first case, and still the most common, but one case among several. A format is a difference of strategy *within* that capacity: its "granularity", its "arrangement", and — when the capacity has a time axis — its "density over time".
 
 ### Why "essence compression" and not "concept compression"
 
@@ -74,7 +76,7 @@ Three questions decide the output. Each has a different source.
 
 ```
 input = content ──┐
-                  ├→ [engine] ──→ image prompt
+                  ├→ [engine] ──→ prompt for imagery
 spec = purpose ───┤     │
 spec = style ─────┘     compression = selection + translation + arrangement (from content + purpose)
 ```
@@ -97,6 +99,7 @@ full arc (storyboard) → a single scene (illustration) → a single symbol (thu
 - **Unfolding**: lay time out across multiple panels (manga, picture book)
 - **Folding**: compress time into a single image (image board, cover)
 - **A single point**: only one moment (illustration)
+- **Kept as time**: the capacity itself has a time axis, so time is not folded at all — it is allotted (a video specification: a beat table over a fixed duration)
 
 ### Axis ③: Purpose (why make the image)
 

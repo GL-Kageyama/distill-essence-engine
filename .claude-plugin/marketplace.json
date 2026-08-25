@@ -4,13 +4,13 @@
     "name": "GL-Kageyama"
   },
   "metadata": {
-    "description": "Distill the essence of any content into an image prompt — the 8 transformation principles (understand / select / translate / consistent / compose / style / negative / faithful) compress a whole text into still imagery (one image or several, depending on the format)."
+    "description": "Distill the essence of any content into a prompt for imagery — still or moving. The 8 transformation principles (understand / select / translate / consistent / compose / style / negative / faithful) fold a whole text into the capacity of one generation, which the format card declares (one frame with no time axis / ten pages / thirty seconds at 16:9)."
   },
   "plugins": [
     {
       "name": "distill-essence-engine",
       "source": "./",
-      "description": "Distill Essence Engine — turns any content (novel, article, poem, transcript, memo, paper …) into an English image prompt via the transformation principles (understand → select → translate → consistent → compose → style → negative → faithful). Core quality = particular × indirect (show the truth, entrusted).",
+      "description": "Distill Essence Engine — turns any content (novel, article, poem, transcript, memo, paper …) into an English prompt for imagery, still or moving, via the transformation principles (understand → select → translate → consistent → compose → style → negative → faithful). Core quality = particular × indirect (show the truth, entrusted).",
       "version": "0.1.0",
       "author": {
         "name": "GL-Kageyama"
@@ -25,6 +25,7 @@
         "claude-code",
         "ai",
         "image-prompt",
+        "video-prompt",
         "transformer",
         "skill",
         "distill",
@@ -33,6 +34,7 @@
       "category": "creative",
       "tags": [
         "image-prompt",
+        "video-prompt",
         "transform",
         "skill",
         "distill"

@@ -8,10 +8,10 @@
   <img src="assets/repo-hero.png" width="100%" alt="distill-essence-engine">
 </p>
 
-**圧縮とは、選ぶこと。** —— あらゆる内容（小説／記事／詩／文字起こし／メモ／論文 …）を画像プロンプトへ変換する汎用変換エンジン。
+**圧縮とは、選ぶこと。** —— あらゆる内容（小説／記事／詩／文字起こし／メモ／論文 …）を、静止でも動きでも、イメージのためのプロンプトへ変換する汎用変換エンジン。
 
 ```
-[あらゆる入力] → [指定（フォーマット＋様式）] → [エンジン] → [英語の画像プロンプト]
+[あらゆる入力] → [指定（フォーマット＋様式）] → [エンジン] → [イメージのための英語プロンプト]
 ```
 
 ## なぜ必要か
@@ -67,7 +67,7 @@ VSCode で入力を**選択**し、欲しいものを**言う**：
 
 > 「イメージボード化して、木版で」
 
-エンジンは英語の画像プロンプトを 3 欄（Content／Format／Style）＋合成プロンプトで返す。そのまま Stable Diffusion / Midjourney など に貼れる。使い方の全容——引数（`content`／`url`／`format`／`style`／`reference`／`characters`／`trace`／`lang`）、名前付きカードの再利用、出力の形——は [docs/usage.md](docs/usage.md)。入力→出力の実例は [examples/](examples/)。
+エンジンは英語のプロンプトを 3 欄（Content／Format／Style）＋合成プロンプトで返す。そのまま Stable Diffusion / Midjourney など に貼れる——時間を持つフォーマットなら、Wan などに貼れる埋められた仕様書を返す。使い方の全容——引数（`content`／`url`／`format`／`style`／`reference`／`characters`／`trace`／`lang`）、名前付きカードの再利用、出力の形——は [docs/usage.md](docs/usage.md)。入力→出力の実例は [examples/](examples/)。
 
 ## 現行機能
 
@@ -75,8 +75,9 @@ VSCode で入力を**選択**し、欲しいものを**言う**：
 - **入力**：VSCode 選択（選択テキスト＝内容スロット）。`url` で YouTube（文字起こし）／GitHub（README）／ホームページ（本文）を取得も可（`scripts/fetch.py`）。
 - **指定**：`format`（何を作るか）と `style`（どんな様式で）を**別々に、または自然言語一括**で。`reference`（参考画像パス／参考にする例＝イメージ参照）で「こういう感じ」を具体化、`characters`（登場人物の固定＝キャラ参照）で複数枚でも同一人物を一貫させる。
 - **使い回し**：使えると判断したフォーマット・様式は名前付きカードで登録し、`format:`／`style:` の名前で再利用（`references/styles/`・`references/formats/`。一覧は `references/registry.md`）。
-- **出力**：英語の画像プロンプト（内容／フォーマット／様式の 3 欄＋合成プロンプト。Stable Diffusion / Midjourney など にそのまま渡せる）。
-- **三言語**：説明と trace は en／ja／zh（SKILL.md「Language Mode」参照）。画像プロンプト自体は常に英語。
+- **出力**：イメージのための英語プロンプト（内容／フォーマット／様式の 3 欄＋合成プロンプト。Stable Diffusion / Midjourney など にそのまま渡せる。フォーマットが時間軸を持つ場合は、埋められた仕様書）。
+- **畳む先**：媒体ではなく、**一回の生成の容量**——時間軸を持たない一枚／十ページ／16:9 の三十秒。容量を宣言するのはフォーマットカードであり、静止画は時間軸がない場合にすぎない。
+- **三言語**：説明と trace は en／ja／zh（SKILL.md「Language Mode」参照）。生成されるプロンプト自体は常に英語。
 
 ## 原理
 

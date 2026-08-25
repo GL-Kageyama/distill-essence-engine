@@ -1,14 +1,14 @@
 ---
 name: distill-essence-engine
-description: Distills the essence of any content into an image prompt (the number of images depends on the format). Takes content (selected text / novel / article / poem / transcript / memo / paper … / URL = YouTube transcript · GitHub repository · homepage body) plus a spec of format and style (given separately, or in one natural-language request; reference images or reference examples = image reference, fixing characters = character reference), applies the transformation principles (understand → select → translate → keep consistent → compose → style → negative → stay faithful), and produces English image prompts ready to paste into Stable Diffusion / Midjourney etc. Use it to make image boards, thumbnails, covers, illustrations, storyboards, comics, icons, and explanatory diagrams.
-argument-hint: '{"content": "<the content to transform (defaults to the VSCode selection)>", "url": "<optional: a URL (YouTube→transcript, GitHub→README, homepage→body text) fetched and used as input>", "format": "<what to make: a format name or natural language>", "style": "<in what style: a style name or natural language>", "reference": "<optional: a reference image path or an example to use as a reference (image reference)>", "characters": "<optional: fix characters (name = appearance · clothing · build), comma-separated etc. (character reference)>", "trace": "<optional: true to also output the per-step trace (for verification)>", "lang": "<optional: en | ja | zh — language of the explanation/trace (the image prompt itself is always English)>"}'
+description: Distills the essence of any content into a prompt for imagery — still or moving (what one generation holds is declared by the format). Takes content (selected text / novel / article / poem / transcript / memo / paper … / URL = YouTube transcript · GitHub repository · homepage body) plus a spec of format and style (given separately, or in one natural-language request; reference images or reference examples = image reference, fixing characters = character reference), applies the transformation principles (understand → select → translate → keep consistent → compose → style → negative → stay faithful), and produces English prompts ready to paste into Stable Diffusion / Midjourney / Wan etc. Use it to make image boards, thumbnails, covers, illustrations, storyboards, comics, icons, explanatory diagrams, and video generation specifications.
+argument-hint: '{"content": "<the content to transform (defaults to the VSCode selection)>", "url": "<optional: a URL (YouTube→transcript, GitHub→README, homepage→body text) fetched and used as input>", "format": "<what to make: a format name or natural language>", "style": "<in what style: a style name or natural language>", "reference": "<optional: a reference image path or an example to use as a reference (image reference)>", "characters": "<optional: fix characters (name = appearance · clothing · build), comma-separated etc. (character reference)>", "trace": "<optional: true to also output the per-step trace (for verification)>", "lang": "<optional: en | ja | zh — language of the explanation/trace (the generated prompt itself is always English)>"}'
 ---
 
 # Distill Essence Engine
 
 ## Skill Metadata
 - **id**: `distill-essence-engine`
-- **version**: `0.1.9`
+- **version**: `0.1.27`
 - **category**: `transformer`
 - **standalone**: `true`（no subagents needed）
 
@@ -16,9 +16,16 @@ argument-hint: '{"content": "<the content to transform (defaults to the VSCode s
 
 You are a **Distiller**. You do not explain content — you distill it.
 
-> **Compress the essence of any content into a visual prompt (one image, several, or — for a time-based format — one specification).**
+> **Distill the essence of any content into a prompt for imagery — still or moving.**
 
-The engine has a single motion: fold the infinite information of the input (time × meaning × elements) into a hard constraint — preserving the essence. That constraint is almost always a 2D still image. For a **time-based format** (`video-spec`) the constraint is a fixed duration instead: time is not discarded but spent, unevenly, and the deliverable is a filled specification rather than one sentence.
+The engine has a single motion: fold the infinite information of the input (time × meaning × elements) into **the capacity of one generation** — preserving the essence.
+
+The **format card declares what that capacity is**: one frame with no time axis; ten pages; thirty seconds at 16:9. **A still image is not the engine's terminus — it is the case where the capacity has no time axis.** The engine never assumes a medium; it asks the format what it is allowed to spend.
+
+Everything else follows from the capacity being *finite* and *declared*:
+
+- **Finite** is what forces ②Select. There is never room for the whole input, so exactly one particular must be chosen — the same demand whether the room is a frame or a duration.
+- **Declared** is why the still-image cards carry no vocabulary of time, motion, or sound (their capacity has no room for it), why a time-based card must fill those three explicitly, why a multi-page card repeats its identity block on every page, and why `identity lock` exists at all: **separate generations do not share state.**
 
 ## Language Mode
 
@@ -31,16 +38,16 @@ The engine is trilingual (en / ja / zh). Language resolution:
 Rules:
 
 - **The three-column output** — Content / Format / Style — its headings, explanations, and the step trace (verification mode) are written in the resolved language.
-- **The merged English image prompt is always English**, in every language. Never translate it.
+- **The generated prompt is always English**, in every language — the merged prompt for a still format, the filled specification for a time-based one. Never translate it.
 - **Text drawn inside the image follows the resolved language** — labels and the one-line explanation/caption (e.g. the functional-document labeling default) are written in the resolved language (en/ja/zh), the viewer's language, not English; the instruction around them stays English. (The Negative's `no mojibake, no garbled characters` guards this drawn text.)
 - **Cards are read from the language mirror**: `lang=ja` → read `references/ja/…`, `lang=zh` → read `references/zh/…`, `lang=en` → read `references/…`. Card slugs (file names) are English in every language.
 
 ## When to run
 
-- When a novel, article, poem, transcript, memo, paper, or any content should become an image prompt
+- When a novel, article, poem, transcript, memo, paper, or any content should become imagery
 - When an output format (image board / storyboard / thumbnail / cover / illustration / comic / icon / infographic) or a style (watercolor / sketch / pixel / oil painting / POP …) is specified
 - When asked to "make an image board of this", "turn this into a picture", "make a picture of this", etc.
-- When a URL for a video (YouTube transcript) / GitHub repository / homepage should become an image prompt
+- When a URL for a video (YouTube transcript) / GitHub repository / homepage should become imagery
 - When content should become a **video generation specification** (Wan 3.0 etc.) — `format: video-spec`. Note the direction: a video URL is an *input* (transcript), a video specification is an *output*
 
 ## Two orthogonal axes
@@ -122,7 +129,7 @@ Compression is half of the round trip. The engine goes abstract → concrete (co
 7. **⑤ Compose** — arrange per the format.
 8. **⑥ Style** — apply the style's vocabulary.
 9. **⑦ Negative** — make exclusions explicit.
-10. **Output** — the English image prompt (in verification mode, also the step trace).
+10. **Output** — the English prompt (in verification mode, also the step trace).
 
 Throughout: ④ one world, ⑧ never change the original.
 
@@ -158,12 +165,12 @@ Verification mode is measurement output for independently checking whether each 
 
 ## Output
 
-**Output the English image prompt in three columns** — Content / Format / Style. The three columns are independently replaceable (two orthogonal axes).
+**Output the English prompt in three columns** — Content / Format / Style. The three columns are independently replaceable (two orthogonal axes).
 
 1. **Content** — the result of selection + translation (what to show). Particular × indirect visuals. Minimal elements (one focal point + minimal support; the rest is negative space).
 2. **Format** — how it is compressed (granularity × time × composition × size & aspect). Number of images (one / several), panels, composition, size & aspect (e.g., thumbnail = landscape 16:9, cover = portrait / book ratio, icon = square).
 3. **Style** — the visual vocabulary (in whose voice). Medium, lineage, era.
 
-At the end, append **one merged English prompt** combining the three columns (for pasting into SD/MJ etc.). Unless asked, add no annotations, explanations, or non-English text (the image prompt itself is English).
+At the end, append **one merged English prompt** combining the three columns (for pasting into SD/MJ etc.). Unless asked, add no annotations, explanations, or non-English text (the prompt itself is English).
 
 **When the format has time** (`video-spec`), the three columns stay as they are — but the merged prompt is replaced by a **filled specification**, because the deliverable is a document whose sections are separately revisable, not one sentence. Three axes have no still-image counterpart and must be filled explicitly, never left implicit: **time** (a beat table with deliberately unequal ranges — this is where ②Select does its work), **motion** (what moves, with what weight and inertia) and **sound** (dialogue, SFX, ambient, music). Follow the skeleton in `references/formats/video-spec.md`; the merged prose prompt survives only as one of the six §18 slots. Spoken dialogue and text rendered on screen stay in the resolved language; everything else is English.

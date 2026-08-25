@@ -4,9 +4,9 @@
 
 # Transformation Principles
 
-> The general principles of craft (＝ the recipe's principles) for transforming any input into a good image prompt. The core of the engine. A reference for distill-essence-engine.
+> The general principles of craft (＝ the recipe's principles) for transforming any input into a good prompt for imagery. The core of the engine. A reference for distill-essence-engine.
 
-The seed (`~/Desktop/その他プロンプト/`) is **one example** of applying these principles with my own preferences. What is written here is the **general principle** that works over the whole covered range (every image prompt), independent of any particular format or seed.
+The seed (`~/Desktop/その他プロンプト/`) is **one example** of applying these principles with my own preferences. What is written here is the **general principle** that works over the whole covered range (every prompt for imagery, still or moving), independent of any particular format or seed.
 
 ## The transformation flow
 

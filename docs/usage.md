@@ -10,7 +10,7 @@
 2. **Select** the input text in VSCode (the selection becomes the content slot).
 3. **Say** what you want, in natural language — "make an image board of this, in woodblock print".
 
-The engine returns the English image prompt in three columns (Content / Format / Style) plus a merged prompt, ready to paste into Stable Diffusion / Midjourney etc..
+The engine returns the English prompt in three columns (Content / Format / Style) plus a merged prompt, ready to paste into Stable Diffusion / Midjourney etc. — or, when the format has a time axis, a filled specification ready to paste into Wan etc..
 
 If the same content should become *another* output, swap only one axis: "same thing, but a thumbnail" (format) or "same thing, but pixel art" (style).
 
@@ -27,7 +27,7 @@ Worked input→output cases are in [`../examples/`](../examples/).
 | `reference` | A reference image path or an example to use as a reference (image reference) |
 | `characters` | Fix the characters (name = appearance · clothing · build. character reference) |
 | `trace` | true to also output the per-step trace (for verification) |
-| `lang` | en / ja / zh — the language of the explanation and trace (the image prompt itself is always English) |
+| `lang` | en / ja / zh — the language of the explanation and trace (the generated prompt itself is always English) |
 
 ## Reusing named cards
 
@@ -35,7 +35,7 @@ Specify **by name** (`format: comic` / `style: woodblock`) to expand and reuse t
 
 ## Output
 
-Output the English image prompt in three columns (Content / Format / Style) plus a merged prompt at the end. Ready to paste into SD/MJ etc.
+Output the English prompt in three columns (Content / Format / Style) plus a merged prompt at the end. Ready to paste into SD/MJ etc. (a filled specification instead of the merged prompt when the format has a time axis).
 
 ## Verification
 

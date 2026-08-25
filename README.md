@@ -8,10 +8,10 @@
   <img src="assets/repo-hero.png" width="100%" alt="distill-essence-engine">
 </p>
 
-**To compress is to choose.** —— a general-purpose transformation engine that turns any content (novel / article / poem / transcript / memo / paper …) into an image prompt.
+**To compress is to choose.** —— a general-purpose transformation engine that turns any content (novel / article / poem / transcript / memo / paper …) into a prompt for imagery, still or moving.
 
 ```
-[any input] → [spec: format × style] → [engine] → [English image prompt]
+[any input] → [spec: format × style] → [engine] → [English prompt for imagery]
 ```
 
 ## Why This Is Needed
@@ -67,7 +67,7 @@ In VSCode, **select** the input text and **say** what you want:
 
 > “make an image board of this, in woodblock print”
 
-The engine returns the English image prompt in three columns (Content / Format / Style) plus a merged prompt, ready to paste into Stable Diffusion / Midjourney etc.. Full usage — the arguments (`content` / `url` / `format` / `style` / `reference` / `characters` / `trace` / `lang`), reusing named cards, and the output shape — is in [docs/usage.md](docs/usage.md). Worked input→output cases are in [examples/](examples/).
+The engine returns the English prompt in three columns (Content / Format / Style) plus a merged prompt, ready to paste into Stable Diffusion / Midjourney etc. — or, for a time-based format, a filled specification ready to paste into Wan etc.. Full usage — the arguments (`content` / `url` / `format` / `style` / `reference` / `characters` / `trace` / `lang`), reusing named cards, and the output shape — is in [docs/usage.md](docs/usage.md). Worked input→output cases are in [examples/](examples/).
 
 ## Current features
 
@@ -75,8 +75,9 @@ The engine returns the English image prompt in three columns (Content / Format /
 - **Input**: the VSCode selection (the selected text = the content slot). With `url`, it can also fetch YouTube (transcript) / GitHub (README) / homepage (body text) via `scripts/fetch.py`.
 - **Spec**: `format` (what to make) and `style` (in what style), **separately or in one natural-language request**. With `reference` (a reference image path / an example to use = image reference) you concretize "this kind of feel"; with `characters` (fixing the characters = character reference) the same people stay consistent across multiple images.
 - **Reuse**: formats and styles judged usable are registered as named cards and reused by name (`format:` / `style:`). See `references/styles/` and `references/formats/`; the list is `references/registry.md`.
-- **Output**: English image prompts (three columns — Content / Format / Style — plus a merged prompt, ready to paste into Stable Diffusion / Midjourney etc.).
-- **Trilingual**: the explanations and trace speak en / ja / zh (see SKILL.md "Language Mode"); the image prompt itself is always English.
+- **Output**: English prompts for imagery (three columns — Content / Format / Style — plus a merged prompt, ready to paste into Stable Diffusion / Midjourney etc.; a filled specification when the format has a time axis).
+- **What it folds into**: not a medium, but **the capacity of one generation** — one frame with no time axis, ten pages, thirty seconds at 16:9. The format card declares it; a still image is simply the case with no time axis.
+- **Trilingual**: the explanations and trace speak en / ja / zh (see SKILL.md "Language Mode"); the generated prompt itself is always English.
 
 ## Principles
 

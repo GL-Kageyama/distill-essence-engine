@@ -8,10 +8,10 @@
   <img src="assets/repo-hero.png" width="100%" alt="distill-essence-engine">
 </p>
 
-**压缩就是选择。** —— 一个通用转换引擎，把任意内容（小说／文章／诗歌／转录／备忘／论文…）转成图像提示词。
+**压缩就是选择。** —— 一个通用转换引擎，把任意内容（小说／文章／诗歌／转录／备忘／论文…）转成面向影像的提示词，静止或动态皆可。
 
 ```
-[任意输入] → [指定（格式＋样式）] → [引擎] → [英文图像提示词]
+[任意输入] → [指定（格式＋样式）] → [引擎] → [面向影像的英文提示词]
 ```
 
 ## 为什么需要它
@@ -67,7 +67,7 @@
 
 > 「把这个做成影像板，木刻版画风格」
 
-引擎会返回英文图像提示词，分三栏（Content／Format／Style）＋合成提示词，可直接粘贴到 Stable Diffusion / Midjourney 等。完整用法——参数（`content`／`url`／`format`／`style`／`reference`／`characters`／`trace`／`lang`）、命名卡的复用、输出的形式——见 [docs/usage.md](docs/usage.md)。输入→输出的实例见 [examples/](examples/)。
+引擎会返回英文提示词，分三栏（Content／Format／Style）＋合成提示词，可直接粘贴到 Stable Diffusion / Midjourney 等——若格式带时间轴，则返回可粘贴到 Wan 等的填好的规格书。完整用法——参数（`content`／`url`／`format`／`style`／`reference`／`characters`／`trace`／`lang`）、命名卡的复用、输出的形式——见 [docs/usage.md](docs/usage.md)。输入→输出的实例见 [examples/](examples/)。
 
 ## 现行功能
 
@@ -75,8 +75,9 @@
 - **输入**：VSCode 选中（选中文本＝内容槽）。`url` 可获取 YouTube（转录）／GitHub（README）／首页（正文）（`scripts/fetch.py`）。
 - **指定**：`format`（要做什么）与 `style`（用什么样式）**分开，或在一条自然语言里一并指定**。用 `reference`（参考图路径／用作参考的示例＝图像参照）把「这种感觉」具体化，用 `characters`（固定登场人物＝角色参照）在多张之间保持同一人物。
 - **复用**：判定为可用的格式·样式以命名卡注册，用 `format:`／`style:` 的名字复用（`references/styles/`・`references/formats/`。列表见 `references/registry.md`）。
-- **输出**：英文图像提示词（Content／Format／Style 三栏＋合成提示词。可直接粘贴到 Stable Diffusion / Midjourney 等）。
-- **三语**：说明与 trace 用 en／ja／zh（见 SKILL.md「Language Mode」）；图像提示词本身始终是英文。
+- **输出**：面向影像的英文提示词（Content／Format／Style 三栏＋合成提示词。可直接粘贴到 Stable Diffusion / Midjourney 等；格式带时间轴时为填好的规格书）。
+- **折叠的目标**：不是媒介，而是**一次生成的容量**——无时间轴的一帧／十页／16:9 的三十秒。宣告容量的是格式卡，静止图像只是没有时间轴的情形。
+- **三语**：说明与 trace 用 en／ja／zh（见 SKILL.md「Language Mode」）；生成的提示词本身始终是英文。
 
 ## 原理
 

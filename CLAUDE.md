@@ -28,13 +28,14 @@ README / SKILL / examples/README carry **current information only**. Current fea
 - **The 8 principles**：①Understand → ②Select → ③Translate → ④Keep consistent → ⑤Compose → ⑥Style → ⑦Negative → ⑧Stay faithful. The transformation flow follows this order.
 - **The core of the three steps = particular × indirect** (truth × entrusted). The quality of compression is decided by how much of the essence the viewer's expansion can recover.
 - **The two layers of compression**：the essence (particular × indirect, invariant) → SKILL.md alone is correct. The method (granularity × time × function, format-dependent) → `references/`. SKILL.md alone cannot carry the method.
-- **The output is an English image prompt** (SD/MJ convention). Input and spec may be in ja. **Exception — time-based formats** (`video-spec`): the output is a filled English *specification* (Wan 3.0 §1–20), not one sentence; spoken dialogue and on-screen text keep the resolved language.
+- **The engine folds into the capacity of one generation, not into a medium.** The format card declares that capacity (one frame with no time axis / ten pages / thirty seconds at 16:9); a still image is the case where the capacity has no time axis, **not** the engine's terminus. Never write a rule that assumes the output is a single frame.
+- **The output is an English prompt for imagery**, in whatever shape that capacity requires (SD/MJ convention for a still format; a filled Wan 3.0 §1–20 *specification* for a time-based one). Input and spec may be in ja. Spoken dialogue and text rendered on screen keep the resolved language.
 
 ## i18n
 
 - **Canonical = en.** `references/` and `docs/` roots are English; `references/ja/` / `references/zh/`, `docs/ja/` / `docs/zh/`, and `README{-ja,-zh}.md` / `CLAUDE{-ja,-zh}.md` are mirrors.
 - **English-invariant parts in cards** — the prompt template, the negative list (`not photorealistic, no 3D render, …`), and the environment-variable names (`SUBJECT`, `ACTION`, …) — are never translated. Only the explanatory prose is translated.
-- **The image prompt output is always English**, in every language. The three-column explanations and the trace follow the resolved language (SKILL.md "Language Mode": `lang` arg → detect the request → default `en`).
+- **The generated prompt is always English**, in every language. The three-column explanations and the trace follow the resolved language (SKILL.md "Language Mode": `lang` arg → detect the request → default `en`).
 - **HISTORY.md stays Japanese** (development history; the sibling engines keep it so too).
 - **examples/ case bodies** (`input.md` / `prompt.md` / `pages/`) are not translated; only `examples/README.md` is mirrored.
 
