@@ -28,7 +28,7 @@ README / SKILL / examples/README carry **current information only**. Current fea
 - **The 8 principles**：①Understand → ②Select → ③Translate → ④Keep consistent → ⑤Compose → ⑥Style → ⑦Negative → ⑧Stay faithful. The transformation flow follows this order.
 - **The core of the three steps = particular × indirect** (truth × entrusted). The quality of compression is decided by how much of the essence the viewer's expansion can recover.
 - **The two layers of compression**：the essence (particular × indirect, invariant) → SKILL.md alone is correct. The method (granularity × time × function, format-dependent) → `references/`. SKILL.md alone cannot carry the method.
-- **The output is an English image prompt** (SD/MJ convention). Input and spec may be in ja.
+- **The output is an English image prompt** (SD/MJ convention). Input and spec may be in ja. **Exception — time-based formats** (`video-spec`): the output is a filled English *specification* (Wan 3.0 §1–20), not one sentence; spoken dialogue and on-screen text keep the resolved language.
 
 ## i18n
 

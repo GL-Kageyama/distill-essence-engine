@@ -69,6 +69,7 @@
 | 機構・働きの図 | 手描き | 機構・機械の図解 | 機能文書ファミリー・検証済み（0.1.24） | [mechanism-work](styles/mechanism-work.md) |
 | 定規とコンパスの作図 | 手描き | 定規とコンパスによる作図 | 機能文書ファミリー・検証済み（0.1.24） | [geometric-construction](styles/geometric-construction.md) |
 | 実験ノート | 手描き | 実験ノート | 機能文書ファミリー・検証済み（0.1.24） | [lab-notebook](styles/lab-notebook.md) |
+| 柔らかいセル画調 | デジタル | TVアニメのセル画 | `Motion character` を持つ（時間を持つ出力） | [soft-cel-anime](styles/soft-cel-anime.md) |
 
 ## フォーマットカード（formats/）
 
@@ -104,3 +105,4 @@
 | エッセイ漫画 | 叙述（内省） | 一人称ナレーション | [comic-essay](formats/comic-essay.md) |
 | ルポ漫画 | 叙述（記録） | 事実主導の記録コマ（⑧） | [reportage-manga](formats/reportage-manga.md) |
 | 学習漫画 | 説明 | キャラクターが教える | [educational-manga](formats/educational-manga.md) |
+| 動画仕様 | 叙述（再体験・誘引） | **出力が時間を持つ**——Wan 3.0 §1–19 対応・不均等なビート・運動／カメラ／音声 | [video-spec](formats/video-spec.md) |

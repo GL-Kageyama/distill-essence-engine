@@ -69,6 +69,7 @@
 | Mechanism work | Hand-drawn | Mechanism / machine diagram | Functional-document family · verified (0.1.24) | [mechanism-work](styles/mechanism-work.md) |
 | Geometric construction | Hand-drawn | Compass-and-straightedge | Functional-document family · verified (0.1.24) | [geometric-construction](styles/geometric-construction.md) |
 | Lab notebook | Hand-drawn | Laboratory notebook | Functional-document family · verified (0.1.24) | [lab-notebook](styles/lab-notebook.md) |
+| Soft cel anime | Digital | TV anime cel animation | Carries `Motion character` (time-based output) | [soft-cel-anime](styles/soft-cel-anime.md) |
 
 ## Format cards (formats/)
 
@@ -104,3 +105,4 @@
 | Comic essay | Narration (introspection) | First-person narration boxes | [comic-essay](formats/comic-essay.md) |
 | Reportage manga | Narration (record) | Fact-led documentary panels (⑧) | [reportage-manga](formats/reportage-manga.md) |
 | Educational manga | Explanatory | Teacher character teaches | [educational-manga](formats/educational-manga.md) |
+| Video specification | Narration (re-experience / attraction) | **The output has time** — Wan 3.0 §1–19 mapping, uneven beats, motion / camera / audio | [video-spec](formats/video-spec.md) |

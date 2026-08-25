@@ -69,6 +69,7 @@
 | 机构・做功图 | 手绘 | 机构・机械图解 | 功能文档家族・已验证（0.1.24） | [mechanism-work](styles/mechanism-work.md) |
 | 尺规作图 | 手绘 | 尺规作图 | 功能文档家族・已验证（0.1.24） | [geometric-construction](styles/geometric-construction.md) |
 | 实验笔记 | 手绘 | 实验笔记 | 功能文档家族・已验证（0.1.24） | [lab-notebook](styles/lab-notebook.md) |
+| 柔光赛璐璐 | 数字 | TV 动画赛璐璐 | 带有 `Motion character`（带时间的输出） | [soft-cel-anime](styles/soft-cel-anime.md) |
 
 ## 格式卡片（formats/）
 
@@ -104,3 +105,4 @@
 | 随笔漫画 | 叙述（内省） | 第一人称叙述框 | [comic-essay](formats/comic-essay.md) |
 | 纪实漫画 | 叙述（记录） | 事实主导的记录分格（⑧） | [reportage-manga](formats/reportage-manga.md) |
 | 学习漫画 | 说明 | 角色来讲解 | [educational-manga](formats/educational-manga.md) |
+| 视频规格 | 叙述（再体验・吸引） | **输出带有时间**——Wan 3.0 §1–19 对应・不均等节拍・运动／镜头／声音 | [video-spec](formats/video-spec.md) |

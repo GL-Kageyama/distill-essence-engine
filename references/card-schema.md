@@ -14,6 +14,7 @@
 - **do/avoid** = fixes the decisions of selection and composition in advance. The pre-compression of ② selection and ⑤ composition.
 - **Negative template** = the concretization of ⑦ negative.
 - **Examples** = real instances with the variables filled in. Reproducibility of verification (a record of producing different content in the same style).
+- **Motion character** (optional) = how *this style* moves, for formats whose output has time (e.g. [video-spec](formats/video-spec.md)). Only styles with a motion idiom of their own carry it — anime's limited animation (holds, twos and threes) is a signature of the style, not a property of the format. Still-image-only styles omit the section entirely.
 
 ## Structure of a style card (references/styles/*.md)
 
@@ -34,6 +35,9 @@
 - **Typography**: …
 - **Color**: …
 - **Texture / lighting**: …
+
+## Motion character (optional — only when the output has time)
+- …
 
 ## do (must follow)
 - …

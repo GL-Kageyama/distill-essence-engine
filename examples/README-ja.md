@@ -124,6 +124,7 @@
 | distill-geometric-construction | 蒸留エンジン（概念） | 概念図 | 定規とコンパスの作図 | 伝達 |
 | distill-lab-notebook | 蒸留エンジン（概念） | 概念図 | 実験ノート | 伝達 |
 | ai-cliff-mechanism-work | 企業AI活用の失敗（動画） | 概念図 | 機構・働きの図 | 伝達 |
+| gozen-niji-video | ライトノベル全12話『午前二時に、あなたは誰の時間を生きていますか』第1話 | 動画仕様 | 柔らかいセル画調 | 再体験 |
 
 > URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ）は `url:` で受け取り、`scripts/fetch.py` が文字起こし／本文を抽出する。実 URL の検証ケースが 5 件ある（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/)＝青空文庫『坊っちゃん』、いずれも実フェッチ）。[ai-cliff-mechanism-work](ai-cliff-mechanism-work/) の出力サンプルは 6 件目の実フェッチ入力——ピボットの「大企業のAI活用はなぜ失敗する？4つの壁の克服法」——で、機能文書ファミリーからこの動画に最も適した様式として**機構・働きの図**を選定したもの（動画自身が「壁を1つ1つくり抜く」「労働力の代替」という機構の言葉で語る）。残りは実 URL が無いため代表サンプル入力（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）で変換を検証している。実フェッチは `python3 scripts/fetch.py url:https://...` で同じ行に入る。
 
