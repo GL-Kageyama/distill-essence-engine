@@ -124,7 +124,7 @@
 | distill-geometric-construction | 蒸馏引擎（概念） | 概念图 | 尺规作图 | 传达 |
 | distill-lab-notebook | 蒸馏引擎（概念） | 概念图 | 实验笔记 | 传达 |
 | ai-cliff-mechanism-work | 企业AI失败的教训（视频） | 概念图 | 机构・做功图 | 传达 |
-| gozen-niji-video | 轻小说全12话《凌晨两点、你在活着谁的时间》第1话 | 视频规格 | 柔光赛璐璐 | 再体验 |
+| gozen-niji-video-01〜12 | 轻小说全12话《凌晨两点、你在活着谁的时间》——每话一条30秒规格，不变部分见 `-00-series` | 视频规格 | 柔光赛璐璐 | 再体验 |
 
 > URL 输入（YouTube 视频／首页／GitHub 仓库）通过 `url:` 接收，`scripts/fetch.py` 抽取转录／正文。实 URL 的验证案例有 5 件（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/)＝青空文库《哥儿》，均为实抓取）。[ai-cliff-mechanism-work](ai-cliff-mechanism-work/) 的输出示例是第 6 个实抓取输入——Pivot 的《大企业的 AI 活用为何失败？4 道墙的克服法》——从功能文档家族中为该视频选定的最合适样式「机构・做功图」（该视频自身就是用「逐一挖穿 4 道墙」「替代劳动力」这样的机构语言来讲的）。其余因没有实 URL，用代表样例输入（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）验证转换。实抓取用 `python3 scripts/fetch.py url:https://...` 进入同一行。
 

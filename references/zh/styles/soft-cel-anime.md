@@ -62,7 +62,7 @@ painterly brush strokes, no busy detail.
 ```
 
 ## 事例
-- 凌晨两点的幽灵 第1话 → 30 秒视频摘要（gozen-niji-video）——只有手机屏幕作为光源的昏暗卧室，光在平涂色面上柔和地晕开
+- 凌晨两点的幽灵 第1话 → 30 秒视频摘要（gozen-niji-video-01）——只有手机屏幕作为光源的昏暗卧室，光在平涂色面上柔和地晕开
 
 ## 来源
 为「易读却柔和」的动画而组的混成：`cel-shade` 提供平涂色面与干净线稿（「简洁易读」的一半），`webtoon-soft-render` 提供柔和的光（「柔和」的一半）——但明确排除 webtoon 的高光、prettiness 与渐变，使柔和留在光与空气之中，而不进入渲染本身。

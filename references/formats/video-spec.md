@@ -120,7 +120,7 @@ Negative Prompt ← §16 MUST NOT + this card's Negative + the style card's Nega
 `no uniform pacing, no equal-length beats, no static slideshow of stills, no floaty weightless motion, no scene cuts to unrelated locations, no on-screen subtitles, no watermark, no morphing or drifting facial identity`
 
 ## Examples
-- 午前二時の幽霊 (Ghost of 2 A.M.) ep.1 → a 30-second digest (gozen-niji-video, soft-cel-anime)
+- 午前二時の幽霊 (Ghost of 2 A.M.) ep.1 → a 30-second digest (gozen-niji-video-01, soft-cel-anime)
 
 ## Sources
 Wan 3.0 — Video Generation Specification (the target intermediate representation); `storyboard` (the nearest still-image ancestor — panels and shot types, but no movement, physics or sound)

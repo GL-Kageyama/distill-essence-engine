@@ -62,7 +62,7 @@ painterly brush strokes, no busy detail.
 ```
 
 ## Examples
-- 午前二時の幽霊 (Ghost of 2 A.M.) ep.1 → a 30-second video digest (gozen-niji-video) — a dark bedroom where the phone screen is the only light source, blooming softly against flat cel planes
+- 午前二時の幽霊 (Ghost of 2 A.M.) ep.1 → a 30-second video digest (gozen-niji-video-01) — a dark bedroom where the phone screen is the only light source, blooming softly against flat cel planes
 
 ## Sources
 A blend built for readable-but-soft anime: `cel-shade` supplies the flat planes and clean lineart (the "simple and readable" half), `webtoon-soft-render` supplies the soft light (the "gentle" half) — with webtoon's gloss, prettiness and gradients explicitly excluded, so the softness stays in the light and air rather than the rendering.
