@@ -17,7 +17,7 @@
 |---|---|
 | 引擎本体（转换流程） | [`skills/distill-essence-engine/SKILL.md`](../skills/distill-essence-engine/SKILL.md) |
 | 现行功能·原理 | [`../README.md`](../README.md) |
-| 命名卡索引（格式 17 种 · 样式 29 种） | [`../references/registry.md`](../references/registry.md) |
+| 命名卡索引（格式 35 种 · 样式 50 种） | [`../references/registry.md`](../references/registry.md) |
 | 特定格式／样式卡 | [`../references/formats/`](../references/formats/) · [`../references/styles/`](../references/styles/) |
 | 类型（目的×格式×样式×压缩） | [`../references/types.md`](../references/types.md) |
 | 原理的深化（选材 · 转译 · 配置 …） | [`../references/`](../references/) |

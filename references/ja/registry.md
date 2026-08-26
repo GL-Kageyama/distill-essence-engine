@@ -70,6 +70,7 @@
 | 定規とコンパスの作図 | 手描き | 定規とコンパスによる作図 | 機能文書ファミリー・検証済み（0.1.24） | [geometric-construction](styles/geometric-construction.md) |
 | 実験ノート | 手描き | 実験ノート | 機能文書ファミリー・検証済み（0.1.24） | [lab-notebook](styles/lab-notebook.md) |
 | 柔らかいセル画調 | デジタル | TVアニメのセル画 | `Motion character` を持つ（時間を持つ出力） | [soft-cel-anime](styles/soft-cel-anime.md) |
+| 光の写実アニメ | デジタル | 劇場アニメ | soft-cel-anime の意図的な逆——高彩度の夕景・体積光・フルアニメーション | [luminous-anime](styles/luminous-anime.md) |
 
 ## フォーマットカード（formats/）
 
@@ -106,3 +107,7 @@
 | ルポ漫画 | 叙述（記録） | 事実主導の記録コマ（⑧） | [reportage-manga](formats/reportage-manga.md) |
 | 学習漫画 | 説明 | キャラクターが教える | [educational-manga](formats/educational-manga.md) |
 | 動画仕様 | 叙述（再体験・誘引） | **出力が時間を持つ**——Wan 3.0 §1–19 対応・不均等なビート・運動／カメラ／音声 | [video-spec](formats/video-spec.md) |
+| キャラクター設定画 | 伝達（制作仕様） | 全面で同一の身長と目線、接地影なし、情報が雰囲気に勝つ | [character-sheet](formats/character-sheet.md) |
+| キャラクター イメージボード | 象徴（制作仕様） | 答えではなく候補——設計が固まる前の探索 | [character-board](formats/character-board.md) |
+| イメージボード（concept-board） | 象徴（制作仕様） | 全弧の空気を固定する分割しない一枚絵（⑧考慮） | [concept-board](formats/concept-board.md) |
+| 美術ボード | 伝達（制作仕様） | 一場所・一状態・人物不在 | [art-board](formats/art-board.md) |

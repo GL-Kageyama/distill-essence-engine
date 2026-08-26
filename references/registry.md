@@ -70,6 +70,7 @@
 | Geometric construction | Hand-drawn | Compass-and-straightedge | Functional-document family · verified (0.1.24) | [geometric-construction](styles/geometric-construction.md) |
 | Lab notebook | Hand-drawn | Laboratory notebook | Functional-document family · verified (0.1.24) | [lab-notebook](styles/lab-notebook.md) |
 | Soft cel anime | Digital | TV anime cel animation | Carries `Motion character` (time-based output) | [soft-cel-anime](styles/soft-cel-anime.md) |
+| Luminous realist anime | Digital | Feature-film anime | The deliberate inverse of soft-cel-anime — saturated dusk, volumetric light, full animation | [luminous-anime](styles/luminous-anime.md) |
 
 ## Format cards (formats/)
 
@@ -106,3 +107,7 @@
 | Reportage manga | Narration (record) | Fact-led documentary panels (⑧) | [reportage-manga](formats/reportage-manga.md) |
 | Educational manga | Explanatory | Teacher character teaches | [educational-manga](formats/educational-manga.md) |
 | Video specification | Narration (re-experience / attraction) | **The output has time** — Wan 3.0 §1–19 mapping, uneven beats, motion / camera / audio | [video-spec](formats/video-spec.md) |
+| Character model sheet | Communication (production reference) | Same height and eye line across views, no cast shadow, spec over mood | [character-sheet](formats/character-sheet.md) |
+| Character image board | Symbolic (production reference) | Candidates, not an answer — exploration before the design locks | [character-board](formats/character-board.md) |
+| Concept board | Symbolic (production reference) | One undivided image fixing the air of the whole arc (⑧-aware) | [concept-board](formats/concept-board.md) |
+| Art board | Communication (production reference) | One location, one state, empty of characters | [art-board](formats/art-board.md) |

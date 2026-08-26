@@ -70,6 +70,7 @@
 | 尺规作图 | 手绘 | 尺规作图 | 功能文档家族・已验证（0.1.24） | [geometric-construction](styles/geometric-construction.md) |
 | 实验笔记 | 手绘 | 实验笔记 | 功能文档家族・已验证（0.1.24） | [lab-notebook](styles/lab-notebook.md) |
 | 柔光赛璐璐 | 数字 | TV 动画赛璐璐 | 带有 `Motion character`（带时间的输出） | [soft-cel-anime](styles/soft-cel-anime.md) |
+| 光感写实动画 | 数字 | 剧场版动画 | soft-cel-anime 刻意的反面——高饱和黄昏・体积光・全动画 | [luminous-anime](styles/luminous-anime.md) |
 
 ## 格式卡片（formats/）
 
@@ -106,3 +107,7 @@
 | 纪实漫画 | 叙述（记录） | 事实主导的记录分格（⑧） | [reportage-manga](formats/reportage-manga.md) |
 | 学习漫画 | 说明 | 角色来讲解 | [educational-manga](formats/educational-manga.md) |
 | 视频规格 | 叙述（再体验・吸引） | **输出带有时间**——Wan 3.0 §1–19 对应・不均等节拍・运动／镜头／声音 | [video-spec](formats/video-spec.md) |
+| 角色设定画 | 传达（制作规格） | 所有面向同一身高与视线，不投接地影，信息胜过氛围 | [character-sheet](formats/character-sheet.md) |
+| 角色印象板 | 象征（制作规格） | 候选而非答案——设计锁死前的探索 | [character-board](formats/character-board.md) |
+| 印象板（concept-board） | 象征（制作规格） | 固定全弧之气的不分割绘面（⑧ 考量） | [concept-board](formats/concept-board.md) |
+| 美术板 | 传达（制作规格） | 一地点・一状态・人物缺席 | [art-board](formats/art-board.md) |

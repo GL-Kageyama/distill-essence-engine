@@ -213,6 +213,24 @@ anti-generic の指摘はすべて具体的：①**紋切型トークン**（tea
 - **admiration の弱PASS 1 件**（recipe-howto・⑧違反なし）：折り返し＝「何も捨てない蓄積」の再文脈化は必然だが、不随意的な頂点まで届かず。合格の範囲内（0.1.21/0.1.22 と同じく弱PASS は合格）。
 - **軽微な所見**：末尾の否定句（not photorealistic, no 3D render …）は様式の制約として機能する定型（anti-generic は失敗シグネチャと判定せず）。aesthetic は「negative 列が詩から仕様書へ落ちる」と共通の注記（PASS の範囲内）。
 
+## アニメ・プリプロダクション美術ファミリー新設（PASS 15/15・0.1.28）
+
+| ケース | 入力 | フォーマット | 様式 | 目的 | 判定 |
+|---|---|---|---|---|---|
+| gozen-niji-character-sheet | 『午前二時の幽霊』（シリーズ定数） | **キャラクター設定画（character-sheet・新カード）** | セルシェード | 制作仕様 | **PASS**（anti-gen 2/10・aesthetic 8/10・admiration 8/10） |
+| gozen-niji-character-board | 同上 | **キャラクター イメージボード（character-board・新カード）** | ソフトセルアニメ | 制作仕様 | **PASS**（anti-gen 2/10・aesthetic 8/10・admiration 8/10） |
+| gozen-niji-concept-board | 同上 | **イメージボード（concept-board・新カード）** | ソフトセルアニメ | 制作仕様 | **PASS**（anti-gen 2/10・aesthetic 9/10・admiration 8/10） |
+| gozen-niji-art-board | 同上 | **美術ボード（art-board・新カード）** | ソフトセルアニメ | 制作仕様 | **PASS**（anti-gen 3/10・aesthetic 8/10・admiration 7/10） |
+| melos-luminous-anime | 太宰治「走れメロス」 | イメージボード（concept-board） | **光の写実アニメ（luminous-anime・新カード）** | 制作仕様 | **PASS**（anti-gen 3/10・aesthetic 9/10・admiration 7/10・精錬後） |
+
+- 判定者：anti-generic-filter・aesthetic-critic・admiration の3系統（5×3＝15判定・並列）。判定対象テキスト（Merged プロンプト）をエージェントプロンプトに直接埋め込み、ファイル/ツール読取禁止、model='sonnet'（0.1.20〜0.1.24 と同手順）。**ただし起動した名前付き評価者2系統（anti-generic-filter・aesthetic-critic）が 0.1.25/0.1.26 と同じ崩れ方（tool_uses: 0 でツール呼び出し構文を地の文として出力）をしたため、同一の採点基準と閾値を担う general-purpose エージェントで代替判定した**（代替であることを明記。標準の評価者runを装わない）。
+- **検証パターン＝フォーマット差し替え 4件＋様式差し替え 1件**。同一入力（『午前二時の幽霊』シリーズ定数）で設定画→キャラボード→コンセプトボード→美術ボードの順にフォーマットだけを差し替え、制作仕様の4分類が競合せず機能することを確認。melos-luminous-anime は同一フォーマット（concept-board）× 様式だけ luminous-anime に差し替え。**全5枚 PASS → レジストリへ登録**（フォーマット 31→35、様式 49→50、検証待ち解除）。
+- **分類＝既存の働き＋括弧付き限定子**（7つ目の用途を立てない）。`sprite` の `Narration (game asset)` という前例に従い `Communication (production reference)` / `Symbolic (production reference)`。36セルカバレッジ行列（6目的 × 入力）を壊さず、types.md の用途表とも整合する。
+- **⑧違反を精錬で2件修正**（admiration の原典照合から）：キャラボードの「Sketchy and unresolved」×「Clean closed thin lineart」の矛盾 → カード本体を「未完成なのは線ではなく決定」と書き直し（en正典＋jaミラー）。melos の switchback・walled city（原作にない）→ mountain pass road・the distant city and its tower へ撤回（⑧自己検証文も「2点を撤回した」と再記録）。「一歩幼い」を年齢差に開くと固定された不変量を再び開くため、候補を「頬のふくらみと睫毛の長さの読み方」として提示する形に修正。
+- **admiration の所見**：設定画＝「同一顔の差分（まつ毛と頬・首のかしげ方）を語る一点にした」「設定画とは本来、この一文が破られないための装置」／キャラボード＝「目を合わせる／伏せる」を「責めるのか待つのか」に翻訳した一点／コンセプトボード＝「第12話で真白自身が打っても光源は変わらない」が全弧の温度を一枚に畳む必然／美術ボード＝「語る一点でなく**効く一点**」「めくられた布団・沈んだ枕という不在の形」／melos＝「光そのものが締め切り（日没まで）＝光源が主役」。
+- **anti-generic の所見**：全体の最大の汎用リスクは作品ごとの内容ではなく共有の足場——soft-cel 様式句（ケース2・3・4にほぼ逐語で繰り返す）と「not a plot event, not a panel layout, not an establishing shot」の枠組み句（ケース3・5に繰り返す）。内容は固有で全5件 PASS だが、エンジンを将来締めるときの漏れ口として記録。
+- **軽微な所見**：ケース3/4（concept-board 対 art-board）は同一入力・同一様式のため、レンダリングで近い絵になり得る——差を支えるのは「虹の滲みと手」の2ディテールのみで、フォーマットの区別が出力で壊れやすい点として記録（PASS の範囲内。aesthetic は「より強い検証は別の光の状態を固定すべき」と注記）。
+
 ## 注記
 
 - URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ／青空文庫）は、実 URL の検証ケースが 4 件ある。いずれも `scripts/fetch.py` で実フェッチした内容を入力に使用し、カバレッジ行列の YouTube 動画 × 理解（解説図）・× 記録（漫画）・GitHub リポジトリ × 誘引（ヒーロー画像）セルを実 URL で埋めた（bocchan-gag-manga は小説入力＝青空文庫の実フェッチ例で、小説 × 誘引セルにギャグ漫画を追加）。

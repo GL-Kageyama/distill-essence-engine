@@ -27,7 +27,7 @@ Of the 4 axes of format space (granularity / time / purpose / size and aspect ra
 
 | Function | Formats | Granularity × time |
 |---|---|---|
-| **Narrative** | Manga / storyboard / picture book / four-panel / webtoon / comic-strip / splash-page / comic-essay / reportage-manga | Full arc × unfolding (four-panel / comic-strip: fragment × a point, splash-page: a single scene × a point) |
+| **Narrative** | Manga / storyboard / picture book / four-panel / webtoon / comic-strip / splash-page / comic-essay / reportage-manga / video-spec | Full arc × unfolding (four-panel / comic-strip: fragment × a point, splash-page: a single scene × a point; video-spec: the whole arc × unfolding **in time**) |
 | **Symbolic** | Image board | Full arc × folding (multiple panels) |
 | **Symbolic** | Cover / poster | A single symbol × folding |
 | **Symbolic** | Icon | A single symbol × a single point |
@@ -35,10 +35,11 @@ Of the 4 axes of format space (granularity / time / purpose / size and aspect ra
 | **Attention** | Thumbnail / single-panel-cartoon | A single symbol or scene × a single point |
 | **Explanatory** | Infographic / diagram / timeline / flowchart / comparison-matrix / data-chart / educational-manga | Full arc × folding |
 | **Decorative** | Illustration | A single scene × a single point |
+| **Production reference** | Character model sheet / character image board / concept board / art board | character-sheet: one character × multiple views (no time axis) ／ character-board: one character × folding (exploration) ／ concept-board: whole arc × folding (one undivided image) ／ art-board: one location × a single point |
 
-The combination of 6 purposes × granularity/time. The space itself is infinite, and these 8 types are nothing but **crystallized named formats** (＝ representative points).
+The combination of 6 purposes × granularity/time, plus the production-reference family (documents for a later stage to reproduce from, not pictures to enjoy). The space itself is infinite, and these 10 types are nothing but **crystallized named formats** (＝ representative points).
 
-**Size and aspect ratio are also decided by the format** (decided by where it is seen): thumbnail = small, landscape 16:9; icon = square; cover = portrait (book ratio); poster = large, portrait; storyboard = cinema ratio 16:9; manga = page ratio; infographic = tall scroll; timeline = wide band (or vertical scroll); flowchart = vertical; comparison matrix = wide grid; data chart = wide, single panel; conceptual illustration = a single image, flexible ratio (square to wide). The manga family adds its own: four-panel = a tall fixed 4-panel column; webtoon = a long single vertical scroll canvas (mobile); comic strip = a wide horizontal one-row strip (newspaper); splash page = a full-bleed single panel (double-page spread); single-panel cartoon = a compact single panel; comic essay / reportage manga / educational manga = manga page ratio.
+**Size and aspect ratio are also decided by the format** (decided by where it is seen): thumbnail = small, landscape 16:9; icon = square; cover = portrait (book ratio); poster = large, portrait; storyboard = cinema ratio 16:9; manga = page ratio; infographic = tall scroll; timeline = wide band (or vertical scroll); flowchart = vertical; comparison matrix = wide grid; data chart = wide, single panel; conceptual illustration = a single image, flexible ratio (square to wide). The manga family adds its own: four-panel = a tall fixed 4-panel column; webtoon = a long single vertical scroll canvas (mobile); comic strip = a wide horizontal one-row strip (newspaper); splash page = a full-bleed single panel (double-page spread); single-panel cartoon = a compact single panel; comic essay / reportage manga / educational manga = manga page ratio. The production-reference family is decided by what a later stage reads from: character model sheet = a wide sheet, a row of views on a plain ground; character image board = multiple panels on one board; concept board = a single image, cinematic to flexible ratio; art board = one background plate, 16:9.
 
 **The value of specialist skill** is decided by "the accumulation of particular composition grammar":
 
