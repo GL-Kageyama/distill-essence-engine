@@ -32,7 +32,7 @@
 
 ## 能做什么
 
-**格式 35 种 × 样式 50 种**——可用名字复用。完整索引（含各卡的可复用 slug）见 [references/registry.md](references/registry.md)。
+**格式 38 种 × 样式 50 种**——可用名字复用。完整索引（含各卡的可复用 slug）见 [references/registry.md](references/registry.md)。
 
 **格式**——按所担的目的分类：
 
@@ -45,7 +45,7 @@
 | 装饰 | 插画 |
 | 象征之印 | 图标 · 标志 · 徽章 · 塔罗牌 |
 | 游戏素材 | 精灵图 |
-| 制作规格 | 角色设定画 · 角色印象板 · 印象板（concept-board） · 美术板 |
+| 制作规格 | 角色设定画 · 角色印象板 · 印象板（concept-board） · 美术板 · 地点板 · 关键帧/动作板 · 场景板 |
 
 **样式**——按媒介分类：
 
@@ -141,6 +141,6 @@ distill-essence-engine/
 
 - [docs/usage.md](docs/usage.md) — 用法（参数 · 卡片 · 输出 · 验证）
 - [docs/sources.md](docs/sources.md) — 卡片语汇的来源
-- [references/registry.md](references/registry.md) — 命名卡索引（格式 35 种 · 样式 50 种）
+- [references/registry.md](references/registry.md) — 命名卡索引（格式 38 种 · 样式 50 种）
 - [references/types.md](references/types.md) — 类型（预想目的×格式×样式×压缩 2 层）
 - [references/](references/) — 原理的深化（选材 · 转译 · 配置 …）

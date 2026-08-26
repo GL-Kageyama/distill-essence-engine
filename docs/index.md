@@ -17,7 +17,7 @@
 |---|---|
 | The engine itself (the transformation flow) | [`skills/distill-essence-engine/SKILL.md`](../skills/distill-essence-engine/SKILL.md) |
 | Current features & principles | [`../README.md`](../README.md) |
-| The named-card index (35 formats · 50 styles) | [`../references/registry.md`](../references/registry.md) |
+| The named-card index (38 formats · 50 styles) | [`../references/registry.md`](../references/registry.md) |
 | A specific format / style card | [`../references/formats/`](../references/formats/) · [`../references/styles/`](../references/styles/) |
 | The typology (purpose × format × style × compression) | [`../references/types.md`](../references/types.md) |
 | The deepening of the principles (selection · translation · arrangement …) | [`../references/`](../references/) |

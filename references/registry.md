@@ -1,4 +1,4 @@
-<!-- i18n-version: 1.0.0 | canonical: references/registry.md | translated: 2026-08-22 -->
+<!-- i18n-version: 1.0.0 | canonical: references/registry.md | translated: 2026-08-27 -->
 
 **Language:** [English](registry.md) | [日本語](ja/registry.md) | [中文](zh/registry.md)
 
@@ -16,6 +16,7 @@
 
 > **The pre-expansion batch (2026-08-22) has passed verification**: 15 styles and 7 formats were promoted (detailed judgments and scores are in [examples/verify-rich/EVALUATION.md](../examples/verify-rich/EVALUATION.md)). **Not adopted (deleted)**: claymation, cyberpunk, vaporwave (⑧ violations where the style's world overwrites the content, or cramming). The 9 conditional cards were all resolved by refinement (adding do/avoid, anchors, and composition grammar that address the weaknesses) + re-verification. **All cards are unconditional** and unverified is 0.
 > **0.1.24**: 6 functional-document family cards — siblings of [clean-line-lab](styles/clean-line-lab.md) (blueprint plan / recipe how-to / circuit schematic / mechanism work / geometric construction / lab notebook) — were added and **verified** below via the power-* style-swap cases (judgments in [examples/EVALUATION.md](../examples/EVALUATION.md)).
+> **0.1.29**: 3 more anime pre-production cards — location board (the story's places and their geography) / key pose / action board (one subject's movement vocabulary) / scene board (one scene's master staging) — were added and **verified** via the gozen-niji-* format-swap cases (judgments in [examples/EVALUATION.md](../examples/EVALUATION.md)).
 
 ## Style cards (styles/)
 
@@ -111,3 +112,6 @@
 | Character image board | Symbolic (production reference) | Candidates, not an answer — exploration before the design locks | [character-board](formats/character-board.md) |
 | Concept board | Symbolic (production reference) | One undivided image fixing the air of the whole arc (⑧-aware) | [concept-board](formats/concept-board.md) |
 | Art board | Communication (production reference) | One location, one state, empty of characters | [art-board](formats/art-board.md) |
+| Location board | Communication (production reference) | Every place and its geography — the map of the story | [location-board](formats/location-board.md) |
+| Key pose / action board | Communication (production reference) | One subject's movement vocabulary, key poses only | [key-pose-board](formats/key-pose-board.md) |
+| Scene board | Communication (production reference) | One scene's master staging, characters and blocking | [scene-board](formats/scene-board.md) |

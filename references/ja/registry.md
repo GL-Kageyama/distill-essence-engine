@@ -1,4 +1,4 @@
-<!-- i18n-version: 1.0.0 | canonical: references/registry.md | translated: 2026-08-22 -->
+<!-- i18n-version: 1.0.0 | canonical: references/registry.md | translated: 2026-08-27 -->
 
 **Language:** [English](../registry.md) | [日本語](registry.md) | [中文](../zh/registry.md)
 
@@ -16,6 +16,7 @@
 
 > **事前拡充バッチ（2026-08-22）は検証完了**：様式 15 種・フォーマット 7 種を昇格（詳細な判定・スコアは [examples/verify-rich/EVALUATION.md](../../examples/verify-rich/EVALUATION.md)）。**不採用（削除）**：claymation・cyberpunk・vaporwave（様式の世界が内容を上書きする⑧違反、または詰め込み）。条件付き 9 枚は精錬（弱点に対応する do/avoid・アンカー・構成文法を追加）＋再検証で全て解消。**全カード 条件付きなし**・未検証 0。
 > **0.1.24**：機能文書ファミリーのカード 6 枚——[clean-line-lab](styles/clean-line-lab.md) の兄弟（青図・設計図／レシピ・手順カード／回路図／機構・働きの図／定規とコンパスの作図／実験ノート）——を下記に追加・**検証済み**（power-* 様式差し替えケース。判定は [examples/EVALUATION.md](../examples/EVALUATION.md)）。
+> **0.1.29**：アニメ・プリプロダクションのカードをさらに 3 枚——ロケーションボード（物語の場所たちとその地理）／キーポーズ・アクションボード（一人の主体の動きの語彙）／シーンボード（一場面のマスター・ステージング）——追加・**検証済み**（gozen-niji-* フォーマット差し替えケース。判定は [examples/EVALUATION.md](../examples/EVALUATION.md)）。
 
 ## 様式カード（styles/）
 
@@ -111,3 +112,6 @@
 | キャラクター イメージボード | 象徴（制作仕様） | 答えではなく候補——設計が固まる前の探索 | [character-board](formats/character-board.md) |
 | イメージボード（concept-board） | 象徴（制作仕様） | 全弧の空気を固定する分割しない一枚絵（⑧考慮） | [concept-board](formats/concept-board.md) |
 | 美術ボード | 伝達（制作仕様） | 一場所・一状態・人物不在 | [art-board](formats/art-board.md) |
+| ロケーションボード | 伝達（制作仕様） | すべての場所とその地理——物語の地図 | [location-board](formats/location-board.md) |
+| キーポーズ/アクションボード | 伝達（制作仕様） | 一人の主体の動きの語彙・キーポーズのみ | [key-pose-board](formats/key-pose-board.md) |
+| シーンボード | 伝達（制作仕様） | 一場面のマスター・ステージング・人物と立ち位置 | [scene-board](formats/scene-board.md) |

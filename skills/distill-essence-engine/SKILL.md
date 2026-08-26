@@ -1,6 +1,6 @@
 ---
 name: distill-essence-engine
-description: Distills the essence of any content into a prompt for imagery — still or moving (what one generation holds is declared by the format). Takes content (selected text / novel / article / poem / transcript / memo / paper … / URL = YouTube transcript · GitHub repository · homepage body) plus a spec of format and style (given separately, or in one natural-language request; reference images or reference examples = image reference, fixing characters = character reference), applies the transformation principles (understand → select → translate → keep consistent → compose → style → negative → stay faithful), and produces English prompts ready to paste into Stable Diffusion / Midjourney / Wan etc. Use it to make image boards, thumbnails, covers, illustrations, storyboards, comics, icons, explanatory diagrams, video generation specifications, and anime production references (character model sheets, character boards, concept boards, art boards).
+description: Distills the essence of any content into a prompt for imagery — still or moving (what one generation holds is declared by the format). Takes content (selected text / novel / article / poem / transcript / memo / paper … / URL = YouTube transcript · GitHub repository · homepage body) plus a spec of format and style (given separately, or in one natural-language request; reference images or reference examples = image reference, fixing characters = character reference), applies the transformation principles (understand → select → translate → keep consistent → compose → style → negative → stay faithful), and produces English prompts ready to paste into Stable Diffusion / Midjourney / Wan etc. Use it to make image boards, thumbnails, covers, illustrations, storyboards, comics, icons, explanatory diagrams, video generation specifications, and anime production references (character model sheets, character boards, concept boards, art boards, location boards, key pose boards, scene boards).
 argument-hint: '{"content": "<the content to transform (defaults to the VSCode selection)>", "url": "<optional: a URL (YouTube→transcript, GitHub→README, homepage→body text) fetched and used as input>", "format": "<what to make: a format name or natural language>", "style": "<in what style: a style name or natural language>", "reference": "<optional: a reference image path or an example to use as a reference (image reference)>", "characters": "<optional: fix characters (name = appearance · clothing · build), comma-separated etc. (character reference)>", "trace": "<optional: true to also output the per-step trace (for verification)>", "lang": "<optional: en | ja | zh — language of the explanation/trace (the generated prompt itself is always English)>"}'
 ---
 
@@ -8,7 +8,7 @@ argument-hint: '{"content": "<the content to transform (defaults to the VSCode s
 
 ## Skill Metadata
 - **id**: `distill-essence-engine`
-- **version**: `0.1.28`
+- **version**: `0.1.29`
 - **category**: `transformer`
 - **standalone**: `true`（no subagents needed）
 

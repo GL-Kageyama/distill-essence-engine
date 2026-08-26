@@ -24,7 +24,7 @@
 
 **样式覆盖率**：注册样式为 **50 种（全部已验证）**。样式替换测试（[verify-rich/](verify-rich/)）例示并验证了新增 15 种样式·7 种格式。3 种样式（claymation／cyberpunk／vaporwave）在验证中**未采纳**，位于注册表之外（详见 [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)）。暗光极简矢量（实绩 hero 家族·藏蓝＋金橙＋白热的 4 色）于 0.1.17 的 distill-hero 加入。高能日常系漫画（搞笑漫画·日常系动画）于 0.1.18 的 bocchan-gag-manga（青空文库《哥儿》→10 页漫画）加入。干净线条实验室（教科书实验图的明快×安静的可爱）于 0.1.19 的 ai-schrodinger-cat 加入。漫画样式 6 种（赛璐璐上色／少女漫画风／网页漫画柔渲染／少年战斗风／剧画风／漫画CMYK网目）于 0.1.21 的 melos-* 样式替换案例加入（首批彩色漫画样式；漫画CMYK网目是首个面向漫画的印刷工序样式）。实拍系（摄影／电影）样式 7 种（纪实摄影／影棚肖像／大画幅风景／微距摄影／电影剧照／1970年代新好莱坞／拍立得照片）于 0.1.22 的 melos-* 样式替换案例加入（首批镜头与光线的媒介样式，与街头摄影、黑色电影并列，补齐实拍轴）。功能文档家族的 6 种样式（蓝图・设计图／食谱・步骤卡／电路图／机构・做功图／尺规作图／实验笔记）——clean-line-lab 的兄弟，各自把概念画成它自己的文档（计划／步骤／连接／做功／证明／记录）——在 0.1.24 的 power-* 样式替换案例（同一输入 × 概念图固定 × 只替换样式）中加入并已验证。演示见下方的 distill-* 输出示例。光感写实动画（高饱和黄昏・体积光——soft-cel-anime 刻意的反面）于 0.1.28 的 melos-luminous-anime 加入。
 
-**格式覆盖率**：注册格式为 **35 种（全部已验证）**。verify-rich/ 验证并升级了新增 7 种（分镜脚本／海报／绘本／标志／徽章／精灵图／塔罗牌）。主视觉横幅（hero·16:9 横幅）于 0.1.17 的 distill-hero 加入。搞笑漫画（多格·4 拍节奏）于 0.1.18 的 bocchan-gag-manga 加入。4 种说明性格式（时间轴／流程图／对比矩阵／数据图）于 0.1.20 的 attention-* 案例加入。漫画格式 8 种（四格漫画／网页漫画／横长条漫／跨页大图／单格漫画（讽刺）／随笔漫画／纪实漫画／学习漫画）于 0.1.21 的 melos-*／attention-educational-manga 格式替换案例加入。概念图（conceptual illustration：通过视觉隐喻／分镜对比／色彩编码，把整个概念折进一张象征性图画）于 0.1.23 的 concept-average-vs-particular 加入。动画前期制作格式 4 种（角色设定画／角色印象板／印象板（concept-board）／美术板）于 0.1.28 的 gozen-niji-* 案例加入（供后道工序照着复制的制作规格，而不是供欣赏的画）。覆盖率矩阵例示了注册 35 种中的 24 种（图解／信息图／封面／图标／缩略图／海报／绘本／漫画／插画／影像板／分镜脚本／精灵图／塔罗牌／主视觉横幅／搞笑漫画／时间轴／流程图／对比矩阵／数据图／概念图／角色设定画／角色印象板／印象板（concept-board）／美术板）（漫画格式在下方的 melos-*／attention-educational-manga 案例中例示）。
+**格式覆盖率**：注册格式为 **38 种（全部已验证）**。verify-rich/ 验证并升级了新增 7 种（分镜脚本／海报／绘本／标志／徽章／精灵图／塔罗牌）。主视觉横幅（hero·16:9 横幅）于 0.1.17 的 distill-hero 加入。搞笑漫画（多格·4 拍节奏）于 0.1.18 的 bocchan-gag-manga 加入。4 种说明性格式（时间轴／流程图／对比矩阵／数据图）于 0.1.20 的 attention-* 案例加入。漫画格式 8 种（四格漫画／网页漫画／横长条漫／跨页大图／单格漫画（讽刺）／随笔漫画／纪实漫画／学习漫画）于 0.1.21 的 melos-*／attention-educational-manga 格式替换案例加入。概念图（conceptual illustration：通过视觉隐喻／分镜对比／色彩编码，把整个概念折进一张象征性图画）于 0.1.23 的 concept-average-vs-particular 加入。动画前期制作格式 4 种（角色设定画／角色印象板／印象板（concept-board）／美术板）于 0.1.28 的 gozen-niji-* 案例加入（供后道工序照着复制的制作规格，而不是供欣赏的画）。动画前期制作格式再添 3 种（地点板／关键帧・动作板／场景板）于 0.1.29 的 gozen-niji-* 案例加入（故事的地理／一个主体的动作词汇／一个场景的主走位）。覆盖率矩阵例示了注册 38 种中的 27 种（图解／信息图／封面／图标／缩略图／海报／绘本／漫画／插画／影像板／分镜脚本／精灵图／塔罗牌／主视觉横幅／搞笑漫画／时间轴／流程图／对比矩阵／数据图／概念图／角色设定画／角色印象板／印象板（concept-board）／美术板／地点板／关键帧・动作板／场景板）（漫画格式在下方的 melos-*／attention-educational-manga 案例中例示）。
 
 ## 案例列表
 
@@ -129,6 +129,9 @@
 | gozen-niji-character-board | 《凌晨两点的幽灵》 | 角色印象板 | 柔光赛璐璐 | 制作规格 |
 | gozen-niji-concept-board | 《凌晨两点的幽灵》 | 印象板（concept-board） | 柔光赛璐璐 | 制作规格 |
 | gozen-niji-art-board | 《凌晨两点的幽灵》 | 美术板 | 柔光赛璐璐 | 制作规格 |
+| gozen-niji-location-board | 《凌晨两点的幽灵》 | 地点板 | 柔光赛璐璐 | 制作规格 |
+| gozen-niji-key-pose-board | 《凌晨两点的幽灵》 | 关键帧/动作板 | 柔光赛璐璐 | 制作规格 |
+| gozen-niji-scene-board | 《凌晨两点的幽灵》 | 场景板 | 柔光赛璐璐 | 制作规格 |
 | melos-luminous-anime | 奔跑吧梅勒斯 | 印象板（concept-board） | 光感写实动画 | 制作规格 |
 
 > URL 输入（YouTube 视频／首页／GitHub 仓库）通过 `url:` 接收，`scripts/fetch.py` 抽取转录／正文。实 URL 的验证案例有 5 件（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/)＝青空文库《哥儿》，均为实抓取）。[ai-cliff-mechanism-work](ai-cliff-mechanism-work/) 的输出示例是第 6 个实抓取输入——Pivot 的《大企业的 AI 活用为何失败？4 道墙的克服法》——从功能文档家族中为该视频选定的最合适样式「机构・做功图」（该视频自身就是用「逐一挖穿 4 道墙」「替代劳动力」这样的机构语言来讲的）。其余因没有实 URL，用代表样例输入（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）验证转换。实抓取用 `python3 scripts/fetch.py url:https://...` 进入同一行。

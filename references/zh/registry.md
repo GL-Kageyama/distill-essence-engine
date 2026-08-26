@@ -1,4 +1,4 @@
-<!-- i18n-version: 1.0.0 | canonical: references/registry.md | translated: 2026-08-22 -->
+<!-- i18n-version: 1.0.0 | canonical: references/registry.md | translated: 2026-08-27 -->
 
 **Language:** [English](../registry.md) | [日本語](../ja/registry.md) | [中文](registry.md)
 
@@ -16,6 +16,7 @@
 
 > **预扩展批次（2026-08-22）已通过验证**：将样式 15 种・格式 7 种升级（详细判定・分数见 [examples/verify-rich/EVALUATION.md](../../examples/verify-rich/EVALUATION.md)）。**不采用（删除）**：claymation・cyberpunk・vaporwave（样式的世界覆盖内容的⑧违规，或堆砌）。9 张有条件卡片已通过精炼（添加针对弱点的 do/avoid・锚点・构成文法）＋重新验证全部解除。**全部卡片无条件**・未验证 0。
 > **0.1.24**：功能文档家族的 6 张卡片——[clean-line-lab](styles/clean-line-lab.md) 的兄弟（蓝图・设计图／食谱・步骤卡／电路图／机构・做功图／尺规作图／实验笔记）——已添加至下表并**已验证**（power-* 样式替换用例。判定见 [examples/EVALUATION.md](../examples/EVALUATION.md)）。
+> **0.1.29**：动画前期制作的卡片再添 3 张——地点板（故事的地点与地理）／关键帧・动作板（一个主体的动作词汇）／场景板（一个场景的主走位）——已添加并**已验证**（gozen-niji-* 格式替换用例。判定见 [examples/EVALUATION.md](../examples/EVALUATION.md)）。
 
 ## 样式卡片（styles/）
 
@@ -111,3 +112,6 @@
 | 角色印象板 | 象征（制作规格） | 候选而非答案——设计锁死前的探索 | [character-board](formats/character-board.md) |
 | 印象板（concept-board） | 象征（制作规格） | 固定全弧之气的不分割绘面（⑧ 考量） | [concept-board](formats/concept-board.md) |
 | 美术板 | 传达（制作规格） | 一地点・一状态・人物缺席 | [art-board](formats/art-board.md) |
+| 地点板 | 传达（制作规格） | 所有地点及其地理——故事的地图 | [location-board](formats/location-board.md) |
+| 关键帧/动作板 | 传达（制作规格） | 一个主体的动作词汇・仅关键帧 | [key-pose-board](formats/key-pose-board.md) |
+| 场景板 | 传达（制作规格） | 一个场景的主走位・人物与站位 | [scene-board](formats/scene-board.md) |
