@@ -4,7 +4,7 @@
 
 # Tarot card（tarot-card）
 
-- **Purpose**: Symbol ／ **Granularity×time**: one symbol × convolution ／ **Size & aspect**: portrait card ratio (about 5:9)
+- **Purpose**: Symbolic (design) ／ **Granularity×time**: one symbol × convolution ／ **Size & aspect**: portrait card ratio (about 5:9)
 - **Summary**: An ornamental frame and a symmetric composition enclose a center that embodies the meaning of a single card.
 
 ## Environment variables

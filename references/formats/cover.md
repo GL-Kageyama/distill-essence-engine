@@ -4,7 +4,7 @@
 
 # Cover（cover）
 
-- **Purpose**: Symbol (attraction) ／ **Granularity×time**: one symbol × convolution ／ **Size & aspect**: portrait 2:3, single sheet
+- **Purpose**: Symbolic (design) ／ **Granularity×time**: one symbol × convolution ／ **Size & aspect**: portrait 2:3, single sheet
 - **Summary**: Place a single symbol on a vertical axis; the wide negative space above creates stillness and anticipation.
 
 ## Environment variables

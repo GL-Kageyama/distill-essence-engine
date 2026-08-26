@@ -32,7 +32,7 @@ What the text needs is not an illustration but a **distillation**: choose the on
 
 ## What you can make
 
-**38 formats × 50 styles** — reusable by name. The full index (with each card's reusable slug) is [references/registry.md](references/registry.md).
+**43 formats × 54 styles** — reusable by name. The full index (with each card's reusable slug) is [references/registry.md](references/registry.md).
 
 **Formats** — grouped by the purpose they serve:
 
@@ -40,10 +40,10 @@ What the text needs is not an illustration but a **distillation**: choose the on
 |---|---|
 | Understanding | diagram · timeline · flowchart · educational manga |
 | Communication | infographic · storyboard · comparison matrix · data chart · conceptual illustration |
-| Attraction | cover · poster · thumbnail · hero image · gag manga · four-panel · comic strip · single-panel cartoon |
+| Attraction | thumbnail · gag manga · four-panel · comic strip · single-panel cartoon |
 | Re-experience / record | image board · manga · picture book · webtoon · splash page · comic essay · reportage manga · video spec |
 | Decoration | illustration |
-| Symbolic mark | icon · logo · emblem · tarot card |
+| Design | logo · icon · emblem · tarot card · poster · cover · hero image · app screen · landing page · wireframe · brand board · business card |
 | Game asset | sprite sheet |
 | Production reference | character model sheet · character image board · concept board · art board · location board · key pose / action board · scene board |
 
@@ -51,9 +51,9 @@ What the text needs is not an illustration but a **distillation**: choose the on
 
 | Medium | Styles |
 |---|---|
-| Printmaking | woodblock print · linocut · copperplate engraving · risograph · solemn ledger · manga halftone |
+| Printmaking / typographic | woodblock print · linocut · copperplate engraving · risograph · solemn ledger · manga halftone · Swiss / International Typographic |
 | Hand-drawn | watercolor · oil painting · sumi-e ink wash · gouache abstract · pencil · charcoal · pastel · sketch · manga ink · clean-line lab · blueprint plan · recipe how-to · circuit schematic · mechanism work · geometric construction · lab notebook · shojo · gekiga |
-| Digital | pixel art · PS1 low-poly · Bauhaus vector · flat comic · line art · isometric · dark-glow minimal vector · high-energy slice-of-life comic · cel-shade · webtoon soft-render · shonen battle |
+| Digital | pixel art · PS1 low-poly · Bauhaus vector · flat comic · line art · isometric · dark-glow minimal vector · high-energy slice-of-life comic · cel-shade · webtoon soft-render · shonen battle · flat design · Material Design · neubrutalism |
 | Photography / Film | street photography · film noir · documentary photography · studio portrait · landscape photography · macro photography · cinematic still · 1970s New Hollywood · instant photo |
 | Decorative | stained glass · paper cutout · art nouveau · art deco |
 
@@ -107,7 +107,7 @@ Selection, translation, and arrangement are three faces of one motion — **show
 
 ### Assumed purpose → format → granularity × time
 
-The assumed purpose (understanding / communication / attraction / re-experience / record / decoration) decides the format, and the format decides the granularity × time of compression. Details in `references/types.md`.
+The assumed purpose (understanding / communication / attraction / re-experience / record / decoration / design) decides the format, and the format decides the granularity × time of compression. Details in `references/types.md`.
 
 ## Repository structure
 
@@ -141,6 +141,6 @@ distill-essence-engine/
 
 - [docs/usage.md](docs/usage.md) — how to use (arguments · cards · output · verification)
 - [docs/sources.md](docs/sources.md) — the provenance of the card vocabulary
-- [references/registry.md](references/registry.md) — the named-card index (38 formats · 50 styles)
+- [references/registry.md](references/registry.md) — the named-card index (43 formats · 54 styles)
 - [references/types.md](references/types.md) — the typology (assumed purpose × format × style × compression's 2 layers)
 - [references/](references/) — the deepening of the principles (selection · translation · arrangement · …)

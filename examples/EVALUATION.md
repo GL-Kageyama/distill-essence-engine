@@ -247,6 +247,30 @@ anti-generic の指摘はすべて具体的：①**紋切型トークン**（tea
 - **admiration の所見**：location＝必然は強い（寝室最大・祭庭最小が原作の占有率と一致）が、プロンプト自身が「階層は物語に従う」と先に解説してしまい、結果が予告の範囲内に収まる——「理解の快感であって感嘆ではない」と総評（弱PASS）。key-pose＝第4ポーズの再文脈化（「ただの動きの語彙」だと思わせた板が「奪われた指から自分の指へ」のキャラクター弧）が唯一の超出だが、指令文体が「her own finger」の一語に畳んで平板に置くため読み手に空振りする（弱PASS）。scene＝滲みが解像するのが**別の誰かでなく真白自身の一歩幼い顔**という点で、幽霊＝他者の既定予測を上回り、「泣きそうに笑う」の相反する表情が認知的おおっを生む（PASS 71・弱PASSに届かない）。
 - **軽微な所見**：location の「empty of characters」×「blurred students」の併記は軽微な内部緊張だが、ぼやけた生徒は原典 §4 に存在し忠実の範疇（admiration）。soft-cel 様式句と否定句は 0.1.28 で記録済みの共有の足場（anti-gen は判定から除外）。scene は同一入力・同一様式のためレンダリングで art-board に近い絵になり得るが、差を支えるのは明確な人物配置・blocking・カメラの3固定（0.1.28 の「concept-board 対 art-board は差が2ディテールのみ」から、フォーマット差の強度は向上）。
 
+## 目的分類「デザイン（Design）」新設（PASS 9/9・0.1.30）
+
+| ケース | 入力 | フォーマット | 様式 | 目的 | 判定 |
+|---|---|---|---|---|---|
+| design-format-app-screen | distill-essence-engine（ブランドブリーフ） | **アプリ画面（app-screen・新カード）** | スイス型（swiss-style・新カード） | デザイン | **PASS**（anti-gen 1–2/10・aesthetic 7–8/10・admiration 70） |
+| design-format-landing-page | 同上 | **ランディングページ（landing-page・新カード）** | スイス型 | デザイン | **PASS**（anti-gen 1–2/10・aesthetic 7–8/10・admiration 75） |
+| design-format-wireframe | 同上 | **ワイヤーフレーム（wireframe・新カード）** | スイス型 | デザイン | **PASS**（anti-gen 1–2/10・aesthetic 7–8/10・admiration 弱PASS 48） |
+| design-format-brand-board | 同上 | **ブランドボード（brand-board・新カード）** | スイス型 | デザイン | **PASS**（anti-gen 1–2/10・aesthetic 7–8/10・admiration 弱PASS 25） |
+| design-format-business-card | 同上 | **名刺（business-card・新カード）** | スイス型 | デザイン | **PASS**（anti-gen 1–2/10・aesthetic 7–8/10・admiration 70） |
+| design-style-swiss-style | 同上 | アプリ画面 | **スイス型（swiss-style・新カード）** | デザイン | **PASS**（anti-gen 1–2/10・aesthetic 7–8/10・admiration 弱PASS 42） |
+| design-style-flat-ui | 同上 | アプリ画面 | **フラットUI（flat-ui・新カード）** | デザイン | **PASS**（anti-gen 1–2/10・aesthetic 7–8/10・admiration 65） |
+| design-style-material-ui | 同上 | アプリ画面 | **マテリアル（material-ui・新カード）** | デザイン | **PASS**（anti-gen 1–2/10・aesthetic 7–8/10・admiration 弱PASS 40） |
+| design-style-neubrutalism | 同上 | アプリ画面 | **ネオブルータリズム（neubrutalism・新カード）** | デザイン | **PASS**（anti-gen 1–2/10・aesthetic 7–8/10・admiration 弱PASS 48） |
+
+- 判定者：anti-generic-filter・aesthetic-critic・admiration の3系統（9×3＝27判定・並列）。判定対象テキスト（Merged プロンプト）をエージェントプロンプトに直接埋め込み、ファイル/ツール読取禁止、model='sonnet'（0.1.20〜0.1.29 と同手順）。**名前付き評価者2系統（anti-generic-filter・aesthetic-critic）は 0.1.25/0.1.26/0.1.28/0.1.29 と同じ崩れ方（tool_uses: 0）が再発するため、同一の採点基準と閾値を担う general-purpose エージェントで代替判定した**（代替であることを明記。標準の評価者runを装わない）。admiration は実評価者を直接起動。
+- **検証パターン＝フォーマット差し替え 5件＋様式差し替え 4件**。同一入力（`examples/design/design-series-constants.md`＝**distill-essence-engine 自身を製品/ブランドとするブリーフ**）で、フォーマット軸（app-screen→landing-page→wireframe→brand-board→business-card）と様式軸（swiss-style→flat-ui→material-ui→neubrutalism）を単一軸差し替え。**デザインは既存36セル行列と独立した別の入力軸（ブランド/製品/アプリ）**であることの検証でもある——同じ入力・同じ様式で、フォーマットだけ・様式だけが切り替わり、5枚×4様式が競合せず機能した。**全9枚 PASS → レジストリへ登録**（フォーマット 38→43、様式 50→54、検証待ち解除）。
+- **⑧違反6件を精錬で修正**（admiration の原典照合から。0.1.23 の melos 撤回・0.1.28 の2件修正と同じ流れ）：
+  - **app-screen 族5件（app-screen・flat-ui・material-ui・neubrutalism・swiss-style）がブランドのキャッチライン「To compress is to choose.」を落としていた**。「ラベルは短く正しく一度だけ（input／distill／prompt）」のフォーマット規律が、ブランド不変素材の芯の言葉（design-series-constants.md の不変素材5番目）まで弾いてしまった。各様式の語彙に合わせて**可読UI要素として復元**——swiss／app-screen＝グリッド左端のフッターの静かな一行・flat-ui＝ライトグレーの平らなフッター一行・material-ui＝出力カード直下のライトグレー・キャプション行・neubrutalism＝出力カード下の白熱の閉じの一行。
+  - **wireframe はキャッチラインに加えて蛇管のコイル形状も失っていた**（「細い中央列」としか書いておらず、ブランドの「蛇管＝コイル状の凝縮管」が輪郭の形として残らなかった）。中央列を「狭い帯の中で繰り返し重なる小さな箱の列」としてコイルの形に復元し、キャッチラインは**フッター帯のプレースホルダー一行（唯一のテキスト例外）**として残した——グレースケール・本文なしのワイヤーフレームの掟を壊さないための**明示的逸脱**として、カード本体とこの記録の両方に注記（0.1.23 の「様式カードからの明示的逸脱」と同じ扱い）。
+  - 精錬後の再判定（実 admiration 評価者・同手順）で6件すべて **⑧違反なし・PASS**：app-screen 28→**70**・wireframe 45→**48**・flat-ui 38→**65**・material-ui 12→**40**・neubrutalism 30→**48**・swiss-style 69→**42**。
+- **admiration の所見**：app-screen＝「レイアウトそのものが蛇管」——スクロールの縦軸が多→一を演じる空間的超出が唯一の本物の驚きで、白熱の一滴と「Distill」が一点に収斂する（70・「ノードと認識の感嘆」）。landing-page＝キャッチラインが見出しの言い換え（圧縮＝選択）として予測を超え、蒸留塔のビジュアルがその言い換えを証明する（75）。business-card＝「蒸留エンジンのカードが自ら蒸留されている」という自己言及が超出——一滴・一書体・一色・一語が「選ばれた」と読める必然（70・discovery_target）。flat-ui＝必然は強い（平らなコイルの背骨が一つの単純な選択）が、超出はその構造に留まる（65）。brand-board＝「再現の仕様書として正しい（全要素が同一性を繰り返す）が、admiration の軸では意図的に低い」——仕様は結果を先に宣言するので超出の余地がない（弱PASS 25）。**spec 型出力（brand-board・wireframe 等）の admiration は構造的に低い**——形式の欠陥でなく評価軸の不適合であり、⑧違反なしが PASS の根拠（0.1.29 の弱PASS 許容に同じ）。なお swiss-style の初回69は、評価者がプロンプト中のキャッチライン不在をエージェント側の不変素材枠から補完した**偽陽性**だった——実体を直した再判定では42（弱PASS）が真値。
+- **anti-generic の所見**（全9件 genericness 1–2・紋切型シグネチャなし）：内容はブランド固有で全件 PASS——「the flask's coiled condenser rises as the screen's spine」「many sheets in, one golden drop out」等の置き換え不能な表現が共通の土台。最大の汎用リスクは共有の足場（様式句と否定句が app-screen 族で近く繰り返す）で、0.1.28/0.1.29 と同じく判定から除外。
+- **軽微な所見**：金橙の2値併記（#f5b14e／#ff8c42）は dark-glow 家系の既存パレット定義の表現揺れ（ブランドブリーフも同じ併記）。wireframe のキャッチライン・プレースホルダーは明示的逸脱として上記のとおり記録済み。brand-board 対 concept-board（同一入力・同一様式でレンダリングが近くなるリスク）は、brand-board が「再現の仕様」（スウォッチ列・書体見本・展開例を並べる）である点で、0.1.28 で記録した「concept-board 対 art-board の差が2ディテールのみ」よりフォーマット差の強度は高い。
+
 ## 注記
 
 - URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ／青空文庫）は、実 URL の検証ケースが 4 件ある。いずれも `scripts/fetch.py` で実フェッチした内容を入力に使用し、カバレッジ行列の YouTube 動画 × 理解（解説図）・× 記録（漫画）・GitHub リポジトリ × 誘引（ヒーロー画像）セルを実 URL で埋めた（bocchan-gag-manga は小説入力＝青空文庫の実フェッチ例で、小説 × 誘引セルにギャグ漫画を追加）。

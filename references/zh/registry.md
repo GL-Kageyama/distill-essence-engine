@@ -17,6 +17,7 @@
 > **预扩展批次（2026-08-22）已通过验证**：将样式 15 种・格式 7 种升级（详细判定・分数见 [examples/verify-rich/EVALUATION.md](../../examples/verify-rich/EVALUATION.md)）。**不采用（删除）**：claymation・cyberpunk・vaporwave（样式的世界覆盖内容的⑧违规，或堆砌）。9 张有条件卡片已通过精炼（添加针对弱点的 do/avoid・锚点・构成文法）＋重新验证全部解除。**全部卡片无条件**・未验证 0。
 > **0.1.24**：功能文档家族的 6 张卡片——[clean-line-lab](styles/clean-line-lab.md) 的兄弟（蓝图・设计图／食谱・步骤卡／电路图／机构・做功图／尺规作图／实验笔记）——已添加至下表并**已验证**（power-* 样式替换用例。判定见 [examples/EVALUATION.md](../examples/EVALUATION.md)）。
 > **0.1.29**：动画前期制作的卡片再添 3 张——地点板（故事的地点与地理）／关键帧・动作板（一个主体的动作词汇）／场景板（一个场景的主走位）——已添加并**已验证**（gozen-niji-* 格式替换用例。判定见 [examples/EVALUATION.md](../examples/EVALUATION.md)）。
+> **0.1.30**：新增目的分类**「设计」**（第 7 个假定目的。输入是品牌／产品／应用，而非内容）。新增 5 张设计格式卡（应用界面／落地页／线框／品牌板／名片）与 4 张设计样式卡（swiss-style／flat-ui／material-ui／neubrutalism）并**已验证**（design-* 格式／样式替换用例。判定见 [examples/EVALUATION.md](../examples/EVALUATION.md)）。既有 7 张标志系卡片（标志／图标／徽章／海报／封面／主视觉横幅／塔罗牌）已重新分类为 `象征（设计）`。
 
 ## 样式卡片（styles/）
 
@@ -72,6 +73,10 @@
 | 实验笔记 | 手绘 | 实验笔记 | 功能文档家族・已验证（0.1.24） | [lab-notebook](styles/lab-notebook.md) |
 | 柔光赛璐璐 | 数字 | TV 动画赛璐璐 | 带有 `Motion character`（带时间的输出） | [soft-cel-anime](styles/soft-cel-anime.md) |
 | 光感写实动画 | 数字 | 剧场版动画 | soft-cel-anime 刻意的反面——高饱和黄昏・体积光・全动画 | [luminous-anime](styles/luminous-anime.md) |
+| 瑞士国际主义排版 | 印刷・排版 | 瑞士／国际主义排版 | 设计系谱家族・已验证（0.1.30） | [swiss-style](styles/swiss-style.md) |
+| 扁平设计 | 数字 | 扁平 UI（Metro／iOS 7） | 设计系谱家族・已验证（0.1.30） | [flat-ui](styles/flat-ui.md) |
+| Material Design | 数字 | Google Material Design | 设计系谱家族・已验证（0.1.30） | [material-ui](styles/material-ui.md) |
+| 新粗野主义 | 数字 | 网页粗野主义复兴 | 设计系谱家族・已验证（0.1.30） | [neubrutalism](styles/neubrutalism.md) |
 
 ## 格式卡片（formats/）
 
@@ -79,21 +84,21 @@
 |---|---|---|---|
 | 影像板 | 象征（再体验） | — | [imageboard](formats/imageboard.md) |
 | 漫画 | 叙述（记录・再体验） | — | [manga](formats/manga.md) |
-| 封面 | 象征（吸引） | — | [cover](formats/cover.md) |
+| 封面 | 象征（设计） | — | [cover](formats/cover.md) |
 | 缩略图 | 注目（吸引） | — | [thumbnail](formats/thumbnail.md) |
 | 信息图 | 说明（传达） | — | [infographic](formats/infographic.md) |
-| 图标 | 象征 | — | [icon](formats/icon.md) |
+| 图标 | 象征（设计） | — | [icon](formats/icon.md) |
 | 图解 | 说明（理解） | — | [diagram](formats/diagram.md) |
 | 插画 | 装饰 | — | [illustration](formats/illustration.md) |
 | 概念图 | 象征（传达） | 编辑・隐喻的变体 | [conceptual-illustration](formats/conceptual-illustration.md) |
-| 海报 | 象征（吸引） | — | [poster](formats/poster.md) |
+| 海报 | 象征（设计） | — | [poster](formats/poster.md) |
 | 绘本 | 叙述（再体验） | — | [picture-book](formats/picture-book.md) |
-| 标志 | 象征 | — | [logo](formats/logo.md) |
-| 徽章 | 象征 | — | [emblem](formats/emblem.md) |
+| 标志 | 象征（设计） | — | [logo](formats/logo.md) |
+| 徽章 | 象征（设计） | — | [emblem](formats/emblem.md) |
 | 分镜脚本 | 叙述（传达・讨论） | — | [storyboard](formats/storyboard.md) |
 | 精灵图 | 叙述（游戏素材） | — | [sprite](formats/sprite.md) |
-| 塔罗牌 | 象征 | — | [tarot-card](formats/tarot-card.md) |
-| 主视觉横幅 | 象征（吸引） | 横长 16:9 横幅 | [hero](formats/hero.md) |
+| 塔罗牌 | 象征（设计） | — | [tarot-card](formats/tarot-card.md) |
+| 主视觉横幅 | 象征（设计） | 横长 16:9 横幅 | [hero](formats/hero.md) |
 | 搞笑漫画 | 叙述＋吸引 | 多格・4拍节奏 | [gag-manga](formats/gag-manga.md) |
 | 时间轴 | 说明（理解） | 单一连续的时间轴 | [timeline](formats/timeline.md) |
 | 流程图 | 说明（理解・传达） | 有向步骤序列 | [flowchart](formats/flowchart.md) |
@@ -115,3 +120,8 @@
 | 地点板 | 传达（制作规格） | 所有地点及其地理——故事的地图 | [location-board](formats/location-board.md) |
 | 关键帧/动作板 | 传达（制作规格） | 一个主体的动作词汇・仅关键帧 | [key-pose-board](formats/key-pose-board.md) |
 | 场景板 | 传达（制作规格） | 一个场景的主走位・人物与站位 | [scene-board](formats/scene-board.md) |
+| 应用界面 | 布局（设计） | 一屏・一个状态・真实 UI | [app-screen](formats/app-screen.md) |
+| 落地页 | 布局（设计） | 首屏的承诺・1 个 CTA | [landing-page](formats/landing-page.md) |
+| 线框 | 布局（设计） | 灰框的低保真骨架 | [wireframe](formats/wireframe.md) |
+| 品牌板 | 布局（设计） | 整套身份系统放到一块板上 | [brand-board](formats/brand-board.md) |
+| 名片 | 布局（设计） | 小型双面卡・姓名＋联系方式 | [business-card](formats/business-card.md) |

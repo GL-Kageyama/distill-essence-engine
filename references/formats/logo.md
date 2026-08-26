@@ -4,7 +4,7 @@
 
 # Logo（logo）
 
-- **Purpose**: Symbol ／ **Granularity×time**: one symbol × one point ／ **Size & aspect**: square
+- **Purpose**: Symbolic (design) ／ **Granularity×time**: one symbol × one point ／ **Size & aspect**: square
 - **Summary**: A silhouette readable at small size and in one color, built from the fewest elements.
 
 ## Environment variables

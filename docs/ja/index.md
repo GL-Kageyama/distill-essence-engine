@@ -17,7 +17,7 @@
 |---|---|
 | エンジン本体（変換フロー） | [`skills/distill-essence-engine/SKILL.md`](../skills/distill-essence-engine/SKILL.md) |
 | 現行機能・原理 | [`../README.md`](../README.md) |
-| 名前付きカードの索引（フォーマット 38 種 · 様式 50 種） | [`../references/registry.md`](../references/registry.md) |
+| 名前付きカードの索引（フォーマット 43 種 · 様式 54 種） | [`../references/registry.md`](../references/registry.md) |
 | 特定のフォーマット／様式カード | [`../references/formats/`](../references/formats/) · [`../references/styles/`](../references/styles/) |
 | 類型（目的×フォーマット×様式×圧縮） | [`../references/types.md`](../references/types.md) |
 | 原理の深化（選定 · 翻訳 · 配置 …） | [`../references/`](../references/) |

@@ -4,7 +4,7 @@
 
 # Icon（icon）
 
-- **Purpose**: Symbol ／ **Granularity×time**: one symbol × one point ／ **Size & aspect**: small, square
+- **Purpose**: Symbolic (design) ／ **Granularity×time**: one symbol × one point ／ **Size & aspect**: small, square
 - **Summary**: One point enlarged at the center, carved down to a minimal silhouette.
 
 ## Environment variables

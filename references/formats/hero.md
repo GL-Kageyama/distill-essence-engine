@@ -4,7 +4,7 @@
 
 # Hero image（hero）
 
-- **Purpose**: Symbol (attraction) ／ **Granularity×time**: one symbol × convolution ／ **Size & aspect**: large, wide (around 16:9)
+- **Purpose**: Symbolic (design) ／ **Granularity×time**: one symbol × convolution ／ **Size & aspect**: large, wide (around 16:9)
 - **Summary**: The essence of a repository/product folded into a single symbol and conveyed at a glance in a wide banner.
 
 ## Environment variables

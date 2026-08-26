@@ -4,7 +4,7 @@
 
 # Emblem（emblem）
 
-- **Purpose**: Symbol ／ **Granularity×time**: one symbol × convolution ／ **Size & aspect**: square / circular
+- **Purpose**: Symbolic (design) ／ **Granularity×time**: one symbol × convolution ／ **Size & aspect**: square / circular
 - **Summary**: A symmetric emblem enclosed in a circular frame, with meaning gathered at a single point in the center.
 
 ## Environment variables

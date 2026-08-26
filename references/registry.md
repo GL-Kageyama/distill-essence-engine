@@ -17,6 +17,7 @@
 > **The pre-expansion batch (2026-08-22) has passed verification**: 15 styles and 7 formats were promoted (detailed judgments and scores are in [examples/verify-rich/EVALUATION.md](../examples/verify-rich/EVALUATION.md)). **Not adopted (deleted)**: claymation, cyberpunk, vaporwave (⑧ violations where the style's world overwrites the content, or cramming). The 9 conditional cards were all resolved by refinement (adding do/avoid, anchors, and composition grammar that address the weaknesses) + re-verification. **All cards are unconditional** and unverified is 0.
 > **0.1.24**: 6 functional-document family cards — siblings of [clean-line-lab](styles/clean-line-lab.md) (blueprint plan / recipe how-to / circuit schematic / mechanism work / geometric construction / lab notebook) — were added and **verified** below via the power-* style-swap cases (judgments in [examples/EVALUATION.md](../examples/EVALUATION.md)).
 > **0.1.29**: 3 more anime pre-production cards — location board (the story's places and their geography) / key pose / action board (one subject's movement vocabulary) / scene board (one scene's master staging) — were added and **verified** via the gozen-niji-* format-swap cases (judgments in [examples/EVALUATION.md](../examples/EVALUATION.md)).
+> **0.1.30**: the **Design** purpose was added (a 7th assumed purpose; its input is a brand / product / app, not content). 5 design format cards — app screen / landing page / wireframe / brand board / business card — and 4 design style cards — swiss-style / flat-ui / material-ui / neubrutalism — were added and **verified** via the design-* format-swap and style-swap cases (judgments in [examples/EVALUATION.md](../examples/EVALUATION.md)). The 7 existing mark cards (logo / icon / emblem / poster / cover / hero / tarot card) were reclassified to `Symbolic (design)`.
 
 ## Style cards (styles/)
 
@@ -72,6 +73,10 @@
 | Lab notebook | Hand-drawn | Laboratory notebook | Functional-document family · verified (0.1.24) | [lab-notebook](styles/lab-notebook.md) |
 | Soft cel anime | Digital | TV anime cel animation | Carries `Motion character` (time-based output) | [soft-cel-anime](styles/soft-cel-anime.md) |
 | Luminous realist anime | Digital | Feature-film anime | The deliberate inverse of soft-cel-anime — saturated dusk, volumetric light, full animation | [luminous-anime](styles/luminous-anime.md) |
+| Swiss / International Typographic | Print / typographic | Swiss / International Typographic | Design lineage family · verified (0.1.30) | [swiss-style](styles/swiss-style.md) |
+| Flat design | Digital | Flat UI (Metro / iOS 7) | Design lineage family · verified (0.1.30) | [flat-ui](styles/flat-ui.md) |
+| Material Design | Digital | Google Material Design | Design lineage family · verified (0.1.30) | [material-ui](styles/material-ui.md) |
+| Neubrutalism | Digital | Web brutalism revival | Design lineage family · verified (0.1.30) | [neubrutalism](styles/neubrutalism.md) |
 
 ## Format cards (formats/)
 
@@ -79,21 +84,21 @@
 |---|---|---|---|
 | Image board | Symbolic (re-experience) | — | [imageboard](formats/imageboard.md) |
 | Manga | Narrative (record / re-experience) | — | [manga](formats/manga.md) |
-| Cover | Symbolic (attraction) | — | [cover](formats/cover.md) |
+| Cover | Symbolic (design) | — | [cover](formats/cover.md) |
 | Thumbnail | Attention (attraction) | — | [thumbnail](formats/thumbnail.md) |
 | Infographic | Explanatory (communication) | — | [infographic](formats/infographic.md) |
-| Icon | Symbolic | — | [icon](formats/icon.md) |
+| Icon | Symbolic (design) | — | [icon](formats/icon.md) |
 | Diagram | Explanatory (understanding) | — | [diagram](formats/diagram.md) |
 | Illustration | Decorative | — | [illustration](formats/illustration.md) |
 | Conceptual illustration | Symbolic (communication) | Editorial / metaphorical variants | [conceptual-illustration](formats/conceptual-illustration.md) |
-| Poster | Symbolic (attraction) | — | [poster](formats/poster.md) |
+| Poster | Symbolic (design) | — | [poster](formats/poster.md) |
 | Picture book | Narrative (re-experience) | — | [picture-book](formats/picture-book.md) |
-| Logo | Symbolic | — | [logo](formats/logo.md) |
-| Emblem | Symbolic | — | [emblem](formats/emblem.md) |
+| Logo | Symbolic (design) | — | [logo](formats/logo.md) |
+| Emblem | Symbolic (design) | — | [emblem](formats/emblem.md) |
 | Storyboard | Narrative (communication / review) | — | [storyboard](formats/storyboard.md) |
 | Sprite sheet | Narrative (game asset) | — | [sprite](formats/sprite.md) |
-| Tarot card | Symbolic | — | [tarot-card](formats/tarot-card.md) |
-| Hero image | Symbolic (attraction) | Wide 16:9 banner | [hero](formats/hero.md) |
+| Tarot card | Symbolic (design) | — | [tarot-card](formats/tarot-card.md) |
+| Hero image | Symbolic (design) | Wide 16:9 banner | [hero](formats/hero.md) |
 | Gag manga | Narrative + attraction | Multi-panel, 4-beat rhythm | [gag-manga](formats/gag-manga.md) |
 | Timeline | Explanatory (understanding) | Single continuous time axis | [timeline](formats/timeline.md) |
 | Flowchart | Explanatory (understanding / communication) | Directed step sequence | [flowchart](formats/flowchart.md) |
@@ -115,3 +120,8 @@
 | Location board | Communication (production reference) | Every place and its geography — the map of the story | [location-board](formats/location-board.md) |
 | Key pose / action board | Communication (production reference) | One subject's movement vocabulary, key poses only | [key-pose-board](formats/key-pose-board.md) |
 | Scene board | Communication (production reference) | One scene's master staging, characters and blocking | [scene-board](formats/scene-board.md) |
+| App screen | Layout (design) | One screen, one state, a real UI | [app-screen](formats/app-screen.md) |
+| Landing page | Layout (design) | Above-the-fold promise, one CTA | [landing-page](formats/landing-page.md) |
+| Wireframe | Layout (design) | Low-fidelity gray-box skeleton | [wireframe](formats/wireframe.md) |
+| Brand board | Layout (design) | The whole identity system on one board | [brand-board](formats/brand-board.md) |
+| Business card | Layout (design) | Small two-sided card, name + contact | [business-card](formats/business-card.md) |

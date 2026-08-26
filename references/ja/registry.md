@@ -17,6 +17,7 @@
 > **事前拡充バッチ（2026-08-22）は検証完了**：様式 15 種・フォーマット 7 種を昇格（詳細な判定・スコアは [examples/verify-rich/EVALUATION.md](../../examples/verify-rich/EVALUATION.md)）。**不採用（削除）**：claymation・cyberpunk・vaporwave（様式の世界が内容を上書きする⑧違反、または詰め込み）。条件付き 9 枚は精錬（弱点に対応する do/avoid・アンカー・構成文法を追加）＋再検証で全て解消。**全カード 条件付きなし**・未検証 0。
 > **0.1.24**：機能文書ファミリーのカード 6 枚——[clean-line-lab](styles/clean-line-lab.md) の兄弟（青図・設計図／レシピ・手順カード／回路図／機構・働きの図／定規とコンパスの作図／実験ノート）——を下記に追加・**検証済み**（power-* 様式差し替えケース。判定は [examples/EVALUATION.md](../examples/EVALUATION.md)）。
 > **0.1.29**：アニメ・プリプロダクションのカードをさらに 3 枚——ロケーションボード（物語の場所たちとその地理）／キーポーズ・アクションボード（一人の主体の動きの語彙）／シーンボード（一場面のマスター・ステージング）——追加・**検証済み**（gozen-niji-* フォーマット差し替えケース。判定は [examples/EVALUATION.md](../examples/EVALUATION.md)）。
+> **0.1.30**：目的分類**「デザイン」**を新設（7 番目の想定目的。入力はコンテンツでなくブランド・製品・アプリ）。デザインフォーマット 5 枚（アプリ画面／ランディングページ／ワイヤーフレーム／ブランドボード／名刺）とデザイン様式 4 枚（swiss-style／flat-ui／material-ui／neubrutalism）を追加・**検証済み**（design-* フォーマット／様式差し替えケース。判定は [examples/EVALUATION.md](../examples/EVALUATION.md)）。既存のマーク系 7 枚（ロゴ／アイコン／エンブレム／ポスター／表紙／ヒーロー画像／タロットカード）を `象徴（デザイン）` へ再分類。
 
 ## 様式カード（styles/）
 
@@ -72,6 +73,10 @@
 | 実験ノート | 手描き | 実験ノート | 機能文書ファミリー・検証済み（0.1.24） | [lab-notebook](styles/lab-notebook.md) |
 | 柔らかいセル画調 | デジタル | TVアニメのセル画 | `Motion character` を持つ（時間を持つ出力） | [soft-cel-anime](styles/soft-cel-anime.md) |
 | 光の写実アニメ | デジタル | 劇場アニメ | soft-cel-anime の意図的な逆——高彩度の夕景・体積光・フルアニメーション | [luminous-anime](styles/luminous-anime.md) |
+| スイス・インターナショナルタイポグラフィ | 印刷・タイポ | スイス／インターナショナルタイポグラフィ | デザイン系譜ファミリー・検証済み（0.1.30） | [swiss-style](styles/swiss-style.md) |
+| フラットデザイン | デジタル | フラット UI（Metro／iOS 7） | デザイン系譜ファミリー・検証済み（0.1.30） | [flat-ui](styles/flat-ui.md) |
+| マテリアルデザイン | デジタル | Google マテリアルデザイン | デザイン系譜ファミリー・検証済み（0.1.30） | [material-ui](styles/material-ui.md) |
+| ネオブルータリズム | デジタル | ウェブブルータリズム再興 | デザイン系譜ファミリー・検証済み（0.1.30） | [neubrutalism](styles/neubrutalism.md) |
 
 ## フォーマットカード（formats/）
 
@@ -79,21 +84,21 @@
 |---|---|---|---|
 | イメージボード | 象徴（再体験） | — | [imageboard](formats/imageboard.md) |
 | 漫画 | 叙述（記録・再体験） | — | [manga](formats/manga.md) |
-| 表紙 | 象徴（誘引） | — | [cover](formats/cover.md) |
+| 表紙 | 象徴（デザイン） | — | [cover](formats/cover.md) |
 | サムネイル | 注目（誘引） | — | [thumbnail](formats/thumbnail.md) |
 | インフォグラフィック | 説明（伝達） | — | [infographic](formats/infographic.md) |
-| アイコン | 象徴 | — | [icon](formats/icon.md) |
+| アイコン | 象徴（デザイン） | — | [icon](formats/icon.md) |
 | 解説図 | 説明（理解） | — | [diagram](formats/diagram.md) |
 | 挿絵 | 装飾 | — | [illustration](formats/illustration.md) |
 | 概念図 | 象徴（伝達） | エディトリアル・メタファリカルな変種 | [conceptual-illustration](formats/conceptual-illustration.md) |
-| ポスター | 象徴（誘引） | — | [poster](formats/poster.md) |
+| ポスター | 象徴（デザイン） | — | [poster](formats/poster.md) |
 | 絵本 | 叙述（再体験） | — | [picture-book](formats/picture-book.md) |
-| ロゴ | 象徴 | — | [logo](formats/logo.md) |
-| エンブレム | 象徴 | — | [emblem](formats/emblem.md) |
+| ロゴ | 象徴（デザイン） | — | [logo](formats/logo.md) |
+| エンブレム | 象徴（デザイン） | — | [emblem](formats/emblem.md) |
 | ストーリーボード | 叙述（伝達・検討） | — | [storyboard](formats/storyboard.md) |
 | スプライトシート | 叙述（ゲーム素材） | — | [sprite](formats/sprite.md) |
-| タロットカード | 象徴 | — | [tarot-card](formats/tarot-card.md) |
-| ヒーロー画像 | 象徴（誘引） | 横長 16:9 バナー | [hero](formats/hero.md) |
+| タロットカード | 象徴（デザイン） | — | [tarot-card](formats/tarot-card.md) |
+| ヒーロー画像 | 象徴（デザイン） | 横長 16:9 バナー | [hero](formats/hero.md) |
 | ギャグ漫画 | 叙述＋誘引 | 多コマ・4ビートリズム | [gag-manga](formats/gag-manga.md) |
 | タイムライン | 説明（理解） | 単一の連続した時間軸 | [timeline](formats/timeline.md) |
 | フローチャート | 説明（理解・伝達） | 有向の手順列 | [flowchart](formats/flowchart.md) |
@@ -115,3 +120,8 @@
 | ロケーションボード | 伝達（制作仕様） | すべての場所とその地理——物語の地図 | [location-board](formats/location-board.md) |
 | キーポーズ/アクションボード | 伝達（制作仕様） | 一人の主体の動きの語彙・キーポーズのみ | [key-pose-board](formats/key-pose-board.md) |
 | シーンボード | 伝達（制作仕様） | 一場面のマスター・ステージング・人物と立ち位置 | [scene-board](formats/scene-board.md) |
+| アプリ画面 | レイアウト（デザイン） | 一画面・一状態・実 UI | [app-screen](formats/app-screen.md) |
+| ランディングページ | レイアウト（デザイン） | ファーストビューの約束・CTA 1 つ | [landing-page](formats/landing-page.md) |
+| ワイヤーフレーム | レイアウト（デザイン） | グレーの箱の低忠実度骨格 | [wireframe](formats/wireframe.md) |
+| ブランドボード | レイアウト（デザイン） | アイデンティティシステム全体を一枚の板に | [brand-board](formats/brand-board.md) |
+| 名刺 | レイアウト（デザイン） | 小型両面カード・氏名＋連絡先 | [business-card](formats/business-card.md) |

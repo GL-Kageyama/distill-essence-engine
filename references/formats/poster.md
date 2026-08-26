@@ -4,7 +4,7 @@
 
 # Poster（poster）
 
-- **Purpose**: Symbol (attraction) ／ **Granularity×time**: one symbol × convolution ／ **Size & aspect**: large, portrait (2:3)
+- **Purpose**: Symbolic (design) ／ **Granularity×time**: one symbol × convolution ／ **Size & aspect**: large, portrait (2:3)
 - **Summary**: One strong hero, conveyed at a glance through a large headline and an information block.
 
 ## Environment variables

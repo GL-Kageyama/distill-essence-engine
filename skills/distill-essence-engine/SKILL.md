@@ -1,6 +1,6 @@
 ---
 name: distill-essence-engine
-description: Distills the essence of any content into a prompt for imagery — still or moving (what one generation holds is declared by the format). Takes content (selected text / novel / article / poem / transcript / memo / paper … / URL = YouTube transcript · GitHub repository · homepage body) plus a spec of format and style (given separately, or in one natural-language request; reference images or reference examples = image reference, fixing characters = character reference), applies the transformation principles (understand → select → translate → keep consistent → compose → style → negative → stay faithful), and produces English prompts ready to paste into Stable Diffusion / Midjourney / Wan etc. Use it to make image boards, thumbnails, covers, illustrations, storyboards, comics, icons, explanatory diagrams, video generation specifications, and anime production references (character model sheets, character boards, concept boards, art boards, location boards, key pose boards, scene boards).
+description: Distills the essence of any content into a prompt for imagery — still or moving (what one generation holds is declared by the format). Takes content (selected text / novel / article / poem / transcript / memo / paper … / URL = YouTube transcript · GitHub repository · homepage body) plus a spec of format and style (given separately, or in one natural-language request; reference images or reference examples = image reference, fixing characters = character reference), applies the transformation principles (understand → select → translate → keep consistent → compose → style → negative → stay faithful), and produces English prompts ready to paste into Stable Diffusion / Midjourney / Wan etc. Use it to make image boards, thumbnails, covers, illustrations, storyboards, comics, icons, explanatory diagrams, video generation specifications, anime production references (character model sheets, character boards, concept boards, art boards, location boards, key pose boards, scene boards), and design artifacts (logos, app screens, landing pages, wireframes, brand boards, business cards).
 argument-hint: '{"content": "<the content to transform (defaults to the VSCode selection)>", "url": "<optional: a URL (YouTube→transcript, GitHub→README, homepage→body text) fetched and used as input>", "format": "<what to make: a format name or natural language>", "style": "<in what style: a style name or natural language>", "reference": "<optional: a reference image path or an example to use as a reference (image reference)>", "characters": "<optional: fix characters (name = appearance · clothing · build), comma-separated etc. (character reference)>", "trace": "<optional: true to also output the per-step trace (for verification)>", "lang": "<optional: en | ja | zh — language of the explanation/trace (the generated prompt itself is always English)>"}'
 ---
 
@@ -8,7 +8,7 @@ argument-hint: '{"content": "<the content to transform (defaults to the VSCode s
 
 ## Skill Metadata
 - **id**: `distill-essence-engine`
-- **version**: `0.1.29`
+- **version**: `0.1.30`
 - **category**: `transformer`
 - **standalone**: `true`（no subagents needed）
 
@@ -76,8 +76,9 @@ The shape of the output is decided from upstream down. First grasp the **assumed
 | Others | **Communication** | To convey the content | Infographic |
 | Others | **Attraction** | To catch attention | Thumbnail / cover |
 | Both | **Decoration** | To adorn a text | Illustration |
+| Others | **Design** | To give a brand, product, or app a visual identity | Logo / app screen / brand board |
 
-The assumed purpose decides the format (its function); the format decides granularity × time (how much to compress). Details in `references/types.md`.
+The assumed purpose decides the format (its function); the format decides granularity × time (how much to compress). Design is the one purpose whose input is a brand / product / app, not content. Details in `references/types.md`.
 
 ## The 8 principles (transformation flow)
 
@@ -122,7 +123,7 @@ Compression is half of the round trip. The engine goes abstract → concrete (co
 
 1. **Receive the content** — the VSCode selection (or the `content` argument). If `url` is given, run `python3 scripts/fetch.py <url>` and put its output (YouTube transcript / GitHub README / homepage body) into the content slot. Read it in its own language.
 2. **Receive the spec** — `format` (what to make) and `style` (in what style), separately or in one natural-language request. **If the name matches a card in `references/styles/` or `references/formats/`, expand and apply its definition** (the list is `references/registry.md`). If only one is given, infer the other from the content. If `reference` (a reference image path, or an example / existing output to use as a reference) is given, read the "this kind of feel" of the style and format from it — the reference concretizes the spec (the essence of the content still comes only from the input text). If `characters` (character reference) is given, fix the characters (name = face · hair · age · build · clothing) and keep the same people across every panel as the anchor of ④Keep consistent. If several cards fit (ambiguous), **present 2–3 options with brief reasons and let the user choose**.
-3. **Grasp the assumed purpose** — why the transformation happens (understanding / communication / attraction / re-experience / record / decoration) → format → granularity × time.
+3. **Grasp the assumed purpose** — why the transformation happens (understanding / communication / attraction / re-experience / record / decoration / design) → format → granularity × time.
 4. **① Understand** — kind + essence.
 5. **② Select** — the one point that speaks. Avoid the failure modes.
 6. **③ Translate** — into particular × indirect visuals.
