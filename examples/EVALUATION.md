@@ -271,6 +271,32 @@ anti-generic の指摘はすべて具体的：①**紋切型トークン**（tea
 - **anti-generic の所見**（全9件 genericness 1–2・紋切型シグネチャなし）：内容はブランド固有で全件 PASS——「the flask's coiled condenser rises as the screen's spine」「many sheets in, one golden drop out」等の置き換え不能な表現が共通の土台。最大の汎用リスクは共有の足場（様式句と否定句が app-screen 族で近く繰り返す）で、0.1.28/0.1.29 と同じく判定から除外。
 - **軽微な所見**：金橙の2値併記（#f5b14e／#ff8c42）は dark-glow 家系の既存パレット定義の表現揺れ（ブランドブリーフも同じ併記）。wireframe のキャッチライン・プレースホルダーは明示的逸脱として上記のとおり記録済み。brand-board 対 concept-board（同一入力・同一様式でレンダリングが近くなるリスク）は、brand-board が「再現の仕様」（スウォッチ列・書体見本・展開例を並べる）である点で、0.1.28 で記録した「concept-board 対 art-board の差が2ディテールのみ」よりフォーマット差の強度は高い。
 
+## FF1〜10 ブランドボード10枚（PASS 30/30・0.1.31）
+
+| ケース | 入力 | 見出し／副題 | マークの一点 | 判定 |
+|---|---|---|---|---|
+| ff1 | ファイナルファンタジーI | ORIGIN／THE FOUR CRYSTALS | 火・土・水・風の4水晶 × 混沌の暗帯 × 城のシルエット | **PASS**（anti-gen 2・aesthetic 85/100・admiration 58） |
+| ff2 | ファイナルファンタジーII | WILD ROSE／ONE BLOOM AGAINST THE EMPIRE | 帝国の黒い列柱 × 一点の野薔薇 | **PASS**（anti-gen 1・aesthetic 9・admiration 42） |
+| ff3 | ファイナルファンタジーIII | CRYSTAL TOWER／ABOVE THE CLOUDS | 雲海の浮遊大陸 × 水晶の塔 × 虚空の楔 | **PASS**（anti-gen 1・aesthetic 9・admiration 60） |
+| ff4 | ファイナルファンタジーIV | THE MOON／A RED WING TOWARD THE LIGHT | 月 × 飛空艇のシルエット × バベルの塔 | **PASS**（anti-gen 1・aesthetic 9・admiration 40） |
+| ff5 | ファイナルファンタジーV | THE VOID／TWO WORLDS, ONE RIFT | 噛み合いかけた二世界 × 虚空の裂け目 | **PASS**（anti-gen 2・aesthetic 9・admiration 60） |
+| ff6 | ファイナルファンタジーVI | WORLD OF RUIN／FROM ASHES, ONE EMBER | 均衡と崩壊の二画面 × 継ぎ目の魔石 × 緞帳 | **PASS**（anti-gen 2・aesthetic 9・admiration 55） |
+| ff7 | ファイナルファンタジーVII | MAKO／THE PLANET'S LIFEBLOOD | ミッドガルの同心鋼板 × メテオ × 抽象的な人影 | **PASS**（anti-gen 2・aesthetic 8・admiration 62） |
+| ff8 | ファイナルファンタジーVIII | GARDEN／AN ACADEMY THAT FLIES THE SEAS | 月下の浮遊学園 × 時間圧縮の渦 | **PASS**（anti-gen 2・aesthetic 8・admiration 40） |
+| ff9 | ファイナルファンタジーIX | THE CRYSTAL／THE HEART BENEATH THE MIST | 霧に呑まれる中世都市 × 中心の水晶 × 紅い瞳 | **PASS**（anti-gen 3・aesthetic 8・admiration 52） |
+| ff10 | ファイナルファンタジーX | THE SPIRAL／A SENDING OVER WATER | 水の上の送りの螺旋 × 白い寺院 × 昇る光の粒 | **PASS**（anti-gen 2・aesthetic 9・admiration 40） |
+
+- 判定者：anti-generic-filter・aesthetic-critic・admiration の3系統（10×3＝30判定・並列）。判定対象テキスト（Merged プロンプト）をエージェントプロンプトに直接埋め込み、ファイル/ツール読取禁止、model='sonnet'（0.1.20〜0.1.30 と同手順）。**今回は名前付き実評価者3系統がすべて正常動作**——0.1.26/0.1.28/0.1.29/0.1.30 の anti-generic-filter・aesthetic-critic の崩れ方（tool_uses: 0 での地の文出力）は再発せず、general-purpose エージェントによる代替は不要だった（代替を装わない）。
+- **検証パターン＝ブランド差し替え10件**。0.1.30 の design 族は「入力固定×フォーマット/様式差し替え」だが、本シリーズは**フォーマット（brand-board・縮小モード）・様式（swiss-style）を固定し、入力（ブランド＝各ナンバリング）だけを差し替えた**同一の板文法が、別々のゲームで競合せず n=10 まで機能することの検証。**全10枚 PASS（30/30）・条件付き 0・不採用 0**。
+- **固有×間接**：各板がゲーム固有の一点に絞る。genericness 1–3、汎用タグの羅列なし。anti-generic は「野薔薇の一点＝組織に対する造反の図式（ff2）」「噛み合いかけた二土地と裂け目＝予測外の継ぎ目（ff5）」「継ぎ目の魔石に宿る残り火＝均衡と崩壊の二画面の交点（ff6）」「メテオの炎尾＝静的な鋼板都市への降下（ff7）」等を個別に挙げた。共有の足場（様式句と否定句が全板で近く繰り返す）は 0.1.28〜0.1.30 と同じく判定から除外（⑦原則の機能的様式ガード）。
+- **⑧忠実性**：admiration の原典照合で全10件 **捏造なし・借り物記号なし**。各モチーフ（4水晶／野薔薇／水晶塔／月と飛空艇とバベルの塔／二世界と虚無／魔石と幕／プレート都市とメテオ／浮遊ガーデンと時間渦／水晶と霧と紅い瞳／送りの螺旋）はすべて作品に実在する要素で、様式（スイス）が内容を上書きしない（色はマークの中と一つのアクセントにのみ宿す）。ff7 の抽象的な人影は**明示的に featureless・generic** と指定し、実在キャラクターの霊感を避ける（実キャラ使用禁止を規約で担保）。
+- **admiration の所見**：全件 **仕様型出力（spec-type）の構造的低さに由来する弱PASS**。0.1.30 の brand-board（弱PASS 25）と同じく、仕様は結果を先に宣言し超出の余地がないため admiration 軸は意図的に低い——**形式の欠陥でなく評価軸の不適合**であり、⑧違反なしが PASS の根拠。その上で「単純な仕様を超える必然の感嘆」を高値に示した：ff7＝ミッドガル鋼板＋メテオ＋無個性シルエットが一つのエンブレムへ畳まれ、mako 緑が唯一のアクセント（62）／ff3＝水晶の塔が虚空の楔に切り込む光暗二分（60）／ff5＝継ぎ目が「予測外かつ必然」の一点（60）。
+- **作り直し経緯（必須の記録）**：本シリーズは初稿から方向転換した（swiss-style → hero/クリーン描画 → soft-cel-anime → **swiss-style・商品欄なし**に確定）。製造時に2件の欠陥が発覚し、いずれも合成プロンプトとリファレンスカードの両方で是正した：
+  1. **色名・実色コードが画像に文字として出る**: 「named color swatches: Mako Green #7fd46b, …」の列挙を生成器が文字として描いていた。合成プロンプトから hex とカラーネームの列挙を除き、「no color labels, no hex codes, no text other than the headline and subtitle」を末尾に追加。
+  2. **独立した色見本バー（swatch row）が残る**: sentence 除去後も ff2 の生成画像下段に3〜4色の色ブロック列が出た。原因は「Palette: white ground…」の列挙が brand-board の規約（名付きスウォッチ行）を再発火させたため。「The colors live only inside the mark — X — on a white ground with black text, Y as the single accent; there is no separate palette bar on the board」へ言い換え、「no palette swatch row, no color-bar strip, no separate row of color blocks or color samples, no legend」の4否定を追加。
+  3. さらにリファレンスカード（`references/formats/brand-board.md` ×3言語）の構成文法が「ロゴ＋名付きスウォッチ列＋書体見本＋展開例」を固定文法として強制していたため、**縮小モード（マーク＋タイポグラフィのみ・展開例とスウォッチ行を省く）**を Summary・環境変数・構成文法・do/avoid・プロンプトテンプレートに追加した（en 正典＋ja/zh ミラーの3層）。examples/README ×3言語の FF シリーズ行も一致させた（商品/展開例の欄は置かない・見出しと副題のみの文字・スウォッチ行なし）。
+- **軽微な所見**：ff9 が genericness 3（全10中最大）——「中世の尖塔」等の汎用形容詞の混入だが PASS の範囲内。ff1 の aesthetic のみ 0–100 の primary_score（85）を返した（他は 0–10）。末尾の否定句（no product mockups, no applications section, no palette swatch row …）は⑦原則の機能的な様式ガード（anti-gen は失敗シグネチャと判定せず）。全板とも「1板＝1ブランド＝1作品」を守り、複数ゲームの混在なし。
+
 ## 注記
 
 - URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ／青空文庫）は、実 URL の検証ケースが 4 件ある。いずれも `scripts/fetch.py` で実フェッチした内容を入力に使用し、カバレッジ行列の YouTube 動画 × 理解（解説図）・× 記録（漫画）・GitHub リポジトリ × 誘引（ヒーロー画像）セルを実 URL で埋めた（bocchan-gag-manga は小説入力＝青空文庫の実フェッチ例で、小説 × 誘引セルにギャグ漫画を追加）。
