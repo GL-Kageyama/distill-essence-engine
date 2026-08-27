@@ -297,6 +297,31 @@ anti-generic の指摘はすべて具体的：①**紋切型トークン**（tea
   3. さらにリファレンスカード（`references/formats/brand-board.md` ×3言語）の構成文法が「ロゴ＋名付きスウォッチ列＋書体見本＋展開例」を固定文法として強制していたため、**縮小モード（マーク＋タイポグラフィのみ・展開例とスウォッチ行を省く）**を Summary・環境変数・構成文法・do/avoid・プロンプトテンプレートに追加した（en 正典＋ja/zh ミラーの3層）。examples/README ×3言語の FF シリーズ行も一致させた（商品/展開例の欄は置かない・見出しと副題のみの文字・スウォッチ行なし）。
 - **軽微な所見**：ff9 が genericness 3（全10中最大）——「中世の尖塔」等の汎用形容詞の混入だが PASS の範囲内。ff1 の aesthetic のみ 0–100 の primary_score（85）を返した（他は 0–10）。末尾の否定句（no product mockups, no applications section, no palette swatch row …）は⑦原則の機能的な様式ガード（anti-gen は失敗シグネチャと判定せず）。全板とも「1板＝1ブランド＝1作品」を守り、複数ゲームの混在なし。
 
+## storyboard 配置モード4種（PASS 15/15・0.1.32）
+
+検証パターン＝**モード差し替え5件**。入力（`melos-imageboard/input.md`・走れメロス）と様式（manga-ink・`table` の内容欄＝画面上テキストを許す様式）を固定し、`ARRANGEMENT` だけを差し替える。これは「配置の選択が内容を書き換えないか」＝**⑤構成が②③⑧内容と直交するか**を直接検定する軸で、今回の変更で唯一の実質的リスク。5件は**同一の6ビート・同一の出来事・同一の因果連鎖・同一のキャラ/衣装/照明**を運ぶ（①約束 ②出発 ③橋の崩落 ④泉 ⑤疾走 ⑥成就）。
+
+| ケース | 配置 | ビート | 判定 |
+|---|---|---|---|
+| melos-storyboard-row | `row`（既定・横一列） | 同一 6 ビート | **PASS**（anti-gen 2・aesthetic 8・admiration 37） |
+| melos-storyboard-column | `column`（縦1列） | 同一 6 ビート | **PASS**（anti-gen 1・aesthetic 8.5・admiration 52） |
+| melos-storyboard-grid | `grid`（3×2・行ごとに左→右） | 同一 6 ビート | **PASS**（anti-gen 2・aesthetic 8・admiration 45） |
+| melos-storyboard-table | `table`（絵コンテ表・カット番号／絵／内容＋秒数） | 同一 6 ビート・秒数 4/2/5/8/5/6 | **PASS**（anti-gen 2・aesthetic 8・admiration 35） |
+| melos-storyboard-auto | `ARRANGEMENT` 省略 → 既定 `row` に解決 | 同一 6 ビート | **PASS**（anti-gen 3・aesthetic 9・admiration 60） |
+
+- 判定者：anti-generic-filter・aesthetic-critic・admiration の3系統（5×3＝15判定・並列）。判定対象テキスト（Merged プロンプト）をエージェントプロンプトに直接埋め込み、ファイル/ツール読取禁止、model='sonnet'（0.1.20〜0.1.31 と同手順）。**名前付き実評価者3系統がすべて正常動作**（0.1.26/0.1.28〜0.1.30 の anti-generic-filter・aesthetic-critic の崩れ方＝tool_uses: 0 での地の文出力は再発せず、general-purpose エージェントによる代替は使っていない）。
+- **⑧忠実性**：admiration の原典照合で**全5件「⑧違反なし」**（5判定すべて一致）。原典＝`melos-imageboard/input.md`（走れメロス全文）を照合に使用。6コマに全弧を畳む以上、妹の結婚式・山賊・遊泳・王の改心・緋のマントの**省略は②選択による圧縮であって⑧の捏造ではない**——判定はこの切り分けを明示した上で行われ、捏造（存在しない出来事・関係・小道具・結末の追加）と様式によるトーン変更のみを違反として数えた。
+- **⑧違反1件を精錬で修正（既存成果物から継承したドリフト）**。初回判定が **row＝⑧違反なし／column＝⑧違反あり** で食い違ったため原典を直接照合したところ、**「サンダル／わらじ／草鞋／履」は原典に0回**——`sandals`（キャラ不変項）と `one sandal split beside him`（Panel 4）は**捏造**で、column の判定が正しかった。この「壊れたサンダル」は今回の新規ケースが 0.1.13 の既存プロンプトから引き写したもので、同じモチーフが**他4件の既存成果物にも残っている**：
+  - [verify-rich/formats/storyboard/prompt.md](verify-rich/formats/storyboard/prompt.md)（Panel 4 の `broken sandal beside him` と不変項の `sandals`）
+  - [verify-rich/styles/copperplate-engraving/prompt.md](verify-rich/styles/copperplate-engraving/prompt.md)・[oil-painting](verify-rich/styles/oil-painting/prompt.md)・[risograph](verify-rich/styles/risograph/prompt.md)（いずれも `broken sandal(s)`）
+  - [melos-imageboard/prompt.md](melos/melos-imageboard/prompt.md)（`his sandals broken`）※melos-imageboard はリファレンス例ではなく独立の古い検証ケース
+  これらは今回の変更のスコープ外（旧版検証済み成果物）のため、**今回の5ケースは精錬して修正し、他4件は既存のまま記録のみ**とした。修正指針（木版・油彩は文字を扱えないため、リファレンスカードではなく合成プロンプト側の措置）：Panel 4 の `broken sandal` → 原典「岩の裂目から…小さく囁きながら清水が湧き出ている」「水を両手で掬って、一くち飲んだ」に接地した `whispering as it comes; he bends and drinks a single mouthful from cupped hands`、キャラ不変項の `sandals` は削除（`half-naked` のみ残す）。銅版画・リソグラフも同様に `broken sandal(s)` を削除（飲む姿勢と岩の裂け目だけに留める）。
+- **偽陽性1件（判定側でなく私の要約側の欠陥）**。column が同時に挙げた「両腕を上げて岸にひざまずく」は**原典にある**（「メロスは川岸にうずくまり、男泣きに泣きながらゼウスに手を挙げて哀願した」）。原因は判定用エージェントプロンプトに与えた原典要約がこの一句を落としていたこと。再判定では要約を厚くして5件すべてやり直した（row/column は精錬前テキストへの判定なので破棄し、grid/table/auto と揃えて再取得）。
+- **admiration の所見**：全5件 **仕様型出力（spec-type）の構造的低さに由来する弱PASS**（35–60）。0.1.30 の brand-board（25）・0.1.31 の ff シリーズ（40–62）と同じく、仕様は結果を先に宣言し超出の余地がないため admiration 軸は意図的に低い——**形式の欠陥でなく評価軸の不適合**であり、⑧違反なしが PASS の根拠。その上で「単純な仕様を超える必然の感嘆」を示したのは auto（60：明示なしに「因果の順＝読み順」を正しく畳む）、column（52：縦一列が全弧の重みを積む）。table（35）は「秒数列が原典自身の重点を反映して不均等（泉の転回に最大の8秒）であること」を認めつつ、4/2/5/8/5/6 の内訳が既に仕様として宣言されているぶん超出が最も薄い。
+- **aesthetic-critic の所見**：全5件 coherent 8–9（≥7）で、モード間の差は軽微。auto（9）が「左→右の進行」という宣言なしで最も整った読み順として評価され、grid（8）は3×2 の折り返しがビートの因果を保っている点を評価された。
+- **anti-generic の所見**：genericness 1–3（閾値≤3・紋切型シグネチャなし）。全5件が共通の足場（様式句・否定句）を繰り返すが、これは⑦原則の機能的様式ガード（0.1.28〜0.1.31 と同じく判定から除外）。モード差し替え5件で**「配置の選択が内容の紋切型を作らない」こと**が本検証の固有の確認点で、5件ともビートは原典固有のまま（「綺麗な衣裳を買いに来た牧人が王城に短剣を持ち込む」「橋桁が木葉微塵に跳ね飛ばされる」「両手で掬って一口飲む」「ほぼ全裸で血を吐きながら塔楼に向かって走る」）。
+- **モード間のビート同一性（本変更に固有の⑧アサーション）**：5件を並べたとき、ビート・出来事・因果連鎖・キャラ/衣装/照明は同一で、差はレイアウト（+`table` の秒数列）のみ。グリッドを埋めるためのコマ水増し・ビート捏造・出来事の脱落は発生しなかった。**「レイアウトは物語を変えない」**（`The layout is not the story.`）が実測で成立。
+
 ## 注記
 
 - URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ／青空文庫）は、実 URL の検証ケースが 4 件ある。いずれも `scripts/fetch.py` で実フェッチした内容を入力に使用し、カバレッジ行列の YouTube 動画 × 理解（解説図）・× 記録（漫画）・GitHub リポジトリ × 誘引（ヒーロー画像）セルを実 URL で埋めた（bocchan-gag-manga は小説入力＝青空文庫の実フェッチ例で、小説 × 誘引セルにギャグ漫画を追加）。

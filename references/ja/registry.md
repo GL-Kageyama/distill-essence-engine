@@ -95,7 +95,7 @@
 | 絵本 | 叙述（再体験） | — | [picture-book](formats/picture-book.md) |
 | ロゴ | 象徴（デザイン） | — | [logo](formats/logo.md) |
 | エンブレム | 象徴（デザイン） | — | [emblem](formats/emblem.md) |
-| ストーリーボード | 叙述（伝達・検討） | — | [storyboard](formats/storyboard.md) |
+| ストーリーボード | 叙述（伝達・検討） | 4つの配置モード——row（既定）／column／grid／table（絵コンテ表） | [storyboard](formats/storyboard.md) |
 | スプライトシート | 叙述（ゲーム素材） | — | [sprite](formats/sprite.md) |
 | タロットカード | 象徴（デザイン） | — | [tarot-card](formats/tarot-card.md) |
 | ヒーロー画像 | 象徴（デザイン） | 横長 16:9 バナー | [hero](formats/hero.md) |

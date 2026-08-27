@@ -95,7 +95,7 @@
 | 绘本 | 叙述（再体验） | — | [picture-book](formats/picture-book.md) |
 | 标志 | 象征（设计） | — | [logo](formats/logo.md) |
 | 徽章 | 象征（设计） | — | [emblem](formats/emblem.md) |
-| 分镜脚本 | 叙述（传达・讨论） | — | [storyboard](formats/storyboard.md) |
+| 分镜脚本 | 叙述（传达・讨论） | 四种排列模式——row（默认）／column／grid／table（分镜表） | [storyboard](formats/storyboard.md) |
 | 精灵图 | 叙述（游戏素材） | — | [sprite](formats/sprite.md) |
 | 塔罗牌 | 象征（设计） | — | [tarot-card](formats/tarot-card.md) |
 | 主视觉横幅 | 象征（设计） | 横长 16:9 横幅 | [hero](formats/hero.md) |

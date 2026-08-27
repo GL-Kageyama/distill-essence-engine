@@ -95,7 +95,7 @@
 | Picture book | Narrative (re-experience) | — | [picture-book](formats/picture-book.md) |
 | Logo | Symbolic (design) | — | [logo](formats/logo.md) |
 | Emblem | Symbolic (design) | — | [emblem](formats/emblem.md) |
-| Storyboard | Narrative (communication / review) | — | [storyboard](formats/storyboard.md) |
+| Storyboard | Narrative (communication / review) | Four arrangement modes — row (default) / column / grid / table (絵コンテ sheet) | [storyboard](formats/storyboard.md) |
 | Sprite sheet | Narrative (game asset) | — | [sprite](formats/sprite.md) |
 | Tarot card | Symbolic (design) | — | [tarot-card](formats/tarot-card.md) |
 | Hero image | Symbolic (design) | Wide 16:9 banner | [hero](formats/hero.md) |
