@@ -91,6 +91,7 @@
 | homepage-diagram | Woodworking-shop homepage | Diagram | Isometric | Understanding |
 | homepage-poster | Woodworking-shop homepage | Poster | Woodblock print | Attraction |
 | distill-hero | Repo README (real URL) | Hero image | Dark-glow minimal vector | Attraction |
+| semantic-audio-loom-hero | semantic-audio-loom repo (sibling of the Council) | Hero image | Dark-glow minimal vector | Attraction |
 | bocchan-gag-manga | Aozora Bunko "Bocchan" (real URL) | Gag manga | High-energy slice-of-life comic | Attraction |
 | youtube-agent-manager-diagram | YouTube talk (real URL) | Diagram | Flat comic | Understanding |
 | youtube-loop-engineering-manga | YouTube talk (real URL) | Manga | Manga ink lineart | Record |
