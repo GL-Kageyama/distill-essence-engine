@@ -14,6 +14,8 @@
 [any input] → [spec: format × style] → [engine] → [English prompt for imagery]
 ```
 
+> **Direction note** — **video generation** may well be separated from this repository in the future (image generation stays). Image generation almost never fails at the generation step itself, but video generation does: it fails outright, misses the intended result, and lets foreign objects creep in — and each run is expensive, so it is poorly suited to trial-and-error iteration.
+
 ## Why This Is Needed
 
 Generative AI can now produce an image for any text. But an image that merely *illustrates* the text is not its essence — it draws what the words already say.
