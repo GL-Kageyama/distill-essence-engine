@@ -464,7 +464,7 @@ Hold on the stopped fingertip, on the glass above the thread. Cut on the finger.
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 2:00 A.M., with a figure inside her phone screen. Beats, deliberately uneven: [0:00–0:07] 真白 looks at the thread list, and her eyes find the first addressee — 小春; [0:07–0:15] she opens the thread — 小春's consultation, a long message, read and left unanswered for a month — and reads it again, once; [0:15–0:24] THE PEAK — her fingertip descends, makes contact with the glass above the thread, and STOPS, not pressing, not tapping, not sending, the stop of S03 reversed from shock into indecision; [0:24–0:30] hold on the stopped fingertip and cut on the finger. The stopped finger holds the largest share of the duration. Ends on the finger, nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 2:00 A.M., with a figure inside her phone screen. Beats, deliberately uneven: [0:00–0:07] 真白 looks at the thread list, and her eyes find the first addressee — 小春; [0:07–0:15] she opens the thread — 小春's consultation, a long message, read and left unanswered for a month — and reads it again, once; [0:15–0:24] THE PEAK — her fingertip descends, makes contact with the glass above the thread, and STOPS, not pressing, not tapping, not sending, the stop of S03 reversed from shock into indecision; [0:24–0:30] hold on the stopped fingertip and cut on the finger. The stopped finger holds the largest share of the duration. Ends on the finger, nothing after it.
 
 ## Visual Prompt
 

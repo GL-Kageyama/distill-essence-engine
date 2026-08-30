@@ -485,7 +485,7 @@ The dialogue has settled. 真白 asks 「名前、ないの？」 ニジ answers
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at night, holding her phone in both hands. Beats, deliberately uneven: [0:00–0:09] she asks 名前、ないの？, and the younger face in the screen answers ないよ。おまえが、つけて — and grants いいよ。だって、おまえのものだもん; [0:09–0:18] she looks at the rainbow afterimage drifting in the corner of the screen, its colors changing slowly — 青から、緑から、また青へ; [0:18–0:26] THE PEAK — she names her ……ニジ。虹色してるから。……ニジ, and the ghost repeats the name as if tasting it; [0:26–0:30] ニジ smiles — ニジ、ね。……いい名前 — a smile on the verge of tears, and the shot cuts to black on that smile. The naming holds the largest share of the duration. Ends on the smile, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at night, holding her phone in both hands. Beats, deliberately uneven: [0:00–0:09] she asks 名前、ないの？, and the younger face in the screen answers ないよ。おまえが、つけて — and grants いいよ。だって、おまえのものだもん; [0:09–0:18] she looks at the rainbow afterimage drifting in the corner of the screen, its colors changing slowly — 青から、緑から、また青へ; [0:18–0:26] THE PEAK — she names her ……ニジ。虹色してるから。……ニジ, and the ghost repeats the name as if tasting it; [0:26–0:30] ニジ smiles — ニジ、ね。……いい名前 — a smile on the verge of tears, and the shot cuts to black on that smile. The naming holds the largest share of the duration. Ends on the smile, with nothing after it.
 
 ## Visual Prompt
 

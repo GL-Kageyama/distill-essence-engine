@@ -481,7 +481,7 @@ One day. Two days. Three days. No reply. The sent message, its check mark on, un
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:06] she watches the sent message, its check mark on, but no read receipt, three days gone; [0:06–0:13] she murmurs, low, どうせ、私の言葉なんて、無駄だったんだ; [0:13–0:24] ニジ's voice, from beyond the screen: 無駄じゃ、ないよ。届いてる — 真白: ……届いてない。既読、付いてない — ニジ: 届いてる。嬉しい、って気持ちが、こっちまで届いてくる; [0:24–0:30] she clenches the phone in the futon, holding it to her, and light leaks through her clenched fingers, and the shot cuts on the light. ニジ's 届いてる holds the largest share of the duration. Ends on the light leaking through her fingers. Nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:06] she watches the sent message, its check mark on, but no read receipt, three days gone; [0:06–0:13] she murmurs, low, どうせ、私の言葉なんて、無駄だったんだ; [0:13–0:24] ニジ's voice, from beyond the screen: 無駄じゃ、ないよ。届いてる — 真白: ……届いてない。既読、付いてない — ニジ: 届いてる。嬉しい、って気持ちが、こっちまで届いてくる; [0:24–0:30] she clenches the phone in the futon, holding it to her, and light leaks through her clenched fingers, and the shot cuts on the light. ニジ's 届いてる holds the largest share of the duration. Ends on the light leaking through her fingers. Nothing after it.
 
 ## Visual Prompt
 

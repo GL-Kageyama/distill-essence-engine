@@ -6,7 +6,7 @@
 #   ./swap-pajama-reference.sh /path/to/pajama.png  # 明示指定
 #   ./swap-pajama-reference.sh --dry-run            # 何もしないで対象を列挙だけ
 #
-# 判定: 「reference/ に art-board-真白の部屋.png を含む」seg を対象とする（正確に38本）。
+# 判定: 「reference/ に art-board-真白の部屋.png を含む」seg を対象とする（正確に37本＝夜の寝室）。
 # 対象では MASHIRO(真白).png（制服）を削除し MASHIRO(真白)pajamas.png（寝間着）を配置する。
 # ため、制服シートと寝間着シートを同時に添付してモデルが混乱するのを避ける。
 
@@ -70,7 +70,7 @@ done
 
 if [ "$DRY" -eq 1 ]; then
   echo ""
-  echo "[dry-run] 対象は上記 $CNT 本（正確に38本のはず）。"
+  echo "[dry-run] 対象は上記 $CNT 本（正確に37本のはず）。"
 else
   echo "[完了] $CNT 本の参照を差し替えました。"
 fi

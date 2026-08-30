@@ -458,7 +458,7 @@ She names the addressee for the first time — 宛先は、自分. The last line
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:06] she speaks low to the screen — 「……最後の宛先、分かったよ」 — where ニジ, a white light, listens; [0:06–0:16] she recalls the words she aimed at herself, どうせ、誰も、私を、見てない, the time she left unreturned, the addressee list with her own name at the bottom; [0:16–0:26] THE REVEAL — she names the addressee for the first time, 宛先は、自分, and the realization is held; [0:26–0:30] hold on the white light of ニジ, and the shot cuts on the white light. The naming holds the largest share of the duration. Ends on the white light, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:06] she speaks low to the screen — 「……最後の宛先、分かったよ」 — where ニジ, a white light, listens; [0:06–0:16] she recalls the words she aimed at herself, どうせ、誰も、私を、見てない, the time she left unreturned, the addressee list with her own name at the bottom; [0:16–0:26] THE REVEAL — she names the addressee for the first time, 宛先は、自分, and the realization is held; [0:26–0:30] hold on the white light of ニジ, and the shot cuts on the white light. The naming holds the largest share of the duration. Ends on the white light, with nothing after it.
 
 ## Visual Prompt
 

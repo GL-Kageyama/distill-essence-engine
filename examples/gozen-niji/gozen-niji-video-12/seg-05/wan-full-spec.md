@@ -456,7 +456,7 @@ The screen, holding only the faint light where ニジ was — nothing remaining.
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:10] ニジ — the rainbow, 真白's own face one step younger — smiles once more and says 「――行ってらっしゃい」, the everyday send-off, not a goodbye; [0:10–0:26] THE REVEAL — the iridescent afterimage dissolves into light, slowly, INSIDE the phone screen, going nowhere else, no exit, no scattering, no room, the light thinning and staying within the screen; [0:26–0:30] the screen holds only the faint light where ニジ was — nothing remaining — and the shot cuts on the dissolved light. The dissolve holds the largest share of the duration. Ends on the dissolved light, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:10] ニジ — the rainbow, 真白's own face one step younger — smiles once more and says 「――行ってらっしゃい」, the everyday send-off, not a goodbye; [0:10–0:26] THE REVEAL — the iridescent afterimage dissolves into light, slowly, INSIDE the phone screen, going nowhere else, no exit, no scattering, no room, the light thinning and staying within the screen; [0:26–0:30] the screen holds only the faint light where ニジ was — nothing remaining — and the shot cuts on the dissolved light. The dissolve holds the largest share of the duration. Ends on the dissolved light, with nothing after it.
 
 ## Visual Prompt
 

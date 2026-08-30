@@ -481,7 +481,7 @@ She looks down at her own finger, as if the weight were really there. The meanin
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at night, holding her phone in both hands. Beats, deliberately uneven: [0:00–0:08] the younger face inside the screen speaks — おまえが誰かに預けた時間。それが、集まると、こういうのができるんだよ。 — and she listens, still; [0:08–0:15] she asks 預けるって、何, and ニジ answers 時間を渡すってこと。おまえは、毎日、誰かに時間を渡してる。いいね、とか、既読、とか、返事、とか。そういうの、ぜんぶ時間だよ。; [0:15–0:22] THE PEAK — her understanding cannot keep up, いいねが時間？ 既読が？ 返事が？, and the finger bathed in the screen's light suddenly feels heavy; [0:22–0:30] she looks down at her own finger as if the weight were real, the meaning not landing, and the shot cuts to black on the heavy finger. The explanation holds the largest share of the duration. Ends on the heavy finger, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at night, holding her phone in both hands. Beats, deliberately uneven: [0:00–0:08] the younger face inside the screen speaks — おまえが誰かに預けた時間。それが、集まると、こういうのができるんだよ。 — and she listens, still; [0:08–0:15] she asks 預けるって、何, and ニジ answers 時間を渡すってこと。おまえは、毎日、誰かに時間を渡してる。いいね、とか、既読、とか、返事、とか。そういうの、ぜんぶ時間だよ。; [0:15–0:22] THE PEAK — her understanding cannot keep up, いいねが時間？ 既読が？ 返事が？, and the finger bathed in the screen's light suddenly feels heavy; [0:22–0:30] she looks down at her own finger as if the weight were real, the meaning not landing, and the shot cuts to black on the heavy finger. The explanation holds the largest share of the duration. Ends on the heavy finger, with nothing after it.
 
 ## Visual Prompt
 

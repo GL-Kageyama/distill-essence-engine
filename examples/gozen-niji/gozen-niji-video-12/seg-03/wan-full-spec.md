@@ -454,7 +454,7 @@ The completed line, held on screen, typed by her own finger. Cut on the line, wi
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:07] she speaks low — 「……返すよ」 — where ニジ, a white light, waits in the screen; [0:07–0:24] THE REVEAL — in the same framing as episode 1's opening, close on the hand and the screen, her own finger types the sentence character by character, slow and deliberate: おまえが私にくれた時間、私が生きてるよ。 ; [0:24–0:30] the completed line is held, and the shot cuts on the line. The typing holds the largest share of the duration. Ends on the completed line, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:07] she speaks low — 「……返すよ」 — where ニジ, a white light, waits in the screen; [0:07–0:24] THE REVEAL — in the same framing as episode 1's opening, close on the hand and the screen, her own finger types the sentence character by character, slow and deliberate: おまえが私にくれた時間、私が生きてるよ。 ; [0:24–0:30] the completed line is held, and the shot cuts on the line. The typing holds the largest share of the duration. Ends on the completed line, with nothing after it.
 
 ## Visual Prompt
 

@@ -459,7 +459,7 @@ The rainbow, returned — ニジ's smile, the colour 真白 named. Cut on the re
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:07] ニジ, a white light in the screen, asks 「……返せた？」 and 真白 answers 「うん。――返せた」; [0:07–0:18] ニジ smiles — the smile 真白 wished she could show herself — and says 「返してくれて、ありがとう」「おまえがくれた時間、ちゃんと生きてきたよ」; [0:18–0:28] THE REVEAL — 真白 says 「……うん」, her voice shaking and not stopping it, as the white light slowly regains the RAINBOW, 虹色, drifting blue → green → blue, the colour 真白 named in episode 3; [0:28–0:30] hold on the regained rainbow, and the shot cuts on the rainbow. The return of colour holds the largest share of the duration. Ends on the rainbow, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:07] ニジ, a white light in the screen, asks 「……返せた？」 and 真白 answers 「うん。――返せた」; [0:07–0:18] ニジ smiles — the smile 真白 wished she could show herself — and says 「返してくれて、ありがとう」「おまえがくれた時間、ちゃんと生きてきたよ」; [0:18–0:28] THE REVEAL — 真白 says 「……うん」, her voice shaking and not stopping it, as the white light slowly regains the RAINBOW, 虹色, drifting blue → green → blue, the colour 真白 named in episode 3; [0:28–0:30] hold on the regained rainbow, and the shot cuts on the rainbow. The return of colour holds the largest share of the duration. Ends on the rainbow, with nothing after it.
 
 ## Visual Prompt
 

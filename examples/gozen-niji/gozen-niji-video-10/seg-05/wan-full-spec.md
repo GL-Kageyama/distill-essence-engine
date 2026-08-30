@@ -480,7 +480,7 @@ Cut on ニジ's almost-faded outline, laughing, the rainbow afterimage trembling
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:07] the screen lights and a three-line reply arrives — ありがとう。 ／ ごめんね、返事、遅れて。ちょっと、びっくりしちゃって。 ／ あのときのこと、ずっと、気にしてた。元気そうで、よかった。; [0:07–0:17] 真白 reads it, once, slowly, and something in her throat comes undone, 無駄じゃ、なかった; [0:17–0:24] held on her face, the release without a sound, ニジ's outline almost gone; [0:24–0:30] ……ニジ — ニジ laughs, へへ。もう、ほとんど空になった, the rainbow afterimage trembling, 残る宛先は、あと、一つ, and the shot cuts on her almost-faded outline. The reading holds the largest share of the duration. Ends on the almost-faded outline, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:07] the screen lights and a three-line reply arrives — ありがとう。 ／ ごめんね、返事、遅れて。ちょっと、びっくりしちゃって。 ／ あのときのこと、ずっと、気にしてた。元気そうで、よかった。; [0:07–0:17] 真白 reads it, once, slowly, and something in her throat comes undone, 無駄じゃ、なかった; [0:17–0:24] held on her face, the release without a sound, ニジ's outline almost gone; [0:24–0:30] ……ニジ — ニジ laughs, へへ。もう、ほとんど空になった, the rainbow afterimage trembling, 残る宛先は、あと、一つ, and the shot cuts on her almost-faded outline. The reading holds the largest share of the duration. Ends on the almost-faded outline, with nothing after it.
 
 ## Visual Prompt
 

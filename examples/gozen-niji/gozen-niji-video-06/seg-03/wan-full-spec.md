@@ -514,7 +514,7 @@ The flowing list stops at the top. 真白's eyes stop on that name. 氷室湊.
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:07] the flowing list stops at the top on a name — 氷室湊 — and 真白 speaks 湊先輩, 知ってるの？, ……見てる; [0:07–0:15] ニジ, inside the screen, grins and teases おまえの、見てるは、――ずっと続いてる、見てるだったよ, and 真白 answers 続いてる、って、分かるの, and ニジ あの人の欄が、――毎日増えるんだもん; [0:15–0:25] THE REVEAL — 真白 asks どれだけ、預けてるの, ニジ says これだけ and places her finger on the screen, and a number appears reading 氷室湊……4時間52分, and the camera closes slowly until the number fills the frame; [0:25–0:30] 真白 says すごい、って、――なんか恥ずかしい, and the shot cuts on the number. The reveal holds the largest share of the duration. Ends on the number, held, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:07] the flowing list stops at the top on a name — 氷室湊 — and 真白 speaks 湊先輩, 知ってるの？, ……見てる; [0:07–0:15] ニジ, inside the screen, grins and teases おまえの、見てるは、――ずっと続いてる、見てるだったよ, and 真白 answers 続いてる、って、分かるの, and ニジ あの人の欄が、――毎日増えるんだもん; [0:15–0:25] THE REVEAL — 真白 asks どれだけ、預けてるの, ニジ says これだけ and places her finger on the screen, and a number appears reading 氷室湊……4時間52分, and the camera closes slowly until the number fills the frame; [0:25–0:30] 真白 says すごい、って、――なんか恥ずかしい, and the shot cuts on the number. The reveal holds the largest share of the duration. Ends on the number, held, with nothing after it.
 
 ## Visual Prompt
 

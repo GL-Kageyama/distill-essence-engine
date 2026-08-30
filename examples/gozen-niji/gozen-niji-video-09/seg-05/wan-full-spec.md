@@ -494,7 +494,7 @@ Night. The screen-time log; 小春's entry is now slightly emptied. 真白, her 
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at night. ニジ is present inside the screen, now clearly thin, and thinning. Beats, deliberately uneven: [0:00–0:05] the screen-time log is open, 小春's entry slightly emptied; [0:05–0:13] 真白, her voice trembling quietly, says ……返せた and ニジ、返せたよ。ほら、空いた and ニジ answers うん。届いたよ; [0:13–0:24] THE THINNING — 真白 notices ニジ's body slightly transparent, the rainbow fading, and ニジ says, calmly, へへ。ちょっと、薄くなった then 返すと、わたし、薄くなるんだよ。だって、わたしは、おまえが返さなかった、時間の塊だから。返した分だけ、還っていくの as her outline thins, clearly, as the record is returned; [0:24–0:30] 真白 starts やめて and swallows it, and the shot cuts on the thinned ニジ. The thinning holds the largest share of the duration. Ends on the thinned ニジ, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at night. ニジ is present inside the screen, now clearly thin, and thinning. Beats, deliberately uneven: [0:00–0:05] the screen-time log is open, 小春's entry slightly emptied; [0:05–0:13] 真白, her voice trembling quietly, says ……返せた and ニジ、返せたよ。ほら、空いた and ニジ answers うん。届いたよ; [0:13–0:24] THE THINNING — 真白 notices ニジ's body slightly transparent, the rainbow fading, and ニジ says, calmly, へへ。ちょっと、薄くなった then 返すと、わたし、薄くなるんだよ。だって、わたしは、おまえが返さなかった、時間の塊だから。返した分だけ、還っていくの as her outline thins, clearly, as the record is returned; [0:24–0:30] 真白 starts やめて and swallows it, and the shot cuts on the thinned ニジ. The thinning holds the largest share of the duration. Ends on the thinned ニジ, with nothing after it.
 
 ## Visual Prompt
 

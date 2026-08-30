@@ -495,7 +495,7 @@ The name 湊 still rests on the screen. 真白 stares at it, unable to move. 4�
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:06] 真白 stares at a name on the screen — 氷室湊 — unable to move, the finger at rest; [0:06–0:15] ニジ, inside the screen, says ……この人、最後に返すと、いいよ, and 真白 answers ……なぜ; [0:15–0:24] ニジ answers だって、おまえ、いちばんたくさん預けてるから。――いちばん返すのが難しくて。――いちばん返したら、――何かが変わるから, and smiles; [0:24–0:30] 真白 does not move, the longing wordless — ――何を。――どうやって — and the shot cuts on the dark. The reason holds the largest share of the duration. Ends on the unanswered question, held, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:06] 真白 stares at a name on the screen — 氷室湊 — unable to move, the finger at rest; [0:06–0:15] ニジ, inside the screen, says ……この人、最後に返すと、いいよ, and 真白 answers ……なぜ; [0:15–0:24] ニジ answers だって、おまえ、いちばんたくさん預けてるから。――いちばん返すのが難しくて。――いちばん返したら、――何かが変わるから, and smiles; [0:24–0:30] 真白 does not move, the longing wordless — ――何を。――どうやって — and the shot cuts on the dark. The reason holds the largest share of the duration. Ends on the unanswered question, held, with nothing after it.
 
 ## Visual Prompt
 

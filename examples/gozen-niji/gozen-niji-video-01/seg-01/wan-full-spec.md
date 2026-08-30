@@ -458,7 +458,7 @@ She closes the screen. The blue rectangle leaves the ceiling; the room goes dark
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 11 P.M. Beats, deliberately uneven: [0:00–0:12] her thumb strokes her phone screen in the futon, over and over, the screen the only light, painting a soft blue rectangle on the dark ceiling; [0:12–0:18] on screen, いいね 23 and three chats read and left unanswered, pinned at the top; [0:18–0:26] her face lit from below, the thumb still moving, she is talking herself out of replying — the finger wants to begin; [0:26–0:30] she closes the screen, the blue rectangle leaves the ceiling, the room goes dark, and the shot cuts on the dark room. The stroke holds the largest share of the duration. Ends on the dark.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 11 P.M. Beats, deliberately uneven: [0:00–0:12] her thumb strokes her phone screen in the futon, over and over, the screen the only light, painting a soft blue rectangle on the dark ceiling; [0:12–0:18] on screen, いいね 23 and three chats read and left unanswered, pinned at the top; [0:18–0:26] her face lit from below, the thumb still moving, she is talking herself out of replying — the finger wants to begin; [0:26–0:30] she closes the screen, the blue rectangle leaves the ceiling, the room goes dark, and the shot cuts on the dark room. The stroke holds the largest share of the duration. Ends on the dark.
 
 ## Visual Prompt
 

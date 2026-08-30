@@ -475,7 +475,7 @@ The repetition, and the shaking finger. In the corner of the screen, ニジ wait
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:06] the short message 元気にしてますか。急にごめんね。 sits in the box, and she stands before the send button; [0:06–0:18] the finger types, erases, types, erases — over and over, the input text appearing and vanishing, the same gesture she knew with 美月, now for あの子; [0:18–0:25] the finger trembles, and ニジ waits in the corner of the screen, her outline almost faded; [0:25–0:30] the last erase is done, the finger stops trembling and settles, ――でも、真白は送った, and the shot cuts on the finger. The typing-and-erasing holds the largest share of the duration. Ends on the finger, resolved — the send itself is not shown. Nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:06] the short message 元気にしてますか。急にごめんね。 sits in the box, and she stands before the send button; [0:06–0:18] the finger types, erases, types, erases — over and over, the input text appearing and vanishing, the same gesture she knew with 美月, now for あの子; [0:18–0:25] the finger trembles, and ニジ waits in the corner of the screen, her outline almost faded; [0:25–0:30] the last erase is done, the finger stops trembling and settles, ――でも、真白は送った, and the shot cuts on the finger. The typing-and-erasing holds the largest share of the duration. Ends on the finger, resolved — the send itself is not shown. Nothing after it.
 
 ## Visual Prompt
 

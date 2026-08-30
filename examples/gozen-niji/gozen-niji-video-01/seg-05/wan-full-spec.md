@@ -457,7 +457,7 @@ Her finger grips the edge of the screen, hard. The clock reaches 2:00. The phone
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at night. Beats, deliberately uneven: [0:00–0:07] she lies awake holding the open screen without stroking it, the screen's glow on her face, waiting; [0:07–0:19] the wall clock's second hand ticks unnaturally loud, her finger grips the edge of the screen, harder, the futon's heat clinging to her skin — a long continuous wait; [0:19–0:24] the second hand reaches 2:00 and the phone lights beside her without any sound, its bloom expanding into the dark; [0:24–0:30] on the screen a line appears — おまえ、いま、起きてるんだろ。 — and her breath stops, and the shot cuts to black on the line. The wait holds the largest share of the duration. Ends on the line and cuts immediately, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at night. Beats, deliberately uneven: [0:00–0:07] she lies awake holding the open screen without stroking it, the screen's glow on her face, waiting; [0:07–0:19] the wall clock's second hand ticks unnaturally loud, her finger grips the edge of the screen, harder, the futon's heat clinging to her skin — a long continuous wait; [0:19–0:24] the second hand reaches 2:00 and the phone lights beside her without any sound, its bloom expanding into the dark; [0:24–0:30] on the screen a line appears — おまえ、いま、起きてるんだろ。 — and her breath stops, and the shot cuts to black on the line. The wait holds the largest share of the duration. Ends on the line and cuts immediately, with nothing after it.
 
 ## Visual Prompt
 

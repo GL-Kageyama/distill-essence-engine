@@ -474,7 +474,7 @@ The cumulative effect: the names on screen growing fewer, the list almost empty,
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:08] the 宛先リスト is open, the phone the only light, and her thumb scrolls down to the bottom of the list; [0:08–0:20] the succession — a short greeting typed and sent, the slot emptying, a name leaving the list, again and again, and with each return ニジ's outline thins a little more; [0:20–0:26] the list is almost empty, ニジ's rainbow afterimage thin and faint in the corner; [0:26–0:30] one name remains at the bottom, her thumb slows and stops short of it, and the shot cuts on the name. The succession holds the largest share of the duration. Ends on the last remaining name — あの子, whose face never appears. Nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:08] the 宛先リスト is open, the phone the only light, and her thumb scrolls down to the bottom of the list; [0:08–0:20] the succession — a short greeting typed and sent, the slot emptying, a name leaving the list, again and again, and with each return ニジ's outline thins a little more; [0:20–0:26] the list is almost empty, ニジ's rainbow afterimage thin and faint in the corner; [0:26–0:30] one name remains at the bottom, her thumb slows and stops short of it, and the shot cuts on the name. The succession holds the largest share of the duration. Ends on the last remaining name — あの子, whose face never appears. Nothing after it.
 
 ## Visual Prompt
 

@@ -485,7 +485,7 @@ Continuing from the naming. 真白 holds the phone, eyes on ニジ in the screen
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at night, holding her phone in both hands. Beats, deliberately uneven: [0:00–0:08] she asks どうしたら、消えるの, and the younger face in the screen corrects her — 消える、じゃなくて、――返してくれたら、帰れるんだよ; [0:08–0:15] she asks 返す？ 何を, and ニジ answers おまえが預けた時間。宛先に、返すの, the rainbow flickering just slightly; [0:15–0:23] THE PEAK — ニジ says でも、おまえ、まだ、返せないんでしょ, 真白 asks ……なぜ、分かるの, and ニジ answers だって、おまえ、いつも、返してないじゃん — and 真白 has nothing to say; [0:23–0:30] ニジ says じゃあね。また、明日, waves, and the rainbow fades slowly — one color left, then gone — leaving 真白's own face reflected in the dark screen, and the shot cuts to black on that reflection. The condition holds the largest share of the duration. Ends on the reflection, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at night, holding her phone in both hands. Beats, deliberately uneven: [0:00–0:08] she asks どうしたら、消えるの, and the younger face in the screen corrects her — 消える、じゃなくて、――返してくれたら、帰れるんだよ; [0:08–0:15] she asks 返す？ 何を, and ニジ answers おまえが預けた時間。宛先に、返すの, the rainbow flickering just slightly; [0:15–0:23] THE PEAK — ニジ says でも、おまえ、まだ、返せないんでしょ, 真白 asks ……なぜ、分かるの, and ニジ answers だって、おまえ、いつも、返してないじゃん — and 真白 has nothing to say; [0:23–0:30] ニジ says じゃあね。また、明日, waves, and the rainbow fades slowly — one color left, then gone — leaving 真白's own face reflected in the dark screen, and the shot cuts to black on that reflection. The condition holds the largest share of the duration. Ends on the reflection, with nothing after it.
 
 ## Visual Prompt
 

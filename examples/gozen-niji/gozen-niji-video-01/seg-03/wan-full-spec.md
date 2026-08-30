@@ -462,7 +462,7 @@ She reads it again, word by word — おまえが／私にくれた時間／私�
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:06] her thumb taps a screen-time record open into the messages app, sent items — one, a single thread at the top; [0:06–0:17] THE REVEAL — the thread opens and the addressee field shows her own name, and below it one sent message reads おまえが私にくれた時間、私が生きてるよ。 and the camera closes slowly until the line fills the frame; [0:17–0:25] THE PEAK — her thumb, which has been moving the whole time, STOPS, and is held motionless, the camera racking focus onto the still hand; [0:25–0:30] she reads the line again, word by word, the meaning not landing, and the shot cuts to black on the line. The reveal holds the largest share of the duration. Ends on the line, held, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:06] her thumb taps a screen-time record open into the messages app, sent items — one, a single thread at the top; [0:06–0:17] THE REVEAL — the thread opens and the addressee field shows her own name, and below it one sent message reads おまえが私にくれた時間、私が生きてるよ。 and the camera closes slowly until the line fills the frame; [0:17–0:25] THE PEAK — her thumb, which has been moving the whole time, STOPS, and is held motionless, the camera racking focus onto the still hand; [0:25–0:30] she reads the line again, word by word, the meaning not landing, and the shot cuts to black on the line. The reveal holds the largest share of the duration. Ends on the line, held, with nothing after it.
 
 ## Visual Prompt
 

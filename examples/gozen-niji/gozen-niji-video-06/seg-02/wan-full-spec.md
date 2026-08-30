@@ -484,7 +484,7 @@ Names forgotten. Names never answered. Names that never answered her. A memory s
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:09] her finger scrolls a list of names, a column flowing upward under the glass, the screen the only light; [0:09–0:17] the passing names surface brief memories — an elementary-school seatmate, a first-year clubmate, a festival-prep classmate — each one surfacing and sinking; [0:17–0:26] 真白 murmurs 全部、預けてたんだ, and ニジ, inside the screen, answers うん。――おまえは、思うより、ずっとたくさんの人に、時間を渡してる; [0:26–0:30] the list keeps flowing, one name slipping past the edge, and the shot cuts on the flowing list. The flow holds the largest share of the duration. Ends on the list, flowing, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:09] her finger scrolls a list of names, a column flowing upward under the glass, the screen the only light; [0:09–0:17] the passing names surface brief memories — an elementary-school seatmate, a first-year clubmate, a festival-prep classmate — each one surfacing and sinking; [0:17–0:26] 真白 murmurs 全部、預けてたんだ, and ニジ, inside the screen, answers うん。――おまえは、思うより、ずっとたくさんの人に、時間を渡してる; [0:26–0:30] the list keeps flowing, one name slipping past the edge, and the shot cuts on the flowing list. The flow holds the largest share of the duration. Ends on the list, flowing, with nothing after it.
 
 ## Visual Prompt
 

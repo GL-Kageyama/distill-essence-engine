@@ -461,7 +461,7 @@ The white light where the rainbow used to be. 真白 does not move; her finger i
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:06] she opens the screen on the last record, addressed to herself; [0:06–0:18] THE REVEAL — on screen, ニジ is there, 真白's own face one step younger, but ALMOST INVISIBLE, her outline dissolving toward the light and her hair drained of colour into WHITE light, the camera closing slowly; [0:18–0:26] her face lit from below, the finger at rest, she just looks; [0:26–0:30] hold on the near-invisible ニジ and the white light, and the shot cuts on the white light. The reveal holds the largest share of the duration. Ends on the white light, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:06] she opens the screen on the last record, addressed to herself; [0:06–0:18] THE REVEAL — on screen, ニジ is there, 真白's own face one step younger, but ALMOST INVISIBLE, her outline dissolving toward the light and her hair drained of colour into WHITE light, the camera closing slowly; [0:18–0:26] her face lit from below, the finger at rest, she just looks; [0:26–0:30] hold on the near-invisible ニジ and the white light, and the shot cuts on the white light. The reveal holds the largest share of the duration. Ends on the white light, with nothing after it.
 
 ## Visual Prompt
 

@@ -460,7 +460,7 @@ The record: 午前2時00分〜午前3時21分 ／ 使用時間　1時間21分 �
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:06] she wakes in the dark, the wall clock reads 2:00, and she rubs her eyes; [0:06–0:11] the phone lights up beside her pillow without any sound, its bloom expanding into the dark; [0:11–0:23] THE REVEAL — the camera closes slowly on a screen-time record reading exactly 午前2時00分〜午前3時21分 ／ 使用時間　1時間21分 ／ アプリ　メッセージ, an hour and twenty-one minutes she was asleep for; [0:23–0:30] her face goes still in the dim light, the record still on screen, and the shot cuts on the record and her face. The reveal holds the largest share of the duration. Ends on the pull, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:06] she wakes in the dark, the wall clock reads 2:00, and she rubs her eyes; [0:06–0:11] the phone lights up beside her pillow without any sound, its bloom expanding into the dark; [0:11–0:23] THE REVEAL — the camera closes slowly on a screen-time record reading exactly 午前2時00分〜午前3時21分 ／ 使用時間　1時間21分 ／ アプリ　メッセージ, an hour and twenty-one minutes she was asleep for; [0:23–0:30] her face goes still in the dim light, the record still on screen, and the shot cuts on the record and her face. The reveal holds the largest share of the duration. Ends on the pull, with nothing after it.
 
 ## Visual Prompt
 

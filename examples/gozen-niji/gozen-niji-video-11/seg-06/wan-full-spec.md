@@ -454,7 +454,7 @@ Cut on the record, held on screen, with nothing after it — the last night-time
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:06] she opens her phone in the dark, the screen the only light; [0:06–0:17] THE TURN — she opens screen time, then the addressee list, and finds the rows all returned, 残る記録は、ひとつだけ, only one record left; [0:17–0:25] the one record fills the frame, reading exactly 午前2時00分〜午前3時21分 ／ 使用時間　1時間21分 ／ アプリ　メッセージ — the first record, the message to herself; [0:25–0:30] her face goes still in the dim light, the record still on screen, and the shot cuts on the record and her face. The single remaining record holds the largest share of the duration. Ends on the record, held, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 2:00 A.M. Beats, deliberately uneven: [0:00–0:06] she opens her phone in the dark, the screen the only light; [0:06–0:17] THE TURN — she opens screen time, then the addressee list, and finds the rows all returned, 残る記録は、ひとつだけ, only one record left; [0:17–0:25] the one record fills the frame, reading exactly 午前2時00分〜午前3時21分 ／ 使用時間　1時間21分 ／ アプリ　メッセージ — the first record, the message to herself; [0:25–0:30] her face goes still in the dim light, the record still on screen, and the shot cuts on the record and her face. The single remaining record holds the largest share of the duration. Ends on the record, held, with nothing after it.
 
 ## Visual Prompt
 

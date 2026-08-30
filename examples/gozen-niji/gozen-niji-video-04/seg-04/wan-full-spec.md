@@ -515,7 +515,7 @@
 
 ## Master Prompt
 
-A 30-second continuous cinematic take (16:9), soft cel anime, of a Japanese high-school girl alone in her dark bedroom at 2:00 A.M., facing ニジ inside the screen of the phone on the desk. Beats, deliberately uneven: [0:00–0:07] 真白 says スマホをやめれば、いいと思ってた, ニジ answers 減らしても、消えないよ, and 真白 asks ……じゃあ、どうすればいいの; [0:07–0:16] ニジ says どうせ — the word 真白 was about to whisper, spoken for her — おまえ、いま、『どうせ、私に返せるわけない』って、思ったでしょ; [0:16–0:25] 真白 is struck (――っ), and ニジ says どうせ、ね。その言葉が、いちばん、あぶないんだよ, smiling slightly sad, a smile 真白 does not know, and だって、預けたんだもの。減らしても、消えない。返すまで、ずっと、残るんだよ; [0:25–0:30] 真白 sits down on the floor, the phone left on the desk above, and the shot cuts on ニジ's slightly sad smile, held in the screen, the rainbow faint in the dark air. The naming holds the largest share of the duration. Ends on ニジ, with nothing after it.
+A 30-second continuous cinematic take (16:9), soft cel anime, of a high-school girl's quiet bedroom at 2:00 A.M., facing ニジ inside the screen of the phone on the desk. Beats, deliberately uneven: [0:00–0:07] 真白 says スマホをやめれば、いいと思ってた, ニジ answers 減らしても、消えないよ, and 真白 asks ……じゃあ、どうすればいいの; [0:07–0:16] ニジ says どうせ — the word 真白 was about to whisper, spoken for her — おまえ、いま、『どうせ、私に返せるわけない』って、思ったでしょ; [0:16–0:25] 真白 is struck (――っ), and ニジ says どうせ、ね。その言葉が、いちばん、あぶないんだよ, smiling slightly sad, a smile 真白 does not know, and だって、預けたんだもの。減らしても、消えない。返すまで、ずっと、残るんだよ; [0:25–0:30] 真白 sits down on the floor, the phone left on the desk above, and the shot cuts on ニジ's slightly sad smile, held in the screen, the rainbow faint in the dark air. The naming holds the largest share of the duration. Ends on ニジ, with nothing after it.
 
 ## Visual Prompt
 
