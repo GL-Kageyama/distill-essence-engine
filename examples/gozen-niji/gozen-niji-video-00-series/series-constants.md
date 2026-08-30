@@ -216,7 +216,7 @@
 
 - **美月**（親友）——第6本初出。明るい。真白の嘘を見抜きかけるが踏み込まない。
 - **小春**（一年・柴崎小春）——第18本初出。教科書を胸に抱え、**お辞儀の角度がほんの少し浅い**。
-- **湊**（二年・氷室湊）——第26本で**すれ違うだけ**（真白を見ない・書類の束）。第47本で初めて言葉を交わす。
+- **湊**（三年・氷室湊）——第26本で**すれ違うだけ**（真白を見ない・書類の束）。第47本で初めて言葉を交わす。
 - **中学の友人**（無名）——第42本。**最後まで顔を出さない**。名前と文字だけの宛先。
 
 ---
@@ -293,9 +293,9 @@
 
 ### Supporting
 
-- `MITSUKI` 美月 — best friend. Bright, direct, physically easy. Appears from seg.06
-- `KOHARU` 小春 — first-year. Holds a textbook to her chest; her bow is slightly too shallow. Appears from seg.18
-- `MINATO` 氷室湊 — second-year, festival committee. Composed, carries document bundles. Glimpsed seg.26, speaks seg.47
+- `MITSUKI` 美月 — best friend. Bright, direct, physically easy; slightly shorter, livelier hair, open upright posture. Appears from seg.06
+- `KOHARU` 小春 — first-year, smaller and rounder, shoulder-length hair. Holds a textbook to her chest; her bow is slightly too shallow. Appears from seg.18
+- `MINATO` 氷室湊 — third-year, festival committee, boys' school uniform. Composed, short neat dark hair, a little taller, carries document bundles. Glimpsed seg.26, speaks seg.47
 
 ---
 
