@@ -112,7 +112,7 @@
 | 随笔漫画 | 叙述（内省） | 第一人称叙述框 | [comic-essay](formats/comic-essay.md) |
 | 纪实漫画 | 叙述（记录） | 事实主导的记录分格（⑧） | [reportage-manga](formats/reportage-manga.md) |
 | 学习漫画 | 说明 | 角色来讲解 | [educational-manga](formats/educational-manga.md) |
-| 集数板 | 叙事（再体验・诱引） | 一页里自我包含的一集——标题区（题名・集数・前置知识・人物・说明）＋带台词与音效的正文格 | [episode-board](formats/episode-board.md) |
+| 集数板 | 叙事（再体验・诱引） | 一页里自我包含的一集——标题区（作品标题・章标题・题名・集数・前置知识・人物・说明）＋带台词与音效的正文格 | [episode-board](formats/episode-board.md) |
 | 视频规格 | 叙述（再体验・吸引） | **输出带有时间**——Wan 3.0 §1–19 对应・不均等节拍・运动／镜头／声音 | [video-spec](formats/video-spec.md) |
 | 角色设定画 | 传达（制作规格） | 所有面向同一身高与视线，不投接地影，信息胜过氛围 | [character-sheet](formats/character-sheet.md) |
 | 角色印象板 | 象征（制作规格） | 候选而非答案——设计锁死前的探索 | [character-board](formats/character-board.md) |
