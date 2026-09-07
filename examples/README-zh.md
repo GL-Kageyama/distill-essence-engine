@@ -151,7 +151,7 @@
 | gozen-niji-location-board | 《凌晨两点的幽灵》 | 地点板 | 柔光赛璐璐 | 制作规格 |
 | gozen-niji-key-pose-board | 《凌晨两点的幽灵》 | 关键帧/动作板 | 柔光赛璐璐 | 制作规格 |
 | gozen-niji-scene-board | 《凌晨两点的幽灵》 | 场景板 | 柔光赛璐璐 | 制作规格 |
-| gozen-niji-episode-board | 《凌晨两点的幽灵》 | 集数板 | 漫画线稿 | 再体验 |
+| gozen-niji-episode-board | 《凌晨两点的幽灵》 | 集数板 | 柔光赛璐璐 | 再体验 |
 | melos-luminous-anime | 奔跑吧梅勒斯 | 印象板（concept-board） | 光感写实动画 | 制作规格 |
 | design-format-app-screen | distill-essence-engine 品牌（品牌简报） | 应用界面 | 瑞士国际主义排版 | 设计 |
 | design-format-landing-page | distill-essence-engine 品牌（品牌简报） | 落地页 | 瑞士国际主义排版 | 设计 |

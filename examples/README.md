@@ -152,7 +152,7 @@
 | gozen-niji-location-board | "After Two in the Morning" | Location board | Soft cel anime | Production reference |
 | gozen-niji-key-pose-board | "After Two in the Morning" | Key pose / action board | Soft cel anime | Production reference |
 | gozen-niji-scene-board | "After Two in the Morning" | Scene board | Soft cel anime | Production reference |
-| gozen-niji-episode-board | "After Two in the Morning" | Episode board | Manga ink lineart | Re-experience |
+| gozen-niji-episode-board | "After Two in the Morning" | Episode board | Soft cel anime | Re-experience |
 | melos-luminous-anime | Run, Melos! | Concept board | Luminous realist anime | Production reference |
 | youtube-technological-republic-mechanism | YouTube: Azuma on Palantir's "Technological Republic" | Conceptual illustration | Mechanism work | Understanding |
 | design-format-app-screen | The distill-essence-engine brand (brand brief) | App screen | Swiss / International Typographic | Design |

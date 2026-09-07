@@ -151,7 +151,7 @@
 | gozen-niji-location-board | 『午前二時の幽霊』 | ロケーションボード | 柔らかいセル画調 | 制作仕様 |
 | gozen-niji-key-pose-board | 『午前二時の幽霊』 | キーポーズ/アクションボード | 柔らかいセル画調 | 制作仕様 |
 | gozen-niji-scene-board | 『午前二時の幽霊』 | シーンボード | 柔らかいセル画調 | 制作仕様 |
-| gozen-niji-episode-board | 『午前二時の幽霊』 | エピソードボード | マンガ線画 | 再体験 |
+| gozen-niji-episode-board | 『午前二時の幽霊』 | エピソードボード | 柔らかいセル画調 | 再体験 |
 | melos-luminous-anime | 走れメロス | イメージボード（concept-board） | 光の写実アニメ | 制作仕様 |
 | design-format-app-screen | distill-essence-engine ブランド（ブランドブリーフ） | アプリ画面 | スイス・インターナショナルタイポグラフィ | デザイン |
 | design-format-landing-page | distill-essence-engine ブランド（ブランドブリーフ） | ランディングページ | スイス・インターナショナルタイポグラフィ | デザイン |
