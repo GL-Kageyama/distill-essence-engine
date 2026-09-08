@@ -34,7 +34,7 @@ the art board, the figures filling the space the art board left open. One scene,
 ```
 
 ## Examples
-- Ghost of 2 A.M. → episode 3, the naming (gozen-niji-scene-board) — 真白 on the futon naming the ghost, ニジ's rainbow outline resolving into a face one step younger than her own, inside the screen — the first moment the disclosure ledger allows her a face
+- At Two in the Morning, Whose Time Are You Living? → episode 3, the naming (gozen-niji-scene-board) — 真白 on the futon naming the ghost, ニジ's rainbow outline resolving into a face one step younger than her own, inside the screen — the first moment the disclosure ledger allows her a face
 
 ## Sources
 Anime pre-production practice (the scene layout — the master staging fixed before a scene's cuts are drawn). Defined against [art-board](art-board.md) (the empty place), [concept-board](concept-board.md) (the whole arc's air) and [storyboard](storyboard.md) (the shot sequence): the scene board is the single staging standard for one specific event.

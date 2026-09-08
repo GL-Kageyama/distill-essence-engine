@@ -34,7 +34,7 @@ the art board, the figures filling the space the art board left open. One scene,
 ```
 
 ## 例
-- 午前二時の幽霊 → 第3話・命名（gozen-niji-scene-board）——布団の上の真白が幽霊に名前をつける。ニジの虹色の輪郭が、画面の中で、真白自身より一歩幼い顔へと結像する——開示台帳が彼女に顔を許した最初の瞬間
+- 午前二時に、あなたは誰の時間を生きていますか → 第3話・命名（gozen-niji-scene-board）——布団の上の真白が幽霊に名前をつける。ニジの虹色の輪郭が、画面の中で、真白自身より一歩幼い顔へと結像する——開示台帳が彼女に顔を許した最初の瞬間
 
 ## 出所
 アニメのプリプロダクション実務（シーンレイアウト——場面のカットが描かれる前に固定するマスター・ステージング）。[art-board](art-board.md)（人物不在の場所）、[concept-board](concept-board.md)（全弧の空気）、[storyboard](storyboard.md)（カットの連鎖）に対して定義した：シーンボードは特定の一つの出来事のための、単一のステージング基準である。

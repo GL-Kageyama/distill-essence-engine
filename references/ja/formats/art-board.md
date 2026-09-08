@@ -35,7 +35,7 @@ location, one state, no figures.
 ```
 
 ## 例
-- 午前二時の幽霊 → 真白の部屋・午前二時（gozen-niji-art-board）——伏せずに置かれた画面が部屋の唯一の光源となり、その縁を壁へ斜めに投げ上げる
+- 午前二時に、あなたは誰の時間を生きていますか → 真白の部屋・午前二時（gozen-niji-art-board）——伏せずに置かれた画面が部屋の唯一の光源となり、その縁を壁へ斜めに投げ上げる
 
 ## 出所
 アニメのプリプロダクション実務（場所の色・光・質感を固定する美術ボード）。[concept-board](concept-board.md) と対をなす——「世界の空気」／「一場所の基準」。**註**：アニメ美術背景の専用様式カードは意図的に追加していない——人物不在・単一の光の状態・再利用できるアングルはフォーマットカードが持つので、絵画的な様式（[watercolor](../styles/watercolor.md) ／ [gouache-abstract](../styles/gouache-abstract.md) ／ [luminous-anime](../styles/luminous-anime.md)）ならどれでも様式軸を埋められる。

@@ -1,6 +1,6 @@
-# 午前二時の幽霊 → キーポーズ/アクションボード
+# 午前二時に、あなたは誰の時間を生きていますか → キーポーズ/アクションボード
 
-- 入力: [gozen-niji-video-00-series/series-constants.md](../gozen-niji-video-00-series/series-constants.md)（『午前二時の幽霊』シリーズ定数）
+- 入力: [gozen-niji-video-00-series/series-constants.md](../gozen-niji-video-00-series/series-constants.md)（『午前二時に、あなたは誰の時間を生きていますか』シリーズ定数）
 - format: キーポーズ/アクションボード（key-pose-board・**新カード**・伝達＝制作仕様）
 - style: ソフトセルアニメ（soft-cel-anime・検証済み）
 

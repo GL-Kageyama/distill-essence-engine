@@ -1,6 +1,6 @@
-# 午前二時の幽霊 → イメージボード（アニメ美術）
+# 午前二時に、あなたは誰の時間を生きていますか → イメージボード（アニメ美術）
 
-- 入力: [gozen-niji-video-00-series/series-constants.md](../gozen-niji-video-00-series/series-constants.md)（『午前二時の幽霊』シリーズ定数）
+- 入力: [gozen-niji-video-00-series/series-constants.md](../gozen-niji-video-00-series/series-constants.md)（『午前二時に、あなたは誰の時間を生きていますか』シリーズ定数）
 - format: イメージボード（concept-board・**新カード**・象徴＝制作仕様）
 - style: ソフトセルアニメ（soft-cel-anime・検証済み）
 
@@ -24,4 +24,4 @@
 
 ## 合成プロンプト（Merged）
 
-A concept board for the world of Ghost of 2 A.M. — one single undivided painted image fixing the air of the whole story: the only light in the frame is a phone screen lying face-up on a quilt at two in the morning, its glow raking low across the folds, deep atmospheric perspective layered from the near quilt through the lit screen to the dark depth of the room and a faint window beyond. A faint rainbow bleeds from inside the glass a little way into the dark air — a seep and an afterimage, never a ray, never particles, never an aura. The only human presence is the rise of the quilt and the back of a hand falling outside the light; no face, no figure as subject. Clean closed thin lineart, flat cel planes shaded in two steps with soft-edged terminators, gentle bloom around the screen, light haze in the air, a muted low-saturation palette with few colors, generous negative space. The emotional temperature of the entire arc held in one frame — not a plot event, not a panel layout, not an establishing shot. Not photorealistic, no 3D render, no glossy webtoon gloss, no heavy gradient, no painterly brush strokes, no busy detail.
+A concept board for the world of At Two in the Morning, Whose Time Are You Living? — one single undivided painted image fixing the air of the whole story: the only light in the frame is a phone screen lying face-up on a quilt at two in the morning, its glow raking low across the folds, deep atmospheric perspective layered from the near quilt through the lit screen to the dark depth of the room and a faint window beyond. A faint rainbow bleeds from inside the glass a little way into the dark air — a seep and an afterimage, never a ray, never particles, never an aura. The only human presence is the rise of the quilt and the back of a hand falling outside the light; no face, no figure as subject. Clean closed thin lineart, flat cel planes shaded in two steps with soft-edged terminators, gentle bloom around the screen, light haze in the air, a muted low-saturation palette with few colors, generous negative space. The emotional temperature of the entire arc held in one frame — not a plot event, not a panel layout, not an establishing shot. Not photorealistic, no 3D render, no glossy webtoon gloss, no heavy gradient, no painterly brush strokes, no busy detail.

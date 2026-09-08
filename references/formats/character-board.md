@@ -39,7 +39,7 @@ question, not a finished sheet.
 ```
 
 ## Examples
-- Ghost of 2 A.M. → Niji exploration board (gozen-niji-character-board) — the key pose sitting on the screen's edge, the candidates asking how young "one step younger than Mashiro" should read
+- At Two in the Morning, Whose Time Are You Living? → Niji exploration board (gozen-niji-character-board) — the key pose sitting on the screen's edge, the candidates asking how young "one step younger than Mashiro" should read
 
 ## Sources
 Anime and game pre-production practice (character concept exploration). Deliberately defined against [character-sheet](character-sheet.md) — the sheet fixes, the board explores — and against [imageboard](imageboard.md), whose panels are motifs of a story rather than candidates for one person.

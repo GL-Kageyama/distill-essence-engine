@@ -34,7 +34,7 @@ not the animation itself. The same {SUBJECT} recognizable in every pose.
 ```
 
 ## 示例
-- 深夜两点之灵 → 真白的手（gozen-niji-key-pose-board）——贯穿全系列的手指词汇：抚摸中途停住的拇指、第一次按下发送的指、在被窝里握紧、指缝间漏出光的手、最后用自己手指打出同一句话——周围的身体始终不动
+- 凌晨两点、你在活着谁的时间 → 真白的手（gozen-niji-key-pose-board）——贯穿全系列的手指词汇：抚摸中途停住的拇指、第一次按下发送的指、在被窝里握紧、指缝间漏出光的手、最后用自己手指打出同一句话——周围的身体始终不动
 
 ## 出处
 动画前期制作实务（关键动画——中割会画在其间的原画极端）。对 [character-sheet](character-sheet.md)（同一性）与 [storyboard](storyboard.md)（叙事的连续）刻意定义：关键帧板是一个主体的动作词汇，为将要复现它的原画师而画。

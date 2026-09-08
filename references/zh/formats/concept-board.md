@@ -35,7 +35,7 @@ layout, not an establishing shot.
 ```
 
 ## 示例
-- 深夜两点之灵 → 凌晨两点的世界（gozen-niji-concept-board）——只有屏幕光亮着的暗房间，虹色从玻璃内侧微微渗进暗空气
+- 凌晨两点、你在活着谁的时间 → 凌晨两点的世界（gozen-niji-concept-board）——只有屏幕光亮着的暗房间，虹色从玻璃内侧微微渗进暗空气
 - 奔跑吧梅勒斯 → 全弧的气（melos-luminous-anime）——沦为期限的低斜阳，跑过的人扬起的尘埃还悬在光带里。同一个格式用在彩度相反的极端
 
 ## 出处

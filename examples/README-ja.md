@@ -144,14 +144,14 @@
 | distill-lab-notebook | 蒸留エンジン（概念） | 概念図 | 実験ノート | 伝達 |
 | ai-cliff-mechanism-work | 企業AI活用の失敗（動画） | 概念図 | 機構・働きの図 | 伝達 |
 | gozen-niji-video-01〜12 | ライトノベル全12話『午前二時に、あなたは誰の時間を生きていますか』——各話30秒1本、不変部は `-00-series` | 動画仕様 | 柔らかいセル画調 | 再体験 |
-| gozen-niji-character-sheet | 『午前二時の幽霊』 | キャラクター設定画 | セルシェード | 制作仕様 |
-| gozen-niji-character-board | 『午前二時の幽霊』 | キャラクター イメージボード | 柔らかいセル画調 | 制作仕様 |
-| gozen-niji-concept-board | 『午前二時の幽霊』 | イメージボード（concept-board） | 柔らかいセル画調 | 制作仕様 |
-| gozen-niji-art-board | 『午前二時の幽霊』 | 美術ボード | 柔らかいセル画調 | 制作仕様 |
-| gozen-niji-location-board | 『午前二時の幽霊』 | ロケーションボード | 柔らかいセル画調 | 制作仕様 |
-| gozen-niji-key-pose-board | 『午前二時の幽霊』 | キーポーズ/アクションボード | 柔らかいセル画調 | 制作仕様 |
-| gozen-niji-scene-board | 『午前二時の幽霊』 | シーンボード | 柔らかいセル画調 | 制作仕様 |
-| gozen-niji-episode-board | 『午前二時の幽霊』 | エピソードボード | 柔らかいセル画調 | 再体験 |
+| gozen-niji-character-sheet | 『午前二時に、あなたは誰の時間を生きていますか』 | キャラクター設定画 | セルシェード | 制作仕様 |
+| gozen-niji-character-board | 『午前二時に、あなたは誰の時間を生きていますか』 | キャラクター イメージボード | 柔らかいセル画調 | 制作仕様 |
+| gozen-niji-concept-board | 『午前二時に、あなたは誰の時間を生きていますか』 | イメージボード（concept-board） | 柔らかいセル画調 | 制作仕様 |
+| gozen-niji-art-board | 『午前二時に、あなたは誰の時間を生きていますか』 | 美術ボード | 柔らかいセル画調 | 制作仕様 |
+| gozen-niji-location-board | 『午前二時に、あなたは誰の時間を生きていますか』 | ロケーションボード | 柔らかいセル画調 | 制作仕様 |
+| gozen-niji-key-pose-board | 『午前二時に、あなたは誰の時間を生きていますか』 | キーポーズ/アクションボード | 柔らかいセル画調 | 制作仕様 |
+| gozen-niji-scene-board | 『午前二時に、あなたは誰の時間を生きていますか』 | シーンボード | 柔らかいセル画調 | 制作仕様 |
+| gozen-niji-episode-board | 『午前二時に、あなたは誰の時間を生きていますか』 | エピソードボード | 柔らかいセル画調 | 再体験 |
 | melos-luminous-anime | 走れメロス | イメージボード（concept-board） | 光の写実アニメ | 制作仕様 |
 | design-format-app-screen | distill-essence-engine ブランド（ブランドブリーフ） | アプリ画面 | スイス・インターナショナルタイポグラフィ | デザイン |
 | design-format-landing-page | distill-essence-engine ブランド（ブランドブリーフ） | ランディングページ | スイス・インターナショナルタイポグラフィ | デザイン |

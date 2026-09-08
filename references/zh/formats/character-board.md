@@ -39,7 +39,7 @@ question, not a finished sheet.
 ```
 
 ## 示例
-- 深夜两点之灵 → 虹的探索板（gozen-niji-character-board）——关键姿势是坐在屏幕光下缘的身影，候选在问「比真白小一岁」该读成多么小
+- 凌晨两点、你在活着谁的时间 → 虹的探索板（gozen-niji-character-board）——关键姿势是坐在屏幕光下缘的身影，候选在问「比真白小一岁」该读成多么小
 
 ## 出处
 动画・游戏的前期制作实务（角色的构思探索）。作为 [character-sheet](character-sheet.md) 的对照而定义——设定画负责锁定，板子负责探索。也区别于 [imageboard](imageboard.md)，那边的面板是故事的母题，而不是同一个人的候选。

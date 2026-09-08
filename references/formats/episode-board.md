@@ -47,7 +47,7 @@ One page, one episode.
 ```
 
 ## Examples
-- After Two in the Morning → episode 3, the naming (gozen-niji-episode-board) — 真白 names the ghost ニジ; the header carries the work title 午前二時の幽霊, the episode title 午前二時の幽霊の名前, the counter 第3話/全12話 (no chapter — the work has none), the cast (真白・ニジ・美月) and the prerequisite knowledge from episodes 1–2; the enlarged panel is the moment the rainbow resolves into a face
+- At Two in the Morning, Whose Time Are You Living? → episode 3, the naming (gozen-niji-episode-board) — 真白 names the ghost ニジ; the header carries the work title 午前二時に、あなたは誰の時間を生きていますか, the episode title 午前二時の幽霊の名前, the counter 第3話/全12話 (no chapter — the work has none), the cast (真白・ニジ・美月) and the prerequisite knowledge from episodes 1–2; the enlarged panel is the moment the rainbow resolves into a face
 
 ## Sources
 Manga page practice, extended with the jump-in furniture of a serialized story's recap page (work title, chapter title, episode title, episode counter, prerequisite knowledge, cast). Defined against [manga](manga.md) (the whole arc), [scene-board](scene-board.md) (one scene's staging, no text) and [storyboard](storyboard.md) (a labeled shot list): the episode board is one self-contained episode on one page.

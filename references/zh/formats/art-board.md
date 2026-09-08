@@ -35,7 +35,7 @@ location, one state, no figures.
 ```
 
 ## 示例
-- 深夜两点之灵 → 真白的卧室・凌晨两点（gozen-niji-art-board）——面朝上放着的屏幕是房间唯一的光源，把光沿床单边缘斜投到墙上
+- 凌晨两点、你在活着谁的时间 → 真白的卧室・凌晨两点（gozen-niji-art-board）——面朝上放着的屏幕是房间唯一的光源，把光沿床单边缘斜投到墙上
 
 ## 出处
 动画前期制作实务（固定一个地点的颜色・光・质感的背景板）。与 [concept-board](concept-board.md) 构成一对——「世界的气」／「一个地方的标准」。**注**：刻意没有新增绘景背景的专用样式卡——人物缺席・单一光照状态・可复用的角度由格式卡承担，所以凡是绘画性的样式（[watercolor](../styles/watercolor.md) ／ [gouache-abstract](../styles/gouache-abstract.md) ／ [luminous-anime](../styles/luminous-anime.md)）都能填样式轴。

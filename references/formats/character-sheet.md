@@ -38,7 +38,7 @@ illustration.
 ```
 
 ## Examples
-- Ghost of 2 A.M. → Mashiro and Niji model sheet (gozen-niji-character-sheet) — Niji is Mashiro's own face one step younger, so the sheet's job is the *difference*: longer lashes, a slightly fuller cheek, the same tilt of the neck
+- At Two in the Morning, Whose Time Are You Living? → Mashiro and Niji model sheet (gozen-niji-character-sheet) — Niji is Mashiro's own face one step younger, so the sheet's job is the *difference*: longer lashes, a slightly fuller cheek, the same tilt of the neck
 
 ## Sources
 Anime and game pre-production practice (character settei). Inherits "the same ground line and character height in every cell" from [sprite](sprite.md) and "the same character, costume and lighting across all panels" from [storyboard](storyboard.md), moved onto a sheet with no time axis. **Note**: a dedicated settei-lineart style card was deliberately not added — the format card carries the plain ground, the shared guide line and the annotations, so any clean-lined style ([cel-shade](../styles/cel-shade.md) ／ [line-art](../styles/line-art.md) ／ [manga-ink](../styles/manga-ink.md)) fills the style axis without breaking the sheet.

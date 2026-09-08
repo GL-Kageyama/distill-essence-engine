@@ -35,7 +35,7 @@ not one mood: the map of where the story happens.
 ```
 
 ## Examples
-- Ghost of 2 A.M. → the story's places (gozen-niji-location-board) — the 2 A.M. bedroom as the large recurring stage, the school's classroom · corridor · entrance as the daytime shore, the festival yard at the edge of the grounds
+- At Two in the Morning, Whose Time Are You Living? → the story's places (gozen-niji-location-board) — the 2 A.M. bedroom as the large recurring stage, the school's classroom · corridor · entrance as the daytime shore, the festival yard at the edge of the grounds
 
 ## Sources
 Anime and game pre-production practice (location design — the set map that places every scene before layout). Deliberately defined against [art-board](art-board.md) (one place's standard) and [concept-board](concept-board.md) (the whole arc's air): the location board is the third axis of the world's boards — where everything happens, and how the places relate.

@@ -144,14 +144,14 @@
 | distill-lab-notebook | 蒸馏引擎（概念） | 概念图 | 实验笔记 | 传达 |
 | ai-cliff-mechanism-work | 企业AI失败的教训（视频） | 概念图 | 机构・做功图 | 传达 |
 | gozen-niji-video-01〜12 | 轻小说全12话《凌晨两点、你在活着谁的时间》——每话一条30秒规格，不变部分见 `-00-series` | 视频规格 | 柔光赛璐璐 | 再体验 |
-| gozen-niji-character-sheet | 《凌晨两点的幽灵》 | 角色设定画 | 赛璐璐 | 制作规格 |
-| gozen-niji-character-board | 《凌晨两点的幽灵》 | 角色印象板 | 柔光赛璐璐 | 制作规格 |
-| gozen-niji-concept-board | 《凌晨两点的幽灵》 | 印象板（concept-board） | 柔光赛璐璐 | 制作规格 |
-| gozen-niji-art-board | 《凌晨两点的幽灵》 | 美术板 | 柔光赛璐璐 | 制作规格 |
-| gozen-niji-location-board | 《凌晨两点的幽灵》 | 地点板 | 柔光赛璐璐 | 制作规格 |
-| gozen-niji-key-pose-board | 《凌晨两点的幽灵》 | 关键帧/动作板 | 柔光赛璐璐 | 制作规格 |
-| gozen-niji-scene-board | 《凌晨两点的幽灵》 | 场景板 | 柔光赛璐璐 | 制作规格 |
-| gozen-niji-episode-board | 《凌晨两点的幽灵》 | 集数板 | 柔光赛璐璐 | 再体验 |
+| gozen-niji-character-sheet | 《凌晨两点、你在活着谁的时间》 | 角色设定画 | 赛璐璐 | 制作规格 |
+| gozen-niji-character-board | 《凌晨两点、你在活着谁的时间》 | 角色印象板 | 柔光赛璐璐 | 制作规格 |
+| gozen-niji-concept-board | 《凌晨两点、你在活着谁的时间》 | 印象板（concept-board） | 柔光赛璐璐 | 制作规格 |
+| gozen-niji-art-board | 《凌晨两点、你在活着谁的时间》 | 美术板 | 柔光赛璐璐 | 制作规格 |
+| gozen-niji-location-board | 《凌晨两点、你在活着谁的时间》 | 地点板 | 柔光赛璐璐 | 制作规格 |
+| gozen-niji-key-pose-board | 《凌晨两点、你在活着谁的时间》 | 关键帧/动作板 | 柔光赛璐璐 | 制作规格 |
+| gozen-niji-scene-board | 《凌晨两点、你在活着谁的时间》 | 场景板 | 柔光赛璐璐 | 制作规格 |
+| gozen-niji-episode-board | 《凌晨两点、你在活着谁的时间》 | 集数板 | 柔光赛璐璐 | 再体验 |
 | melos-luminous-anime | 奔跑吧梅勒斯 | 印象板（concept-board） | 光感写实动画 | 制作规格 |
 | design-format-app-screen | distill-essence-engine 品牌（品牌简报） | 应用界面 | 瑞士国际主义排版 | 设计 |
 | design-format-landing-page | distill-essence-engine 品牌（品牌简报） | 落地页 | 瑞士国际主义排版 | 设计 |

@@ -34,7 +34,7 @@ not the animation itself. The same {SUBJECT} recognizable in every pose.
 ```
 
 ## Examples
-- Ghost of 2 A.M. → 真白's hand (gozen-niji-key-pose-board) — the finger's vocabulary across the series: the thumb stopping mid-stroke, pressing send for the first time, the clench in the futon with light between the fingers, typing the same sentence at the end — the body still around it
+- At Two in the Morning, Whose Time Are You Living? → 真白's hand (gozen-niji-key-pose-board) — the finger's vocabulary across the series: the thumb stopping mid-stroke, pressing send for the first time, the clench in the futon with light between the fingers, typing the same sentence at the end — the body still around it
 
 ## Sources
 Anime pre-production practice (key animation — the genga extremes that in-betweens are drawn between). Deliberately defined against [character-sheet](character-sheet.md) (identity) and [storyboard](storyboard.md) (narrative sequence): the key pose board is the movement vocabulary of one subject, drawn for the animators who will reproduce it.

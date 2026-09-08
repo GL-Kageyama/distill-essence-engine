@@ -1,4 +1,4 @@
-# 午前二時の幽霊 → キャラクター設定画（真白・夜／寝間着）
+# 午前二時に、あなたは誰の時間を生きていますか → キャラクター設定画（真白・夜／寝間着）
 
 - 入力: `soul-voice-teller/examples/gozen-niji/`（design.md・series-bible.md・draft.md）
 - format: キャラクター設定画（character-sheet・0.1.28 新カード・伝達＝制作仕様）

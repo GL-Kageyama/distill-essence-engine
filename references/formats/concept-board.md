@@ -35,7 +35,7 @@ layout, not an establishing shot.
 ```
 
 ## Examples
-- Ghost of 2 A.M. → the world at 2 a.m. (gozen-niji-concept-board) — a dark room where a phone screen is the only light source, the rainbow bleeding faintly past the glass into the air
+- At Two in the Morning, Whose Time Are You Living? → the world at 2 a.m. (gozen-niji-concept-board) — a dark room where a phone screen is the only light source, the rainbow bleeding faintly past the glass into the air
 - Run, Melos! → the air of the whole arc (melos-luminous-anime) — a low sun that has become the deadline, dust still hanging in the light where a runner passed; the same format at the opposite end of the palette
 
 ## Sources

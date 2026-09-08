@@ -35,7 +35,7 @@ location, one state, no figures.
 ```
 
 ## Examples
-- Ghost of 2 A.M. → Mashiro's bedroom at 2 a.m. (gozen-niji-art-board) — the phone screen face-up on the quilt as the room's only light source, throwing its edge upward across the wall
+- At Two in the Morning, Whose Time Are You Living? → Mashiro's bedroom at 2 a.m. (gozen-niji-art-board) — the phone screen face-up on the quilt as the room's only light source, throwing its edge upward across the wall
 
 ## Sources
 Anime pre-production practice (the background art board that fixes color, light and texture for a location). Sits beside [concept-board](concept-board.md) as the pair "the air of the world" ／ "the standard for one place". **Note**: a dedicated painted-background style card was deliberately not added — the format card carries the emptiness, the single light state and the reusable angle, so any painterly style ([watercolor](../styles/watercolor.md) ／ [gouache-abstract](../styles/gouache-abstract.md) ／ [luminous-anime](../styles/luminous-anime.md)) fills the style axis.

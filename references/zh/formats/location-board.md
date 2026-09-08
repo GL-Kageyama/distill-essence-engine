@@ -35,7 +35,7 @@ not one mood: the map of where the story happens.
 ```
 
 ## 示例
-- 深夜两点之灵 → 故事的地点们（gozen-niji-location-board）——作为大主舞台的凌晨两点卧室，作为白昼之岸的学校（教室・走廊・鞋柜门厅），校园边缘的文化祭会场
+- 凌晨两点、你在活着谁的时间 → 故事的地点们（gozen-niji-location-board）——作为大主舞台的凌晨两点卧室，作为白昼之岸的学校（教室・走廊・鞋柜门厅），校园边缘的文化祭会场
 
 ## 出处
 动画・游戏前期制作实务（地点设计——在分镜之前把每一场戏都安置好的场景地图）。对 [art-board](art-board.md)（一个地点的基准）与 [concept-board](concept-board.md)（全弧的气）刻意定义：地点板是世界各板的第三根轴——一切在哪里发生，以及地点与地点如何相关。

@@ -1,4 +1,4 @@
-# Wan 3.0 Full Specification — 午前二時の幽霊 第10話 S42「あの子」/ 30s
+# Wan 3.0 Full Specification — 午前二時に、あなたは誰の時間を生きていますか 第10話 S42「あの子」/ 30s
 
 > 貼り付け用の**自己完結したフル仕様（§1–§20）**。§1–6・§15・§17・Negative（共通不変部）は [series-constants](../../gozen-niji-video-00-series/series-constants.md) から、§7–20 は [wan-spec.md](wan-spec.md) から、この1本に**そのまま貼れる形**へ統合したもの。
 > 設計ノート（§0 対応表・§0.5 画面文字一覧・指の所作・ニジ開示台帳・「転」）は含まない。WAN 3.0 へ渡すのはこのファイルだけでよい。

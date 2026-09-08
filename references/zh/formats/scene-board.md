@@ -34,7 +34,7 @@ the art board, the figures filling the space the art board left open. One scene,
 ```
 
 ## 示例
-- 深夜两点之灵 → 第3集・命名（gozen-niji-scene-board）——被窝上的真白给幽灵取名。虹色的轮廓在屏幕里、结像成比她自己小一岁的脸——这是披露台账第一次允许她有一张脸。
+- 凌晨两点、你在活着谁的时间 → 第3集・命名（gozen-niji-scene-board）——被窝上的真白给幽灵取名。虹色的轮廓在屏幕里、结像成比她自己小一岁的脸——这是披露台账第一次允许她有一张脸。
 
 ## 出处
 动画前期制作实务（场景分镜前定下的主走位）。对 [art-board](art-board.md)（无人的地点）、[concept-board](concept-board.md)（全弧的气）、[storyboard](storyboard.md)（镜头连缀）而定义：场景板是特定一个事件的、单一的走位标准。

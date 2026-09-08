@@ -57,7 +57,7 @@
 | melos-icon | Run, Melos! | Icon | Pixel art | Attraction |
 | melos-manga | Run, Melos! | Manga | Manga ink lineart | Record |
 | melos-illustration | Run, Melos! | Illustration | Stained glass | Decoration |
-| gozen-niji-cover | 12-episode light novel "After Two in the Morning" | Cover | Watercolor | Attraction |
+| gozen-niji-cover | 12-episode light novel "At Two in the Morning, Whose Time Are You Living?" | Cover | Watercolor | Attraction |
 | attention-infographic | Attention paper | Infographic | Bauhaus-style vector | Communication |
 | attention-thumbnail | Attention paper | Thumbnail | Bauhaus-style vector | Attraction |
 | attention-diagram | Attention paper | Diagram | Isometric | Understanding |
@@ -144,15 +144,15 @@
 | distill-geometric-construction | The distill engine (concept) | Conceptual illustration | Geometric construction | Communication |
 | distill-lab-notebook | The distill engine (concept) | Conceptual illustration | Lab notebook | Communication |
 | ai-cliff-mechanism-work | YouTube: why enterprise AI fails | Conceptual illustration | Mechanism work | Communication |
-| gozen-niji-video-01〜12 | 12-episode light novel "After Two in the Morning" — one 30s spec per episode, plus `-00-series` for the shared invariants | Video specification | Soft cel anime | Re-experience |
-| gozen-niji-character-sheet | "After Two in the Morning" | Character model sheet | Cel-shade anime | Production reference |
-| gozen-niji-character-board | "After Two in the Morning" | Character image board | Soft cel anime | Production reference |
-| gozen-niji-concept-board | "After Two in the Morning" | Concept board | Soft cel anime | Production reference |
-| gozen-niji-art-board | "After Two in the Morning" | Art board | Soft cel anime | Production reference |
-| gozen-niji-location-board | "After Two in the Morning" | Location board | Soft cel anime | Production reference |
-| gozen-niji-key-pose-board | "After Two in the Morning" | Key pose / action board | Soft cel anime | Production reference |
-| gozen-niji-scene-board | "After Two in the Morning" | Scene board | Soft cel anime | Production reference |
-| gozen-niji-episode-board | "After Two in the Morning" | Episode board | Soft cel anime | Re-experience |
+| gozen-niji-video-01〜12 | 12-episode light novel "At Two in the Morning, Whose Time Are You Living?" — one 30s spec per episode, plus `-00-series` for the shared invariants | Video specification | Soft cel anime | Re-experience |
+| gozen-niji-character-sheet | "At Two in the Morning, Whose Time Are You Living?" | Character model sheet | Cel-shade anime | Production reference |
+| gozen-niji-character-board | "At Two in the Morning, Whose Time Are You Living?" | Character image board | Soft cel anime | Production reference |
+| gozen-niji-concept-board | "At Two in the Morning, Whose Time Are You Living?" | Concept board | Soft cel anime | Production reference |
+| gozen-niji-art-board | "At Two in the Morning, Whose Time Are You Living?" | Art board | Soft cel anime | Production reference |
+| gozen-niji-location-board | "At Two in the Morning, Whose Time Are You Living?" | Location board | Soft cel anime | Production reference |
+| gozen-niji-key-pose-board | "At Two in the Morning, Whose Time Are You Living?" | Key pose / action board | Soft cel anime | Production reference |
+| gozen-niji-scene-board | "At Two in the Morning, Whose Time Are You Living?" | Scene board | Soft cel anime | Production reference |
+| gozen-niji-episode-board | "At Two in the Morning, Whose Time Are You Living?" | Episode board | Soft cel anime | Re-experience |
 | melos-luminous-anime | Run, Melos! | Concept board | Luminous realist anime | Production reference |
 | youtube-technological-republic-mechanism | YouTube: Azuma on Palantir's "Technological Republic" | Conceptual illustration | Mechanism work | Understanding |
 | design-format-app-screen | The distill-essence-engine brand (brand brief) | App screen | Swiss / International Typographic | Design |
