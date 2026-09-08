@@ -1,4 +1,4 @@
-# 午前二時の幽霊 → エピソードボード（第3話）
+# 午前二時に、あなたは誰の時間を生きていますか → エピソードボード（第3話）
 
 - 入力: 原作 = `soul-voice-teller/examples/gozen-niji/草稿/draft_03_午前二時の幽霊の名前.md` ＋ `台帳/series-bible.md`（世界観・人物・⑧）。⑧開示台帳・画面文字は [gozen-niji-video-00-series/series-constants.md](../../gozen-niji-video-00-series/series-constants.md) を参照。
 - format: エピソードボード（episode-board・ナラティブ＝再体験／誘引）
@@ -16,7 +16,7 @@
 
 ## フォーマット（Format）
 
-漫画ページ比・単一ページ。**見出し部**＝作品タイトル「午前二時の幽霊」・話タイトル「午前二時の幽霊の名前」・「第3話／全12話」（章なし・CHAPTER 不使用）・前提知識1〜2行・登場人物紹介（真白・ニジ・美月）・1行説明。**本編コマ**＝台詞（吹き出し「虹色、してるから。……ニジ。」）＋効果音（無音の光）・目線誘導・**虹色が顔へ結像する瞬間を大コマに**。見出し部もコマも描き文字は日本語。1ページ＝1話。
+漫画ページ比・単一ページ。**見出し部**＝作品タイトル「午前二時に、あなたは誰の時間を生きていますか」・話タイトル「午前二時の幽霊の名前」・「第3話／全12話」（章なし・CHAPTER 不使用）・前提知識1〜2行・登場人物紹介（真白・ニジ・美月）・1行説明。**本編コマ**＝台詞（吹き出し「虹色、してるから。……ニジ。」）＋効果音（無音の光）・目線誘導・**虹色が顔へ結像する瞬間を大コマに**。見出し部もコマも描き文字は日本語。1ページ＝1話。
 
 ## 様式（Style）
 
@@ -24,4 +24,4 @@
 
 ## 合成プロンプト（Merged）
 
-A single manga page for 午前二時の幽霊 — 午前二時の幽霊の名前, episode 3 of 12 — presenting one episode of the story in six panels. A header block at the top: the work title 午前二時の幽霊, the episode title 午前二時の幽霊の名前, the counter 第3話／全12話, one or two lines of prerequisite knowledge 使った時間は他人へ預けた時間として記録される／姿のない幽霊は送信済みの文字としてだけ現れてきた, brief introductions of the cast 真白（目立たない高校2年生）・ニジ（画面の中の幽霊）・美月（親友・第3話は文字のみ）, and a one-line description 画面の無言の問いに、ようやく応える — the header text drawn in Japanese. Below the header, the episode's panels: speech bubbles with the naming line "虹色、してるから。……ニジ。", sound effects as a silent notification of light only, panel flow guiding the eye, the characteristic panel — the rainbow bleeding into a face one step younger — enlarged. The ghost fully opaque, never translucent, never speaking "わたし", inside the screen only, the rainbow the only saturated hue. Clean closed thin lineart, flat cel color planes shaded in two steps with soft-edged terminators, gentle bloom around the phone screen, light haze in the dark air, a muted low-saturation palette with few colors, the phone screen's cold blue-white the only bright value, readable Japanese lettering for the header text and speech bubbles. One page, one episode. Not photorealistic, no 3D render, no glossy webtoon gloss, no airbrush portrait rendering, no heavy gradient, no painterly brush strokes, no busy detail, no grain, no mojibake, no garbled text.
+A single manga page for 午前二時に、あなたは誰の時間を生きていますか — 午前二時の幽霊の名前, episode 3 of 12 — presenting one episode of the story in six panels. A header block at the top: the work title 午前二時に、あなたは誰の時間を生きていますか, the episode title 午前二時の幽霊の名前, the counter 第3話／全12話, one or two lines of prerequisite knowledge 使った時間は他人へ預けた時間として記録される／姿のない幽霊は送信済みの文字としてだけ現れてきた, brief introductions of the cast 真白（目立たない高校2年生）・ニジ（画面の中の幽霊）・美月（親友・第3話は文字のみ）, and a one-line description 画面の無言の問いに、ようやく応える — the header text drawn in Japanese. Below the header, the episode's panels: speech bubbles with the naming line "虹色、してるから。……ニジ。", sound effects as a silent notification of light only, panel flow guiding the eye, the characteristic panel — the rainbow bleeding into a face one step younger — enlarged. The ghost fully opaque, never translucent, never speaking "わたし", inside the screen only, the rainbow the only saturated hue. Clean closed thin lineart, flat cel color planes shaded in two steps with soft-edged terminators, gentle bloom around the phone screen, light haze in the dark air, a muted low-saturation palette with few colors, the phone screen's cold blue-white the only bright value, readable Japanese lettering for the header text and speech bubbles. One page, one episode. Not photorealistic, no 3D render, no glossy webtoon gloss, no airbrush portrait rendering, no heavy gradient, no painterly brush strokes, no busy detail, no grain, no mojibake, no garbled text.
