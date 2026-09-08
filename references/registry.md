@@ -18,6 +18,7 @@
 > **0.1.24**: 6 functional-document family cards — siblings of [clean-line-lab](styles/clean-line-lab.md) (blueprint plan / recipe how-to / circuit schematic / mechanism work / geometric construction / lab notebook) — were added and **verified** below via the power-* style-swap cases (judgments in [examples/EVALUATION.md](../examples/EVALUATION.md)).
 > **0.1.29**: 3 more anime pre-production cards — location board (the story's places and their geography) / key pose / action board (one subject's movement vocabulary) / scene board (one scene's master staging) — were added and **verified** via the gozen-niji-* format-swap cases (judgments in [examples/EVALUATION.md](../examples/EVALUATION.md)).
 > **0.1.30**: the **Design** purpose was added (a 7th assumed purpose; its input is a brand / product / app, not content). 5 design format cards — app screen / landing page / wireframe / brand board / business card — and 4 design style cards — swiss-style / flat-ui / material-ui / neubrutalism — were added and **verified** via the design-* format-swap and style-swap cases (judgments in [examples/EVALUATION.md](../examples/EVALUATION.md)). The 7 existing mark cards (logo / icon / emblem / poster / cover / hero / tarot card) were reclassified to `Symbolic (design)`.
+> **2026-09-08**: the **soft-flat-mascot** style card (Japanese transit-card / municipal mascot look) was added on the user's request — **verification pending** (the suica-alt-characters imageboards are its first case).
 
 ## Style cards (styles/)
 
@@ -77,6 +78,7 @@
 | Flat design | Digital | Flat UI (Metro / iOS 7) | Design lineage family · verified (0.1.30) | [flat-ui](styles/flat-ui.md) |
 | Material Design | Digital | Google Material Design | Design lineage family · verified (0.1.30) | [material-ui](styles/material-ui.md) |
 | Neubrutalism | Digital | Web brutalism revival | Design lineage family · verified (0.1.30) | [neubrutalism](styles/neubrutalism.md) |
+| Soft flat mascot | Digital | Japanese transit-card / municipal mascot | Added on request, verification pending (2026-09-08) | [soft-flat-mascot](styles/soft-flat-mascot.md) |
 
 ## Format cards (formats/)
 

@@ -18,6 +18,7 @@
 > **0.1.24**：功能文档家族的 6 张卡片——[clean-line-lab](styles/clean-line-lab.md) 的兄弟（蓝图・设计图／食谱・步骤卡／电路图／机构・做功图／尺规作图／实验笔记）——已添加至下表并**已验证**（power-* 样式替换用例。判定见 [examples/EVALUATION.md](../examples/EVALUATION.md)）。
 > **0.1.29**：动画前期制作的卡片再添 3 张——地点板（故事的地点与地理）／关键帧・动作板（一个主体的动作词汇）／场景板（一个场景的主走位）——已添加并**已验证**（gozen-niji-* 格式替换用例。判定见 [examples/EVALUATION.md](../examples/EVALUATION.md)）。
 > **0.1.30**：新增目的分类**「设计」**（第 7 个假定目的。输入是品牌／产品／应用，而非内容）。新增 5 张设计格式卡（应用界面／落地页／线框／品牌板／名片）与 4 张设计样式卡（swiss-style／flat-ui／material-ui／neubrutalism）并**已验证**（design-* 格式／样式替换用例。判定见 [examples/EVALUATION.md](../examples/EVALUATION.md)）。既有 7 张标志系卡片（标志／图标／徽章／海报／封面／主视觉横幅／塔罗牌）已重新分类为 `象征（设计）`。
+> **2026-09-08**: 应用户要求添加了 **soft-flat-mascot**（柔软平涂吉祥物）样式卡。**验证待定**（首个用例是 suica-alt-characters 的影像板三案）。
 
 ## 样式卡片（styles/）
 
@@ -77,6 +78,7 @@
 | 扁平设计 | 数字 | 扁平 UI（Metro／iOS 7） | 设计系谱家族・已验证（0.1.30） | [flat-ui](styles/flat-ui.md) |
 | Material Design | 数字 | Google Material Design | 设计系谱家族・已验证（0.1.30） | [material-ui](styles/material-ui.md) |
 | 新粗野主义 | 数字 | 网页粗野主义复兴 | 设计系谱家族・已验证（0.1.30） | [neubrutalism](styles/neubrutalism.md) |
+| 柔软平涂吉祥物 | 数字 | 日本交通系・自治体吉祥物 | 应用户要求添加・验证待定（2026-09-08） | [soft-flat-mascot](styles/soft-flat-mascot.md) |
 
 ## 格式卡片（formats/）
 
