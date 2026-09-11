@@ -19,6 +19,7 @@ Two zones on one page. The **header zone** carries the furniture that lets a rea
 - State each character's distinguishing appearance — gender, hair, build, clothing — in the panel description at their first appearance on the page, so the model draws the right character and never confuses two similar-looking characters; derive it from the source's character design (⑧)
 - Name the speaker before each line of dialogue, and keep the speech bubble attached to the right character in multi-character panels — derive who says what from the source (⑧)
 - Draw the header text and the dialogue in the resolved language (the instruction around them stays English)
+- Set the lettering horizontal (left-to-right) by default — vertical writing only when the source or a special instruction specifies it
 - Draw the episode's panels with dialogue (speech bubbles) and SFX (onomatopoeia)
 - Enlarge the characteristic panels (eye guidance; the turning point in a large panel)
 - Derive the prerequisite knowledge and the cast from the source's earlier episodes — never invent them (⑧)

@@ -24,6 +24,7 @@
 - State each character's distinguishing appearance — gender, hair, build, clothing — in the panel description at their first appearance on each page, so the model draws the right character and never confuses two similar-looking characters; derive it from the source's character design (⑧)
 - Name the speaker before each line of dialogue, and keep the speech bubble attached to the right character in multi-character panels — derive who says what from the source (⑧)
 - Draw header text and dialogue in the resolved language (the instruction around them stays English)
+- Set the lettering horizontal (left-to-right) by default — vertical writing only when the source or a special instruction specifies it
 
 ## avoid
 - Repeating the full pre-info on every page — it belongs on page 1
