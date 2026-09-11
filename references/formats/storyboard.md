@@ -28,8 +28,8 @@ Panel count made explicit (3×3 / 6 panels, etc.); each panel labeled with its b
 - Keep character, costume and lighting across all panels
 - **Connect panels by causality (each later panel is the consequence of the earlier one)**
 - In `table` mode: one row per cut — number, picture, action + dialogue, seconds
-- State the character's distinguishing appearance — gender, hair, build, clothing — at their first appearance, so every panel draws the same character; derive it from the source (⑧)
-- In `table` mode, name the speaker before each line of dialogue in the content column — derive who says what from the source (⑧)
+- Give the character's distinguishing appearance — gender, hair, build, clothing — once, at their first appearance, in square brackets as a hidden note the model reads but does not draw (`[Name: gender, hair, build, clothing]`), so every panel draws the same character; derive it from the source (⑧)
+- In `table` mode, put the speaker in square brackets before each line of dialogue in the content column (`[Name:] …`) — a hidden note the model reads but does not draw — derive who says what from the source (⑧)
 
 ## avoid
 - Panel-to-panel consistency drift, omitting shot types

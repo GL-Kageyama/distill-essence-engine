@@ -8,7 +8,7 @@ argument-hint: '{"content": "<the content to transform (defaults to the VSCode s
 
 ## Skill Metadata
 - **id**: `distill-essence-engine`
-- **version**: `0.1.35`
+- **version**: `0.1.36`
 - **category**: `transformer`
 - **standalone**: `true`（no subagents needed）
 

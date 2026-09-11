@@ -16,8 +16,8 @@ Two zones on one page. The **header zone** carries the furniture that lets a rea
 ## do
 - Carry the full header — work title, chapter title (when chapters exist), episode title, episode counter (chapter + episode + total when chapters exist), prerequisite knowledge, cast, description — so a reader can jump in
 - State each character's identity or role in the cast, not their appearance — appearance belongs in the panel descriptions, not the cast text
-- State each character's distinguishing appearance — gender, hair, build, clothing — in the panel description at their first appearance on the page, so the model draws the right character and never confuses two similar-looking characters; derive it from the source's character design (⑧)
-- Name the speaker before each line of dialogue, and keep the speech bubble attached to the right character in multi-character panels — derive who says what from the source (⑧)
+- Give each character's distinguishing appearance — gender, hair, build, clothing — once, at their first appearance on the page, in square brackets as a hidden note the model reads but does not draw (`[Name: gender, hair, build, clothing]`), so the model draws the right character and never confuses two similar-looking characters; derive it from the source's character design (⑧)
+- Put the speaker in square brackets before each line of dialogue (`[Name:] …`) — a hidden note the model reads but does not draw — so the speech bubble stays on the right character in multi-character panels; derive who says what from the source (⑧)
 - Draw the header text and the dialogue in the resolved language (the instruction around them stays English)
 - Set the lettering horizontal (left-to-right) by default — vertical writing only when the source or a special instruction specifies it
 - Draw the episode's panels with dialogue (speech bubbles) and SFX (onomatopoeia)

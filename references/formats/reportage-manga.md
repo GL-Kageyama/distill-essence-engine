@@ -18,7 +18,7 @@ The narration captions lead the record and the panels document it. Places, peopl
 - Let fact narration lead and panels document
 - Draw places and people realistically as they were
 - Label dates and locations
-- State each person's distinguishing appearance — hair, build, clothing — in the panel description at their first appearance, so the same real person stays recognizable across panels; draw them as they were (⑧)
+- Give each person's distinguishing appearance — hair, build, clothing — once, at their first appearance, in square brackets as a hidden note the model reads but does not draw (`[Name: hair, build, clothing]`), so the same real person stays recognizable across panels; draw them as they were (⑧)
 
 ## avoid
 - Inventing events, dramatizing beyond the facts

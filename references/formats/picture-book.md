@@ -17,7 +17,7 @@ One spread = one scene; text and image separated; a soft frame and a repeating m
 - One spread, one scene
 - Separate text and image
 - Place a repeating motif
-- State each character's distinguishing appearance — gender, hair, build, clothing — at their first appearance in the spreads, so the model draws the same character across the book; derive it from the source (⑧)
+- Give each character's distinguishing appearance — gender, hair, build, clothing — once, at their first appearance in the spreads, in square brackets as a hidden note the model reads but does not draw (`[Name: gender, hair, build, clothing]`), so the model draws the same character across the book; derive it from the source (⑧)
 
 ## avoid
 - Multiple scenes in one spread, overlaying text on the picture
