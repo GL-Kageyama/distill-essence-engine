@@ -18,6 +18,8 @@ Exactly four panels stacked in a fixed vertical column. The camera angle and dis
 - Fix the four panels in order and keep the camera still
 - Put the payoff entirely in the fourth panel
 - Keep background minimal and framing static
+- State each character's distinguishing appearance — gender, hair, build, clothing — in the panel description at their first appearance, so the model draws the right character and never confuses two similar-looking characters; derive it from the source (⑧)
+- Name the speaker before each line of dialogue, and keep the speech bubble attached to the right character in multi-character panels — derive who says what from the source (⑧)
 
 ## avoid
 - More than four panels, variable layouts, moving cameras

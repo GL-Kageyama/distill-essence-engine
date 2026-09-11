@@ -18,6 +18,7 @@ A simple quiet panel grid led by first-person narration boxes. A single person a
 - Let the first-person narration lead and the panels follow
 - Keep one person at the center, the background minimal
 - Make the pacing quiet and intimate
+- State the narrator's distinguishing appearance — gender, hair, build, clothing — at their first appearance, so the model draws the same person across panels; derive it from the source (⑧)
 
 ## avoid
 - Action-heavy scenes, dense detailed backgrounds

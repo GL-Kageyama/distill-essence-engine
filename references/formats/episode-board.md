@@ -15,7 +15,9 @@ Two zones on one page. The **header zone** carries the furniture that lets a rea
 
 ## do
 - Carry the full header — work title, chapter title (when chapters exist), episode title, episode counter (chapter + episode + total when chapters exist), prerequisite knowledge, cast, description — so a reader can jump in
-- State each character's identity or role in the cast, not their appearance — the panels already draw what they look like
+- State each character's identity or role in the cast, not their appearance — appearance belongs in the panel descriptions, not the cast text
+- State each character's distinguishing appearance — gender, hair, build, clothing — in the panel description at their first appearance on the page, so the model draws the right character and never confuses two similar-looking characters; derive it from the source's character design (⑧)
+- Name the speaker before each line of dialogue, and keep the speech bubble attached to the right character in multi-character panels — derive who says what from the source (⑧)
 - Draw the header text and the dialogue in the resolved language (the instruction around them stays English)
 - Draw the episode's panels with dialogue (speech bubbles) and SFX (onomatopoeia)
 - Enlarge the characteristic panels (eye guidance; the turning point in a large panel)
@@ -26,7 +28,7 @@ Two zones on one page. The **header zone** carries the furniture that lets a rea
 ## avoid
 - Dropping the header (work title / chapter title / episode title / counter / recap / cast) — without it the page is just manga
 - Inventing prerequisite knowledge or cast the source does not establish (⑧)
-- Describing visible appearance in the cast (hair, build, face) — the drawing shows it; the cast adds what the eye can't see (role, relationship)
+- Putting the appearance in the cast text — the cast adds what the eye can't see (role, relationship); the appearance goes in the panel descriptions
 - Pre-announcing the episode's turning point verbatim in the prerequisite knowledge or the description — give just enough to read cold, not the reveal
 - All panels equal (no emphasis), broken eye guidance
 - A style that forbids lettering (mojibake, garbled text) — pair with a style whose Negative permits text

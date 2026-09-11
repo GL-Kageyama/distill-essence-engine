@@ -16,6 +16,8 @@ Panel-layout eye guidance; the turning point in a large panel. Speech bubbles fo
 ## do
 - Put the turning point in a large panel
 - Speech bubbles for records, silence for emotion
+- State each character's distinguishing appearance — gender, hair, build, clothing — in the panel description at their first appearance, so the model draws the right character and never confuses two similar-looking characters; derive it from the source (⑧)
+- Name the speaker before each line of dialogue, and keep the speech bubble attached to the right character in multi-character panels — derive who says what from the source (⑧)
 
 ## avoid
 - All panels equal, broken eye guidance

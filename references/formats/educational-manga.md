@@ -18,6 +18,8 @@ A teacher character walks the reader through the concept in clear steps. Story p
 - Have a teacher character explain, step by step
 - Interleave story panels with embedded diagrams
 - Explain jargon as it appears and keep the concept readable
+- State each character's distinguishing appearance — gender, hair, build, clothing — in the panel description at their first appearance, so the model draws the right character and never confuses two similar-looking characters; derive it from the source (⑧)
+- Name the speaker before each line of dialogue, and keep the speech bubble attached to the right character in multi-character panels — derive who says what from the source (⑧)
 
 ## avoid
 - Pure story without teaching, dense walls of text

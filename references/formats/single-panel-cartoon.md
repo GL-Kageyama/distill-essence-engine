@@ -18,6 +18,7 @@ A single self-contained panel: one situation drawn and one short caption that co
 - Keep it to one panel, one idea, one punchline
 - Let the caption carry the turn, the image the setup
 - Make it stand alone (no continuation)
+- State the character's distinguishing appearance — gender, hair, build, clothing — in the panel description, so the model draws the right character; derive it from the source (⑧)
 
 ## avoid
 - Series continuation, no caption, several gags at once

@@ -21,6 +21,8 @@
 - Keep the panel flow continuous across the pages (one episode, not several)
 - Enlarge the characteristic panel (the turning point)
 - Derive the prerequisite knowledge and the cast from the source's earlier episodes — never invent them (⑧)
+- State each character's distinguishing appearance — gender, hair, build, clothing — in the panel description at their first appearance on each page, so the model draws the right character and never confuses two similar-looking characters; derive it from the source's character design (⑧)
+- Name the speaker before each line of dialogue, and keep the speech bubble attached to the right character in multi-character panels — derive who says what from the source (⑧)
 - Draw header text and dialogue in the resolved language (the instruction around them stays English)
 
 ## avoid

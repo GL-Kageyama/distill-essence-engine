@@ -18,6 +18,8 @@ A single horizontal row of two to six panels, read strictly left to right. The c
 - Keep all panels in one horizontal row, left to right
 - Let one premise build to a single payoff in the last panel
 - Keep the camera fixed and the background minimal
+- State each character's distinguishing appearance — gender, hair, build, clothing — in the panel description at their first appearance, so the model draws the right character and never confuses two similar-looking characters; derive it from the source (⑧)
+- Name the speaker before each line of dialogue, and keep the speech bubble attached to the right character in multi-character panels — derive who says what from the source (⑧)
 
 ## avoid
 - Vertical stacking, multiple rows, panel grids

@@ -18,6 +18,7 @@ One scene, one staging: the characters in their positions, the camera and the li
 - Fix the camera and the light
 - Keep the place consistent with the art board
 - One scene per board
+- State each character's distinguishing appearance — gender, hair, build, clothing — in the blocking, so the model places the right figures; derive it from the source (⑧)
 
 ## avoid
 - An empty location (that is the art board)

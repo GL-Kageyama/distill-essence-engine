@@ -18,6 +18,7 @@ The page is a single full-bleed panel: no panel division. One decisive moment is
 - Make the whole page one full-bleed panel, no grid
 - Compose within the frame: one focal point, dramatic scale, negative space
 - Keep text to a title or a single line
+- State the figure's distinguishing appearance — gender, hair, build, clothing — in the composition, so the model draws the right character; derive it from the source (⑧)
 
 ## avoid
 - Panel division, multiple simultaneous actions

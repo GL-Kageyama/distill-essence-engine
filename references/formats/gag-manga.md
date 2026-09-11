@@ -23,6 +23,8 @@ Multi-panel / collage with a fast tempo. Repeat the **four-beat rhythm**（setup
 - Put turning points and reactions in large panels
 - Repeat the four-beat
 - Energy through breaking the frame
+- State each character's distinguishing appearance — gender, hair, build, clothing — in the panel description at their first appearance, so the model draws the right character and never confuses two similar-looking characters; derive it from the source (⑧)
+- Name the speaker before each line of dialogue, and keep the speech bubble attached to the right character in multi-character panels — derive who says what from the source (⑧)
 
 ## avoid
 - All panels equal, static, too serious, broken eye-flow

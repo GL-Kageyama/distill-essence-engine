@@ -1,5 +1,13 @@
 # 開発履歴
 
+## 0.1.34 — 2026-09-12
+
+- **ナラティブ系フォーマットに「登場人物の見た目」と「発話者指定」を明文化（ユーザー指摘・リファレンスカード3言語）**。gozen-niji の episode-board v2（ep11/ep12）を画像化した際、**名前だけでキャラを指定するとモデルが別人を描く**ことが発覚した——湊（男性・男子制服）が真白（女性）として描かれたり、真白が同一ページに二人出たり、発話者（吹き出し）の指定が誤る例があった。根本原因は **episode-board V1/V2 の「見た目はコマが描くので説明しない」という前提**がテキスト→画像生成では偽であること。キャスト文字は役割・身分（目に見えない情報）だけを載せ、**見た目はコマ指示文に書く**方針に修正した。
+- **episode-board V1/V2 への明文化（3言語）**。do に2本を追加：(1) 各登場人物の見分けがつく見た目——性別・髪型・体格・服装——を、初めて出るコマの指示文に書く（V2は各ページで初出）・似た見た目の二人を取り違えないため（原作のキャラクターデザインから導出・⑧）。(2) 各台詞の前に話し手の名前を置き、複数人が出るコマでは吹き出しが正しい人物に付くようにする——誰が何を言うかは原作から導出する（⑧）。avoid 側は既に「見た目をキャスト文字に書くこと」を禁じていたため、実質の修正は **do 側に見た目の置き場（コマ指示文）を明示した**こと。
+- **他ナラティブ系13フォーマットへ横展開（3言語）**。同じ欠落（名前だけでキャラを指定・発話者の帰属なし）が **manga / comic-strip / gag-manga / four-panel / educational-manga / webtoon / storyboard / reportage-manga / comic-essay / picture-book / single-panel-cartoon / splash-page / scene-board** にもあると監査で確認。対話を持つ6種（manga・comic-strip・gag-manga・four-panel・educational-manga・webtoon）には見た目＋発話者の2本、storyboard には見た目＋`table` モードの発話者（内容欄の各台詞前に話し手名）、対話を持たない7種（reportage-manga・comic-essay・picture-book・single-panel-cartoon・splash-page・scene-board）には見た目1本を追加。語句は各フォーマットの語彙に合わせて調整（reportage=「実在の人物」／comic-essay=「語り手」／scene-board=「ブロッキング」／splash-page=「構図」等）。
+- **例ケースの修正**。ep11（ページ1〜3）の湊の描写を男性（男子制服・短い整った黒髪・真白より少し背が高い）に統一し、ep06 3/3 の「in her arms」→「in his arms」（湊）を修正した。
+- **カード数・様式数は不変**（新フォーマット・新様式なし。既存カードの do 追記のみで、registry・types・README・docs の索引は触っていない）。SKILL.md の version 0.1.33→0.1.34。
+
 ## 0.1.33 — 2026-09-08
 
 - **episode-board（エピソードボード）を新規追加（ユーザー依頼・リファレンスカード3言語）**。依頼は「小説の、特定の話のためのシーンボード」だったが、調査の結果 **`scene-board` は既に存在していた**（アニメ制作のステージングシート＝単一基準の製作参照）。名前衝突をユーザーに問い、**`episode-board`** に確定。出力は「**1ページで1話（見出し＋本編コマ）**」。要求7要素は タイトル→`TITLE`／説明→`SUMMARY`／台詞・効果音→`TEXT`・`SFX`／特徴コマの拡大→構成文法の「characteristic panels enlarged」／登場人物の説明→`CAST`／前提知識→`CONTEXT`／全話数＋現話数→「episode {EPISODE} of {TOTAL}」 として対応した。
