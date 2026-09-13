@@ -91,6 +91,7 @@
 | homepage-diagram | 木工所ホームページ | 解説図 | アイソメトリック | 理解 |
 | homepage-poster | 木工所ホームページ | ポスター | 木版 | 誘引 |
 | distill-hero | リポジトリ README（実 URL） | ヒーロー画像 | ダークグロー・ミニマルベクター | 誘引 |
+| semantic-visual-loom-hero | semantic-visual-loom リポジトリ（評議会の姉妹） | ヒーロー画像 | ダークグロー・ミニマルベクター | 誘引 |
 | bocchan-gag-manga | 青空文庫『坊っちゃん』（実 URL） | ギャグ漫画 | ハイテンション日常系コミック | 誘引 |
 | youtube-agent-manager-diagram | YouTube 講演（実 URL） | 解説図 | フラットコミック | 理解 |
 | youtube-loop-engineering-manga | YouTube 講演（実 URL） | 漫画 | マンガ線画 | 記録 |

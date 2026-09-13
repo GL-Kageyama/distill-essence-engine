@@ -91,6 +91,7 @@
 | homepage-diagram | 木工所首页 | 图解 | 等距 | 理解 |
 | homepage-poster | 木工所首页 | 海报 | 木刻版画 | 诱引 |
 | distill-hero | 仓库 README（实 URL） | 主视觉横幅 | 暗光极简矢量 | 诱引 |
+| semantic-visual-loom-hero | semantic-visual-loom 仓库（评议会的姊妹仓库） | 主视觉横幅 | 暗光极简矢量 | 诱引 |
 | bocchan-gag-manga | 青空文库《哥儿》（实 URL） | 搞笑漫画 | 高能日常系漫画 | 诱引 |
 | youtube-agent-manager-diagram | YouTube 演讲（实 URL） | 图解 | 扁平漫画 | 理解 |
 | youtube-loop-engineering-manga | YouTube 演讲（实 URL） | 漫画 | 漫画线稿 | 记录 |
