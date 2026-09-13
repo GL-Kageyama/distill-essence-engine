@@ -138,6 +138,8 @@ distill-essence-engine/
     └── formats/                      # フォーマットカード（1ファイル＝1フォーマット）
 ```
 
+⚠️ **除去予定——動画寄りの材料。** 時間軸を持つ例（`examples/ukebi` · `examples/gozen-niji`）は、そのうち除去する。**原理は変わらない**——エンジンは媒体にではなく、1回の生成の容量に畳まれる。
+
 ## 詳細ドキュメント
 
 - [docs/usage.md](docs/usage.md) — 使い方（引数 · カード · 出力 · 検証）

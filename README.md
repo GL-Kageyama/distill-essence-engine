@@ -139,6 +139,8 @@ distill-essence-engine/
     ├── ja/ · zh/                     # language mirrors
 ```
 
+⚠️ **Planned for removal — the video-oriented material.** The time-based examples (`examples/ukebi` · `examples/gozen-niji`) will be removed. **The principle does not change**: the engine folds into the capacity of one generation, not into a medium.
+
 ## Further docs
 
 - [docs/usage.md](docs/usage.md) — how to use (arguments · cards · output · verification)

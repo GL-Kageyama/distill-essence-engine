@@ -139,6 +139,8 @@ distill-essence-engine/
     ├── ja/ · zh/                     # 语言镜像
 ```
 
+⚠️ **预定移除——偏视频的材料。** 带时间轴的示例（`examples/ukebi` · `examples/gozen-niji`）将于日后移除。**原理不变**——引擎收敛于单次生成的容量，而非媒体。
+
 ## 详细文档
 
 - [docs/usage.md](docs/usage.md) — 用法（参数 · 卡片 · 输出 · 验证）
