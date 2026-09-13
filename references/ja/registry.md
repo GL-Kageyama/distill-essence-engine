@@ -115,7 +115,6 @@
 | ルポ漫画 | 叙述（記録） | 事実主導の記録コマ（⑧） | [reportage-manga](formats/reportage-manga.md) |
 | 学習漫画 | 説明 | キャラクターが教える | [educational-manga](formats/educational-manga.md) |
 | エピソードボード | ナラティブ（再体験・誘引） | 1ページに自己完結した一話——見出し（作品タイトル・章タイトル・題名・話数・前提知識・登場人物・説明）＋台詞と効果音を持つ本編コマ | [episode-board](formats/episode-board.md) |
-| 動画仕様 | 叙述（再体験・誘引） | **出力が時間を持つ**——Wan 3.0 §1–19 対応・不均等なビート・運動／カメラ／音声 | [video-spec](formats/video-spec.md) |
 | キャラクター設定画 | 伝達（制作仕様） | 全面で同一の身長と目線、接地影なし、情報が雰囲気に勝つ | [character-sheet](formats/character-sheet.md) |
 | キャラクター イメージボード | 象徴（制作仕様） | 答えではなく候補——設計が固まる前の探索 | [character-board](formats/character-board.md) |
 | イメージボード（concept-board） | 象徴（制作仕様） | 全弧の空気を固定する分割しない一枚絵（⑧考慮） | [concept-board](formats/concept-board.md) |

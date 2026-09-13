@@ -1,6 +1,6 @@
 ---
 name: distill-essence-engine
-description: Distills the essence of any content into a prompt for imagery — still or moving (what one generation holds is declared by the format). Takes content (selected text / novel / article / poem / transcript / memo / paper … / URL = YouTube transcript · GitHub repository · homepage body) plus a spec of format and style (given separately, or in one natural-language request; reference images or reference examples = image reference, fixing characters = character reference), applies the transformation principles (understand → select → translate → keep consistent → compose → style → negative → stay faithful), and produces English prompts ready to paste into Stable Diffusion / Midjourney / Wan etc. Use it to make image boards, thumbnails, covers, illustrations, storyboards, comics, episode boards, icons, explanatory diagrams, video generation specifications, anime production references (character model sheets, character boards, concept boards, art boards, location boards, key pose boards, scene boards), and design artifacts (logos, app screens, landing pages, wireframes, brand boards, business cards).
+description: Distills the essence of any content into a prompt for imagery (what one generation holds is declared by the format). Takes content (selected text / novel / article / poem / transcript / memo / paper … / URL = YouTube transcript · GitHub repository · homepage body) plus a spec of format and style (given separately, or in one natural-language request; reference images or reference examples = image reference, fixing characters = character reference), applies the transformation principles (understand → select → translate → keep consistent → compose → style → negative → stay faithful), and produces English prompts ready to paste into Stable Diffusion / Midjourney etc. Use it to make image boards, thumbnails, covers, illustrations, storyboards, comics, episode boards, icons, explanatory diagrams, anime production references (character model sheets, character boards, concept boards, art boards, location boards, key pose boards, scene boards), and design artifacts (logos, app screens, landing pages, wireframes, brand boards, business cards).
 argument-hint: '{"content": "<the content to transform (defaults to the VSCode selection)>", "url": "<optional: a URL (YouTube→transcript, GitHub→README, homepage→body text) fetched and used as input>", "format": "<what to make: a format name or natural language>", "style": "<in what style: a style name or natural language>", "reference": "<optional: a reference image path or an example to use as a reference (image reference)>", "characters": "<optional: fix characters (name = appearance · clothing · build), comma-separated etc. (character reference)>", "trace": "<optional: true to also output the per-step trace (for verification)>", "lang": "<optional: en | ja | zh — language of the explanation/trace (the generated prompt itself is always English)>"}'
 ---
 
@@ -8,7 +8,7 @@ argument-hint: '{"content": "<the content to transform (defaults to the VSCode s
 
 ## Skill Metadata
 - **id**: `distill-essence-engine`
-- **version**: `0.1.36`
+- **version**: `0.1.37`
 - **category**: `transformer`
 - **standalone**: `true`（no subagents needed）
 
@@ -48,7 +48,6 @@ Rules:
 - When an output format (image board / storyboard / thumbnail / cover / illustration / comic / icon / infographic) or a style (watercolor / sketch / pixel / oil painting / POP …) is specified
 - When asked to "make an image board of this", "turn this into a picture", "make a picture of this", etc.
 - When a URL for a video (YouTube transcript) / GitHub repository / homepage should become imagery
-- When content should become a **video generation specification** (Wan 3.0 etc.) — `format: video-spec`. Note the direction: a video URL is an *input* (transcript), a video specification is an *output*
 
 ## Two orthogonal axes
 
@@ -173,5 +172,3 @@ Verification mode is measurement output for independently checking whether each 
 3. **Style** — the visual vocabulary (in whose voice). Medium, lineage, era.
 
 At the end, append **one merged English prompt** combining the three columns (for pasting into SD/MJ etc.). Unless asked, add no annotations, explanations, or non-English text (the prompt itself is English).
-
-**When the format has time** (`video-spec`), the three columns stay as they are — but the merged prompt is replaced by a **filled specification**, because the deliverable is a document whose sections are separately revisable, not one sentence. Three axes have no still-image counterpart and must be filled explicitly, never left implicit: **time** (a beat table with deliberately unequal ranges — this is where ②Select does its work), **motion** (what moves, with what weight and inertia) and **sound** (dialogue, SFX, ambient, music). Follow the skeleton in `references/formats/video-spec.md`; the merged prose prompt survives only as one of the six §18 slots. Spoken dialogue and text rendered on screen stay in the resolved language; everything else is English.

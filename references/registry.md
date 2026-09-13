@@ -115,7 +115,6 @@
 | Reportage manga | Narration (record) | Fact-led documentary panels (⑧) | [reportage-manga](formats/reportage-manga.md) |
 | Educational manga | Explanatory | Teacher character teaches | [educational-manga](formats/educational-manga.md) |
 | Episode board | Narration (re-experience / attraction) | One self-contained episode on one page — header (work / chapter / episode titles · episode counter · prerequisite knowledge · cast · description) + the episode's panels with dialogue & SFX | [episode-board](formats/episode-board.md) |
-| Video specification | Narration (re-experience / attraction) | **The output has time** — Wan 3.0 §1–19 mapping, uneven beats, motion / camera / audio | [video-spec](formats/video-spec.md) |
 | Character model sheet | Communication (production reference) | Same height and eye line across views, no cast shadow, spec over mood | [character-sheet](formats/character-sheet.md) |
 | Character image board | Symbolic (production reference) | Candidates, not an answer — exploration before the design locks | [character-board](formats/character-board.md) |
 | Concept board | Symbolic (production reference) | One undivided image fixing the air of the whole arc (⑧-aware) | [concept-board](formats/concept-board.md) |

@@ -28,7 +28,7 @@ Of the 4 axes of format space (granularity / time / purpose / size and aspect ra
 
 | Function | Formats | Granularity × time |
 |---|---|---|
-| **Narrative** | Manga / storyboard / picture book / four-panel / webtoon / comic-strip / splash-page / comic-essay / reportage-manga / episode-board / video-spec | Full arc × unfolding (four-panel / comic-strip: fragment × a point, splash-page: a single scene × a point; episode-board: one episode × unfolding on one page; video-spec: the whole arc × unfolding **in time**) |
+| **Narrative** | Manga / storyboard / picture book / four-panel / webtoon / comic-strip / splash-page / comic-essay / reportage-manga / episode-board | Full arc × unfolding (four-panel / comic-strip: fragment × a point, splash-page: a single scene × a point; episode-board: one episode × unfolding on one page) |
 | **Symbolic** | Image board | Full arc × folding (multiple panels) |
 | **Symbolic** | Cover / poster | A single symbol × folding |
 | **Symbolic** | Icon | A single symbol × a single point |

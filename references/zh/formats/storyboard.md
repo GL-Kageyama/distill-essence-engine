@@ -17,7 +17,7 @@
 - **`row`**（默认）: 横向单行，从左→右阅读。
 - **`column`**: 竖向单列堆叠，从上→下阅读。每格旁边留有写较长节拍注释的余地。
 - **`grid`**: R×C 的行列（`N` 如 3×3），逐行从左→右。全弧可一眼把握。
-- **`table`**: 分镜表——镜头号／画面／内容（动作＋台词＋秒数）的竖向三列表。画面列是与其他模式相同的节拍、镜头类型与镜头语言的小幅 16:9 分格；秒数列是节拍的时长，也是通往 [video-spec](video-spec.md) §8 的交接。内容列是画面上的文字，因此 `table` 要与 Negative 允许文字的样式搭配（[manga-ink](../styles/manga-ink.md)；禁止文字的样式不可用）。
+- **`table`**: 分镜表——镜头号／画面／内容（动作＋台词＋秒数）的竖向三列表。画面列是与其他模式相同的节拍、镜头类型与镜头语言的小幅 16:9 分格；秒数列是节拍的时长，也是通往时间的交接。内容列是画面上的文字，因此 `table` 要与 Negative 允许文字的样式搭配（[manga-ink](../styles/manga-ink.md)；禁止文字的样式不可用）。
 
 **排列不是故事。** `column` 不是 [four-panel](four-panel.md)（固定四拍・起承转合・静止镜头），也不是 [webtoon](webtoon.md)（没有分页的连续滚动）；`row` 不是 [comic-strip](comic-strip.md)（一个笑点・落在最后一格）；`grid` 不是 [sprite](sprite.md)（同一角色的姿势・没有叙事），也不是 [comparison-matrix](comparison-matrix.md)（行＝项目・列＝标准）。在任何模式下，分镜脚本都保持自己的同一性——节拍与镜头类型的标注、逐格的镜头语言、因果链、同一角色・服装・灯光。
 
@@ -76,4 +76,4 @@ character, costume and lighting across all panels, camera language per panel.
 - 《跑吧，梅勒斯》 → 分镜脚本（melos-storyboard-table・同样的 6 个节拍做成带秒数栏的分镜表・漫画墨线）
 
 ## 出处
-网络调查（GPT-Image2-Skill 等・预先扩充 → 0.1.13 已验证）。四种排列模式没有拆分卡片，而是扩展同一张卡片（0.1.32）；`table` 的秒数列是通往 [video-spec](video-spec.md) §8 的桥梁，其节拍表把这个时长带入运动。
+网络调查（GPT-Image2-Skill 等・预先扩充 → 0.1.13 已验证）。四种排列模式没有拆分卡片，而是扩展同一张卡片（0.1.32）；`table` 的秒数列是通往运动的桥梁，把这个时长带入运动。

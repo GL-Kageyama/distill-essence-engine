@@ -34,7 +34,7 @@ What the text needs is not an illustration but a **distillation**: choose the on
 
 ## What you can make
 
-**43 formats × 54 styles** — reusable by name. The full index (with each card's reusable slug) is [references/registry.md](references/registry.md).
+**43 formats × 55 styles** — reusable by name. The full index (with each card's reusable slug) is [references/registry.md](references/registry.md).
 
 **Formats** — grouped by the purpose they serve:
 
@@ -43,7 +43,7 @@ What the text needs is not an illustration but a **distillation**: choose the on
 | Understanding | diagram · timeline · flowchart · educational manga |
 | Communication | infographic · storyboard · comparison matrix · data chart · conceptual illustration |
 | Attraction | thumbnail · gag manga · four-panel · comic strip · single-panel cartoon |
-| Re-experience / record | image board · manga · picture book · webtoon · splash page · comic essay · reportage manga · video spec |
+| Re-experience / record | image board · manga · picture book · webtoon · splash page · comic essay · reportage manga |
 | Decoration | illustration |
 | Design | logo · icon · emblem · tarot card · poster · cover · hero image · app screen · landing page · wireframe · brand board · business card |
 | Game asset | sprite sheet |
@@ -143,6 +143,6 @@ distill-essence-engine/
 
 - [docs/usage.md](docs/usage.md) — how to use (arguments · cards · output · verification)
 - [docs/sources.md](docs/sources.md) — the provenance of the card vocabulary
-- [references/registry.md](references/registry.md) — the named-card index (43 formats · 54 styles)
+- [references/registry.md](references/registry.md) — the named-card index (43 formats · 55 styles)
 - [references/types.md](references/types.md) — the typology (assumed purpose × format × style × compression's 2 layers)
 - [references/](references/) — the deepening of the principles (selection · translation · arrangement · …)

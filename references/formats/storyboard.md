@@ -17,7 +17,7 @@ Panel count made explicit (3×3 / 6 panels, etc.); each panel labeled with its b
 - **`row`** (default): one horizontal line, read left to right.
 - **`column`**: one vertical single column, read top to bottom. Room beside each panel for a longer beat note.
 - **`grid`**: R×C rows and columns (`N` given as e.g. 3×3), read row by row, left to right. The whole arc is graspable at one glance.
-- **`table`**: a Japanese 絵コンテ sheet — a vertical 3-column table of cut number ／ picture ／ content (action + dialogue + seconds). The picture column carries small 16:9 thumbnails with the same beat, shot type and camera language as the other modes; the seconds column is the beat's timing and the handoff to [video-spec](video-spec.md) §8. The content column is on-panel text, so pair `table` with a style whose Negative permits text ([manga-ink](../styles/manga-ink.md), not a style that forbids lettering).
+- **`table`**: a Japanese 絵コンテ sheet — a vertical 3-column table of cut number ／ picture ／ content (action + dialogue + seconds). The picture column carries small 16:9 thumbnails with the same beat, shot type and camera language as the other modes; the seconds column is the beat's timing and the handoff toward time. The content column is on-panel text, so pair `table` with a style whose Negative permits text ([manga-ink](../styles/manga-ink.md), not a style that forbids lettering).
 
 **The layout is not the story.** A `column` is not a [four-panel](four-panel.md) (four fixed beats, kishotenketsu, a static camera) or a [webtoon](webtoon.md) (a continuous scroll with no page breaks); a `row` is not a [comic-strip](comic-strip.md) (one gag paid off in the final panel); a `grid` is not a [sprite](sprite.md) (one character's poses, no narrative) or a [comparison-matrix](comparison-matrix.md) (rows = items, columns = criteria). In every mode the storyboard keeps its own identity — beat and shot-type labels, camera language per panel, the causal chain, one consistent character, costume and lighting.
 
@@ -76,4 +76,4 @@ character, costume and lighting across all panels, camera language per panel.
 - Run, Melos! → Storyboard (melos-storyboard-table, the same six beats as a 絵コンテ sheet with a seconds column, manga-ink)
 
 ## Sources
-Web research (GPT-Image2-Skill and others, pre-expanded → verified in 0.1.13). The four arrangement modes extend the same card rather than splitting it (0.1.32); `table`'s seconds column is the bridge to [video-spec](video-spec.md) §8, whose beat table carries that timing on into motion.
+Web research (GPT-Image2-Skill and others, pre-expanded → verified in 0.1.13). The four arrangement modes extend the same card rather than splitting it (0.1.32); `table`'s seconds column is the bridge toward motion — the beat's timing, carried on.
