@@ -3,7 +3,7 @@
 > **この一枚は、碓氷千夏の設定画（初稿）に依存する。** 設定画の四枚は初稿であり、変更の可能性が大きい（各 `prompt.md` の冒頭を参照）。**表紙は人物を描かないので動かないが、この一枚は動く。** 彼女のルックが変われば、この一枚は作り直しになる。**四枚のうち、この一枚が最も壊れやすい。**
 > シートの隅に「初稿」の印は**置かない**——これは制作仕様ではなく**頒布物**であり、初稿の印は仕様の側の作法である。ただし、**依存していること自体はここに記録する。**
 
-- 入力: [../habits-concept-board-luminous-anime/input.md](../habits-concept-board-luminous-anime/input.md)（出典の指し先を共有。内容は複製しない）
+- 入力: [../../habits-concept-board-luminous-anime/input.md](../../habits-concept-board-luminous-anime/input.md)（出典の指し先を共有。内容は複製しない）
 - format: **キービジュアル（key-visual・未登録）**——惹引（頒布物）／一巻の空気 × 一人物／横 16:9・一枚
 - style: **光の写実アニメ（luminous-anime・登録済み）**
 - lang: ja（生成プロンプトは英語）

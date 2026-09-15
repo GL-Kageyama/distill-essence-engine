@@ -5,7 +5,7 @@
 > 出典が与えるのは**年齢・職業・勤め先・住まい・姓・癖・声**まで。**髪・体格・衣装は出典が与えていない。** 下の「発明（要承認）」の表が、この一枚が足したものの全部である。**承認・差し替えを前提とする。**
 > シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「初稿」）。
 
-- 入力: [../habits-concept-board-luminous-anime/input.md](../habits-concept-board-luminous-anime/input.md)（出典の指し先を共有。内容は複製しない）
+- 入力: [../../habits-concept-board-luminous-anime/input.md](../../habits-concept-board-luminous-anime/input.md)（出典の指し先を共有。内容は複製しない）
 - format: **キャラクター設定画（character-sheet・登録済み）**——伝達（制作仕様）／一人物 × 多面（時間軸なし）／横長シート
 - style: **光の写実アニメ（luminous-anime・登録済み）**
 - lang: ja（生成プロンプトは英語）

@@ -7,7 +7,7 @@
 >
 > **この一枚は、引き渡された二版（run-09 / run-10）だけでなく、その上流の版からも材料を採っている。** 索引は`_process/` を渡さない領域と定めているが、**この一枚では著者の承認を得て採った**（2026-09-14）。**出典の各行に版を付けてある**——著者が行ごとに可否を決められるように。
 
-- 入力: [../habits-concept-board-luminous-anime/input.md](../habits-concept-board-luminous-anime/input.md)（出典の指し先を共有。内容は複製しない）
+- 入力: [../../habits-concept-board-luminous-anime/input.md](../../habits-concept-board-luminous-anime/input.md)（出典の指し先を共有。内容は複製しない）
 - format: **キャラクター設定画（character-sheet・登録済み）**——伝達（制作仕様）／一人物 × 多面（時間軸なし）／横長シート
 - style: **光の写実アニメ（luminous-anime・登録済み）**
 - lang: ja（生成プロンプトは英語）

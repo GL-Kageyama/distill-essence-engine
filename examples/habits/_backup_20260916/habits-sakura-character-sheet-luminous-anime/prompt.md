@@ -5,7 +5,7 @@
 > **この一枚には、人物の欄が無い。** 出典がこの一人に与えるのは**名と、頁と、記名の現場**だけである。**顔・身体・年齢・性別・衣装は、出典が一度も書かない。** これは記述の欠落ではなく、**この作品が解かないと決めた決定**である（下の一行）。ゆえに他の三枚にある「発明（要承認）」の表は、**この一枚には無い**——埋めれば、埋めた数だけ作品の外から来たことになる。
 > シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「初稿」）。
 
-- 入力: [../habits-concept-board-luminous-anime/input.md](../habits-concept-board-luminous-anime/input.md)（出典の指し先を共有。内容は複製しない）
+- 入力: [../../habits-concept-board-luminous-anime/input.md](../../habits-concept-board-luminous-anime/input.md)（出典の指し先を共有。内容は複製しない）
 - format: **キャラクター設定画（character-sheet・登録済み）**——伝達（制作仕様）／一人物 × 多面（時間軸なし）／横長シート
 - style: **光の写実アニメ（luminous-anime・登録済み）**
 - lang: ja（生成プロンプトは英語）
