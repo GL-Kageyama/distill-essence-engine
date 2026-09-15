@@ -1,7 +1,7 @@
 # 『ハビッツ！！！』 キャラクター設定画 28枚
 
 > **この樹の本体は、画像プロンプトである。** 二十八ディレクトリ・二十八 `prompt.md`——中核四人（`メイン/`）と、ストック層二十四名（`サブ/`）。
-> **2026-09-16、著者がこの樹から四枚を生成した**（`サブ/01`〜`04`）。**その四点を測って、型に二つの一行を足した**——下の「年齢を顔に出す」と「注記は英語のみ」。**測ったことは、この README の一行ではなく、各枚の型そのものに残っている。**
+> **2026-09-16、著者がこの樹から四枚を生成した**（`サブ/01`〜`04`）。**その四点を測って、型に二つの一行を足し、年齢の一行を二度書き直した**——下の「年齢を顔に出す」と「注記は英語のみ」。**測ったことは、この README の一行ではなく、各枚の型そのものに残っている。**
 > 一枚は `character-sheet × luminous-anime`（どちらも登録済み）。**出典の指し先は、既にある一枚を共有する**——[`../../habits-concept-board-luminous-anime/input.md`](../../habits-concept-board-luminous-anime/input.md)。この樹は `input.md` を新しく作らない。
 > **旧題を持つ初稿は、実体側に無い。** 2026-09-16、巻題と話名が改訂され、退けられた題を持つ初稿六点は `../_backup_20260916/` へ退避された。**この樹の二十八枚は、正の題だけを持つ。**
 
@@ -24,10 +24,14 @@
 
 - **様式は luminous-anime のまま。** format カードが様式軸の例に挙げるのは cel-shade／line-art／manga-ink で、**luminous-anime は名指しされていない。** 忠実性アンカー四点（層を成す空・体積光・フレアとブルーム・夕景の配色）は、**設定画ではすべて落ちる。** 落ちることを、各枚の「様式メモ」が自分で書く。
 - **数値を置かない。** 身長は相対だけ。**数を置けば、それは主張ではなく測定値として読まれる。** 衣装・髪型で識別しない。
-- **年齢は、顔に出す。** 二十七名の年齢は**出典にある**（19〜66）。ゆえに**顔がその年齢を示すことは発明ではない**——出典の行使である。各枚の Merged は、年齢の段落のすぐ後に一行を置く——`The age stated above is a fact of this sheet: every face on it carries that age — the four views and the four expression heads alike, at every size. It is not a default young face.` そして否定行に `no generic young face, no face younger than the age stated, no idealized anime default face, no face in the four views younger than in the expression heads` を置く。
+- **年齢は、顔に出す。** 二十七名の年齢は**出典にある**（19〜66）。ゆえに**顔がその年齢を示すことは発明ではない**——出典の行使である。各枚の Merged は、年齢の段落のすぐ後に一行を置く——`The age stated above is a fact of this sheet: every face on it carries that age — the four views and the four expression heads alike, at every size. The age is carried where a real face carries it: the eyelids, the fold from the nose to the mouth, the line of the jaw, and the hands. It is not a default young face.` そして否定行に `no generic young face, no face younger than the age stated, no idealized anime default face, no face in the four views younger than in the expression heads, no age smoothed away from the eyelids, the fold from the nose to the mouth, the jaw or the hands, no age or occupation text block, no metadata caption anywhere in the frame` を置く。
     - **なぜ足したか。** 2026-09-16 の四点（`サブ/01`〜`04`）で、**四枚とも年齢が顔に届いていなかった。** 出典が男52とする一枚が、二十代の顔で出た。**年齢は Merged に `NN-year-old` として在ったのに、「顔に出せ」と命じる一行が一本も無く、既定の理想化された顔を禁じる一行も一本も無かった**——ゆえに沈黙を埋めたのはモデルの平均顔である。**この一行は、そう読まれた結果への手当てである。**
     - **⚠ 一行目は、一度では足りなかった。** 最初の一行は「`has to be visible in the face`」とだけ書き、**場所を指定していなかった。** 著者が `02_鈴木和彦` を生成し直したところ（**同じプロンプトで、足した二行だけが違う比較**）、**年齢は届いたが、届いた場所が偏った**——**表情4面（顔が大きい）は四十代になり、多面図（顔が小さい）と表情の二面は二十代のままだった。****同じ一枚のなかで、年齢が揃わなかった。** ゆえに**「四つの多面図と四つの表情に、同じ年齢で」と場所を書き、Negative にも同じ一文を足した**（2026-09-16、著者の承認）。
         - **この比較で、注記の一行は完全に効いた**——前は四点すべて日本語だった注記が、**四点すべて英語**になり、作中の名も判読不能になった。
+    - **⚠ 二行目も、一度では足りなかった。** 書き直した版で `03_高橋由美`（出典は**女45**）を出したところ、**多面図は `01_佐藤美咲`（女29）と同じ顔のまま**で、年齢が出たのは**表情4面のうち二面だけ**だった（私の読みで三十歳前後）。**「四つの多面図と四つの表情に、同じ年齢で」と場所を書いても、モデルは「四五歳の顔」が何なのかを知らない。** ゆえに**三行目で、年齢の在り処そのものを名指した**——まぶた、鼻から口元への陰、顎の線、手。**同じ列を Negative にも置く**（2026-09-16、著者の承認）。**⚠ これは `06_大森徹` の `greying` と同じ性質である**——年齢は出典にあり、目鼻立ちは出典に無い。
+        - **⚠ この一段は、賭けである。** 「四人の差は顔の描き分けではなく、素材の差」に一歩近づく。**四五歳と二十九歳が分かれる保証は無い。**
+    - **⚠ そして、この一行は副作用を出した。** 年齢の一行を足したあとの三枚（`01` 04:34／`02` 04:37／`03` 04:40）の**画像の上に、文字の塊が出た**——`Age` `29` `Occupation` `Nursery teacher (licensed nursery school)` `Katsushika, Tokyo, 2026`、**そして続く二段落。それは Merged の書き出しそのものである。** 最初の世代（04:23〜04:28）には**一つも無い**。**型の三種の外側にある第四の文字**である。**ゆえに禁じた**——Negative に `no age or occupation text block, no metadata caption anywhere in the frame`（2026-09-16、著者の承認）。**年齢は顔に出し、文字にはしない。**
+        - **⚠ ただし、この一行が抑えるのは年齢と職業だけである。** 実際に出た塊は**もっと大きい**——**ゆえに、型の三種を英語側にも書き下す一行を、著者へ戻した**（未決）。
     - **目鼻立ちは指定しない。** それは発明であり、中核四人の「**四人の差は顔の描き分けではなく、素材の差**」と正面から衝突する。**年齢は出典にあり、目鼻立ちは出典に無い**——足したのは前者だけである。
 - **⚠ 保留の一点——〔導出〕の「表と内のずれ」は、まだ顔に降りていない。** 台帳は各人に `表と内のずれ〔導出〕` を持ち、`01_佐藤美咲` のそれは「**先生、みーちゃん、美咲。三つとも、違う長さである。**」——**外見ではなく、口の形の話である。** 年齢と同じ手当てが掛かる場所だが、**著者が保留とした**（2026-09-16——**「初稿だから、後で出そうと思う」**）。
     - **降ろせる範囲は、すでに測ってある。** 台帳の〔導出〕行を逐語で引いている枚は**六枚**、シート自身が「ずれ」の語を持つ枚は**十五枚**、**残り九枚は「ずれ」の語を一つも持たない。** その九枚に足すには**台帳の側に一行を足す必要があり、台帳は読む側である。**

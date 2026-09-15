@@ -1,5 +1,19 @@
 # 開発履歴
 
+## 0.1.42 — 2026-09-16
+
+- **年齢の一行を、三度目に書き直した。** 0.1.41 の一行（`every face on it carries that age — the four views and the four expression heads alike`）は**場所**を書いたが、**「四五歳の顔」が何なのかは書いていなかった。**
+- **⚠️ 三枚目を測った。** 著者が `サブ/03_高橋由美`（**女45**）を**直した版から**生成した（画像 04:40:06 / `prompt.md` 更新 04:38:49）。**結果——多面図は `01_佐藤美咲`（女29）と同じ顔のままで、年齢が出たのは表情4面のうち二面だけだった**（私の読みで `03` は三十歳前後）。**場所を書くだけでは足りない。**
+- **⚠️ そしてこの二枚は、同じ版の比較ではない。** `01` の画像は **04:34:05**、`01` の `prompt.md` の更新は **04:38:49**——**`01` の画像は、最初の一行（場所の指定がない版）から出ている。****「似ている」ことは測れるが、「一行が効かなかった」ことは、この二枚だけでは測れない。**
+- **ゆえに三度目——年齢の在り処そのものを名指した。** `The age is carried where a real face carries it: the eyelids, the fold from the nose to the mouth, the line of the jaw, and the hands.` **Negative にも同じ列**——`no age smoothed away from the eyelids, the fold from the nose to the mouth, the jaw or the hands, `。**27 枚（さくらを除く）。**
+    - **⚠️ これは `06_大森徹` の `greying`（白髪が混じる）と同じ性質である**——**年齢は出典にあり、目鼻立ちは出典に無い。** **ただし賭けである**——**四五歳と二十九歳が分かれる保証は無い。** 分かったとしても**「顔の描き分け」に一歩近づく**——中核四人が自分で書いた「**四人の差は顔の描き分けではなく、素材の差**」との両立が、本当の問いである。**著者はこれを承知で承認した。**
+- **⚠️ 型の外に出た文字の塊を、禁じた。** 0.1.41 で観察した `Age 52 / Occupation …` の欄は、**年齢の一行を足したあとの三枚すべてに出ていた**（`01` 04:34／`02` 04:37／`03` 04:40）。**最初の世代（04:23〜04:28）には一つも無い——ゆえに年齢の一行の副作用である。**
+    - **⚠️ そして塊は、0.1.41 で書いたより大きい。** `01` の画像を読み直したところ、欄は `Age` / `29` / `Occupation` / `Nursery teacher (licensed nursery school)` / `Katsushika, Tokyo, 2026` で終わらず、**続く二段落まで含んでいた**——`Her whole working day is spent writing children's names into communication notebooks.` と `Her own given name has not been spoken aloud since her middle-school homeroom teacher.` **それは Merged の書き出しそのものである。****モデルは、プロンプトの散文を、シートの側の文字として置いた。**
+    - Negative に `no age or occupation text block, no metadata caption anywhere in the frame` を置いた（著者の承認）。**年齢は顔に出し、文字にはしない。**
+    - **⚠️ この一行が抑えるのは年齢と職業だけである。** 実際に出た塊は **Merged の散文そのもの**——**ゆえに、型の「三種」を英語側にも書き下す一行を著者へ戻した（未決）。**
+- **検査器の §2c を更新した**（定数を三度目の一行に、Negative を同じ列に差し替え）。**二十八枚・全検査を通っている。** 台帳の検査も不変（**違反 2 件／註 9 件**）。
+- SKILL.md の version 0.1.41→0.1.42。
+
 ## 0.1.41 — 2026-09-16
 
 - **年齢の一行を書き直した**（0.1.40 で足した一行が、一度では足りなかったため）。0.1.40 で 27 枚に足したのは `…it has to be visible in the face, and the face is not a default young face.`——**場所を指定していなかった。**
