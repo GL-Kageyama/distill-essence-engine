@@ -129,7 +129,7 @@
 ```text
 A character model sheet of 関口浩一 — a 42-year-old office worker at a company in Minato who works from home most of the week, two days a week in the office out of a 4,200-person company, and who places one beat before his own name — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
-The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+The age stated above is a fact of this sheet: every face on it carries that age — the four views and the four expression heads alike, at every size. It is not a default young face.
 
 He is precisely specified: a 3LDK in Koto ward, owned, 11 years old, nine minutes on foot from Monzen-Nakacho; short-cropped black hair with no parting; thin metal-rimmed glasses; a slim shoulder bag for the two office days. Because he does not wear shoes on the other three days of the week, the four views stand barefoot and the height guide is taken from a bare foot.
 
@@ -139,5 +139,5 @@ Below, a row of four expression heads, each held one beat short of his own name:
 
 Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool screen white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; no text on any screen in the frame is legible, and the two syllables he opens with are never set down as writing.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible text on any screen, no subtitle, no shoes, no visible room interior.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no face in the four views younger than in the expression heads, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible text on any screen, no subtitle, no shoes, no visible room interior.
 ```
