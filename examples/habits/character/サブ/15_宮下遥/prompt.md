@@ -74,7 +74,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 黒髪、肩につかない長さ。結ばない。**この一枚の同一性は、髪から読まれない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 黒髪、肩につかない長さ。結ばない。**この一枚の同一性は、髪から読まれない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。相対の基準も置かない | 出典に体格の記述が一行も無い。**数は実測として読まれる。** |
 | 衣装 | 事務所の普段着。**この一枚の同一性は、衣装から読まれない** | 職業＝ウェブ制作（run-09）、社員11名の受託開発の会社。出典に衣装の記述は一行も無い |
 | 鞄 | 肩に掛ける鞄 | `通勤は徒歩と電車で18分。`（run-09） |
@@ -120,6 +120,8 @@ luminous-anime の**生き残る部分だけ**を使う。**清潔なアニメ�
 ```text
 A character model sheet of 宮下遥 — a 26-year-old web production worker at a small contract development company in Shibuya, who leaves the half-typed word of the person before her in the shared search field and types her own word on after it, stopping short of what that person was looking for — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 She is 26, in web production, and the sheet gives what the source gives and nothing more: black hair that does not reach the shoulder, left loose; ordinary clothes for an eleven-person office; a bag over one shoulder, because her commute is eighteen minutes on foot and by train. Neither the hair nor the clothes are how this sheet is told apart — it is told apart by a search field and one hand.
 
 Nothing in this frame is a finished word. The shared search field is drawn mid-entry: a half-typed word left by someone who walked away, nowhere legible, and after it a gap of exactly one character where nothing has been typed yet. Below the word, the caret sits blinking at that gap and has not moved past it. On the keyboard, one spot on one key is polished bright — the years she has typed into this window.
@@ -128,7 +130,7 @@ Enlarged, four insets, each carrying either a year or a name: the half-typed wor
 
 Below, a row of four expression heads, each stopped with the caret still short of what the previous person wanted: leaving the half-typed word exactly where it was and typing on from there; typing her own word on behind it without clearing the blinking position; stopping at the width before the two characters that mean opening hours; and, later, leaving the word she typed joined on, still there, not cleared.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, cool office white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; the word in the search field is half-typed and nowhere legible. The blinking caret is placed as a position, not rendered as a glow. No letterform of any display name appears anywhere in the frame.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool office white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; the word in the search field is half-typed and nowhere legible. The blinking caret is placed as a position, not rendered as a glow. No letterform of any display name appears anywhere in the frame.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no roman-lettered display name, no legible text in the search field, no finished word anywhere, no screen interface chrome, no glow effect on the caret, no handwriting by the subject, no signature, no red seal impression.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no roman-lettered display name, no legible text in the search field, no finished word anywhere, no screen interface chrome, no glow effect on the caret, no handwriting by the subject, no signature, no red seal impression.
 ```

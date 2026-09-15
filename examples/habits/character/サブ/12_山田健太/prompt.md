@@ -58,7 +58,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 黒髪。短く整える。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 黒髪。短く整える。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。**相対のみ** | 相対のみ。**数値は置かない**（数は実測として読まれるため） |
 | 上着と、鍵束の札 | 内見の鍵束に札が付いている。**名は書かれていない** | `名のない鍵の札。`（run-09）。**上着も鍵束そのものも出典に一行も無い。** |
 | 抜かれない一本の、擦れていない穴 | 束の他の鍵は、穴のまわりが擦れている。その一本だけ、擦れていない | `鍵束を机に置き、一本ずつ抜いては戻し、最後に残る一本を触らずに束ねる。`（run-10）——**抜かれない一本には、年が残らない** |
@@ -102,13 +102,15 @@
 ```text
 A character model sheet of 山田健太 — a 35-year-old estate agent at a small local agency in Kawaguchi, Saitama, Japan 2026, who carries one key in his bunch of viewing keys whose owner nobody knows, and has carried it for five years — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 He wears a work jacket over a shirt, and the bunch of viewing keys hangs at his hand with a single tag on it: a tag on which no name has been written, only the room, and that nowhere legible. Black hair, trimmed short; no colour added. He is drawn at a single relative height only, and no numeric height is placed anywhere on the sheet.
 
 The whole surface of this sheet is a place where keys are tied to rooms and the owner's name is written down nowhere. At the desk he sets the bunch down, takes the keys out one by one and puts each one back, and when one is left over he ties the bunch without touching it. Enlarged, four insets: the key tag with no name on it; the one key in the bunch whose owner nobody knows; the keys lying on the desk, taken out and put back in the same place; and the hole of the one key that is never taken out — the only hole in the bunch that is not worn.
 
 Below, a row of four expression heads, each held one beat short of completing: setting the bunch down on the desk, not yet opened; a key pulled out and put back, stopped at the moment it is back; the bunch carried from the desk towards the door of a viewing, stopped at the one key whose owner is unknown; and standing with a client over the number of keys, stopped at the point where the count does not come out right. Nobody in this frame is watching him, and all four faces are turned towards no one.
 
-The number five stands in two places on this sheet, and the sheet draws no line between them and says nothing about whether they are the same day. Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; no name is written on any prop in the frame.
+The number five stands in two places on this sheet, and the sheet draws no line between them and says nothing about whether they are the same day. Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; no name is written on any prop in the frame.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no reading gloss over the header name, no name written on the key tag, no legible room number, no second person in the frame, no one watching, no apartment interior, no door drawn, no corridor.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no reading gloss over the header name, no name written on the key tag, no legible room number, no second person in the frame, no one watching, no apartment interior, no door drawn, no corridor.
 ```

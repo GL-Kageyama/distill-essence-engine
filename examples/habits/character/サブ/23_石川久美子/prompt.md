@@ -76,7 +76,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 黒髪、後ろでまとめる。調理の帽子の下に入る。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 黒髪、後ろでまとめる。調理の帽子の下に入る。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。**相対のみ。数値は置かない** | 数は実測として読まれる。**出典に身長の記述は無い** |
 | 給食着 | 白い調理着と前掛け、帽子 | **`給食調理員`**・**`第三調理室の班長`**（run-09）。**出典に外見の記述が一行も無い**ので、この一枚が置く |
 | 鞄 | 自転車9分の通勤の、肩掛け | `通勤は自転車9分`（run-09） |
@@ -120,13 +120,15 @@
 ```text
 A character model sheet of 石川久美子 — a 55-year-old school-meal cook in Kawaguchi, Saitama, foreman of the third cooking room of a city kitchen that turns out 4,000 meals a day with 28 cooks, who counts the names of the absent and then says the number to nobody — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 She is precisely specified: a 2DK in a public housing block in Shiba, 45 years old as a building, twelve minutes on foot from the station and nine minutes by bicycle to work; white cooking wear, an apron and a cap; black hair gathered at the back so that it sits under the cap; a shoulder bag. The ladle is held in the right hand and changed over to the left before anything is served.
 
 The whole surface of this sheet is the paper only the absent appear on. Enlarged, four insets: the register of the absent, its names nowhere legible; the three she counted with her lips not moving; the hand changing the ladle over; and the food can carried from the kitchen to the serving table and stopped at the third of the counted three. Nothing carries what these four do not, and the number she counted stays inside her mouth — she does not say it.
 
 Below, a row of four expression heads, each held one beat short of saying the number: counting the names of the absent before the meal; standing in front of the can and counting three with her lips not moving; changing the ladle over and then serving; and holding the count without saying it.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, clouded kitchen white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; the names on the register are nowhere legible, no numeral appears on any object in the frame, and the one coworker watching says nothing.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, clouded kitchen white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; the names on the register are nowhere legible, no numeral appears on any object in the frame, and the one coworker watching says nothing.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no numerals on any in-world prop, no spoken number, no steam, no dining hall interior, no action played twice.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no numerals on any in-world prop, no spoken number, no steam, no dining hall interior, no action played twice.
 ```

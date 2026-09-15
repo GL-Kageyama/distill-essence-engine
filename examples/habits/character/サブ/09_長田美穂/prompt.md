@@ -63,7 +63,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 黒髪。後ろで小さくまとめる。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 黒髪。後ろで小さくまとめる。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。**相対のみ** | 相対のみ。**数値は置かない**（数は実測として読まれるため） |
 | 店の制服と、胸の名札 | 名札には姓がある。**旧姓は、そこには無い** | `「長田さん」。`（run-09）＋〔導出〕`店の名札には姓があり、旧姓は案内にだけある。` **制服そのものは出典に一行も無い。** |
 | 十五通の案内 | 同じ宛名で十五通。封を切った形で束ねてある | `最後に呼んだのは十五年前。`＋`カードの更新案内が、いまも「大西美穂様」で届く`（run-09）→ 年一回×十五年（導出） |
@@ -109,13 +109,15 @@
 ```text
 A character model sheet of 長田美穂 — a 50-year-old woman at the counter of a small dry cleaner's on a station-front shopping street in Nerima, Tokyo, Japan 2026, who rewrites the name on a claim tag in front of the customer and never crosses the old one out — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 She wears the plain shop coat of a neighbourhood cleaner's, with a single nameplate on the chest carrying the family name she uses now; the older family name is written on nothing she wears. Black hair, gathered small at the back; no colour added. She is drawn at a single relative height only, and no numeric height is placed anywhere on the sheet.
 
 The whole surface of this sheet is a place where one name is written twice. On the claim tag, a first name has been written from the slip, and below it a second name has been written without any line drawn between them, so that both are still there and neither is legible. Enlarged, four insets: the claim tag with its two names, one below the other; the chest nameplate holding the family name in use and not the older one; the addressed block of a card-renewal notice printed once a year, nowhere legible, the one place the older name still arrives; and fifteen such notices bundled together, every one addressed the same way.
 
 Below, a row of four expression heads, each held one beat short of completing: writing the name from the slip onto the tag, not yet finished; stopped part-way through the second writing, the pen still down and no line drawn anywhere; the tag held out across the counter towards a hand not yet reached, stopped exactly where she rewrote it; and arguing with a customer about the rewrite, stopped on the point of crossing nothing out.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is written by a hand other than hers and is nowhere legible. The customer is named on a leader line only and is not drawn; the shop interior is not drawn.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is written by a hand other than hers and is nowhere legible. The customer is named on a leader line only and is not drawn; the shop interior is not drawn.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no reading gloss over the header name, no erasure marks, no crossed-out text, no correction fluid, no second name for the subject written by herself, no second person in the frame, no shop interior, no hanging rail.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no reading gloss over the header name, no erasure marks, no crossed-out text, no correction fluid, no second name for the subject written by herself, no second person in the frame, no shop interior, no hanging rail.
 ```

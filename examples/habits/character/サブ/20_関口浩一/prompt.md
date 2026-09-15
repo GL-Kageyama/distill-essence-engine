@@ -85,7 +85,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 短く切りそろえた黒髪。分け目を作らない。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 短く切りそろえた黒髪。分け目を作らない。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。**相対のみ。数値は置かない** | 数は実測として読まれる。**出典に身長の記述は無い** |
 | 眼鏡 | 細い金属の眼鏡 | 会議を画面ごしに見る三年（run-09）。**出典に外見の記述が一行も無い**ので、この一枚が置く |
 | 鞄 | 週二日の通勤の、薄い肩掛け | `週二日出社`・`電車で31分`（run-09） |
@@ -129,13 +129,15 @@
 ```text
 A character model sheet of 関口浩一 — a 42-year-old office worker at a company in Minato who works from home most of the week, two days a week in the office out of a 4,200-person company, and who places one beat before his own name — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 He is precisely specified: a 3LDK in Koto ward, owned, 11 years old, nine minutes on foot from Monzen-Nakacho; short-cropped black hair with no parting; thin metal-rimmed glasses; a slim shoulder bag for the two office days. Because he does not wear shoes on the other three days of the week, the four views stand barefoot and the height guide is taken from a bare foot.
 
 The whole surface of this sheet is a place where his name is displayed and never read aloud. His display name on the meeting roster holds both his surname and his given name, and for three years that given name has stayed on the screen while not one person has read it out — the display name is nowhere legible here, and only the fact that it is set in Japanese characters survives as information. Enlarged, four insets: the display name on the screen; the meeting attendance list; his mouth already shaped for the two syllables he opens with before he gives his name, in the one beat before the call connects, with nobody on the other end yet; and the meeting screen before it connects, still empty of anyone. Nothing carries what these four do not.
 
 Below, a row of four expression heads, each held one beat short of his own name: those two opening syllables at the top of a meeting; the mouth shaped a beat before the call connects; the voice laid into that beat before he gives his name; and, at the second standing, a display name that has never once been changed.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, cool screen white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; no text on any screen in the frame is legible, and the two syllables he opens with are never set down as writing.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool screen white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; no text on any screen in the frame is legible, and the two syllables he opens with are never set down as writing.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible text on any screen, no subtitle, no shoes, no visible room interior.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible text on any screen, no subtitle, no shoes, no visible room interior.
 ```

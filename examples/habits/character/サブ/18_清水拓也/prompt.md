@@ -68,7 +68,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 黒髪、短く、帽子の跡がつく長さ。**この一枚の同一性は、髪から読まれない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 黒髪、短く、帽子の跡がつく長さ。**この一枚の同一性は、髪から読まれない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。相対の基準も置かない | 出典に体格の記述が一行も無い。**数は実測として読まれる。** |
 | 衣装 | 配送の作業着。**この一枚の同一性は、衣装から読まれない** | 職業＝配達（run-09）。出典に衣装の記述は一行も無い |
 | 鞄 | 持たない。自転車の籠に置く | `通勤は自転車8分で営業所へ、そこから車。`（run-09） |
@@ -115,6 +115,8 @@ luminous-anime の**生き残る部分だけ**を使う。**清潔なアニメ�
 ```text
 A character model sheet of 清水拓也 — a 30-year-old delivery driver working for another company in eastern Edogawa, Tokyo, who photographs a parcel the morning after, one frame only, before anyone has opened it — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 He is 30, a delivery driver, and the sheet gives what the source gives and nothing more: black hair, cut short enough to sit under a cap; the plain work clothes of a delivery depot; no bag, because he rides eight minutes to the depot and leaves everything in the cab. Neither the hair nor the clothes are how this sheet is told apart — it is told apart by one slip of paper, one parcel and one hand.
 
 His identification is two things at once: the sender's copy of a shipping slip, holding the name of whoever sent the parcel and the name of whoever will receive it, both in handwriting and both nowhere legible; and the parcel itself, still sealed, its tape uncut, because nothing in it belongs to anyone yet. His own name appears in none of the frame's papers — not on the slip, not on the delivery note.
@@ -123,7 +125,7 @@ In this frame there is exactly one of everything. One parcel, one shipping slip,
 
 Below, a row of four expression heads, each stopped with a finger still on the screen and not yet lifted: taking one photograph of a parcel nobody has opened yet; stepping back half a pace with the parcel left on the ground and levelling the frame with one hand; pressing once, and stopping at one; and exchanging two words with a neighbour at the same address.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, cool early-morning white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is nowhere legible. The three ones — one hand, one frame, one press — are named on a leader line; only one photograph exists in the frame.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool early-morning white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is nowhere legible. The three ones — one hand, one frame, one press — are named on a leader line; only one photograph exists in the frame.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible sender name, no legible recipient name, no legible text on the shipping slip, no company name or logo, no opened parcel, no cut tape, no second photograph, no image gallery, no date written anywhere, no handwriting by the subject, no signature, no red seal impression.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible sender name, no legible recipient name, no legible text on the shipping slip, no company name or logo, no opened parcel, no cut tape, no second photograph, no image gallery, no date written anywhere, no handwriting by the subject, no signature, no red seal impression.
 ```

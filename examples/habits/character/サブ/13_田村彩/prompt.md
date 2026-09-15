@@ -66,7 +66,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 黒髪、肩に届く長さ、後ろで一つにまとめられる。色を足さない。**この一枚の同一性は、髪から読まれない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 黒髪、肩に届く長さ、後ろで一つにまとめられる。色を足さない。**この一枚の同一性は、髪から読まれない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。相対の基準も置かない | 出典に体格の記述が一行も無い。**数は実測として読まれる。** |
 | 衣装 | 白い上着（薬剤師の職場の支給品）。**この一枚の同一性は、衣装から読まれない** | 職業＝薬剤師（run-09）。出典に衣装の記述は一行も無い |
 | 鞄 | 片手に提げる小さな通勤鞄 | `通勤は徒歩6分。`（run-09）——歩ける距離の通勤 |
@@ -112,6 +112,8 @@ luminous-anime の**生き残る部分だけ**を使う。**清潔なアニメ�
 ```text
 A character model sheet of 田村彩 — a 31-year-old pharmacist at a two-branch dispensing pharmacy by a station in Yokohama, who reads how long a patient has been coming from the looseness of a medicine notebook's binding and never opens its page — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 She is 31, a pharmacist, and the sheet gives what the source gives and nothing more: black hair to the shoulder, gathered back so that it survives a full walking commute; a plain white work coat, the standard garment of the dispensary; a small bag carried in one hand, because she walks six minutes to work. A small thickening has worn into the outside of the notebook's binding where a thumb presses. Hair, coat and bag are not how this sheet is told apart — it is told apart by one sheet of paper and one hand.
 
 Her identification is a paper and a thumb, and the two never meet. The medicine notebook is drawn closed throughout: what the sheet shows of it is the spine, the fore-edge and the binding — never an open page. On the binding, a single small place is faintly polished, the spot her thumb finds on the second press, not the first.
@@ -120,7 +122,7 @@ Enlarged, four insets, each carrying either a year or a name: the looseness alon
 
 Below, a row of four expression heads, each stopped at one point — her thumb resting on the binding and not yet lifted: taking the notebook in hand; the second of two presses, the one that means nothing and is only the hand's habit; reading the looseness of the binding to know the length of someone's treatment, the page still closed; and returning the notebook to the counter window without ever opening it.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop belongs to a patient and is nowhere legible. The two presses are named on a leader line, not staged as two moments. No mark of her own name appears anywhere in the frame.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop belongs to a patient and is nowhere legible. The two presses are named on a leader line, not staged as two moments. No mark of her own name appears anywhere in the frame.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no open page, no legible patient name, no legible name field, no hiragana lettering for her own name, no handwriting by the subject, no signature, no red seal impression, no smile, no nameplate.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no open page, no legible patient name, no legible name field, no hiragana lettering for her own name, no handwriting by the subject, no signature, no red seal impression, no smile, no nameplate.
 ```

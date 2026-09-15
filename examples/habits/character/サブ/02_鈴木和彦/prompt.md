@@ -64,7 +64,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 顔を置く。髪は短く、制帽の下に収まる長さ。**色を足さない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 顔を置く。髪は短く、制帽の下に収まる長さ。**色を足さない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。**相対のみ。数値は置かない** | 出典に体格の記述が一行も無い。**数値は実測として読まれる** |
 | 衣服 | 路線バス運転士の制服に留める。**この一枚の同一性は、衣服から読まれない** | 職業は`路線バス運転士`（run-09）。**衣装の記述は出典に一行も無い** |
 | 鞄 | 通勤38分ぶんの、平たい肩掛けの鞄 | `通勤は電車とバスで38分`（run-09） |
@@ -100,13 +100,15 @@ luminous-anime の**生き残る部分だけ**を使う。**清潔なアニメ�
 ```text
 A character model sheet of 鈴木和彦 — a 52-year-old route bus driver in Kawasaki, Japan 2026, who never rides the route he drives and who remembers, stop by stop, the height at which each boarding passenger raises a hand — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 A route bus driver's uniform, kept plain, and a driver's cap. Short hair that stays under the cap. His build is given only as relative height, never as a number, and nothing about this sheet is read off his clothing.
 
 Nothing in this sheet is read by anyone. The nameplate kept in the bus is on the sheet, its surname nowhere legible; enlarged, three further insets: the name column of a boarding record, also nowhere legible; the rim of the door button at his left hand, where the paint has worn to a round bare patch because the same fingertip lands there every day; and the surname column of a roll-call sheet, where a name is read out only as a number in a sequence.
 
 Below, a row of four expression heads, each held at that one beat, before the door position is decided: his left hand just off the wheel at the approach to a stop; his eyes on a raised hand at the height it is raised; his surname called out together with a number, an ordinal and not a name; and, one more time, the roll call — the sequence remembered by voice and not by name.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is nowhere legible, and nobody in the frame ever reads one.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is nowhere legible, and nobody in the frame ever reads one.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no handwriting by the subject, no signature, no red seal impression, no passenger faces, no bus interior as a background, no road, no route map, no legible destination sign.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no handwriting by the subject, no signature, no red seal impression, no passenger faces, no bus interior as a background, no road, no route map, no legible destination sign.
 ```

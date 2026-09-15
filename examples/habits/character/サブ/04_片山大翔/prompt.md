@@ -63,7 +63,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 顔を置く。髪は短く、講義と塾の両方に収まる長さ。**色を足さない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 顔を置く。髪は短く、講義と塾の両方に収まる長さ。**色を足さない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。**相対のみ。数値は置かない** | 出典に体格の記述が一行も無い。**数値は実測として読まれる** |
 | 衣服 | 大学院と塾を行き来する、平たい服装に留める。**この一枚の同一性は、衣服から読まれない** | 出典に衣装の記述が一行も無い。**衣装で識別させない** |
 | 鞄 | 通勤22分ぶんの、肩掛けの鞄。**出席簿は、この鞄には入らない** | `通勤は徒歩と地下鉄で22分`（run-09）。出席簿は`教壇の脇`にある（run-10） |
@@ -100,13 +100,15 @@ luminous-anime の**生き残る部分だけ**を使う。**清潔なアニメ�
 ```text
 A character model sheet of 片山大翔 — a 23-year-old graduate student and cram-school tutor in Bunkyo, Tokyo, Japan 2026, whose given name can be read two ways so that nobody has ever decided how to say it aloud — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it and none anywhere else on the sheet.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 Plain clothing for a day split between a laboratory and a cram school, and the class register he carries to the desk is on the sheet with him. Short hair. His build is given only as relative height, never as a number, and nothing about this sheet is read off his clothing.
 
 The register is a paper that exists so that names can be called aloud, and not one name on this sheet can be read. Enlarged, four insets: one line of the register's name column with an index finger stopped on it, the surname nowhere legible; the same line, where the paper has gone glossy from being traced daily; a paper somewhere bearing his own name, with no reading glossed over it anywhere; and a shelf of past years' registers, one book for each year, each carrying its own traced line.
 
 Below, a row of four expression heads, each held at that one beat: the index finger sliding from left to right along the line of a name; the finger stopped and the voice not yet out; the mouth open on the syllable; and the two names for the same person, set down one after the other, the way two ways of calling a single student run on in the same breath.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is nowhere legible, and no reading is glossed anywhere on the sheet.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is nowhere legible, and no reading is glossed anywhere on the sheet.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no handwriting by the subject, no signature, no red seal impression, no furigana or reading gloss, no phonetic marks, no students, no classroom as a background.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no handwriting by the subject, no signature, no red seal impression, no furigana or reading gloss, no phonetic marks, no students, no classroom as a background.
 ```

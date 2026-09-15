@@ -60,7 +60,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 黒髪。肩より上でまとめる。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 黒髪。肩より上でまとめる。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。**相対のみ** | 相対のみ。**数値は置かない**（数は実測として読まれるため） |
 | 白衣とエプロン | 調理室の白衣。袖口は捲れる。**胸のポケットに、名の書かれた紙が入る** | `保育園の調理師`（run-09）。**出典に衣装の記述が一行も無い。** この一枚の同一性は白衣から読まれない——**紙と手から読まれる** |
 | 食札の束の、角の丸くなった一枚 | 毎日同じ手が持つ束の、いちばん上の一枚だけ、角が丸い | 動きの署名（run-10）`食札を配膳台から三つの机へ、`。**紙が覚えている年** |
@@ -104,13 +104,15 @@
 ```text
 A character model sheet of 川上桜 — a 34-year-old cook in the kitchen of a licensed nursery school in Saitama, Japan 2026, the person whose given name is spoken more often than any other name in that building and whose family name has never once been said aloud there — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 She wears the white coat of a nursery-school kitchen, the sleeves pushed back, the chest pocket holding a food card — a slip of paper with a name written on it, nowhere legible. Black hair, gathered above the shoulder so that it survives a shift over steam; no colour added. She is drawn at a single relative height only, and no numeric height is placed anywhere on the sheet.
 
 The whole surface of this sheet is a place where names are handled, and she is the one who looks at them last. Before serving she checks three tables by face, in order, without looking at the food cards, and only then lets her eyes drop to the cards themselves. Enlarged, four insets: the food card she looks at last, its name nowhere legible; the name column of a nursery allergy sheet — a paper written so that no accident happens — where the children's names stand and hers does not; the topmost card of the stack, its corner gone round from being carried by the same hand every day; and a square patch on the serving counter where the stack is set down in the same place each morning, the colour worn out of the surface.
 
 Below, a row of four expression heads, each held one beat short of completing: her eyes moving across the three tables face by face, the card still unturned under her hand; her eyes dropping at last to the card; her hand stopped mid-pass with a food card held out over a table, at the point where no name is called; and speaking with the class teacher at the food hour, mouth shaped around a word that is never the sound of her own name.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is written by a hand other than hers and is nowhere legible. The three tables she looks at are named on leader lines only and are not drawn.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is written by a hand other than hers and is nowhere legible. The three tables she looks at are named on leader lines only and are not drawn.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no reading gloss over the header name, no apron embroidery, no name stitched or printed on any garment, no children in the frame, no classroom, no tables drawn as scenery.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no reading gloss over the header name, no apron embroidery, no name stitched or printed on any garment, no children in the frame, no classroom, no tables drawn as scenery.
 ```

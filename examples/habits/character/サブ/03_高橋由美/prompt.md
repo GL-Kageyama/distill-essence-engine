@@ -64,7 +64,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 顔を置く。髪は肩までの長さで、後ろに一つに結ぶ。**色を足さない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 顔を置く。髪は肩までの長さで、後ろに一つに結ぶ。**色を足さない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。**相対のみ。数値は置かない** | 出典に体格の記述が一行も無い。**数値は実測として読まれる** |
 | 衣服 | 惣菜部門の前掛けに留める。**この一枚の同一性は、衣服から読まれない** | 出典に衣装の記述が一行も無い。**衣装で識別させない** |
 | 鞄 | 自転車の籠に入る、肩掛けの小さな鞄 | `通勤は自転車12分`（run-09） |
@@ -100,13 +100,15 @@ luminous-anime の**生き残る部分だけ**を使う。**清潔なアニメ�
 ```text
 A character model sheet of 高橋由美 — a 45-year-old deli-counter worker at a food supermarket in Kawaguchi, Saitama, Japan 2026, whose whole working day is spent putting discount stickers on packs and whose given name was last spoken aloud by someone she worked with twenty-six years ago — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 A deli-counter apron, kept plain, and the pack she is handling sits on the sheet with her. Hair to the shoulder, tied back. Her build is given only as relative height, never as a number, and nothing about this sheet is read off her clothing.
 
 The paper she handles all day has a column for a price and no column for a name. Enlarged, four insets: the discount sticker itself, with no name column anywhere on it, nothing legible; the deli counter's staff nameplate, carrying a surname only, nowhere legible; one spot on the rim of the work table, exactly one pack wide, where the coating has worn to a round bare patch, because every pack is set down there again before the sticker goes on; and the sticker's price column, where a number is written and a name never is.
 
 Below, a row of four expression heads, each held at that one beat: the pack shifted from the right hand to the left; the pack set back down on the rim of the table; her right hand stopped short of the sticker; and the pack moved from the table toward the shelf, stopping in front of the sticker.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is nowhere legible, and no name anywhere in the frame is hers.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is nowhere legible, and no name anywhere in the frame is hers.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no handwriting by the subject, no signature, no red seal impression, no name column on the discount sticker, no legible price numerals, no customers, no shop shelves as a background, no family figures.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no handwriting by the subject, no signature, no red seal impression, no name column on the discount sticker, no legible price numerals, no customers, no shop shelves as a background, no family figures.
 ```

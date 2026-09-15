@@ -76,7 +76,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 白髪の交じった短い髪。結ばない。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 白髪の交じった短い髪。結ばない。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。**相対のみ。数値は置かない** | 数は実測として読まれる。**出典に身長の記述は無い** |
 | 鞄 | 名簿を入れて歩く、薄い手提げ | 名簿を机から机へ、**斎藤悦子の手で運ぶ**（run-10）＋通勤は徒歩・**一日六千歩**（run-09） |
 | **なぞる指の、側面の鉛筆の粉** | 名簿をなぞる指の側面だけが、うっすら黒い | **消しゴムを持たずに、その行を指でなぞってから閉じる**（run-10）——**消さないので、粉が残る。** この一枚で最も強い発明 |
@@ -119,13 +119,15 @@
 ```text
 A character model sheet of 斎藤悦子 — a 66-year-old commissioned community welfare volunteer in Adachi, Tokyo, responsible for two neighborhood associations and 81 households, paid almost nothing for it and walking 6,000 steps of an ordinary day — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 She is precisely specified: a house in Senju, owned, 41 years old and extended once, 15 minutes on foot from Kita-Senju; hair gone mostly white, worn short and never tied back; a thin cloth bag for the register she carries from desk to desk. She keeps no eraser, and so a faint grey of pencil lead sits along the side of the finger she traces with.
 
 The whole surface of this sheet is the paper she keeps, and that paper has no field for a name. On the welfare register only a surname and a number are entered, and among those numbers one is a number that no longer comes out — its field is still filled in. Enlarged, four insets: that field, still filled; the blank margin of the register with a pencil laid flat against it and not one character set down; the fingertip stopped on that line, with no eraser anywhere in the frame; and, named only on a leader line, the 6,000 steps of an ordinary day, the distance she walks carrying the register. Nothing carries what these four do not.
 
 Below, a row of four expression heads, each held one beat short of closing the register: her hand stopping in front of the number that no longer comes out; the pencil laid against the margin and the finger tracing that line with nothing visible under the finger; the register shut and carried on to the next desk; and, at the second standing, a register made with no field to erase.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, paper white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every mark on the register is nowhere legible, and nothing in the frame is in her own hand. Nobody in the frame is looking at her; the last person to say her given name out loud was a neighbour, in 平成三十年.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, paper white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every mark on the register is nowhere legible, and nothing in the frame is in her own hand. Nobody in the frame is looking at her; the last person to say her given name out loud was a neighbour, in 平成三十年.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no handwriting by the subject, no signature, no red seal impression, no eraser, no legible number on the register, no onlooker.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no handwriting by the subject, no signature, no red seal impression, no eraser, no legible number on the register, no onlooker.
 ```

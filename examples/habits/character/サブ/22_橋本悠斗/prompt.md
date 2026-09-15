@@ -82,7 +82,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 黒髪、短い。**寝ぐせのまま**。整えない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。**（寝ぐせは出典の語である） |
+| 顔・髪 | 黒髪、短い。**寝ぐせのまま**。整えない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。**（寝ぐせは出典の語である） |
 | 体格の数値 | 置かない。**相対のみ。数値は置かない** | 数は実測として読まれる。**出典に身長の記述は無い** |
 | 鞄 | 夜勤の帰りの、肩掛け | `通勤は徒歩と始発で、往復62分`（run-09） |
 | **掴んでいない手** | 両手とも、何も掴んでいない。指は開いたまま | **`つり革を持たず`**（run-10）——**format の「手は空」と、出典が一致する。** この一枚で最も強い発明 |
@@ -127,13 +127,15 @@
 ```text
 A character model sheet of 橋本悠斗 — a 24-year-old night-shift warehouse worker in Ichikawa, Chiba, on a crew of 34 handling 20,000 items a night, alone on the first train home — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 He is precisely specified: a 1K in Gyotoku, 26 years old as a building and twelve minutes on foot from the station, the walk and the first train together taking 62 minutes each way; short black hair left exactly as he slept on it; a shoulder bag. Nothing is gripped by either hand — the fingers stay open, and there is no strap anywhere in the frame.
 
 The whole surface of this sheet is the work jacket's nameplate, where a surname is printed and the field beneath it is blank. Enlarged, four insets: the printed surname on the nameplate; the blank field beneath it, with not one character written into it by anybody yet; a route map inside the carriage, its station names nowhere legible; and his own hair reflected in the carriage window, untouched. Nothing carries what these four do not, and the blank field is left exactly as it is — he does not write his given name into it.
 
 Below, a row of four expression heads, each held one beat short of stepping off at the last stop: watching the back of his own slept-on head in the window glass from the first train; looking only at that hair in the glass, with no strap held; stepping off at the terminus; and a surname written alone beside a time clock.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, thin cold white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; the printed surname and the station names are all nowhere legible, and nobody in the frame is looking at him — the only gaze in this sheet is the one inside the glass.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, thin cold white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; the printed surname and the station names are all nowhere legible, and nobody in the frame is looking at him — the only gaze in this sheet is the one inside the glass.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no handwriting by the subject, no signature, no comb, no hand gripping a strap, no onlooker, no carriage interior.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no handwriting by the subject, no signature, no comb, no hand gripping a strap, no onlooker, no carriage interior.
 ```

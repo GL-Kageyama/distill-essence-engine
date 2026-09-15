@@ -79,7 +79,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 黒髪、肩につく長さ。仕事のあいだは結ぶ。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 黒髪、肩につく長さ。仕事のあいだは結ぶ。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。**相対のみ。数値は置かない** | 数は実測として読まれる。**出典に身長の記述は無い** |
 | 鞄 | 徒歩7分の通勤の、小さい肩掛け | `通勤は徒歩7分`（run-09） |
 | **はさみを置く一点** | 台の上に、はさみの決まった位置がある。**手には無い** | **`はさみを置いて、床の毛の山をほうきで一箇所に寄せ`**（run-10）——**切る道具を先に手放す。** この一枚で最も強い発明 |
@@ -123,13 +123,15 @@
 ```text
 A character model sheet of 池田絵里 — a 36-year-old hairdresser at a five-chair salon in Kawaguchi, Saitama, six staff and 25 clients a day, who remembers a length as an amount — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 She is precisely specified: a 1LDK in Sakaecho, 14 years old, seven minutes on foot from Kawaguchi station and the same seven minutes for the walk to work; black hair to the shoulder, tied back for the working day; a small shoulder bag. The scissors have a fixed place on the bench and are not in her hand — she lets go of the cutting tool first, and measures after that, with nothing but a palm.
 
 The whole surface of this sheet is the paper she keeps, and on that paper only a client's name and a cut length are ever written. Enlarged, four insets: one line of the chart, a client's name and the length cut, nowhere legible; the scissors set down on the bench; the pile of hair come to rest in the palm of her hand, weighed there and not measured with any tool; and the tip of a short broom gathering the hair on the floor into one place. Nothing carries what these four do not.
 
 Below, a row of four expression heads, each held one beat short of finishing the measurement: her hand letting go of the scissors; the broom drawing the hair on the floor into one place; the pile come to rest on her palm; and, at the second standing, the same length remembered as an amount on the floor, with an appointment slip on the desk.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, cool daylight white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; nothing written on the chart or the appointment slip is legible, and not one mark in the frame is in her own name. The only one watching her is the junior at the next chair, and what the junior watches is the palm.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool daylight white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; nothing written on the chart or the appointment slip is legible, and not one mark in the frame is in her own name. The only one watching her is the junior at the next chair, and what the junior watches is the palm.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no scissors in her hand, no measuring tool, no legible writing on the chart, no mirror, no salon interior.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no scissors in her hand, no measuring tool, no legible writing on the chart, no mirror, no salon interior.
 ```

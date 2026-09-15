@@ -69,7 +69,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 黒髪に白が交じる。短く刈り込む。**この一枚の同一性は、髪から読まれない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 黒髪に白が交じる。短く刈り込む。**この一枚の同一性は、髪から読まれない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。相対の基準も置かない | 出典に体格の記述が一行も無い。**数は実測として読まれる。** |
 | 衣装 | 事業所の作業着（介護タクシーの支給品）。**この一枚の同一性は、衣装から読まれない** | 職業＝介護タクシー運転手（run-09）＋車いすを扱う仕事（run-10）。出典に衣装の記述は一行も無い |
 | 鞄 | 持たない。車に乗る前に置く | `通勤は徒歩7分。`（run-09）——歩ける距離の通勤 |
@@ -115,6 +115,8 @@ luminous-anime の**生き残る部分だけ**を使う。**清潔なアニメ�
 ```text
 A character model sheet of 三宅隆 — a 58-year-old driver of a wheelchair-accessible taxi service in Yokohama, who asks the name of the person he is picking up a second time before he says where they are going, and who never asks it on the way back — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 He is 58, a driver, and the sheet gives what the source gives and nothing more: black hair going white, cropped short; the plain work clothes the service issues; no bag, because he walks seven minutes to the depot and leaves nothing in the cab. Neither the hair nor the clothes are how this sheet is told apart — it is told apart by two sheets of paper and one hand.
 
 His identification is two papers, and only one of them carries his own surname: a dispatch sheet, where the driver's surname stands in a column, and a transport log, where the names of the people carried are recorded and his own is not. Both are drawn with handwriting on them and neither is anywhere legible. Along the length of the wheelchair's grip, one spot under the right hand is worn smooth — the years this hand has spent checking names.
@@ -123,7 +125,7 @@ Enlarged, four insets, each carrying either a year or a name: the column of surn
 
 Below, a row of four expression heads, each stopped just after the name has been confirmed and before the destination is spoken: asking the name of the person being picked up; standing at the side of the seat with the wheelchair already secured; checking the name once more before saying where they are going; and carrying the wheelchair from the entrance to the car, halted at the moment the name is asked again.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, overcast daylight white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is written on a dispatch sheet or a transport log and is nowhere legible. The difference between the outward trip and the return trip is named on a leader line, not staged as two moments.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, overcast daylight white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is written on a dispatch sheet or a transport log and is nowhere legible. The difference between the outward trip and the return trip is named on a leader line, not staged as two moments.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible surname on the dispatch sheet, no legible passenger name on the log, no year written anywhere in the frame, no handwriting by the subject, no signature, no red seal impression, no mourning, no funeral, no photograph of a mother.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible surname on the dispatch sheet, no legible passenger name on the log, no year written anywhere in the frame, no handwriting by the subject, no signature, no red seal impression, no mourning, no funeral, no photograph of a mother.
 ```

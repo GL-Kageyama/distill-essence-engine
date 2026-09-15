@@ -68,7 +68,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 黒髪、短く整える。白は置かない。**この一枚の同一性は、髪から読まれない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 黒髪、短く整える。白は置かない。**この一枚の同一性は、髪から読まれない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。相対の基準も置かない | 出典に体格の記述が一行も無い。**数は実測として読まれる。** |
 | 衣装 | 職場の標準的な服装。上着は椅背に掛ける。**この一枚の同一性は、衣装から読まれない** | 職業＝中学校教諭（run-09）。出典に衣装の記述は一行も無い |
 | 鞄 | 肩に掛ける鞄 | `通勤は東武野田線で二駅、往復44分。`（run-09） |
@@ -115,6 +115,8 @@ luminous-anime の**生き残る部分だけ**を使う。**清潔なアニメ�
 ```text
 A character model sheet of 秋山誠 — a 47-year-old teacher at a municipal junior high school in Saitama, who keeps the row of a pupil who transferred out in the roll he submits, and who never rules a line across that blank — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 He is 47, a teacher, and the sheet gives what the source gives and nothing more: black hair, kept short; the ordinary clothes of a school staff room, his jacket left over the back of a chair; a bag over one shoulder, because his commute is two stations and forty-four minutes each way, with no voice calling him anywhere along it. Neither the hair nor the clothes are how this sheet is told apart — it is told apart by one ruled page and one hand.
 
 The centre of this sheet is a line that was never drawn. On the roll, one row in the transfer-out column is left blank, and no rule has been drawn across it — that single row is whiter than every other row on the page. Behind it, on a shelf, stands an older register from his first year of teaching, in which one name was written in his own hand and later erased by someone else; that name too is nowhere legible.
@@ -123,7 +125,7 @@ Enlarged, four insets, each carrying either a year or a name: the blank row with
 
 Below, a row of four expression heads, each stopped with the finger still flat on the blank row: keeping the row of a pupil who transferred out; closing a roll by pressing the blank row with a finger instead of laying a straightedge on it, then moving on; re-binding a roll from shelf to shelf, halted on the pressed row; and the middle of a conversation about a transfer. He does not speak in this frame.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, overcast classroom white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world roll is nowhere legible. Leader lines point at the blank row from its end and never cross over it.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, overcast classroom white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world roll is nowhere legible. Leader lines point at the blank row from its end and never cross over it.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible name in the transfer-out column, no ruled line across the blank row, no ruler, no straightedge, no eraser marks, no legible handwriting by the subject, no signature, no red seal impression, no speech in the frame.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible name in the transfer-out column, no ruled line across the blank row, no ruler, no straightedge, no eraser marks, no legible handwriting by the subject, no signature, no red seal impression, no speech in the frame.
 ```

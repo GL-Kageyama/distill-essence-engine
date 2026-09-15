@@ -84,7 +84,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 黒髪、短く刈る。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 黒髪、短く刈る。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。**相対のみ。数値は置かない** | 数は実測として読まれる。**出典に身長の記述は無い** |
 | 鞄 | 自転車11分の通勤の、肩掛け | `通勤は自転車11分で営業所へ、そこから車`（run-09） |
 | **体の回し方** | 箱を置いたあと、体を回して、**番地が左手の上に来る** | **`番地のプレートが画面の左上に来るよう体を回し`**（run-10）——**この一枚で最も強い発明。** 側面図と背面図に、その回し方が出る |
@@ -128,13 +128,15 @@
 ```text
 A character model sheet of 前田亮太 — a 33-year-old senior delivery driver in Adachi, Tokyo, one of 55 drivers at a depot, covering the northern half of the ward, who stacks four years of photographs of the same addresses into one folder and does not take the habit back when it is named — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 He is precisely specified: a 2DK in Rokucho, 18 years old as a building, nine minutes on foot from the station and eleven minutes by bicycle to the depot before he gets in the car; short-cropped black hair; a shoulder bag; a handset held out in front of him. After the box is set down he turns his body until the address plate comes to the upper left of the frame, and he shoots once — one shutter only.
 
 The whole surface of this sheet is a file name, and four years of photographs are stacked beneath it while nobody says the word. Enlarged, four insets: the address plate; a box left at the same address with its photograph; four years of photographs stacked inside the one folder, the folder name nowhere legible; and the finger closing the shutter, stopped one beat short of the fourth. Nothing carries what these four do not. He does not write the address down anywhere in the frame.
 
 Below, a row of four expression heads, each held one beat short of stacking the fourth: setting the box down; turning the body until the address plate sits upper left; closing the shutter once; and not taking it — the habit named to him and the photographs going into the same folder anyway.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, overcast daylight white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; the folder name and the address plate are nowhere legible, and nobody in the frame is looking at him.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, overcast daylight white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; the folder name and the address plate are nowhere legible, and nobody in the frame is looking at him.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible file name, no legible address, no legible numerals, no onlooker, no street, no second shot.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible file name, no legible address, no legible numerals, no onlooker, no street, no second shot.
 ```

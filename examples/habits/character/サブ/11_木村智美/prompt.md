@@ -63,7 +63,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 黒髪。肩につく長さ。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 黒髪。肩につく長さ。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。**相対のみ** | 相対のみ。**数値は置かない**（数は実測として読まれるため） |
 | 上着と、胸の名札 | 名札には姓と職名。**下の名前は、そこに無い** | `「木村先生」。`（run-09）＋`職員室で下の名前を呼ぶ者はいない`（run-09）。**上着そのものは出典に一行も無い。** |
 | 教壇の上の束 | 名のない一枚が、いちばん上にある | `名前欄の空いた宿題を、いちばん上に置く。`（run-09） |
@@ -109,13 +109,15 @@
 ```text
 A character model sheet of 木村智美 — a 44-year-old teacher at a municipal elementary school in Kawaguchi, Saitama, Japan 2026, homeroom teacher of a fourth-year class, whose given name is written down for her in her own house and has not been said aloud there since her marriage — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 She wears plain teaching clothes with a single staff badge on the chest carrying the family name and the post; the given name is written nowhere on her. Black hair, reaching the shoulder; no colour added. She is drawn at a single relative height only, and no numeric height is placed anywhere on the sheet.
 
 The whole surface of this sheet is a place where the writer's own name is written down on paper by children, and where one sheet has no name in it at all. That sheet is not taken out of the pile and not filled in: it is moved to the top, and it stays there with the column empty. Enlarged, four insets: the sheet whose name column is empty; another sheet whose column has been filled in by a child, nowhere legible; the top of the pile where the sheet with no name lies; and, on a single sheet of paper kept at home, her given name written in another person's hand — put down in writing, and never spoken.
 
 Below, a row of four expression heads, each held one beat short of completing: straightening the pile of homework at the desk at the front of the room, stopped in front of the last sheet; lifting the sheet with no name out of the pile, not quite clear of it; laying that same sheet back on the top of the pile, stopped just above it; and one exchange with the pupil on duty about that one sheet, stopped at the point where it ends in a single turn.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on paper in the frame is written by a hand other than hers and is nowhere legible. The pupil on duty is named on a leader line only and is not drawn; no classroom is drawn.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on paper in the frame is written by a hand other than hers and is nowhere legible. The pupil on duty is named on a leader line only and is not drawn; no classroom is drawn.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no reading gloss over the header name, no writing in the empty name column, no filling in of the blank, no red marking on the nameless sheet, no correction fluid, no children in the frame, no classroom, no second person in the frame.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no reading gloss over the header name, no writing in the empty name column, no filling in of the blank, no red marking on the nameless sheet, no correction fluid, no children in the frame, no classroom, no second person in the frame.
 ```

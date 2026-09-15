@@ -73,7 +73,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 顔を置く。髪は肩までの長さで、窓口で顔にかからないようにまとめる。**色を足さない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 顔を置く。髪は肩までの長さで、窓口で顔にかからないようにまとめる。**色を足さない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。**相対のみ。数値は置かない** | 出典に体格の記述が一行も無い。**数値は実測として読まれる** |
 | 衣服 | 病院の受付の制服に留める。**この一枚の同一性は、衣服から読まれない** | 出典に衣装の記述が一行も無い。**衣装で識別させない** |
 | 鞄 | 通勤26分ぶんの、肩掛けの鞄 | `通勤は徒歩とバスで26分`（run-09） |
@@ -110,13 +110,15 @@ luminous-anime の**生き残る部分だけ**を使う。**清潔なアニメ�
 ```text
 A character model sheet of 篠原麻衣 — a 38-year-old hospital medical clerk in Yokohama, Japan 2026, who checks an insurance card against a face twice every time and whose former surname now reaches her only once a year, as a printed notice — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 A hospital receptionist's uniform, kept plain, and the insurance card she handles at the window is on the sheet with her. Hair to the shoulder, kept back from the face. Her build is given only as relative height, never as a number, and nothing about this sheet is read off her clothing.
 
 The card carries a printed name, and the name that used to be hers sits outside that column. Enlarged, four insets: the card's name column, printed, nowhere legible; the numbered tag a patient is called by at the counter, also nowhere legible; one envelope, addressed in her former surname, the only thing that arrives under that name and only once a year; and one spot on the counter's surface, exactly one card wide, worn pale because the same card is laid down there every time.
 
 Below, a row of four expression heads, each held at that one beat: the card taken up in her left hand; her eyes travelling from the card to the face at the window; the second look, where her neck does not move at all; and the card being passed from window to window, stopped just before the second look.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is nowhere legible, and the former surname is readable nowhere, including on the envelope.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is nowhere legible, and the former surname is readable nowhere, including on the envelope.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no handwriting by the subject, no signature, no red seal impression, no legible former surname, no patients, no waiting room as a background, no numerals large enough to read.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no handwriting by the subject, no signature, no red seal impression, no legible former surname, no patients, no waiting room as a background, no numerals large enough to read.
 ```

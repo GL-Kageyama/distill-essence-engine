@@ -65,7 +65,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 黒髪。短く、前髪が額にかかる。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 黒髪。短く、前髪が額にかかる。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。**相対のみ** | 相対のみ。**数値は置かない**（数は実測として読まれるため） |
 | エプロンと、腰の伝票入れ | 居酒屋のエプロン。伝票が一枚、端を見せて挿さっている | `伝票の端に、自分の出した卓の数だけ点を打つ。`（run-09）。**エプロンも伝票入れも出典に一行も無い。** |
 | 卓の番号 | 卓に、番号が立っている。**判読不能** | `「湊、二号卓」。`（run-09）——**`番号は、名ですらない。`** |
@@ -111,13 +111,15 @@
 ```text
 A character model sheet of 根本湊 — a 19-year-old vocational-school student who works at an izakaya in Toshima, Tokyo, Japan 2026, a young man whose family name has not been said aloud to him in two years and who counts his own tables with a dot at the corner of the slip — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 He wears an izakaya apron over plain work clothes, and one order slip is tucked at his waist with its corner showing; the slip carries no column for a name, and the margin itself is where he writes. Black hair, cut short, the fringe resting on the forehead; no colour added. He is drawn at a single relative height only, and no numeric height is placed anywhere on the sheet.
 
 The whole surface of this sheet is a place where what was ordered is written down and no person's name is written at all. After sending an order through, he puts one short dot at the lower right of the slip, and nothing else is written beside it. Enlarged, four insets: that one short dot at the lower right; the number standing on a table, nowhere legible, a number standing where a person's name would; the column of a school attendance sheet taken down by student number, the number nowhere legible; and the same corner of the slip where a dot has been put every day for two years, the marks lying on top of one another.
 
 Below, a row of four expression heads, each held one beat short of completing: receiving only the given name when the manager calls out 湊, table two, with the family name never arriving; one short dot put at the lower right of the slip, stopped at the end of the dot; the slip carried from the table towards the kitchen, stopped exactly where the dot was made; and arguing with the kitchen's dish washer over nothing but numbers, stopped when the numbers come out equal.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; no name is written on any prop in the frame. The dot is too small to read in the full views and is carried by the insets and a leader-line callout.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; no name is written on any prop in the frame. The dot is too small to read in the full views and is carried by the insets and a leader-line callout.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no reading gloss over the header name, no legible figure on the table card, no legible text on the order slip, no name written on any slip, no kitchen drawn, no food drawn, no second person in the frame.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no reading gloss over the header name, no legible figure on the table card, no legible text on the order slip, no name written on any slip, no kitchen drawn, no food drawn, no second person in the frame.
 ```

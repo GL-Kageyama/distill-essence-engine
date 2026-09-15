@@ -79,7 +79,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 顔を置く。髪は短く、作業帽の下に収まる長さ。白髪が混じる——**年齢は出典にある（61）** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 顔を置く。髪は短く、作業帽の下に収まる長さ。白髪が混じる——**年齢は出典にある（61）** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。**相対のみ。数値は置かない** | 出典に体格の記述が一行も無い。**数値は実測として読まれる** |
 | 衣服 | 工場の作業着に留める。**この一枚の同一性は、衣服から読まれない** | 出典に衣装の記述が一行も無い。**衣装で識別させない** |
 | 鞄 | 置かない | `通勤は階段を下りる12秒`（run-09）——**鞄を持つ距離がない** |
@@ -116,13 +116,15 @@ luminous-anime の**生き残る部分だけ**を使う。**清潔なアニメ�
 ```text
 A character model sheet of 大森徹 — a 61-year-old third-generation owner of a small metalworking shop in Ota, Tokyo, Japan 2026, who lives above his own factory, whose surname is written on no paper in it, and who leaves one character of his given name in the corner of every drawing — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 Work clothes for a shop floor, kept plain. Short hair under a work cap, greying — his age is the one thing the sources give. His build is given only as relative height, never as a number, and nothing about this sheet is read off his clothing. No bag: the commute is twelve seconds down a staircase.
 
 The paper he works on is a drawing, and his surname is on none of it. Enlarged, four insets: one character in the lower-right corner of a drawing, nowhere legible; the shop's registration, where the column for a surname is left empty; one spot on the workbench, where the corner of a drawing has worn the coating to a round bare patch; and a shelf of finished drawings, each carrying the same single character in the same corner, one character to a sheet.
 
 Below, a row of four expression heads, each held at that one beat: the straightedge set down first, before anything is written; the pencil carried to the lower-right corner of the drawing; the lead set on the paper with the single character not yet closed; and, one more time, a registration paper with the surname left unwritten.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; the character in the corner of every drawing is nowhere legible, and no surname appears anywhere in the frame.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; the character in the corner of every drawing is nowhere legible, and no surname appears anywhere in the frame.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no readable character in the corner of any drawing, no surname written anywhere in the frame, no signature, no red seal impression, no employees, no machine shop as a background, no bag.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no readable character in the corner of any drawing, no surname written anywhere in the frame, no signature, no red seal impression, no employees, no machine shop as a background, no bag.
 ```

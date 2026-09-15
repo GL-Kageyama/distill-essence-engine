@@ -73,7 +73,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 黒髪、肩の下まで。まとめない。**この一枚の同一性は、髪から読まれない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** |
+| 顔・髪 | 黒髪、肩の下まで。まとめない。**この一枚の同一性は、髪から読まれない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。相対の基準も置かない | 出典に体格の記述が一行も無い。**数は実測として読まれる。** |
 | 衣装 | 売り場の制服。**この一枚の同一性は、衣装から読まれない** | 職業＝衣料品店（百貨店の名入れ刺繍カウンター）（run-09）。出典に衣装の記述は一行も無い |
 | 鞄 | 肩に掛ける鞄 | `通勤は徒歩と電車で21分。`（run-09） |
@@ -120,6 +120,8 @@ luminous-anime の**生き残る部分だけ**を使う。**清潔なアニメ�
 ```text
 A character model sheet of 林沙織 — a 39-year-old embroiderer at a department store's name-embroidery counter in Shinjuku, who unpicks a customer's embroidered name in front of the person who ordered it and then stitches it again, four stitches back and four stitches forward, so that nothing is lost — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it.
 
+The age stated above is a fact of this sheet: it has to be visible in the face, and the face is not a default young face.
+
 She is 39, at a fabric counter, and the sheet gives what the source gives and nothing more: black hair to below the shoulder, left loose; the plain uniform of the sales floor; a bag over one shoulder, because her commute is twenty-one minutes on foot and by train. Neither the hair nor the clothes are how this sheet is told apart — it is told apart by a stitched name and one hand.
 
 Her name is thread, not lettering. A customer's name is embroidered into cloth, and the sheet renders it as the path of the thread and never as a legible word; on the order slip the same customer's name is written in ink and is likewise nowhere legible. Her own surname does not appear anywhere in this frame, because there is nowhere in that shop to write it. The back of the embroidery is shown as well as the front: at the same spot the needle has entered many times over, and the years of unpicking and re-stitching have built up in layers.
@@ -128,7 +130,7 @@ Enlarged, four insets, each carrying either a year or a name: a customer's name 
 
 Below, a row of four expression heads, each stopped with the fourth thread still in the cloth: unpicking a finished embroidered name in front of the person who ordered it; drawing one thread from the back and returning four stitches' worth; stitching it again, stopped at the fourth stitch; and putting the unpicked thread away into the box instead of throwing it out.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, cool department-store white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name in the embroidery and on the order slip is a customer's and is nowhere legible. The thread carries the light; the lettering does not exist as lettering.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool department-store white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name in the embroidery and on the order slip is a customer's and is nowhere legible. The thread carries the light; the lettering does not exist as lettering.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible lettering in the embroidery, no legible name on the order slip, no mirrored readable text, no unravelled loose mess, no handwriting by the subject, no signature, no red seal impression.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible lettering in the embroidery, no legible name on the order slip, no mirrored readable text, no unravelled loose mess, no handwriting by the subject, no signature, no red seal impression.
 ```
