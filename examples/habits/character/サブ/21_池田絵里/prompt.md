@@ -125,7 +125,7 @@ A character model sheet of 池田絵里 — a 36-year-old hairdresser at a five-
 
 The age stated above is a fact of this sheet: every face on it carries that age — the four views and the four expression heads alike, at every size. The age is carried where a real face carries it: the eyelids, the fold from the nose to the mouth, the line of the jaw, and the hands. It is not a default young face.
 
-She is precisely specified: a 1LDK in Sakaecho, 14 years old, seven minutes on foot from Kawaguchi station and the same seven minutes for the walk to work; black hair to the shoulder, tied back for the working day; a small shoulder bag. The scissors have a fixed place on the bench and are not in her hand — she lets go of the cutting tool first, and measures after that, with nothing but a palm.
+She is precisely specified: a 1LDK in Sakaecho, 14 years old as a building, seven minutes on foot from Kawaguchi station and the same seven minutes for the walk to work; black hair to the shoulder, tied back for the working day; a small shoulder bag. The scissors have a fixed place on the bench and are not in her hand — she lets go of the cutting tool first, and measures after that, with nothing but a palm.
 
 The whole surface of this sheet is the paper she keeps, and on that paper only a client's name and a cut length are ever written. Enlarged, four insets: one line of the chart, a client's name and the length cut, nowhere legible; the scissors set down on the bench; the pile of hair come to rest in the palm of her hand, weighed there and not measured with any tool; and the tip of a short broom gathering the hair on the floor into one place. Nothing carries what these four do not.
 

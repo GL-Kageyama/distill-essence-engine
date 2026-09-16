@@ -121,7 +121,7 @@ A character model sheet of 斎藤悦子 — a 66-year-old commissioned community
 
 The age stated above is a fact of this sheet: every face on it carries that age — the four views and the four expression heads alike, at every size. The age is carried where a real face carries it: the eyelids, the fold from the nose to the mouth, the line of the jaw, and the hands. It is not a default young face.
 
-She is precisely specified: a house in Senju, owned, 41 years old and extended once, 15 minutes on foot from Kita-Senju; hair gone mostly white, worn short and never tied back; a thin cloth bag for the register she carries from desk to desk. She keeps no eraser, and so a faint grey of pencil lead sits along the side of the finger she traces with.
+She is precisely specified: a house in Senju, owned, 41 years old as a building and extended once, 15 minutes on foot from Kita-Senju; hair gone mostly white, worn short and never tied back; a thin cloth bag for the register she carries from desk to desk. She keeps no eraser, and so a faint grey of pencil lead sits along the side of the finger she traces with.
 
 The whole surface of this sheet is the paper she keeps, and that paper has no field for a name. On the welfare register only a surname and a number are entered, and among those numbers one is a number that no longer comes out — its field is still filled in. Enlarged, four insets: that field, still filled; the blank margin of the register with a pencil laid flat against it and not one character set down; the fingertip stopped on that line, with no eraser anywhere in the frame; and, named only on a leader line, the 6,000 steps of an ordinary day, the distance she walks carrying the register. Nothing carries what these four do not.
 
