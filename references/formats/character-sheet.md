@@ -1,4 +1,4 @@
-<!-- i18n-version: 1.0.0 | canonical: references/formats/character-sheet.md | translated: 2026-08-26 -->
+<!-- i18n-version: 1.0.0 | canonical: references/formats/character-sheet.md | translated: 2026-09-17 -->
 
 **Language:** [English](character-sheet.md) | [日本語](../ja/formats/character-sheet.md) | [中文](../zh/formats/character-sheet.md)
 
@@ -19,12 +19,32 @@ A turnaround row (front ／ three-quarter ／ side ／ back) of the same person,
 - Keep the ground plain and the light flat — no cast shadow, no environment
 - Enlarge the details a later stage must reproduce (an accessory, a seam, a hair fastening)
 - **Take hair, age, build and costume from the input — never invent settings the source does not give (⑧)**
+- **Name the face's ground — proportion and bone — in positive form, and leave no axis at the style's default** (see *Specifying a face*)
 
 ## avoid
 - A dramatic pose, dramatic lighting, or a scene behind the figure
 - Views drifting in height or eye level from panel to panel
 - Rendering the sheet as a finished illustration (mood winning over information)
 - Filling unknown details with invention instead of leaving them unspecified
+- **Leaving the face unspecified, or expecting a fine detail (a lower lid, a shadow under the eye) to read at head size**
+
+## Specifying a face
+
+A face that is not specified is not neutral — it is the style's average, and the average is itself a particular face. **Leaving the face unspecified is choosing that face**, and a negation does not specify it either: "neither long nor round" leaves the slot empty and the default fills it in.
+
+- **Name the ground in positive form, and send the shape to the insets.** The **ground** is proportion and bone — the ratio of the upper half to the lower, the cheekbones, the corner of the jaw, the spacing of the eyes, the nose, the ears — and **it reads at any size, down to the small heads of an expression row.** The **shape** is the fine parts — a lower lid, a shadow under the eye, the worn edge of a lip — and **it reads only at the size of an enlarged inset**; named at head size it is not read at all.
+- **Give each axis of the ground a value away from the style's default side.** The default these measurements appeared to show was a broad forehead with the eyes set low, flat cheekbones, a rounded jaw, wide-set eyes, a short nose and small ears — so an axis written at its default-side value is the default again, not a specification. An axis that can only be written default-side is better replaced than kept.
+- **A leader line is not evidence that a value moved.** The model may call a feature out on a leader line while drawing it exactly the way the style always draws it.
+- **Move the ground and the shape in separate revisions.** With both in play you cannot tell which one you are reading, and the question the revision was made to answer goes unanswered.
+- **Direction rides on a face; age does not ride on a number.** A downward gaze reads as itself. Stating an age does not by itself keep the face from defaulting young — that takes the ground.
+
+On the sheet around the face:
+
+- **Frames tend to survive; contents fall out.** A scene behind the figure goes, as instructed. An inset's frame and the filled panel behind it tended to stay — though on one sheet of five the frame dropped with no change of instruction, so hold it as likely rather than certain.
+- **A prohibition on count becomes text.** Forbid numbers and a legible number appears somewhere else instead.
+- **Say the count you mean.** A negative that names the views and the expression heads but not the insets lets the model add face insets nobody asked for.
+
+⚠ **Scope of the measurement.** Everything above was taken on this format under one anime style. Whether the ground and the shape behave this way under another style, or on a format with a time axis, has not been tested.
 
 ## Prompt template
 ```text
