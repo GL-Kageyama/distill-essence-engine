@@ -127,3 +127,4 @@
 | Wireframe | Layout (design) | Low-fidelity gray-box skeleton | [wireframe](formats/wireframe.md) |
 | Brand board | Layout (design) | The whole identity system on one board | [brand-board](formats/brand-board.md) |
 | Business card | Layout (design) | Small two-sided card, name + contact | [business-card](formats/business-card.md) |
+| Progress board | Symbolic (production reference) | The whole production held in one undivided image; how far it has got, never as a number | [progress-board](formats/progress-board.md) |

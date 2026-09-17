@@ -127,3 +127,4 @@
 | 线框 | 布局（设计） | 灰框的低保真骨架 | [wireframe](formats/wireframe.md) |
 | 品牌板 | 布局（设计） | 整套身份系统放到一块板上 | [brand-board](formats/brand-board.md) |
 | 名片 | 布局（设计） | 小型双面卡・姓名＋联系方式 | [business-card](formats/business-card.md) |
+| 进度板 | 象征（制作规格） | 把制作全量收进不分割的一幅；走到哪里，绝不用数字写 | [progress-board](formats/progress-board.md) |

@@ -127,3 +127,4 @@
 | ワイヤーフレーム | レイアウト（デザイン） | グレーの箱の低忠実度骨格 | [wireframe](formats/wireframe.md) |
 | ブランドボード | レイアウト（デザイン） | アイデンティティシステム全体を一枚の板に | [brand-board](formats/brand-board.md) |
 | 名刺 | レイアウト（デザイン） | 小型両面カード・氏名＋連絡先 | [business-card](formats/business-card.md) |
+| 進捗盤 | 象徴（制作仕様） | 制作の全量を分割しない一枚に。どこまで進んだかを数で書かない | [progress-board](formats/progress-board.md) |

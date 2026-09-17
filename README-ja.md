@@ -34,7 +34,7 @@
 
 ## 何を作れるか
 
-**フォーマット 43 種 × 様式 55 種**——名前で再利用可。全索引（各カードの再利用 slug 付き）は [references/registry.md](references/registry.md)。
+**フォーマット 44 種 × 様式 55 種**——名前で再利用可。全索引（各カードの再利用 slug 付き）は [references/registry.md](references/registry.md)。
 
 **フォーマット**——担う目的で分類：
 
@@ -47,7 +47,7 @@
 | 装飾 | 挿絵 |
 | デザイン | ロゴ · アイコン · エンブレム · タロットカード · ポスター · 表紙 · ヒーロー画像 · アプリ画面 · ランディングページ · ワイヤーフレーム · ブランドボード · 名刺 |
 | ゲーム素材 | スプライトシート |
-| 制作仕様 | キャラクター設定画 · キャラクター イメージボード · イメージボード（concept-board） · 美術ボード · ロケーションボード · キーポーズ/アクションボード · シーンボード |
+| 制作仕様 | キャラクター設定画 · キャラクター イメージボード · イメージボード（concept-board） · 美術ボード · ロケーションボード · キーポーズ/アクションボード · シーンボード · 進捗盤 |
 
 **様式**——メディウムで分類：
 
@@ -144,6 +144,6 @@ distill-essence-engine/
 
 - [docs/usage.md](docs/usage.md) — 使い方（引数 · カード · 出力 · 検証）
 - [docs/sources.md](docs/sources.md) — カード語彙の出所
-- [references/registry.md](references/registry.md) — 名前付きカードの索引（フォーマット 43 種 · 様式 55 種）
+- [references/registry.md](references/registry.md) — 名前付きカードの索引（フォーマット 44 種 · 様式 55 種）
 - [references/types.md](references/types.md) — 類型（想定目的×フォーマット×様式×圧縮 2 層）
 - [references/](references/) — 原理の深化（選定 · 翻訳 · 配置 …）
