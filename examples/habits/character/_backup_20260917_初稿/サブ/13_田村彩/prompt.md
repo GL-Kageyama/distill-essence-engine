@@ -66,10 +66,8 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 仕草 | **親指が綴じ目の上に置かれ、まだ離れていない一点。** それは二度目である | 内容④——`一度で決まっている。` `二度目は、確認ではない。` `手の癖になっている。` 動きの署名（run-10）`二度押す` |
-| 顔・髪 | **動かない顔。** 目だけが綴じ目に落ちる。黒髪、肩に届く長さ、後ろで一つにまとめられる。色を足さない | **内容⑨が既に禁じている**——`意味のない一拍に、表情を与えない`。**この一枚は、仕草が顔に降りない唯一の枚である。** 髪は、出典に外見の記述が一行も無いための最小（方針 §5a）。**この一枚の同一性は、髪から読まれない** |
-| 表情 | 内容⑧の四拍をそのまま置く——手帳を受け取る／親指で綴じ目を二度押す——**その二度目**／綴じ目の緩みで通院の長さを当てる／頁を開かずに窓口へ返す。**四つとも、親指が綴じ目の上にある一点で止める** | 内容⑧。**内容が既に決めていたものを、表へ移すだけである——ここに新しい発明は無い** |
-| 体格 | **相対の基準も置かない。** そして〔導出〕——**意味のない一拍は、体に何も残さない。この人物の体には、年を数える跡が一つも無い** | 出典に体格の記述が一行も無い。**数は実測として読まれる。** そして内容⑤——**この人物について出典が与える「年」は、どれも紙と手の側にあり、体の側には無い。ゆえにこの一枚では、置かないことが発明である** |
+| 顔・髪 | 黒髪、肩に届く長さ、後ろで一つにまとめられる。色を足さない。**この一枚の同一性は、髪から読まれない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
+| 体格の数値 | 置かない。相対の基準も置かない | 出典に体格の記述が一行も無い。**数は実測として読まれる。** |
 | 衣装 | 白い上着（薬剤師の職場の支給品）。**この一枚の同一性は、衣装から読まれない** | 職業＝薬剤師（run-09）。出典に衣装の記述は一行も無い |
 | 鞄 | 片手に提げる小さな通勤鞄 | `通勤は徒歩6分。`（run-09）——歩ける距離の通勤 |
 | **綴じ目に残る、押された跡** | **親指の当たる一箇所だけが、わずかに光っている。** 二度押したうちの、二度目の位置 | 癖＝綴じ目の緩み（run-09）＋動きの署名＝二度押し（run-10）。**紙は、押された場所を覚える。この一枚で最も強い発明** |
@@ -116,13 +114,13 @@ A character model sheet of 田村彩 — a 31-year-old pharmacist at a two-branc
 
 The age stated above is a fact of this sheet: every face on it carries that age — the four views and the four expression heads alike, at every size. The age is carried where a real face carries it: the eyelids, the fold from the nose to the mouth, the line of the jaw, and the hands. It is not a default young face.
 
-She is 31, a pharmacist, and the sheet gives what the source gives and nothing more: black hair to the shoulder, gathered back so that it survives a full walking commute; a plain white work coat, the standard garment of the dispensary; a small bag carried in one hand, because she walks six minutes to work. Her face does not move on this sheet: only her eyes drop to the binding, and nothing else on it changes. Her build is given as nothing at all — no relative size, no number — because the one beat her habit repeats is a beat that means nothing and leaves nothing behind on a body. A small thickening has worn into the outside of the notebook's binding where a thumb presses. Hair, coat and bag are not how this sheet is told apart — it is told apart by one sheet of paper and one hand.
+She is 31, a pharmacist, and the sheet gives what the source gives and nothing more: black hair to the shoulder, gathered back so that it survives a full walking commute; a plain white work coat, the standard garment of the dispensary; a small bag carried in one hand, because she walks six minutes to work. A small thickening has worn into the outside of the notebook's binding where a thumb presses. Hair, coat and bag are not how this sheet is told apart — it is told apart by one sheet of paper and one hand.
 
 Her identification is a paper and a thumb, and the two never meet. The medicine notebook is drawn closed throughout: what the sheet shows of it is the spine, the fore-edge and the binding — never an open page. On the binding, a single small place is faintly polished, the spot her thumb finds on the second press, not the first.
 
 Enlarged, four insets, each carrying either a year or a name: the looseness along the outside of the binding, the year the paper has kept; the flat of her thumb, the year the hand has kept; the name field of the medicine notebook, holding a patient's name in a hand that is not hers and nowhere legible; and the fore-edge of the closed page block, holding the name that stays inside because it is never opened.
 
-Below, a row of four expression heads, each stopped at one point — her thumb resting on the binding and not yet lifted: taking the notebook in hand; the second of two presses, the one that means nothing and is only the hand's habit; reading the looseness of the binding to know the length of someone's treatment, the page still closed; and returning the notebook to the counter window without ever opening it. All four are heads, and on all four the face stays still: the beat is carried by the eyes and the thumb alone, and no expression is given to a beat that means nothing.
+Below, a row of four expression heads, each stopped at one point — her thumb resting on the binding and not yet lifted: taking the notebook in hand; the second of two presses, the one that means nothing and is only the hand's habit; reading the looseness of the binding to know the length of someone's treatment, the page still closed; and returning the notebook to the counter window without ever opening it. All four are heads: the beat reads on the face, not only in the hands.
 
 Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop belongs to a patient and is nowhere legible. The two presses are named on a leader line, not staged as two moments. No mark of her own name appears anywhere in the frame.
 

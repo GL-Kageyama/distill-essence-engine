@@ -62,10 +62,8 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 仕草 | 口が三度目に閉じて、**筆先がまだ名の欄に着いていない一点**で、全身が止まる | 動きの署名（run-10）`鉛筆を持つ前に、口が三度開いて閉じる。それから連絡帳の名の欄へ筆先が下りる`。**この人物の反復は「数えてから動く」——三度は数である** |
-| 顔・髪 | 動くのは**口だけ**である顔。髪は黒く、肩に届かない長さで、後ろにまとめる。**色を足さない** | **癖が名指す臓器は口である**——`連絡帳に名を書く前に、必ず一度、声を出さずに口を動かす`（run-09）。**発明なのは「その反復が口に残る」としたことだけである。** 髪は、出典に外見の記述が一行も無いための最小（方針 §5a）。**年齢は出典にある——ゆえにこの一枚の顔はその年齢を示す。これは発明ではない。** |
-| 表情 | 四つとも、**同じ口の、数えられた四つの瞬間**——まだ閉じている／一度目に開いて閉じる／二度目に開いて閉じる／三度目に閉じて、筆先が名の欄の上で止まる | 内容④（`四つの表情は、どれもこの一点の前後である`）。**この一枚で、系列が現れてよい唯一の場所である** |
-| 体格 | **相対のみ。数値は置かない。** そして〔導出〕——**この人物の仕草は局所反復であり、口の外は動かない。ゆえに体に残るのは、形ではなく静止である** | 出典に体格の記述が一行も無い。**数値は実測として読まれる**（方針 §5a）。**そして静止は、設定画では測れない**——ゆえにこの一行は、この一枚のためではなく、`semantic-visual-loom` の連続性の台帳へ送る仕様である（方針 §5c） |
+| 顔・髪 | 顔を置く。髪は黒く、肩に届かない長さで、後ろにまとめる。**色を足さない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
+| 体格の数値 | 置かない。**相対のみ。数値は置かない** | 出典に体格の記述が一行も無い。**数値は実測として読まれる** |
 | 衣服 | 洗えるシャツと、保育のための前掛け。**この一枚の同一性は、衣服から読まれない** | 出典に衣装の記述が一行も無い。**衣装で識別させない** |
 | 鞄 | 自転車の籠に入る、肩掛けの小さな鞄 | `通勤は自転車14分`（run-09） |
 | **棚の、一冊ぶんの埃の薄い幅** | 保育室の棚に、連絡帳の一冊ぶんの幅だけ、埃が薄い | `連絡帳を保育室の棚から保護者の手へ、**佐藤美咲の手で渡す。名を書く前で止まる。**`（run-10）——**毎日同じ一冊が抜かれ、戻る。****この一枚で最も強い発明** |
@@ -102,11 +100,11 @@ A character model sheet of 佐藤美咲 — a 29-year-old nursery teacher at a l
 
 The age stated above is a fact of this sheet: every face on it carries that age — the four views and the four expression heads alike, at every size. The age is carried where a real face carries it: the eyelids, the fold from the nose to the mouth, the line of the jaw, and the hands. It is not a default young face.
 
-A washable shirt and a nursery apron, and the communication notebook she handles every day is on the sheet with her, open. Black hair, kept to a length that stays back through a day of moving around children. The only part of her face that moves is her mouth, and it moves with no sound leaving it; the rest of the face is still, in every view and at every size. Her build is given only as relative height, never as a number. Her own name is written nowhere on this sheet.
+A washable shirt and a nursery apron, and the communication notebook she handles every day is on the sheet with her, open. Black hair, kept to a length that stays back through a day of moving around children. Her build is given only as relative height, never as a number. Her own name is written nowhere on this sheet.
 
 The whole surface of this sheet is a place where names are written, and not one of the names on it is hers. Enlarged, four insets: one line of a communication notebook's name column with the pencil tip stopped above it, not yet touching, the child's name nowhere legible; her mouth, opened and closed three times before the pencil was ever picked up, caught at the third closing; the same notebook passing from a shelf in the nursery room into a parent's hands and stopping short of the writing; and one width of that shelf, exactly one notebook wide, where the dust lies thinner than anywhere else, because the same single notebook is drawn out and put back every day.
 
-Below, a row of four expression heads. All four are the same mouth, counted — the one part of her that moves, and it moves with no sound leaving it: still shut, before anything has been picked up; open and shut once; open and shut a second time; and shut on the third, with the pencil tip stopped above the name column and nothing yet written. All four are heads, and on all four the beat reads on the mouth alone.
+Below, a row of four expression heads, each held at that one beat: her mouth moving with no sound leaving it; the pencil tip hanging above the name column; the notebook held out to a parent; and her mouth once more, closed on the third motion, with nothing yet written. All four are heads: the beat reads on the face, not only in the hands.
 
 Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is nowhere legible, and no name anywhere in the frame is hers. She never speaks a name aloud: her mouth moves, and nothing is said.
 
