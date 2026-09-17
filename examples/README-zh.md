@@ -138,6 +138,8 @@
 | power-geometric-construction | 坚持的力量（概念） | 概念图 | 尺规作图 | 传达 |
 | power-lab-notebook | 坚持的力量（概念） | 概念图 | 实验笔记 | 传达 |
 | distill-blueprint-plan | 蒸馏引擎（概念） | 概念图 | 蓝图・设计图 | 传达 |
+| tokiwaso-ai-creators | 常磐庄 AI 创作者版（概念） | 插画 | 光之写实动画 | 装饰 |
+| tokiwaso-for-ai-creators | 面向 AI 创作者的常磐庄（概念） | 插画 | 光之写实动画 | 装饰 |
 | distill-recipe-howto | 蒸馏引擎（概念） | 概念图 | 食谱・步骤卡 | 传达 |
 | distill-circuit-schematic | 蒸馏引擎（概念） | 概念图 | 电路图 | 传达 |
 | distill-mechanism-work | 蒸馏引擎（概念） | 概念图 | 机构・做功图 | 传达 |

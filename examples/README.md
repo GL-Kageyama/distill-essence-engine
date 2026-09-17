@@ -139,6 +139,8 @@
 | power-geometric-construction | Power of persistence (concept) | Conceptual illustration | Geometric construction | Communication |
 | power-lab-notebook | Power of persistence (concept) | Conceptual illustration | Lab notebook | Communication |
 | distill-blueprint-plan | The distill engine (concept) | Conceptual illustration | Blueprint plan | Communication |
+| tokiwaso-ai-creators | Tokiwaso, the AI-creator version (concept) | Illustration | Luminous realist anime | Decoration |
+| tokiwaso-for-ai-creators | A Tokiwaso for AI creators (concept) | Illustration | Luminous realist anime | Decoration |
 | distill-recipe-howto | The distill engine (concept) | Conceptual illustration | Recipe / how-to card | Communication |
 | distill-circuit-schematic | The distill engine (concept) | Conceptual illustration | Circuit schematic | Communication |
 | distill-mechanism-work | The distill engine (concept) | Conceptual illustration | Mechanism work | Communication |

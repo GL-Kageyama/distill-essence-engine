@@ -138,6 +138,8 @@
 | power-geometric-construction | 継続の力（概念） | 概念図 | 定規とコンパスの作図 | 伝達 |
 | power-lab-notebook | 継続の力（概念） | 概念図 | 実験ノート | 伝達 |
 | distill-blueprint-plan | 蒸留エンジン（概念） | 概念図 | 青図・設計図 | 伝達 |
+| tokiwaso-ai-creators | トキワ荘 AIクリエイター version（概念） | 挿絵 | 光の写実アニメ | 装飾 |
+| tokiwaso-for-ai-creators | AIクリエイター用トキワ荘（概念） | 挿絵 | 光の写実アニメ | 装飾 |
 | distill-recipe-howto | 蒸留エンジン（概念） | 概念図 | レシピ・手順カード | 伝達 |
 | distill-circuit-schematic | 蒸留エンジン（概念） | 概念図 | 回路図 | 伝達 |
 | distill-mechanism-work | 蒸留エンジン（概念） | 概念図 | 機構・働きの図 | 伝達 |
