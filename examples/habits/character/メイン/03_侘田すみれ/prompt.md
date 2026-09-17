@@ -1,16 +1,16 @@
 # 『ハビッツ！！！』 侘田すみれ → キャラクター設定画（character-sheet × luminous-anime）
 
-> ## 初稿
-> **この設定画は初稿である。変更の可能性が大きい。**
+> ## 改訂稿3
+> **この設定画は改訂稿3である。** 初稿 2026-09-16／改訂稿1 2026-09-17（**注記の言語を、日本語へ戻した**）／**改訂稿2** 2026-09-17——**型の総数を、八つから十二へ直した**（**方針 ㉗、②を三値に割った決定**）。**⚠ その時点では、地（骨）はまだ無かった。**／**改訂稿3** 2026-09-17——**十二の型のうちの一つを、地（骨）として置いた**（**方針 ㉗**）。**この一人は 庚＝小さな四角 である。****六つの軸のうち五軸に値を置き、一軸（④）を様式に任せる。****⚠ 導きは性別と年齢のみであり、外見の記述は出典に一行も無い**（方針 §5a）——**ゆえにこれは発明であり、承認を要する。** **⚠ 未測**——**十二の型が、モデルの側で本当に十二に分かれるかは、測っていない。**
 > 出典が与えるのは**年齢・職業・担当件数・住まいの区・姓・癖・声**まで。**髪・体格・衣装は出典が与えていない。** 下の「発明（要承認）」の表が、この一枚が足したものの全部である。**承認・差し替えを前提とする。**
-> シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「初稿」）。
+> シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「改訂稿3」）。
 
 - 入力: [../../../habits-concept-board-luminous-anime/input.md](../../../habits-concept-board-luminous-anime/input.md)（出典の指し先を共有。内容は複製しない）
 - format: **キャラクター設定画（character-sheet・登録済み）**——伝達（制作仕様）／一人物 × 多面（時間軸なし）／横長シート
 - style: **光の写実アニメ（luminous-anime・登録済み）**
 - lang: ja（生成プロンプトは英語）
 
-> **四枚は一組である（④一つの世界）。** 白地・ガイド線・注記の作法・「初稿」枠の位置は、`character/メイン/01_碓氷千夏` / `character/メイン/02_暮林蒼` / `character/メイン/03_侘田すみれ` / `character/メイン/04_さくら` の四枚で共通。**身長は相対だけを決め、数値は置かない**（数は実測として読まれるため）。**四枚のうち、さくらの一枚だけは人物を描かない**——`さくらに固有の声を与えない。……固有の声を与えることは、この作品が解かないと決めた問題を、外部の都合で解くことである`。ゆえに**身長の比較が掛かるのは、人物を描く三枚のあいだだけである。** 四枚目に人物を足して揃えないこと——**それが四枚目の仕様である。**
+> **四枚は一組である（④一つの世界）。** 白地・ガイド線・注記の作法・**版を記した朱の枠**の位置は、`character/メイン/01_碓氷千夏` / `character/メイン/02_暮林蒼` / `character/メイン/03_侘田すみれ` / `character/メイン/04_さくら` の四枚で共通。**身長は相対だけを決め、数値は置かない**（数は実測として読まれるため）。**四枚のうち、さくらの一枚だけは人物を描かない**——`さくらに固有の声を与えない。……固有の声を与えることは、この作品が解かないと決めた問題を、外部の都合で解くことである`。ゆえに**身長の比較が掛かるのは、人物を描く三枚のあいだだけである。** 四枚目に人物を足して揃えないこと——**それが四枚目の仕様である。**
 > **四枚は、四つの書体で分かれている。** 台帳の一節——`書体は三つしかない——印刷、ボールペン、鉛筆。` ゆえに**碓氷千夏の一枚は印刷、暮林蒼の一枚はボールペン、侘田すみれの一枚は鉛筆、さくらの一枚はそのどれでもない。** 四人の差は顔の描き分けではなく、**素材の差**としてシートに出る。ヘッダの名は四枚とも日本語で、**三人は漢字のみ・読みを振らない**（`呼び間違えられる`／`訊き返される`という値は、読みを固定した瞬間に消える）。**さくらだけはひらがな三字**——漢字にすれば、それは別人（ストック層の川上桜）の名になる。
 
 ## 出典の語（この一人について・一語も変えない）
@@ -26,6 +26,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
+| **地（骨）** | **庚＝小さな四角。五つの軸を持つ。押す軸は三つ（③⑤⑥）、既定側を名指す軸は二つ（①②）、任せる軸は一つ（④）。** **★は、この一枚を読む軸——侘田すみれ＝⑤**（**押す軸の中のいちばん強いもの**）。**①上下の比＝顔の下半分が短く、額が広い**（口と顎の側が短く、それだけ額が残る。**目が下寄りになる**）——**⚠ これは様式の既定側である。** **②頬骨＝平らで、横へ張らない**——**⚠ これは様式の既定側である。** **③顎の角＝長く、角が立つ**。**④目の間隔＝—（任せる）**。**⑤鼻＝長い** ★。**⑥耳＝大きい。齢で伸びている**。 **四面の全身図も、四つの表情面も、同じ骨を持つ** | ⚠ **導きは性別と年齢のみである。** 出典に外見の記述が一行も無い（方針 §5a）——**ゆえに①②③は発明である。** **⑤⑥は、齢から導ける**——**41歳は、この様式の既定側（＝まだ伸びていない側）より先にいる**（㉔ の法）。**④は、成分が一つしかない軸であり、いちばん多く任せる軸である**（㉔ の配り）。**押す軸と任せる軸の割り当ては、著者の決定である。** ⚠ **未測**——**十二の型が、モデルの側で本当に十二に分かれるかは、測っていない。** |
 | 髪 | 黒髪に白が少し混じる。分け目とこめかみから。短く、手が要らない | 41歳・一日に三十八件を回る |
 | 体格 | **人物を描く三枚のうち、碓氷千夏と近い。** 片方の肩だけが下がっている | 出典の`担当は三十八件`——鍵の束は重い。**下がる側を体に置くのは発明** |
 | 衣装 | 動きやすく、相手に威圧を与えない服装 | 対人職。一日に三十八件の家を回る |
@@ -52,20 +53,22 @@
 
 ## フォーマット（Format）
 
-白地・多面図4面（正面／斜め／側面／背面）を**同一の身長線と目線**に載せる。中立のAポーズ、腕はシルエットから離し、**手は空**（鍵の束と鉛筆は拡大図の側にだけ置く）。下段に表情4面（上の四つ）。右に拡大図——預かり札の重なった三層、鍵の束、止まっている鉛筆の先。隅に朱の枠で**「初稿」**。**描かれる文字は三種**——ヘッダの名（**日本語**）、引き出し線の注記（英語）、そして「初稿」（日本語）。預かり札の名は**判読不能のまま**置く。
+白地・多面図4面（正面／斜め／側面／背面）を**同一の身長線と目線**に載せる。中立のAポーズ、腕はシルエットから離し、**手は空**（鍵の束と鉛筆は拡大図の側にだけ置く）。下段に表情4面（上の四つ）。右に拡大図——預かり札の重なった三層、鍵の束、止まっている鉛筆の先。隅に朱の枠で**「改訂稿3」**。**描かれる文字は三種、すべて日本語である**——ヘッダの名、引き出し線の注記（**活字で、判読できる**）、そして「改訂稿3」の枠。預かり札の名は**判読不能のまま**置く。
 
 ## 様式（Style）
 
 光の写実アニメの**生き残る部分だけ**を使う。**清潔なアニメ線画**と**配色の規律**——蛍光灯の白、深いシアンに寄る影、そして**一箇所だけ最も強いハイライトを受ける点。**
 
-> **様式メモ（この様式が設定画で失うもの）。** format カードが「様式軸を埋められる」と例に挙げるのは cel-shade／line-art／manga-ink で、**luminous-anime は名指しされていない。** 理由は明らかである——**この様式の主役は光であり、設定画の主役は人物である。** ゆえに四つの忠実性アンカー（層を成す空・体積光・フレアとブルーム・夕景の配色）は、**この一枚ではすべて落ちる。** 落とさなければならない——白地に空を置けば、それは format の avoid「人物の背後の情景」であり、**雰囲気が情報に勝つ。** 残るのは線と配色の規律だけである。朱の「初稿」枠だけが、この作品の朱であり、同時にこの様式の「最も強いハイライトを受ける一点」である。**鉛筆の灰色は、様式の`深いシアンに寄る影`の側に属する**——この一枚に色は増えない。
+> **様式メモ（この様式が設定画で失うもの）。** format カードが「様式軸を埋められる」と例に挙げるのは cel-shade／line-art／manga-ink で、**luminous-anime は名指しされていない。** 理由は明らかである——**この様式の主役は光であり、設定画の主役は人物である。** ゆえに四つの忠実性アンカー（層を成す空・体積光・フレアとブルーム・夕景の配色）は、**この一枚ではすべて落ちる。** 落とさなければならない——白地に空を置けば、それは format の avoid「人物の背後の情景」であり、**雰囲気が情報に勝つ。** 残るのは線と配色の規律だけである。朱の「改訂稿3」枠だけが、この作品の朱であり、同時にこの様式の「最も強いハイライトを受ける一点」である。**鉛筆の灰色は、様式の`深いシアンに寄る影`の側に属する**——この一枚に色は増えない。
 
 ## 合成プロンプト（Merged）
 
 ```text
-A character model sheet of 侘田すみれ — a 41-year-old care manager carrying thirty-eight cases, Japan 2026 — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it. The only text on this sheet is that header name, the callout annotations, and the 初稿 box; no other text appears anywhere in the frame.
+A character model sheet of 侘田すみれ — a 41-year-old care manager carrying thirty-eight cases, Japan 2026 — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the Japanese characters 改訂稿3; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it. The only text on this sheet is that header name, the callout annotations, and the 改訂稿3 box; no other text appears anywhere in the frame.
 
 The age stated above is a fact of this sheet: every face on it carries that age — the four views and the four expression heads alike, at every size. The age is carried where a real face carries it: the eyelids, the fold from the nose to the mouth, the line of the jaw, and the hands. It is not a default young face.
+
+Her face is specified rather than left to the default, on the 5 axes that carry it, two of them named even where they sit on the style's own default side so that the face is fixed rather than averaged: the lower half of the face is short and the forehead broad, the eyes coming to sit low; the cheekbones are flat and do not spread; the jaw is long and its corner stands; the nose is long; the ears are large, drawn out by age. That ground is identical in the four views and in the four expression heads alike — one face, not eight.
 
 She is close in build to the first sheet and precisely specified: black hair gone white first at the parting and the temples, cut short enough that it needs no hand through the day; clothes she can visit thirty-eight homes in without effort and without intimidating anyone; shoes that come off and go on, and socks, because she takes her shoes off at every one of those thirty-eight doors. The weight she carries sits on one side: one shoulder rides lower than the other. The material of this sheet is pencil, and the pencil is short — it has been sharpened many times. Every line she writes thins and pales at its end, because the pressure falls away.
 
@@ -73,7 +76,7 @@ Below, a row of four expression heads, each caught just before the action comple
 
 Beside them, enlarged detail insets of a key bunch carrying one paper tag per key, the ring bent into the shape long use has given it, every key looking alike and no two alike, chosen by sound rather than by the name on the tag; of one tag carrying three layers of pencil writing on the same field, the older layers still showing through the newer ones, none of the writing readable, and the last line paling out before its end; and of the pencil, short and stopped.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; the layering of the pencil is legible, the names are not.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in Japanese, set in legible type, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 改訂稿3 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; the layering of the pencil is legible, the names are not.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no face in the four views younger than in the expression heads, no age smoothed away from the eyelids, the fold from the nose to the mouth, the jaw or the hands, no age or occupation label or data panel, no text describing this brief, no text other than the header name, the callouts and the 初稿 box, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no red seal impression, no medical equipment, no hospital interior.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no rounded jaw, no short nose, no small ears, no face in the four views younger than in the expression heads, no age smoothed away from the eyelids, the fold from the nose to the mouth, the jaw or the hands, no age or occupation label or data panel, no text describing this brief, no text other than the header name, the callouts and the 改訂稿3 box, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no red seal impression, no medical equipment, no hospital interior.
 ```

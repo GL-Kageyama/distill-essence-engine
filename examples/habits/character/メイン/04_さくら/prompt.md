@@ -1,9 +1,9 @@
 # 『ハビッツ！！！』 さくら → キャラクター設定画（character-sheet × luminous-anime）
 
-> ## 初稿
-> **この設定画は初稿である。変更の可能性が大きい。**
+> ## 改訂稿2
+> **この設定画は改訂稿2である。** 初稿 2026-09-16／改訂稿1 2026-09-17（**注記の言語を、日本語へ戻した**）／**改訂稿2** 2026-09-17——**型の総数を、八つから十二へ直した**（**方針 ㉗、②を三値に割った決定**）。**⚠ 地（骨）は、まだ置いていない。****そして、型の表にも、この一人は入っていない**——**著者の決定である**（㉗）。**変更の可能性が大きい。**
 > **この一枚には、人物の欄が無い。** 出典がこの一人に与えるのは**名と、頁と、記名の現場**だけである。**顔・身体・年齢・性別・衣装は、出典が一度も書かない。** これは記述の欠落ではなく、**この作品が解かないと決めた決定**である（下の一行）。ゆえに他の三枚にある「発明（要承認）」の表は、**この一枚には無い**——埋めれば、埋めた数だけ作品の外から来たことになる。
-> シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「初稿」）。
+> シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「改訂稿2」）。
 
 - 入力: [../../../habits-concept-board-luminous-anime/input.md](../../../habits-concept-board-luminous-anime/input.md)（出典の指し先を共有。内容は複製しない）
 - format: **キャラクター設定画（character-sheet・登録済み）**——伝達（制作仕様）／一人物 × 多面（時間軸なし）／横長シート
@@ -14,7 +14,7 @@
 
 > **名前について（先に消しておく混同）。** この設定画の人物は**中核四人の「さくら」**——地の文で**ひらがな三字**、作中で誰もその名を呼ばず、**当て字**である者。**ストック層二十四名の「川上 桜（かわかみ さくら）」は別人である**——女34・保育園の調理師・さいたま市・第一巻第9話の主役回、**漢字一字**。台帳は`この規律は動かさない`と書く。**この一枚に川上桜は出てこない。出せば、この作品でいちばん強い発見が、この一枚のなかで一度潰れる。**
 
-> **四枚は一組である（④一つの世界）。** 白地・ガイド線・注記の作法・「初稿」枠の位置は、`character/メイン/01_碓氷千夏` / `character/メイン/02_暮林蒼` / `character/メイン/03_侘田すみれ` / `character/メイン/04_さくら` の四枚で共通。**身長は相対だけを決め、数値は置かない**（数は実測として読まれるため）。**この一枚には身長が無い**——人物が居ないので、寸法は四つの紙の側にだけ掛かる。
+> **四枚は一組である（④一つの世界）。** 白地・ガイド線・注記の作法・**版を記した朱の枠**の位置は、`character/メイン/01_碓氷千夏` / `character/メイン/02_暮林蒼` / `character/メイン/03_侘田すみれ` / `character/メイン/04_さくら` の四枚で共通。**身長は相対だけを決め、数値は置かない**（数は実測として読まれるため）。**この一枚には身長が無い**——人物が居ないので、寸法は四つの紙の側にだけ掛かる。
 > **四枚は、四つの書体で分かれている。** 台帳の一節——`書体は三つしかない——印刷、ボールペン、鉛筆。` ゆえに**碓氷千夏の一枚は印刷、暮林蒼の一枚はボールペン、侘田すみれの一枚は鉛筆、さくらの一枚はそのどれでもない。** ヘッダの名は四枚とも日本語で、**三人は漢字のみ・読みを振らない**（`呼び間違えられる`／`訊き返される`という値は、読みを固定した瞬間に消える）。**さくらだけはひらがな三字**——漢字にすれば、それは別人（ストック層の川上桜）の名になる。**そしてさくらだけは、読みそのものを振らない**（下記）。
 
 ## 出典の語（この一人について・一語も変えない）
@@ -68,7 +68,7 @@
 
 ## フォーマット（Format）
 
-白地。上段に**四つの名の書かれる場所**（名札／出席簿／宛名票／預かり札）を、**同一の寸法・同一の上端線**に載せる。**人物はどの面にも描かれない。** 手は画面外から入り、手首で切れる。下段に**六つの「手前で止まる」**（同じ大きさ・順序なし・一本の水平線上）。右に拡大図三点——**四つの名の実測図**（この一枚の中心）、**書体の三点見本と、空いている四点目**、**空のルビ欄**。隅に朱の枠で**「初稿」**。**描かれる文字は四種**——ヘッダの名（**日本語・ひらがな三字**）、実測図の四つの名（**日本語**）、引き出し線の注記（英語）、そして「初稿」（日本語）。**作中の四つの紙に載る名は、判読不能のまま置く。**
+白地。上段に**四つの名の書かれる場所**（名札／出席簿／宛名票／預かり札）を、**同一の寸法・同一の上端線**に載せる。**人物はどの面にも描かれない。** 手は画面外から入り、手首で切れる。下段に**六つの「手前で止まる」**（同じ大きさ・順序なし・一本の水平線上）。右に拡大図三点——**四つの名の実測図**（この一枚の中心）、**書体の三点見本と、空いている四点目**、**空のルビ欄**。隅に朱の枠で**「改訂稿2」**。**描かれる文字は四種**——ヘッダの名（**日本語・ひらがな三字**）、実測図の四つの名（**日本語**）、引き出し線の注記（**活字で、判読できる**）、そして「改訂稿2」（日本語）。**作中の四つの紙に載る名は、判読不能のまま置く。**
 
 **この一枚に、発明はほぼ無い。** 残る未確定は**四つの紙の具体**だけである——出典は名札・出席簿・宛名票・預かり札の四つを名指すが、**その寸法と紙質を与えない。** ゆえに**数値を置かず**、四つが互いに同じ寸法であることだけを固定する（数は実測として読まれるため）。
 
@@ -76,18 +76,18 @@
 
 光の写実アニメの**生き残る部分だけ**を使う。**清潔なアニメ線画**と**配色の規律**——蛍光灯の白、深いシアンに寄る影、そして**一箇所だけ最も強いハイライトを受ける点。**
 
-> **様式メモ（この様式が設定画で失うもの）。** format カードが「様式軸を埋められる」と例に挙げるのは cel-shade／line-art／manga-ink で、**luminous-anime は名指しされていない。** 理由は明らかである——**この様式の主役は光であり、設定画の主役は人物である。** ゆえに四つの忠実性アンカー（層を成す空・体積光・フレアとブルーム・夕景の配色）は、**この一枚ではすべて落ちる。** 白地に空を置けば、それは format の avoid「人物の背後の情景」であり、**雰囲気が情報に勝つ。** 朱の「初稿」枠だけが、この作品の朱であり、同時にこの様式の「最も強いハイライトを受ける一点」である。**そしてこの様式が本来捧げる対象——人物——が、この一枚には居ない。** ゆえにこの一枚は、四枚のうちで最も様式を失う。**光を従属させる相手が、そもそも描かれない。**
+> **様式メモ（この様式が設定画で失うもの）。** format カードが「様式軸を埋められる」と例に挙げるのは cel-shade／line-art／manga-ink で、**luminous-anime は名指しされていない。** 理由は明らかである——**この様式の主役は光であり、設定画の主役は人物である。** ゆえに四つの忠実性アンカー（層を成す空・体積光・フレアとブルーム・夕景の配色）は、**この一枚ではすべて落ちる。** 白地に空を置けば、それは format の avoid「人物の背後の情景」であり、**雰囲気が情報に勝つ。** 朱の「改訂稿2」枠だけが、この作品の朱であり、同時にこの様式の「最も強いハイライトを受ける一点」である。**そしてこの様式が本来捧げる対象——人物——が、この一枚には居ない。** ゆえにこの一枚は、四枚のうちで最も様式を失う。**光を従属させる相手が、そもそも描かれない。**
 
 ## 合成プロンプト（Merged）
 
 ```text
-A character model sheet for さくら — who in this work is not a person but a name: the name of an AI, never once spoken aloud in the story, and never given a reading. No figure, no face and no body appear anywhere in this sheet; nothing in the frame is drawn as a person. On a plain white ground, four places where a name is written stand in the four view positions at the same size and share a single horizontal line along their top edge, exactly as the other sheets in this set share one height and one eye line: a plastic nameplate, the thick left sleeve of an attendance register, an address slip with glue stains, and a bundle of claim tags layered in pencil. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese, set small, as three hiragana characters and nothing else — never in kanji, never romanised — given the same size as every other character's name.
+A character model sheet for さくら — who in this work is not a person but a name: the name of an AI, never once spoken aloud in the story, and never given a reading. No figure, no face and no body appear anywhere in this sheet; nothing in the frame is drawn as a person. On a plain white ground, four places where a name is written stand in the four view positions at the same size and share a single horizontal line along their top edge, exactly as the other sheets in this set share one height and one eye line: a plastic nameplate, the thick left sleeve of an attendance register, an address slip with glue stains, and a bundle of claim tags layered in pencil. In the sheet's corner, small, a bordered box outlined in vermilion holding the Japanese characters 改訂稿2; beside it the name in Japanese, set small, as three hiragana characters and nothing else — never in kanji, never romanised — given the same size as every other character's name.
 
 Hands enter these four panels from outside the frame and stop at the wrist, attached to no body and continuing into no arm: in this volume the hand that sets the bundle down belongs to no one. Every field on all four papers is printed or written and nowhere legible. The one thing this sheet exists to fix is a measurement, and it is drawn rather than asserted: the four names of the work — 碓氷千夏, 暮林蒼, 侘田すみれ and さくら — set in a single row at exactly the same size, with a ruled guide running across their tops and another across their baselines, so the equality is proved by the lines. No other name in the frame is readable.
 
 Below, in place of an expression row, six moments each stopped one beat short of completing, all standing on one level line with no height in it anywhere and carrying no numbering and no order: a hand stopped at the trace of a cut; a hand stopped before the cut; a hand stopped before the voice; a hand stopped before the object; a hand stopped before her; and a mouth moved into the shape of asking, stopped before the sound. Beside them, enlarged detail insets: the three scripts of this work sampled in a row — printed, ballpoint, pencil — with a fourth place beside them left empty, because none of the three is hers; and the small ruled space where a reading would be set above the name, left blank and never filled.
 
-Flat even light, the shading held inside the objects only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration — a sheet whose subject is deliberately absent. Legible in the whole frame: the header name, the four names in the measurement row, and the 初稿 box; nothing else.
+Flat even light, the shading held inside the objects only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in Japanese, set in legible type, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 改訂稿2 box. A production reference readable as a specification, not a finished illustration — a sheet whose subject is deliberately absent. Legible in the whole frame: the header name, the four names in the measurement row, and the 改訂稿2 box; nothing else.
 
 Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no red seal impression, no cherry blossom, no petals, no pink, no person, no figure, no character, no face, no body, no human silhouette, no portrait, no arm continuing past the wrist.
 ```

@@ -1,9 +1,9 @@
 # 『ハビッツ！！！』 石川久美子 → キャラクター設定画（character-sheet × luminous-anime）
 
-> ## 初稿
-> **この設定画は初稿である。変更の可能性が大きい。**
+> ## 改訂稿3
+> **この設定画は改訂稿3である。** 初稿 2026-09-16／改訂稿1 2026-09-17（**注記の言語を、日本語へ戻した**）／**改訂稿2** 2026-09-17——**型の総数を、八つから十二へ直した**（**方針 ㉗、②を三値に割った決定**）。**⚠ その時点では、地（骨）はまだ無かった。**／**改訂稿3** 2026-09-17——**十二の型のうちの一つを、地（骨）として置いた**（**方針 ㉗**）。**この一人は 己＝丸顔 である。** **六つの軸のうち六軸に値を置き、 軸を様式に任せる。** **⚠ 導きは性別と年齢のみであり、外見の記述は出典に一行も無い**（方針 §5a）——**ゆえにこれは発明であり、承認を要する。** **⚠ 未測**——**十二の型が、モデルの側で本当に十二に分かれるかは、測っていない。**
 > 出典が与えるのは**年齢・職業・住まい・呼ばれ方・癖・動きの署名・記名・字数**まで。**顔と、体の記述は一行も無い。** 下の「発明（要承認）」の表が、この一枚が足したものの全部である。**承認・差し替えを前提とする。**
-> シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「初稿」）。
+> シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「改訂稿3」）。
 
 - 入力: [../../../habits-concept-board-luminous-anime/input.md](../../../habits-concept-board-luminous-anime/input.md)（出典の指し先を共有。内容は複製しない）
 - format: **キャラクター設定画（character-sheet・登録済み）**——伝達（制作仕様）／一人物 × 多面（時間軸なし）／横長シート
@@ -76,6 +76,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
+| **地（骨）** | **己＝丸顔。六つの軸を持つ。押す軸は四つ（②④⑤⑥）、既定側を名指す軸は二つ（①③）、任せる軸は無い。** **★は、この一枚を読む軸——石川久美子＝⑥**（**押す軸の中のいちばん強いもの**）。**①上下の比＝顔の下半分が短く、額が広い**（口と顎の側が短く、それだけ額が残る。**目が下寄りになる**）——**⚠ これは様式の既定側である。** **②頬骨＝横へ張り、顔の幅を決める**。**③顎の角＝丸い。角が立たない**——**⚠ これは様式の既定側である。** **④目の間隔＝狭い**。**⑤鼻＝長い**。**⑥耳＝大きい。齢で伸びている** ★。** **四面の全身図も、四つの表情面も、同じ骨を持つ** | ⚠ **導きは性別と年齢のみである。** 出典に外見の記述が一行も無い（方針 §5a）——**ゆえに①②③は発明である。** **⑤⑥は、齢から導ける**——**55歳は、この様式の既定側（＝まだ伸びていない側）より先にいる**（㉔ の法）。**④目の間隔も、押す**——**成分が一つしかない軸である**（㉔ の配り）。**押す軸と任せる軸の割り当ては、著者の決定である。** ⚠ **未測**——**十二の型が、モデルの側で本当に十二に分かれるかは、測っていない。** |
 | 顔・髪 | 黒髪、後ろでまとめる。調理の帽子の下に入る。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。**相対のみ。数値は置かない** | 数は実測として読まれる。**出典に身長の記述は無い** |
 | 給食着 | 白い調理着と前掛け、帽子 | **`給食調理員`**・**`第三調理室の班長`**（run-09）。**出典に外見の記述が一行も無い**ので、この一枚が置く |
@@ -104,7 +105,7 @@
 
 ## フォーマット（Format）
 
-白地・多面図4面（正面／斜め／側面／背面）を**同一の身長線と目線**に載せる。中立のAポーズ、腕はシルエットから離し、**手は空**。下段に表情4面（上の四つ）。右に拡大図四点——**欠席者の名簿**、**唇を動かさずに数えた三つ**、**お玉を持ち替える手**、**配膳台へ運ばれ、数えた三つのところで止まる食缶**。隅に朱の枠で**「初稿」**。**描かれる文字は三種**——ヘッダの名（**日本語**）、引き出し線の注記（**英語**）、そして「初稿」（日本語）。**作中の日本語（欠席者の名簿の名）は判読不能のまま**置く。
+白地・多面図4面（正面／斜め／側面／背面）を**同一の身長線と目線**に載せる。中立のAポーズ、腕はシルエットから離し、**手は空**。下段に表情4面（上の四つ）。右に拡大図四点——**欠席者の名簿**、**唇を動かさずに数えた三つ**、**お玉を持ち替える手**、**配膳台へ運ばれ、数えた三つのところで止まる食缶**。隅に朱の枠で**「改訂稿3」**。**描かれる文字は三種、すべて日本語である**——ヘッダの名、引き出し線の注記（**活字で、判読できる**）、そして「改訂稿3」の枠。**作中の日本語（欠席者の名簿の名）は判読不能のまま**置く。
 
 **身長は相対のみ。数値は置かない。**
 
@@ -112,15 +113,17 @@
 
 光の写実アニメの**生き残る部分だけ**を使う。**清潔なアニメ線画**と**配色の規律**——給食室の曇った白、深いシアンに寄る影、そして**一箇所だけ最も強いハイライトを受ける点。**
 
-> **様式メモ（この様式が設定画で失うもの）。** この様式の主役は光であり、設定画の主役は人物である。ゆえに**四つの忠実性アンカー（層を成す空・体積光・フレアとブルーム・夕景の配色）は、この一枚ではすべて落ちる。** 落とさなければならない——白地に空を置けば、それは format の avoid「人物の背後の情景」であり、**雰囲気が情報に勝つ。** 残るのは線と配色の規律だけで、それで足りる。**朱の「初稿」枠だけが、この作品の朱であり、同時にこの様式の「最も強いハイライトを受ける一点」である。**
+> **様式メモ（この様式が設定画で失うもの）。** この様式の主役は光であり、設定画の主役は人物である。ゆえに**四つの忠実性アンカー（層を成す空・体積光・フレアとブルーム・夕景の配色）は、この一枚ではすべて落ちる。** 落とさなければならない——白地に空を置けば、それは format の avoid「人物の背後の情景」であり、**雰囲気が情報に勝つ。** 残るのは線と配色の規律だけで、それで足りる。**朱の「改訂稿3」枠だけが、この作品の朱であり、同時にこの様式の「最も強いハイライトを受ける一点」である。**
 > **この一枚には、様式が与えるはずの「最も明るい一点」が人物の上に一つも無い。** 出典は彼女を`第三調理室の班長`と書き、年収を`300万未満`と書く——**最も平凡な光で、いちばん多くの数を口の中に置く人物。それが彼女の仕様である。** 蒸気は、この一枚では**立てない**——**立てば、数が湯気の向こうへ行く。**
 
 ## 合成プロンプト（Merged）
 
 ```text
-A character model sheet of 石川久美子 — a 55-year-old school-meal cook in Kawaguchi, Saitama, foreman of the third cooking room of a city kitchen that turns out 4,000 meals a day with 28 cooks, who counts the names of the absent and then says the number to nobody — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it. The only text on this sheet is that header name, the callout annotations, and the 初稿 box; no other text appears anywhere in the frame.
+A character model sheet of 石川久美子 — a 55-year-old school-meal cook in Kawaguchi, Saitama, foreman of the third cooking room of a city kitchen that turns out 4,000 meals a day with 28 cooks, who counts the names of the absent and then says the number to nobody — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the Japanese characters 改訂稿3; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it. The only text on this sheet is that header name, the callout annotations, and the 改訂稿3 box; no other text appears anywhere in the frame.
 
 The age stated above is a fact of this sheet: every face on it carries that age — the four views and the four expression heads alike, at every size. The age is carried where a real face carries it: the eyelids, the fold from the nose to the mouth, the line of the jaw, and the hands. It is not a default young face.
+
+Her face is specified rather than left to the default, on all six of the axes that carry it, two of them named even where they sit on the style's own default side so that the face is fixed rather than averaged: the lower half of the face is short and the forehead broad, the eyes coming to sit low; the cheekbones spread wide and set the width of the face; the jaw is round and its corner does not stand; the eyes sit close together; the nose is long; the ears are large, drawn out by age. That ground is identical in the four views and in the four expression heads alike — one face, not eight.
 
 She is precisely specified: a 2DK in a public housing block in Shiba, 45 years old as a building, twelve minutes on foot from the station and nine minutes by bicycle to work; white cooking wear, an apron and a cap; black hair gathered at the back so that it sits under the cap; a shoulder bag. The ladle is held in the right hand and changed over to the left before anything is served.
 
@@ -128,7 +131,7 @@ The whole surface of this sheet is the paper only the absent appear on. Enlarged
 
 Below, a row of four expression heads, each held one beat short of saying the number: counting the names of the absent before the meal; standing in front of the can and counting three with her lips not moving; changing the ladle over and then serving; and holding the count without saying it. All four are heads: the beat reads on the face, not only in the hands.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, clouded kitchen white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; the names on the register are nowhere legible, no numeral appears on any object in the frame, and the one coworker watching says nothing.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in Japanese, set in legible type, clean anime lineart, clouded kitchen white with a cyan-leaning shadow, one saturated note only — the vermilion of the 改訂稿3 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; the names on the register are nowhere legible, no numeral appears on any object in the frame, and the one coworker watching says nothing.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no face in the four views younger than in the expression heads, no age smoothed away from the eyelids, the fold from the nose to the mouth, the jaw or the hands, no age or occupation label or data panel, no text describing this brief, no text other than the header name, the callouts and the 初稿 box, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no numerals on any in-world prop, no spoken number, no steam, no dining hall interior, no action played twice.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no flat cheekbone, no short nose, no small ears, no face in the four views younger than in the expression heads, no age smoothed away from the eyelids, the fold from the nose to the mouth, the jaw or the hands, no age or occupation label or data panel, no text describing this brief, no text other than the header name, the callouts and the 改訂稿3 box, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no numerals on any in-world prop, no spoken number, no steam, no dining hall interior, no action played twice.
 ```

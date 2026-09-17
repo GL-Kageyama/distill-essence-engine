@@ -1,9 +1,9 @@
 # 『ハビッツ！！！』 清水拓也 → キャラクター設定画（character-sheet × luminous-anime）
 
-> ## 初稿
-> **この設定画は初稿である。変更の可能性が大きい。**
+> ## 改訂稿3
+> **この設定画は改訂稿3である。** 初稿 2026-09-16／改訂稿1 2026-09-17（**注記の言語を、日本語へ戻した**）／**改訂稿2** 2026-09-17——**型の総数を、八つから十二へ直した**（**方針 ㉗、②を三値に割った決定**）。**⚠ その時点では、地（骨）はまだ無かった。**／**改訂稿3** 2026-09-17——**十二の型のうちの一つを、地（骨）として置いた**（**方針 ㉗**）。**この一人は 乙＝長い卵型 である。** **六つの軸のうち四軸に値を置き、二軸を様式に任せる。** **⚠ 導きは性別と年齢のみであり、外見の記述は出典に一行も無い**（方針 §5a）——**ゆえにこれは発明であり、承認を要する。** **⚠ 未測**——**十二の型が、モデルの側で本当に十二に分かれるかは、測っていない。**
 > 出典が与えるのは**年齢・職業・勤め先・住まい・呼ばれ方・癖・動きの署名・記名**まで。**顔と、髪と、体格の数値だけが与えられていない。** 下の「発明（要承認）」の表が、この一枚が足したものの全部である。**承認・差し替えを前提とする。**
-> シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「初稿」）。
+> シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「改訂稿3」）。
 >
 > **この一枚は、引き渡された二版（run-09 / run-10）だけを材料にする。** 出典の各行に版を付けてある——著者が行ごとに可否を決められるように。
 
@@ -68,6 +68,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
+| **地（骨）** | **乙＝長い卵型。四つの軸を持つ。押す軸は三つ（①②⑤）、既定側を名指す軸は一つ（③）、任せる軸は二つ（④⑥）。** **★は、この一枚を読む軸——清水拓也＝①**（**押す軸の中のいちばん強いもの**）。**①上下の比＝顔の下半分が、上半分より長い** ★（口と顎の側が長く、それだけ額が狭い。**目が上のほうに寄る**）。**②頬骨＝横へ張り、顔の幅を決める**。**③顎の角＝丸い。角が立たない**——**⚠ これは様式の既定側である。** **④目の間隔＝—（任せる）**。**⑤鼻＝長い**。**⑥耳＝—（任せる）**。** **四面の全身図も、四つの表情面も、同じ骨を持つ** | ⚠ **導きは性別と年齢のみである。** 出典に外見の記述が一行も無い（方針 §5a）——**ゆえに①②③は発明である。** **⑤は、齢から導ける**——**30歳は、この様式の既定側（＝まだ伸びていない側）より先にいる**（㉔ の法）。**④は、成分が一つしかない軸であり、いちばん多く任せる軸である**（㉔ の配り）。**押す軸と任せる軸の割り当ては、著者の決定である。** ⚠ **未測**——**十二の型が、モデルの側で本当に十二に分かれるかは、測っていない。** |
 | 顔・髪 | 黒髪、短く、帽子の跡がつく長さ。**この一枚の同一性は、髪から読まれない** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。相対の基準も置かない | 出典に体格の記述が一行も無い。**数は実測として読まれる。** |
 | 衣装 | 配送の作業着。**この一枚の同一性は、衣装から読まれない** | 職業＝配達（run-09）。出典に衣装の記述は一行も無い |
@@ -99,7 +100,7 @@
 
 ## フォーマット（Format）
 
-白地・多面図4面（正面／斜め／側面／背面）を**同一の身長線と目線**に載せる。中立のAポーズ、腕はシルエットから離し、**手は空**。下段に表情4面（上の四つ）。右に拡大図四点——**封の切られていない箱**、**送り状の控えの、送り主と届け先の欄**、**画面に合わせた四角**、**一枚だけ撮られた、その一枚**。隅に朱の枠で**「初稿」**。**描かれる文字は三種**——ヘッダの名（**日本語**）、引き出し線の注記（英語）、そして「初稿」（日本語）。**作中の日本語（送り状の送り主と届け先、伝票）は判読不能のまま**置く。
+白地・多面図4面（正面／斜め／側面／背面）を**同一の身長線と目線**に載せる。中立のAポーズ、腕はシルエットから離し、**手は空**。下段に表情4面（上の四つ）。右に拡大図四点——**封の切られていない箱**、**送り状の控えの、送り主と届け先の欄**、**画面に合わせた四角**、**一枚だけ撮られた、その一枚**。隅に朱の枠で**「改訂稿3」**。**描かれる文字は三種、すべて日本語である**——ヘッダの名、引き出し線の注記（**活字で、判読できる**）、そして「改訂稿3」の枠。**作中の日本語（送り状の送り主と届け先、伝票）は判読不能のまま**置く。
 
 **身長は相対のみ。数値を置かない。** **この一枚は、順位を発明しない**——出典に体格の記述が一行も無いためである。**四つの拡大図は、すべて「年」か「名」のどちらかを運んでいる。この規則に乗らないものは拡大図にしない。**
 
@@ -107,15 +108,17 @@
 
 luminous-anime の**生き残る部分だけ**を使う。**清潔なアニメ線画**と**配色の規律**——早朝の曇った白、深いシアンに寄る影、そして**一箇所だけ最も強いハイライトを受ける点。**
 
-> **様式メモ（この様式が設定画で失うもの）。** **この様式の主役は光であり、設定画の主役は人物である。** ゆえに四つの忠実性アンカー（層を成す空・体積光・フレアとブルーム・夕景の配色）は、**この一枚ではすべて落ちる。落とさなければならない**——白地に空を置けば、それは format の avoid「人物の背後の情景」であり、**雰囲気が情報に勝つ。** 残るのは線と配色の規律だけで、それで足りる。**朱の「初稿」枠だけが、この作品の朱であり、同時にこの様式の「最も強いハイライトを受ける一点」である。**
+> **様式メモ（この様式が設定画で失うもの）。** **この様式の主役は光であり、設定画の主役は人物である。** ゆえに四つの忠実性アンカー（層を成す空・体積光・フレアとブルーム・夕景の配色）は、**この一枚ではすべて落ちる。落とさなければならない**——白地に空を置けば、それは format の avoid「人物の背後の情景」であり、**雰囲気が情報に勝つ。** 残るのは線と配色の規律だけで、それで足りる。**朱の「改訂稿3」枠だけが、この作品の朱であり、同時にこの様式の「最も強いハイライトを受ける一点」である。**
 > **この一枚には、様式が与えるはずの「最も明るい一点」が、人物の上に一つも無い。** 出典が与える最も強い光は、**箱の上に貼られた送り状の、白い面である。** **そこには判読不能の名が書かれている。** **この様式の「最も明るい一点」が、この一枚では、読めない名の上に落ちる。**
 
 ## 合成プロンプト（Merged）
 
 ```text
-A character model sheet of 清水拓也 — a 30-year-old delivery driver working for another company in eastern Edogawa, Tokyo, who photographs a parcel the morning after, one frame only, before anyone has opened it — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it. The only text on this sheet is that header name, the callout annotations, and the 初稿 box; no other text appears anywhere in the frame.
+A character model sheet of 清水拓也 — a 30-year-old delivery driver working for another company in eastern Edogawa, Tokyo, who photographs a parcel the morning after, one frame only, before anyone has opened it — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the Japanese characters 改訂稿3; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it. The only text on this sheet is that header name, the callout annotations, and the 改訂稿3 box; no other text appears anywhere in the frame.
 
 The age stated above is a fact of this sheet: every face on it carries that age — the four views and the four expression heads alike, at every size. The age is carried where a real face carries it: the eyelids, the fold from the nose to the mouth, the line of the jaw, and the hands. It is not a default young face.
+
+His face is specified rather than left to the default, on the 4 axes that carry it, one of them named even where it sits on the style's own default side so that the face is fixed rather than averaged: the lower half of the face is longer than the upper, with the forehead narrow and the eyes set high; the cheekbones spread wide and set the width of the face; the jaw is round and its corner does not stand; the nose is long. That ground is identical in the four views and in the four expression heads alike — one face, not eight.
 
 He is 30, a delivery driver, and the sheet gives what the source gives and nothing more: black hair, cut short enough to sit under a cap; the plain work clothes of a delivery depot; no bag, because he rides eight minutes to the depot and leaves everything in the cab. Neither the hair nor the clothes are how this sheet is told apart — it is told apart by one slip of paper, one parcel and one hand.
 
@@ -125,7 +128,7 @@ In this frame there is exactly one of everything. One parcel, one shipping slip,
 
 Below, a row of four expression heads, each stopped with a finger still on the screen and not yet lifted: taking one photograph of a parcel nobody has opened yet; stepping back half a pace with the parcel left on the ground and levelling the frame with one hand; pressing once, and stopping at one; and exchanging two words with a neighbour at the same address. All four are heads: the beat reads on the face, not only in the hands.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool early-morning white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is nowhere legible. The three ones — one hand, one frame, one press — are named on a leader line; only one photograph exists in the frame.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in Japanese, set in legible type, clean anime lineart, cool early-morning white with a cyan-leaning shadow, one saturated note only — the vermilion of the 改訂稿3 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is nowhere legible. The three ones — one hand, one frame, one press — are named on a leader line; only one photograph exists in the frame.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no face in the four views younger than in the expression heads, no age smoothed away from the eyelids, the fold from the nose to the mouth, the jaw or the hands, no age or occupation label or data panel, no text describing this brief, no text other than the header name, the callouts and the 初稿 box, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible sender name, no legible recipient name, no legible text on the shipping slip, no company name or logo, no opened parcel, no cut tape, no second photograph, no image gallery, no date written anywhere, no handwriting by the subject, no signature, no red seal impression.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no broad high forehead with the eyes set low beneath them, no flat cheekbone, no short nose, no face in the four views younger than in the expression heads, no age smoothed away from the eyelids, the fold from the nose to the mouth, the jaw or the hands, no age or occupation label or data panel, no text describing this brief, no text other than the header name, the callouts and the 改訂稿3 box, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible sender name, no legible recipient name, no legible text on the shipping slip, no company name or logo, no opened parcel, no cut tape, no second photograph, no image gallery, no date written anywhere, no handwriting by the subject, no signature, no red seal impression.
 ```

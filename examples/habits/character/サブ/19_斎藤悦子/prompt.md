@@ -1,9 +1,9 @@
 # 『ハビッツ！！！』 斎藤悦子 → キャラクター設定画（character-sheet × luminous-anime）
 
-> ## 初稿
-> **この設定画は初稿である。変更の可能性が大きい。**
+> ## 改訂稿2
+> **この設定画は改訂稿2である。** 初稿 2026-09-16／改訂稿1 2026-09-17（**地（骨）を、六つの軸として肯定形で置いた**）／**改訂稿2** 2026-09-17——**型を 庚 小さな四角 と定めた**（**著者の決定・方針 ㉗**）。**⚠ ㉗ の表は、この一人を 丁 に置いていた。** **しかし彼女の地の行の値は 広・平・角 であり、庚 である**——**表の側を直した。地の行の値は、動かさない。**（**庚 は三人から四人になり、面長系と短い系の比は 15:12 から 14:13 へ動いた。**）
 > 出典が与えるのは**年齢・職業・住まい・呼ばれ方・癖・動きの署名・記名・字数**まで。**顔と、体の記述は一行も無い。** 下の「発明（要承認）」の表が、この一枚が足したものの全部である。**承認・差し替えを前提とする。**
-> シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「初稿」）。
+> シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「改訂稿2」）。
 
 - 入力: [../../../habits-concept-board-luminous-anime/input.md](../../../habits-concept-board-luminous-anime/input.md)（出典の指し先を共有。内容は複製しない）
 - format: **キャラクター設定画（character-sheet・登録済み）**——伝達（制作仕様）／一人物 × 多面（時間軸なし）／横長シート
@@ -76,7 +76,8 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
-| 顔・髪 | 白髪の交じった短い髪。結ばない。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
+| **地（骨）** | **庚＝小さな四角。六つの軸を持つ。押す軸は三つ——五枚のうち、いちばん少ない。①②④は様式に任せる。** **①上下の比＝`—（任せる）`**。**②頬骨＝`—（任せる）`**。**③顎の角＝長く、角が立つ**（**角は齢で薄い**）。**④目の間隔＝`—（任せる）`**。**⑤鼻＝長く、伸びきっている**。**⑥耳＝大きい。** **齢で伸びている** ★ **四面の全身図も、四つの表情面も、同じ骨を持つ** | ⚠ **この一枚は、設計された試験である**——**「齢の三軸だけで、既定の若い顔は外れるか。そして齢六十六は読めるか。」** **押すのは③⑤⑥、齢から導ける三軸ちょうどである**（㉔ の法）。**①②④は、齢が統べない**——**ゆえにこの様式が既定で描く**（広い額、低い目、平らな頬骨、離れた目）。**押す軸と任せる軸の割り当ては、著者の決定である**（㉔ の配り）。**★は、この一枚を読む軸**——悦子＝⑥。⚠ **③は任せない**——**任せれば、丸い顎＝この様式の既定へ落ちる**（同）。⚠ **押す数を四つ以上にする規則を置くなら、この一枚は外れる。** **五枚の中で、この一枚がいちばん強い齢の信号を持っている。** ⚠ **㉗ の表は、この一人を 丁 に置いていた。** **2026-09-17、著者の決定により 庚 へ直した**——**彼女の値（①既定・②既定・③長く角が立つ）は、庚 小さな四角 の定義そのものである。** **丁 は ③`丸い` を要するゆえ、彼女は 丁 ではあり得なかった**（㉗ ⚠③）。 ⚠ **未測**——**三つで足りるか、①②④を任せたこの一枚が広い額と離れた目で出るかは、測られていない。** |
+| 顔・髪 | 白髪の交じった短い髪。結ばない。色を足さない。**顔そのものは、上の地（骨）が決める** | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある。** ⚠ **ただし、齢を数で書いても齢は顔に乗らない**（㉔ の法）——**齢を顔に置くのは、上の地（骨）である。** |
 | 体格の数値 | 置かない。**相対のみ。数値は置かない** | 数は実測として読まれる。**出典に身長の記述は無い** |
 | 鞄 | 名簿を入れて歩く、薄い手提げ | 名簿を机から机へ、**斎藤悦子の手で運ぶ**（run-10）＋通勤は徒歩・**一日六千歩**（run-09） |
 | **なぞる指の、側面の鉛筆の粉** | 名簿をなぞる指の側面だけが、うっすら黒い | **消しゴムを持たずに、その行を指でなぞってから閉じる**（run-10）——**消さないので、粉が残る。** この一枚で最も強い発明 |
@@ -103,7 +104,7 @@
 
 ## フォーマット（Format）
 
-白地・多面図4面（正面／斜め／側面／背面）を**同一の身長線と目線**に載せる。中立のAポーズ、腕はシルエットから離し、**手は空**。下段に表情4面（上の四つ）。右に拡大図四点——**もう出ない番号の欄（まだ埋まっている）**、**余白に当てられた鉛筆と、その下に何も無いこと**、**その行をなぞる指と、消しゴムがどこにも無いこと**、**一日六千歩の足もと（注記で名指す）**。隅に朱の枠で**「初稿」**。**描かれる文字は三種**——ヘッダの名（**日本語**）、引き出し線の注記（**英語**）、そして「初稿」（日本語）。**作中の日本語（名簿の姓、番号）は判読不能のまま**置く。
+白地・多面図4面（正面／斜め／側面／背面）を**同一の身長線と目線**に載せる。中立のAポーズ、腕はシルエットから離し、**手は空**。下段に表情4面（上の四つ）。右に拡大図四点——**もう出ない番号の欄（まだ埋まっている）**、**余白に当てられた鉛筆と、その下に何も無いこと**、**その行をなぞる指と、消しゴムがどこにも無いこと**、**一日六千歩の足もと（注記で名指す）**。隅に朱の枠で**「改訂稿2」**。**描かれる文字は三種、すべて日本語である**——ヘッダの名、引き出し線の注記（**活字で、判読できる**）、そして「改訂稿2」の枠。**作中の日本語（名簿の姓、番号）は判読不能のまま**置く。
 
 **身長は相対のみ。数値は置かない。**
 
@@ -111,15 +112,15 @@
 
 光の写実アニメの**生き残る部分だけ**を使う。**清潔なアニメ線画**と**配色の規律**——白い紙の白、深いシアンに寄る影、そして**一箇所だけ最も強いハイライトを受ける点。**
 
-> **様式メモ（この様式が設定画で失うもの）。** この様式の主役は光であり、設定画の主役は人物である。ゆえに**四つの忠実性アンカー（層を成す空・体積光・フレアとブルーム・夕景の配色）は、この一枚ではすべて落ちる。** 落とさなければならない——白地に空を置けば、それは format の avoid「人物の背後の情景」であり、**雰囲気が情報に勝つ。** 残るのは線と配色の規律だけで、それで足りる。**朱の「初稿」枠だけが、この作品の朱であり、同時にこの様式の「最も強いハイライトを受ける一点」である。**
+> **様式メモ（この様式が設定画で失うもの）。** この様式の主役は光であり、設定画の主役は人物である。ゆえに**四つの忠実性アンカー（層を成す空・体積光・フレアとブルーム・夕景の配色）は、この一枚ではすべて落ちる。** 落とさなければならない——白地に空を置けば、それは format の avoid「人物の背後の情景」であり、**雰囲気が情報に勝つ。** 残るのは線と配色の規律だけで、それで足りる。**朱の「改訂稿2」枠だけが、この作品の朱であり、同時にこの様式の「最も強いハイライトを受ける一点」である。**
 > **この一枚には、様式が与えるはずの「最も明るい一点」が人物の上に一つも無い。** 出典は彼女の報酬を`ほとんどない`と書き、年収を`200万未満`と書く——**最も平凡な光で、いちばん長く歩く人物。それが彼女の仕様である。**
 
 ## 合成プロンプト（Merged）
 
 ```text
-A character model sheet of 斎藤悦子 — a 66-year-old commissioned community welfare volunteer in Adachi, Tokyo, responsible for two neighborhood associations and 81 households, paid almost nothing for it and walking 6,000 steps of an ordinary day — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it. The only text on this sheet is that header name, the callout annotations, and the 初稿 box; no other text appears anywhere in the frame.
+A character model sheet of 斎藤悦子 — a 66-year-old commissioned community welfare volunteer in Adachi, Tokyo, responsible for two neighborhood associations and 81 households, paid almost nothing for it and walking 6,000 steps of an ordinary day — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the Japanese characters 改訂稿2; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it. The only text on this sheet is that header name, the callout annotations, and the 改訂稿2 box; no other text appears anywhere in the frame.
 
-The age stated above is a fact of this sheet: every face on it carries that age — the four views and the four expression heads alike, at every size. The age is carried where a real face carries it: the eyelids, the fold from the nose to the mouth, the line of the jaw, and the hands. It is not a default young face.
+The face on this sheet is specified rather than left to the default, on the three axes that carry it: the jaw is long and its corner stands, though age has thinned that corner; the nose is long and stretched out to its full length; and the ears are large, lengthened by age. That ground holds at every size on the sheet — the four views and the four expression heads alike. The age stated above is carried by that ground and by nothing finer: not by lines drawn on the face, and not by a number written anywhere.
 
 She is precisely specified: a house in Senju, owned, 41 years old as a building and extended once, 15 minutes on foot from Kita-Senju; hair gone mostly white, worn short and never tied back; a thin cloth bag for the register she carries from desk to desk. She keeps no eraser, and so a faint grey of pencil lead sits along the side of the finger she traces with.
 
@@ -127,7 +128,7 @@ The whole surface of this sheet is the paper she keeps, and that paper has no fi
 
 Below, a row of four expression heads, each held one beat short of closing the register: her hand stopping in front of the number that no longer comes out; the pencil laid against the margin and the finger tracing that line with nothing visible under the finger; the register shut and carried on to the next desk; and, at the second standing, a register made with no field to erase. All four are heads: the beat reads on the face, not only in the hands.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, paper white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every mark on the register is nowhere legible, and nothing in the frame is in her own hand. Nobody in the frame is looking at her; the last person to say her given name out loud was a neighbour, in 平成三十年.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in Japanese, set in legible type, clean anime lineart, paper white with a cyan-leaning shadow, one saturated note only — the vermilion of the 改訂稿2 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every mark on the register is nowhere legible, and nothing in the frame is in her own hand. Nobody in the frame is looking at her; the last person to say her given name out loud was a neighbour, in 平成三十年.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no face in the four views younger than in the expression heads, no age smoothed away from the eyelids, the fold from the nose to the mouth, the jaw or the hands, no age or occupation label or data panel, no text describing this brief, no text other than the header name, the callouts and the 初稿 box, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no handwriting by the subject, no signature, no red seal impression, no eraser, no legible number on the register, no onlooker.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no rounded jaw, no short nose, no small ears, no face younger than the age stated, no face in the four views younger than in the expression heads, no age or occupation label or data panel, no text describing this brief, no text other than the header name, the callouts and the 改訂稿2 box, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no handwriting by the subject, no signature, no red seal impression, no eraser, no legible number on the register, no onlooker.
 ```

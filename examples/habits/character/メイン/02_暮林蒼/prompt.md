@@ -1,16 +1,16 @@
 # 『ハビッツ！！！』 暮林蒼 → キャラクター設定画（character-sheet × luminous-anime）
 
-> ## 初稿
-> **この設定画は初稿である。変更の可能性が大きい。**
+> ## 改訂稿1
+> **この設定画は改訂稿1である。** 初稿 2026-09-16／**改訂稿1** 2026-09-17——**地（骨）を、六つの軸として肯定形で置いた。** **押す軸と、様式に任せる軸を分けた。**（方針 ㉔・㉕）
 > 出典が与えるのは**年齢・職業・勤め先・住まい・姓・癖・声**まで。**髪・体格・衣装は出典が与えていない。** 下の「発明（要承認）」の表が、この一枚が足したものの全部である。**承認・差し替えを前提とする。**
-> シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「初稿」）。
+> シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「改訂稿1」）。
 
 - 入力: [../../../habits-concept-board-luminous-anime/input.md](../../../habits-concept-board-luminous-anime/input.md)（出典の指し先を共有。内容は複製しない）
 - format: **キャラクター設定画（character-sheet・登録済み）**——伝達（制作仕様）／一人物 × 多面（時間軸なし）／横長シート
 - style: **光の写実アニメ（luminous-anime・登録済み）**
 - lang: ja（生成プロンプトは英語）
 
-> **四枚は一組である（④一つの世界）。** 白地・ガイド線・注記の作法・「初稿」枠の位置は、`character/メイン/01_碓氷千夏` / `character/メイン/02_暮林蒼` / `character/メイン/03_侘田すみれ` / `character/メイン/04_さくら` の四枚で共通。**身長は相対だけを決め、数値は置かない**（数は実測として読まれるため）。**四枚のうち、さくらの一枚だけは人物を描かない**——`さくらに固有の声を与えない。……固有の声を与えることは、この作品が解かないと決めた問題を、外部の都合で解くことである`。ゆえに**身長の比較が掛かるのは、人物を描く三枚のあいだだけである。** 四枚目に人物を足して揃えないこと——**それが四枚目の仕様である。**
+> **四枚は一組である（④一つの世界）。** 白地・ガイド線・注記の作法・**版を記した朱の枠**の位置は、`character/メイン/01_碓氷千夏` / `character/メイン/02_暮林蒼` / `character/メイン/03_侘田すみれ` / `character/メイン/04_さくら` の四枚で共通。**身長は相対だけを決め、数値は置かない**（数は実測として読まれるため）。**四枚のうち、さくらの一枚だけは人物を描かない**——`さくらに固有の声を与えない。……固有の声を与えることは、この作品が解かないと決めた問題を、外部の都合で解くことである`。ゆえに**身長の比較が掛かるのは、人物を描く三枚のあいだだけである。** 四枚目に人物を足して揃えないこと——**それが四枚目の仕様である。**
 > **四枚は、四つの書体で分かれている。** 台帳の一節——`書体は三つしかない——印刷、ボールペン、鉛筆。` ゆえに**碓氷千夏の一枚は印刷、暮林蒼の一枚はボールペン、侘田すみれの一枚は鉛筆、さくらの一枚はそのどれでもない。** 四人の差は顔の描き分けではなく、**素材の差**としてシートに出る。ヘッダの名は四枚とも日本語で、**三人は漢字のみ・読みを振らない**（`呼び間違えられる`／`訊き返される`という値は、読みを固定した瞬間に消える）。**さくらだけはひらがな三字**——漢字にすれば、それは別人（ストック層の川上桜）の名になる。
 
 ## 出典の語（この一人について・一語も変えない）
@@ -26,6 +26,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
+| **地（骨）** | **六つの軸を持つ。押す軸は四つ。①と④は様式に任せる。** **①上下の比＝`—（任せる）`**。**②頬骨＝横へ張る** ★ **③顎の角＝短く、角が立つ。** **顎先が四角い**。**④目の間隔＝`—（任せる）`**。**⑤鼻＝長い。** **鼻先が下がる**。**⑥耳＝大きい。** **横へ張る**。**四面の全身図も、四つの表情面も、同じ骨を持つ** | ⚠ **導きは性別と年齢のみである。** 出典に外見の記述が一行も無い（方針 §5a）——**ゆえに②③は発明である。** **⑤⑥は、齢から導ける**——**二十六歳は、この様式の既定側（＝まだ伸びていない側）より先にいる**（㉔ の法）。**ゆえに押す。** **①と④を任せる**——**①は、輪郭の幅がここでしか出ない軸であり、五枚のうち二枚が既定の額を持つ**。**④は、成分が一つしかない軸であり、いちばん多く任せる軸である**（いずれも ㉔ の配り）。**押す軸と任せる軸の割り当ては、著者の決定である。** **★は、この一枚を読む軸**——蒼＝②。⚠ **③は任せない**——**任せれば、丸い顎＝この様式の既定へ落ちる**（㉔ の法）。⚠ **未測**——**①④を任せたこの一枚が、広い額と離れた目で出るかは、測られていない。** |
 | 髪 | 短く、帽子の跡がつく長さ。黒 | 一日中外を歩く26歳・帽子をかぶる前提 |
 | 体格 | **人物を描く三枚のうち最も高い。** 肩がわずかに前へ出て、線は前腕と肩の外側に立つ | 出典の仕事（一日八十〜百二十軒） |
 | 衣装 | 配送会社の作業着（上着・帽子） | 出典の職種。**制服の具体は発明** |
@@ -52,20 +53,20 @@
 
 ## フォーマット（Format）
 
-白地・多面図4面（正面／斜め／側面／背面）を**同一の身長線と目線**に載せる。中立のAポーズ、腕はシルエットから離し、**手は空**（仕事の小物は注記の側にだけ置く）。下段に表情4面（上の四つ）。右に拡大図——**段差の目録**、宛名票のふりがな欄、段差の手前で止まる足もと。隅に朱の枠で**「初稿」**。**描かれる文字は三種**——ヘッダの名（**日本語**）、引き出し線の注記（英語）、そして「初稿」（日本語）。作中の名は**判読不能のまま**置く。**段差の目録には、名を置く欄そのものが無い。**
+白地・多面図4面（正面／斜め／側面／背面）を**同一の身長線と目線**に載せる。中立のAポーズ、腕はシルエットから離し、**手は空**（仕事の小物は注記の側にだけ置く）。下段に表情4面（上の四つ）。右に拡大図——**段差の目録**、宛名票のふりがな欄、段差の手前で止まる足もと。隅に朱の枠で**「改訂稿1」**。**描かれる文字は三種、すべて日本語である**——ヘッダの名、引き出し線の注記（**活字で、判読できる**）、そして「改訂稿1」の枠。作中の名は**判読不能のまま**置く。**段差の目録には、名を置く欄そのものが無い。**
 
 ## 様式（Style）
 
 光の写実アニメの**生き残る部分だけ**を使う。**清潔なアニメ線画**と**配色の規律**——蛍光灯の白、深いシアンに寄る影、そして**一箇所だけ最も強いハイライトを受ける点。**
 
-> **様式メモ（この様式が設定画で失うもの）。** format カードが「様式軸を埋められる」と例に挙げるのは cel-shade／line-art／manga-ink で、**luminous-anime は名指しされていない。** 理由は明らかである——**この様式の主役は光であり、設定画の主役は人物である。** ゆえに四つの忠実性アンカー（層を成す空・体積光・フレアとブルーム・夕景の配色）は、**この一枚ではすべて落ちる。** 落とさなければならない——白地に空を置けば、それは format の avoid「人物の背後の情景」であり、**雰囲気が情報に勝つ。** この一人については、屋外を一日中歩く労働なので、**空を入れたい誘惑が四枚のうちで最も強い**——それでも入れない。朱の「初稿」枠だけが、この作品の朱であり、同時にこの様式の「最も強いハイライトを受ける一点」である。
+> **様式メモ（この様式が設定画で失うもの）。** format カードが「様式軸を埋められる」と例に挙げるのは cel-shade／line-art／manga-ink で、**luminous-anime は名指しされていない。** 理由は明らかである——**この様式の主役は光であり、設定画の主役は人物である。** ゆえに四つの忠実性アンカー（層を成す空・体積光・フレアとブルーム・夕景の配色）は、**この一枚ではすべて落ちる。** 落とさなければならない——白地に空を置けば、それは format の avoid「人物の背後の情景」であり、**雰囲気が情報に勝つ。** この一人については、屋外を一日中歩く労働なので、**空を入れたい誘惑が四枚のうちで最も強い**——それでも入れない。朱の「改訂稿1」枠だけが、この作品の朱であり、同時にこの様式の「最も強いハイライトを受ける一点」である。
 
 ## 合成プロンプト（Merged）
 
 ```text
-A character model sheet of 暮林蒼 — a 26-year-old last-mile delivery courier, Japan 2026 — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it. The only text on this sheet is that header name, the callout annotations, and the 初稿 box; no other text appears anywhere in the frame.
+A character model sheet of 暮林蒼 — a 26-year-old last-mile delivery courier, Japan 2026 — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the Japanese characters 改訂稿1; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it. The only text on this sheet is that header name, the callout annotations, and the 改訂稿1 box; no other text appears anywhere in the frame.
 
-The age stated above is a fact of this sheet: every face on it carries that age — the four views and the four expression heads alike, at every size. The age is carried where a real face carries it: the eyelids, the fold from the nose to the mouth, the line of the jaw, and the hands. It is not a default young face.
+The face on this sheet is specified rather than left to the default, on the four axes that carry it: the cheekbones spread wide and set the width of the face; the jaw is short and its corner stands, and the chin itself is square; the nose is long with the tip falling; and the ears are large and stand out sideways. That ground holds at every size on the sheet — the four views and the four expression heads alike. The age stated above is carried by that ground and by nothing finer: not by lines drawn on the face, and not by a number written anywhere.
 
 He is the tallest figure in the set, and the material of this sheet is the ballpoint: every hand-made mark on it is ballpoint, fast, and leaning to the right with speed. Black hair cut short enough to sit under a cap and holding the flattened line a cap leaves; shoulders squared and carried a little forward from loads; a body whose line stands in the forearms and the outer edge of the shoulders; the work jacket and cap of a delivery company; a handheld terminal clipped at one hip so that the belt dips on that side alone; shoes worn down first at the outer heel. Forearms darkened by sun with a paler band where the sleeve ends. Inside the cap band, a printed size number and no name.
 
@@ -73,7 +74,7 @@ On the left chest a company nameplate, printed, the hand not his. The detail thi
 
 Below, a row of four expression heads: both hands full, eyes lowered to measure the height of a step, the chin not yet lifted toward the person waiting; writing a reading into a field faster than the eye can finish reading it; opening on the business at hand without ever saying a name; and a head turning back at the sound of his own surname read the wrong way — caught mid-turn, the feet still pointing where he was going. All four are heads: the beat reads on the face, not only in the hands.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is printed or handwritten and nowhere legible, and the step chart has no field for a name at all.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in Japanese, set in legible type, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 改訂稿1 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; every name on an in-world prop is printed or handwritten and nowhere legible, and the step chart has no field for a name at all.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no face in the four views younger than in the expression heads, no age smoothed away from the eyelids, the fold from the nose to the mouth, the jaw or the hands, no age or occupation label or data panel, no text describing this brief, no text other than the header name, the callouts and the 初稿 box, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no red seal impression.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no flat cheekbone, no rounded jaw, no short nose, no small ears, no face younger than the age stated, no face in the four views younger than in the expression heads, no age or occupation label or data panel, no text describing this brief, no text other than the header name, the callouts and the 改訂稿1 box, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no red seal impression.
 ```

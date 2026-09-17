@@ -1,9 +1,9 @@
 # 『ハビッツ！！！』 関口浩一 → キャラクター設定画（character-sheet × luminous-anime）
 
-> ## 初稿
-> **この設定画は初稿である。変更の可能性が大きい。**
+> ## 改訂稿3
+> **この設定画は改訂稿3である。** 初稿 2026-09-16／改訂稿1 2026-09-17（**注記の言語を、日本語へ戻した**）／**改訂稿2** 2026-09-17——**型の総数を、八つから十二へ直した**（**方針 ㉗、②を三値に割った決定**）。**⚠ その時点では、地（骨）はまだ無かった。**／**改訂稿3** 2026-09-17——**十二の型のうちの一つを、地（骨）として置いた**（**方針 ㉗**）。**この一人は 辛＝卵型 である。** **六つの軸のうち六軸に値を置き、 軸を様式に任せる。** **⚠ 導きは性別と年齢のみであり、外見の記述は出典に一行も無い**（方針 §5a）——**ゆえにこれは発明であり、承認を要する。** **⚠ 未測**——**十二の型が、モデルの側で本当に十二に分かれるかは、測っていない。**
 > 出典が与えるのは**年齢・職業・住まい・呼ばれ方・癖・動きの署名・記名・字数**まで。**顔と、体の記述は一行も無い。** 下の「発明（要承認）」の表が、この一枚が足したものの全部である。**承認・差し替えを前提とする。**
-> シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「初稿」）。
+> シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「改訂稿3」）。
 
 - 入力: [../../../habits-concept-board-luminous-anime/input.md](../../../habits-concept-board-luminous-anime/input.md)（出典の指し先を共有。内容は複製しない）
 - format: **キャラクター設定画（character-sheet・登録済み）**——伝達（制作仕様）／一人物 × 多面（時間軸なし）／横長シート
@@ -85,6 +85,7 @@
 
 | 項目 | 置くもの | 導き方 |
 |---|---|---|
+| **地（骨）** | **辛＝卵型。六つの軸を持つ。押す軸は三つ（④⑤⑥）、既定側を名指す軸は三つ（①②③）、任せる軸は無い。** **★は、この一枚を読む軸——関口浩一＝⑤**（**押す軸の中のいちばん強いもの**）。**①上下の比＝顔の下半分が短く、額が広い**（口と顎の側が短く、それだけ額が残る。**目が下寄りになる**）——**⚠ これは様式の既定側である。** **②頬骨＝平らで、横へ張らない**——**⚠ これは様式の既定側である。** **③顎の角＝丸い。角が立たない**——**⚠ これは様式の既定側である。** **④目の間隔＝狭い**。**⑤鼻＝長い** ★。**⑥耳＝大きい。齢で伸びている**。** **四面の全身図も、四つの表情面も、同じ骨を持つ** | ⚠ **導きは性別と年齢のみである。** 出典に外見の記述が一行も無い（方針 §5a）——**ゆえに①②③は発明である。** **⑤⑥は、齢から導ける**——**42歳は、この様式の既定側（＝まだ伸びていない側）より先にいる**（㉔ の法）。**④目の間隔も、押す**——**成分が一つしかない軸である**（㉔ の配り）。**押す軸と任せる軸の割り当ては、著者の決定である。** ⚠ **未測**——**十二の型が、モデルの側で本当に十二に分かれるかは、測っていない。** |
 | 顔・髪 | 短く切りそろえた黒髪。分け目を作らない。色を足さない | 出典に外見の記述が一行も無い（方針 §5a）。**著者の決定（2026-09-16）により、この一枚は人のかたちを置く。** **年齢は出典にある——ゆえに、この一枚の顔はその年齢を示す。これは発明ではない。** |
 | 体格の数値 | 置かない。**相対のみ。数値は置かない** | 数は実測として読まれる。**出典に身長の記述は無い** |
 | 眼鏡 | 細い金属の眼鏡 | 会議を画面ごしに見る三年（run-09）。**出典に外見の記述が一行も無い**ので、この一枚が置く |
@@ -113,7 +114,7 @@
 
 ## フォーマット（Format）
 
-白地・多面図4面（正面／斜め／側面／背面）を**同一の身長線と目線**に載せる。中立のAポーズ、腕はシルエットから離し、**手は空**。足もとは**裸足**（上の⑦）。下段に表情4面（上の四つ）。右に拡大図四点——**画面の表示名**、**会議の出席者欄**、**名乗りの前で止まる口**、**通話がつながる前の、まだ誰もいない画面**。隅に朱の枠で**「初稿」**。**描かれる文字は三種**——ヘッダの名（**日本語**）、引き出し線の注記（**英語**）、そして「初稿」（日本語）。**作中の文字（表示名、出席者欄）は判読不能のまま**置く。
+白地・多面図4面（正面／斜め／側面／背面）を**同一の身長線と目線**に載せる。中立のAポーズ、腕はシルエットから離し、**手は空**。足もとは**裸足**（上の⑦）。下段に表情4面（上の四つ）。右に拡大図四点——**画面の表示名**、**会議の出席者欄**、**名乗りの前で止まる口**、**通話がつながる前の、まだ誰もいない画面**。隅に朱の枠で**「改訂稿3」**。**描かれる文字は三種、すべて日本語である**——ヘッダの名、引き出し線の注記（**活字で、判読できる**）、そして「改訂稿3」の枠。**作中の文字（表示名、出席者欄）は判読不能のまま**置く。
 
 **身長は相対のみ。数値は置かない。**
 
@@ -121,15 +122,17 @@
 
 光の写実アニメの**生き残る部分だけ**を使う。**清潔なアニメ線画**と**配色の規律**——画面の鈍い白、深いシアンに寄る影、そして**一箇所だけ最も強いハイライトを受ける点。**
 
-> **様式メモ（この様式が設定画で失うもの）。** この様式の主役は光であり、設定画の主役は人物である。ゆえに**四つの忠実性アンカー（層を成す空・体積光・フレアとブルーム・夕景の配色）は、この一枚ではすべて落ちる。** 落とさなければならない——白地に空を置けば、それは format の avoid「人物の背後の情景」であり、**雰囲気が情報に勝つ。** 残るのは線と配色の規律だけで、それで足りる。**朱の「初稿」枠だけが、この作品の朱であり、同時にこの様式の「最も強いハイライトを受ける一点」である。**
+> **様式メモ（この様式が設定画で失うもの）。** この様式の主役は光であり、設定画の主役は人物である。ゆえに**四つの忠実性アンカー（層を成す空・体積光・フレアとブルーム・夕景の配色）は、この一枚ではすべて落ちる。** 落とさなければならない——白地に空を置けば、それは format の avoid「人物の背後の情景」であり、**雰囲気が情報に勝つ。** 残るのは線と配色の規律だけで、それで足りる。**朱の「改訂稿3」枠だけが、この作品の朱であり、同時にこの様式の「最も強いハイライトを受ける一点」である。**
 > **この一枚には、様式が与えるはずの「最も明るい一点」が人物の上に一つも無い。** 出典は彼を`在宅勤務の多い会社員`と書き、**週の三日を、靴を履かない側に置く**——**最も平凡な光で、いちばん静かな三日を持つ人物。それが彼の仕様である。** 画面が光るのは、この一枚では**名が映っている**からであって、**誰かが読んでいる**からではない。
 
 ## 合成プロンプト（Merged）
 
 ```text
-A character model sheet of 関口浩一 — a 42-year-old office worker at a company in Minato who works from home most of the week, two days a week in the office out of a 4,200-person company, and who places one beat before his own name — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the two Japanese characters 初稿; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it. The only text on this sheet is that header name, the callout annotations, and the 初稿 box; no other text appears anywhere in the frame.
+A character model sheet of 関口浩一 — a 42-year-old office worker at a company in Minato who works from home most of the week, two days a week in the office out of a 4,200-person company, and who places one beat before his own name — on a plain white ground, four views in one row — front, three-quarter, side and back — all at the same character height and the same eye line on a shared horizontal guide, in a neutral A-pose with arms clear of the silhouette, both hands empty. In the sheet's corner, small, a bordered box outlined in vermilion holding the Japanese characters 改訂稿3; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it. The only text on this sheet is that header name, the callout annotations, and the 改訂稿3 box; no other text appears anywhere in the frame.
 
 The age stated above is a fact of this sheet: every face on it carries that age — the four views and the four expression heads alike, at every size. The age is carried where a real face carries it: the eyelids, the fold from the nose to the mouth, the line of the jaw, and the hands. It is not a default young face.
+
+His face is specified rather than left to the default, on all six of the axes that carry it, three of them named even where they sit on the style's own default side so that the face is fixed rather than averaged: the lower half of the face is short and the forehead broad, the eyes coming to sit low; the cheekbones are flat and do not spread; the jaw is round and its corner does not stand; the eyes sit close together; the nose is long; the ears are large, drawn out by age. That ground is identical in the four views and in the four expression heads alike — one face, not eight.
 
 He is precisely specified: a 3LDK in Koto ward, owned, 11 years old as a building, nine minutes on foot from Monzen-Nakacho; short-cropped black hair with no parting; thin metal-rimmed glasses; a slim shoulder bag for the two office days. Because he does not wear shoes on the other three days of the week, the four views stand barefoot and the height guide is taken from a bare foot.
 
@@ -137,7 +140,7 @@ The whole surface of this sheet is a place where his name is displayed and never
 
 Below, a row of four expression heads, each held one beat short of his own name: those two opening syllables at the top of a meeting; the mouth shaped a beat before the call connects; the voice laid into that beat before he gives his name; and, at the second standing, a display name that has never once been changed. All four are heads: the beat reads on the face, not only in the hands.
 
-Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool screen white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; no text on any screen in the frame is legible, and the two syllables he opens with are never set down as writing.
+Flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in Japanese, set in legible type, clean anime lineart, cool screen white with a cyan-leaning shadow, one saturated note only — the vermilion of the 改訂稿3 box. A production reference readable as a specification, not a finished illustration. The header name in Japanese is the only legible name in the frame; no text on any screen in the frame is legible, and the two syllables he opens with are never set down as writing.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no face in the four views younger than in the expression heads, no age smoothed away from the eyelids, the fold from the nose to the mouth, the jaw or the hands, no age or occupation label or data panel, no text describing this brief, no text other than the header name, the callouts and the 初稿 box, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible text on any screen, no subtitle, no shoes, no visible room interior.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no generic young face, no face younger than the age stated, no idealized anime default face, no wide-set eyes, no short nose, no small ears, no face in the four views younger than in the expression heads, no age smoothed away from the eyelids, the fold from the nose to the mouth, the jaw or the hands, no age or occupation label or data panel, no text describing this brief, no text other than the header name, the callouts and the 改訂稿3 box, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no legible text on any screen, no subtitle, no shoes, no visible room interior.
 ```
