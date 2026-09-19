@@ -1,9 +1,9 @@
 # 『ハビッツ！！！』 暮林蒼 → 表情シート（key-pose-board × luminous-anime）
 
-> ## 改訂稿2
-> **この表情シートは改訂稿2である。** 改訂稿1 2026-09-20 新規（**著者の決定 2026-09-20**——**設定画を改訂稿2へ上げるのと同じ日に置いた**。**㉗ の「メインの表情4面を別シートへ移す」の適用である**。決定 2026-09-17）／**改訂稿2** 2026-09-20——**改訂稿1 を一枚生成して測り、三つを動かした。①四つの頭の顔の大きさを揃えた**——**〔実測〕①は半身ゆえ顔が小さく、④は顔だけゆえ大きい。四つの地が揃わなかった**（㉖ が千夏の一枚で記録した失敗と同型）。**②この一枚は日焼けを持つ、と仕様を反転した**——**〔実測〕①（まくった袖で荷を置く）の前腕に、濃い腕と明るい上がそのまま出た。** **「この一枚には無い」と書いていたのが誤りである**（下の様式メモ）。**③素材（ボールペン）は、まだ乗っていない**——**設定画と同じ結果である。**
+> ## 改訂稿3
+> **この表情シートは改訂稿2である。** 改訂稿1 2026-09-20 新規（**著者の決定 2026-09-20**——**設定画を改訂稿2へ上げるのと同じ日に置いた**。**㉗ の「メインの表情4面を別シートへ移す」の適用である**。決定 2026-09-17）／**改訂稿2** 2026-09-20——**改訂稿1 を一枚生成して測り、三つを動かした。①四つの頭の顔の大きさを揃えた**——**〔実測〕①は半身ゆえ顔が小さく、④は顔だけゆえ大きい。四つの地が揃わなかった**（㉖ が千夏の一枚で記録した失敗と同型）。**②この一枚は日焼けを持つ、と仕様を反転した**——**〔実測〕①（まくった袖で荷を置く）の前腕に、濃い腕と明るい上がそのまま出た。** **「この一枚には無い」と書いていたのが誤りである**（下の様式メモ）。**③素材（ボールペン）は、まだ乗っていない**——**設定画と同じ結果である。**／**改訂稿3** 2026-09-20——**素材（ボールペン）を、要件から落とした。** **〔実測〕改訂稿1 の生成物は、設定画より荒い筆致で出た**——**ただし、ボールペンの線ではない。** **⚠ 2026-09-20、著者の裁定——`乗らなくてよい`。** **ゆえに様式メモと Merged から素材の要求を削り、台帳の帰属としてだけ残した**（下の様式メモ）。（**著者の決定 2026-09-20**）
 > 出典が与えるのは**年齢・職業・勤め先・住まい・姓・癖・声**まで。**この一枚が足したものは、下の「発明（要承認）」の表のとおりである。** 承認・差し替えを前提とする。
-> シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「改訂稿2」）。
+> シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「改訂稿3」）。
 
 - 設定画: [prompt.md](prompt.md)（**この一枚と対である。** 地（骨）と衣装は、そちらが持つ）
 - 入力: [../../../habits-concept-board-luminous-anime/input.md](../../../habits-concept-board-luminous-anime/input.md)（出典の指し先を共有。内容は複製しない）
@@ -53,7 +53,7 @@
 
 ## フォーマット（Format）
 
-白地。**多面図は置かない**（それは設定画である——カードの avoid）。**横一列に、四つの頭**——**①置いた後で止まる手。②剥がさない指。③ふりがな欄を、目が読み終わるより速く打つ手。④読んだ名の前で止まる目。** **①②③は、拍に必要なぶんだけ手が入る。④は目だけである。** **隅に朱の枠で「改訂稿2」。** **描かれる文字は三種、すべて日本語である**——ヘッダの名、引き出し線の注記（**活字で、判読できる**）、そして「改訂稿2」の枠。**作中の日本語（宛名票の名）は判読不能のまま**置く。
+白地。**多面図は置かない**（それは設定画である——カードの avoid）。**横一列に、四つの頭**——**①置いた後で止まる手。②剥がさない指。③ふりがな欄を、目が読み終わるより速く打つ手。④読んだ名の前で止まる目。** **①②③は、拍に必要なぶんだけ手が入る。④は目だけである。** **隅に朱の枠で「改訂稿3」。** **描かれる文字は三種、すべて日本語である**——ヘッダの名、引き出し線の注記（**活字で、判読できる**）、そして「改訂稿3」の枠。**作中の日本語（宛名票の名）は判読不能のまま**置く。
 
 **四つの頭は、四つの顔ではない。** **一つの顔の、四つの拍である**——**骨・年齢・髪は、四つで一つ。** **この規則に乗らないものは置かない**——**四つ目の頭に、立ち姿の全身を足さない**（それは設定画の側である）。**そして、段差の目録をこの一枚にも置かない**——**表を置けば、数が入る。**
 
@@ -62,8 +62,8 @@
 光の写実アニメの**生き残る部分だけ**を使う。**清潔なアニメ線画**と**配色の規律**——蛍光灯の白、深いシアンに寄る影、そして**一箇所だけ最も強いハイライトを受ける点。**
 
 > **様式メモ（この様式がキーポーズボードで失うもの）。** 設定画と同じである——**この様式の主役は光であり、このボードの主役は拍である。** ゆえに四つの忠実性アンカー（層を成す空・体積光・フレアとブルーム・夕景の配色）は、**この一枚でもすべて落ちる。** 落とさなければならない——**白地に空を置けば、それは format の avoid であり、雰囲気が情報に勝つ。**
-> ⚠ **この一枚の素材も、ボールペンである**——**四つの頭の線は、四つとも同じボールペンで引かれている**（**設定画と同じ手である**。四枚のうち、蒼の二枚だけがボールペンで通る）。**ボールペンの青は、様式の`深いシアンに寄る影`と同じ家族なので、配色の規律を破らない。**
-> ⚠ **この一枚も、日焼けの差を持つ。**（**改訂稿1 は逆を書いた**——「この一枚の四つの頭は、いずれも屋内か、撮影の都合で袖の下まで入らない」。**〔実測〕誤りであった。** ①は袖をまくって荷を置く拍であり、**そこに濃い前腕と明るい上がそのまま出た。**）**⚠ そして、それは正しい**——**二枚一組である以上、同じ一人の体は二枚で同じところに年を持つ。** **設定画が腕に置いたものを、この一枚が屋内だからと消す理由は無い。** **朱の「改訂稿2」枠が、この一枚で唯一の飽和した一点である。**
+> ⚠ **この一枚の素材もボールペンである——ただし、それは帰属であって、要件ではない。** 台帳の一節`書体は三つしかない——印刷、ボールペン、鉛筆。`が、この人物の手をボールペンに定めている（**設定画と同じ手である**。**ボールペンの青は、様式の`深いシアンに寄る影`と同じ家族なので、配色の規律を破らない**）。**⚠ しかし、それがこの一枚の上で目に見えることは、要件ではない。** **〔実測〕改訂稿1 の生成物は、設定画より荒い筆致で出た**——**ただし、ボールペンの線ではない。** **⚠ 2026-09-20、著者の裁定——`乗らなくてよい`。** **ゆえに改訂稿3 は、Merged から素材の一行を削った。** ⚠ **Negative には置かない**——**現れては困るものではないからである**（**落とした発明を Negative へ移す作法は、現れれば落とした版が復活するものにだけ当てる**）。
+> ⚠ **この一枚も、日焼けの差を持つ。**（**改訂稿1 は逆を書いた**——「この一枚の四つの頭は、いずれも屋内か、撮影の都合で袖の下まで入らない」。**〔実測〕誤りであった。** ①は袖をまくって荷を置く拍であり、**そこに濃い前腕と明るい上がそのまま出た。**）**⚠ そして、それは正しい**——**二枚一組である以上、同じ一人の体は二枚で同じところに年を持つ。** **設定画が腕に置いたものを、この一枚が屋内だからと消す理由は無い。** **朱の「改訂稿3」枠が、この一枚で唯一の飽和した一点である。**
 
 ## 合成プロンプト（Merged）
 
@@ -76,9 +76,9 @@ The four beats, and where each one stops. First: a parcel already set down on a 
 
 How he moves: fast, heavy, and stopping. The idiom is speed and halt together — a hand that stays after the work is done, fingers that never lift a slip, a reading written faster than it can be read, and a name stopped at the eye, with the direction he has stopped in always pointing away from his own body, toward the parcel, the paper and the name. The in-betweens are left to be drawn; this board holds the vocabulary of the movement, not the animation itself. The same person is recognizable in every pose, and no pose here could belong to anyone else.
 
-Each of the four heads carries its own leader-line annotation, in Japanese and set in legible type, counted out one by one rather than left to a general instruction. In the board's corner, small, a bordered box outlined in vermilion holding the Japanese characters 改訂稿2; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it. The only text on this board is that header name, the four annotations, and the 改訂稿2 box; no other text appears anywhere in the frame.
+Each of the four heads carries its own leader-line annotation, in Japanese and set in legible type, counted out one by one rather than left to a general instruction. In the board's corner, small, a bordered box outlined in vermilion holding the Japanese characters 改訂稿3; beside it the name in Japanese characters, set small, exactly as the work writes it, with no reading glossed above it. The only text on this board is that header name, the four annotations, and the 改訂稿3 box; no other text appears anywhere in the frame.
 
-Plain white ground, flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 改訂稿2 box. The material of this board is the ballpoint, and every hand-made mark on it leans to the right with speed. A production reference readable as a specification, not a finished illustration. No name on any in-world object is legible, and no mark on any in-world object is written in his own name.
+Plain white ground, flat even light, the shading held inside the figure only, no cast shadow on the ground, no background scene, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 改訂稿3 box. A production reference readable as a specification, not a finished illustration. No name on any in-world object is legible, and no mark on any in-world object is written in his own name.
 
-Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no flat cheekbone, no rounded jaw, no short nose, no small ears, no face younger than the age stated, no face younger in one head than in another, no standing views, no front, three-quarter, side or back turnaround, no full-body pose, no motion blur, no frame sequence, no storyboard panels, no specimen chart, no measured chart of steps, no figure written beside any step, no age or occupation label or data panel, no text describing this brief, no text other than the header name, the four annotations and the 改訂稿2 box, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no handwriting by the subject, no signature, no red seal impression.
+Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no flat cheekbone, no rounded jaw, no short nose, no small ears, no face younger than the age stated, no face younger in one head than in another, no standing views, no front, three-quarter, side or back turnaround, no full-body pose, no motion blur, no frame sequence, no storyboard panels, no specimen chart, no measured chart of steps, no figure written beside any step, no age or occupation label or data panel, no text describing this brief, no text other than the header name, the four annotations and the 改訂稿3 box, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no handwriting by the subject, no signature, no red seal impression.
 ```
