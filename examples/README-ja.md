@@ -156,6 +156,8 @@
 | gozen-niji-scene-board | 『午前二時に、あなたは誰の時間を生きていますか』 | シーンボード | 柔らかいセル画調 | 制作仕様 |
 | gozen-niji-episode-board | 『午前二時に、あなたは誰の時間を生きていますか』 | エピソードボード | 柔らかいセル画調 | 再体験 |
 | melos-luminous-anime | 走れメロス | イメージボード（concept-board） | 光の写実アニメ | 制作仕様 |
+| hikikomori-concept-board | 重度の引きこもりの自己救済（構想） | イメージボード（concept-board） | 柔らかいセル画調 | 制作仕様 |
+| hikikomori-illustration | 重度の引きこもりの自己救済（構想） | 挿絵 | 柔らかいセル画調 | 装飾 |
 | design-format-app-screen | distill-essence-engine ブランド（ブランドブリーフ） | アプリ画面 | スイス・インターナショナルタイポグラフィ | デザイン |
 | design-format-landing-page | distill-essence-engine ブランド（ブランドブリーフ） | ランディングページ | スイス・インターナショナルタイポグラフィ | デザイン |
 | design-format-wireframe | distill-essence-engine ブランド（ブランドブリーフ） | ワイヤーフレーム | スイス・インターナショナルタイポグラフィ | デザイン |

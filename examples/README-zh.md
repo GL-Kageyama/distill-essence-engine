@@ -156,6 +156,8 @@
 | gozen-niji-scene-board | 《凌晨两点、你在活着谁的时间》 | 场景板 | 柔光赛璐璐 | 制作规格 |
 | gozen-niji-episode-board | 《凌晨两点、你在活着谁的时间》 | 集数板 | 柔光赛璐璐 | 再体验 |
 | melos-luminous-anime | 奔跑吧梅勒斯 | 印象板（concept-board） | 光感写实动画 | 制作规格 |
+| hikikomori-concept-board | 重度茧居的自我救赎（构想） | 印象板（concept-board） | 柔光赛璐璐 | 制作规格 |
+| hikikomori-illustration | 重度茧居的自我救赎（构想） | 插画 | 柔光赛璐璐 | 装饰 |
 | design-format-app-screen | distill-essence-engine 品牌（品牌简报） | 应用界面 | 瑞士国际主义排版 | 设计 |
 | design-format-landing-page | distill-essence-engine 品牌（品牌简报） | 落地页 | 瑞士国际主义排版 | 设计 |
 | design-format-wireframe | distill-essence-engine 品牌（品牌简报） | 线框 | 瑞士国际主义排版 | 设计 |

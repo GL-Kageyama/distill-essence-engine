@@ -157,6 +157,8 @@
 | gozen-niji-scene-board | "At Two in the Morning, Whose Time Are You Living?" | Scene board | Soft cel anime | Production reference |
 | gozen-niji-episode-board | "At Two in the Morning, Whose Time Are You Living?" | Episode board | Soft cel anime | Re-experience |
 | melos-luminous-anime | Run, Melos! | Concept board | Luminous realist anime | Production reference |
+| hikikomori-concept-board | A story of severe social withdrawal and self-redemption (concept) | Concept board | Soft cel anime | Production reference |
+| hikikomori-illustration | A story of severe social withdrawal and self-redemption (concept) | Illustration | Soft cel anime | Decoration |
 | youtube-technological-republic-mechanism | YouTube: Azuma on Palantir's "Technological Republic" | Conceptual illustration | Mechanism work | Understanding |
 | design-format-app-screen | The distill-essence-engine brand (brand brief) | App screen | Swiss / International Typographic | Design |
 | design-format-landing-page | The distill-essence-engine brand (brand brief) | Landing page | Swiss / International Typographic | Design |
