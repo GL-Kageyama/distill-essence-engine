@@ -181,6 +181,9 @@
 | bend-imageboard-detail | Bend 2（详尽版 — 法・检查器・并行・界限／小面板 10） | 影像板 | 干净线条实验室 | 传达 |
 | ai-coordinator-vibe-coding-illustration | AI 活用推进协调员（主打：氛围编程讲师） | 插画 | 干净线条实验室 | 装饰 |
 | ai-coordinator-vibe-coding-illustration/what-you-can-build | 氛围编程能做出什么（架子上的四件，与一个空格） | 概念图 | 干净线条实验室 | 传达 |
+| php2shell-manga | PHP「php2shell」紧急漏洞（CVE-2026-109618 / CVE-2026-109619，2026-10-21） | 教学漫画（4页） | 漫画线稿 | 理解 |
+| php2shell-infographic | 同一 PHP 紧急漏洞，折成一页竖版 | 信息图（1页） | 漫画线稿 | 把握 |
+| php2shell-mechanism | 两个 PHP 漏洞从哪里开始坏，以剖面呈现 | 图解（2页） | 漫画线稿 | 理解 |
 
 > URL 输入（YouTube 视频／首页／GitHub 仓库）通过 `url:` 接收，`scripts/fetch.py` 抽取转录／正文。实 URL 的验证案例有 5 件（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/)＝青空文库《哥儿》，均为实抓取）。[ai-cliff-mechanism-work](ai-cliff-mechanism-work/) 的输出示例是第 6 个实抓取输入——Pivot 的《大企业的 AI 活用为何失败？4 道墙的克服法》——从功能文档家族中为该视频选定的最合适样式「机构・做功图」（该视频自身就是用「逐一挖穿 4 道墙」「替代劳动力」这样的机构语言来讲的）。其余因没有实 URL，用代表样例输入（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）验证转换。实抓取用 `python3 scripts/fetch.py url:https://...` 进入同一行。
 
