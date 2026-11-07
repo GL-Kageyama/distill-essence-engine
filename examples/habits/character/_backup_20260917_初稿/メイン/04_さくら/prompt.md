@@ -5,7 +5,7 @@
 > **この一枚には、人物の欄が無い。** 出典がこの一人に与えるのは**名と、頁と、記名の現場**だけである。**顔・身体・年齢・性別・衣装は、出典が一度も書かない。** これは記述の欠落ではなく、**この作品が解かないと決めた決定**である（下の一行）。ゆえに他の三枚にある「発明（要承認）」の表は、**この一枚には無い**——埋めれば、埋めた数だけ作品の外から来たことになる。
 > シートの隅に、同じ語を**画像の上にも**置く（朱の枠に「初稿」）。
 
-- 入力: [../../../habits-concept-board-luminous-anime/input.md](../../../habits-concept-board-luminous-anime/input.md)（出典の指し先を共有。内容は複製しない）
+- 入力: [../../habits-concept-board-luminous-anime/input.md](../../habits-concept-board-luminous-anime/input.md)（出典の指し先を共有。内容は複製しない）
 - format: **キャラクター設定画（character-sheet・登録済み）**——伝達（制作仕様）／一人物 × 多面（時間軸なし）／横長シート
 - style: **光の写実アニメ（luminous-anime・登録済み）**
 - lang: ja（生成プロンプトは英語）
@@ -14,7 +14,7 @@
 
 > **名前について（先に消しておく混同）。** この設定画の人物は**中核四人の「さくら」**——地の文で**ひらがな三字**、作中で誰もその名を呼ばず、**当て字**である者。**ストック層二十四名の「川上 桜（かわかみ さくら）」は別人である**——女34・保育園の調理師・さいたま市・第一巻第9話の主役回、**漢字一字**。台帳は`この規律は動かさない`と書く。**この一枚に川上桜は出てこない。出せば、この作品でいちばん強い発見が、この一枚のなかで一度潰れる。**
 
-> **四枚は一組である（④一つの世界）。** 白地・ガイド線・注記の作法・「初稿」枠の位置は、`character/メイン/01_碓氷千夏` / `character/メイン/02_暮林蒼` / `character/メイン/03_侘田すみれ` / `character/メイン/04_さくら` の四枚で共通。**身長は相対だけを決め、数値は置かない**（数は実測として読まれるため）。**この一枚には身長が無い**——人物が居ないので、寸法は四つの紙の側にだけ掛かる。
+> **四枚は一組である（④一つの世界）。** 白地・ガイド線・注記の作法・「初稿」枠の位置は、`habits-usui-chinatsu` / `habits-kurebayashi-ao` / `habits-wabita-sumire` / `habits-sakura` の四枚で共通。**身長は相対だけを決め、数値は置かない**（数は実測として読まれるため）。**この一枚には身長が無い**——人物が居ないので、寸法は四つの紙の側にだけ掛かる。
 > **四枚は、四つの書体で分かれている。** 台帳の一節——`書体は三つしかない——印刷、ボールペン、鉛筆。` ゆえに**碓氷千夏の一枚は印刷、暮林蒼の一枚はボールペン、侘田すみれの一枚は鉛筆、さくらの一枚はそのどれでもない。** ヘッダの名は四枚とも日本語で、**三人は漢字のみ・読みを振らない**（`呼び間違えられる`／`訊き返される`という値は、読みを固定した瞬間に消える）。**さくらだけはひらがな三字**——漢字にすれば、それは別人（ストック層の川上桜）の名になる。**そしてさくらだけは、読みそのものを振らない**（下記）。
 
 ## 出典の語（この一人について・一語も変えない）
@@ -31,18 +31,16 @@
 - **`さくらは六話に立つ（第1・8・9・16・17・18話）。この巻の語り手は、名を持たないまま六話に立つ。`**
 - 題について——`意味を持たない書法の上に、音を持たない記号が三つ乗っている。`／`掛け声は、呼びかけの形をしていて、呼びかけの数に入らない。`
 
-## 六話の記名と、六つの「手前で止まる」
-
-**記名と動きは、出典の語のまま。話名は正である**（2026-09-16 の改訂。出典の仮題は「切り離す」「空欄」「同じ大きさ」「名前欄」「訊く形」「宛名欄」）。
+## 六話の記名と、六つの「手前で止まる」（出典の語のまま）
 
 | 話 | 記名 | 動き——止まる位置 |
 |---|---|---|
-| 第1話「切り離された跡」 | `名札の予備、切り離された跡` | `予備の束を棚から机へ、誰の手でもなく置かれる。一枚目を切り離した跡で止まる。` |
-| 第8話「白紙の一枚」 | `白紙の名札` | `名札を綴じ束から切り離す。切り口の前で止まる。` |
+| 第1話「切り離す」 | `名札の予備、切り離された跡` | `予備の束を棚から机へ、誰の手でもなく置かれる。一枚目を切り離した跡で止まる。` |
+| 第8話「空欄」 | `白紙の名札` | `名札を綴じ束から切り離す。切り口の前で止まる。` |
 | 第9話「同じ大きさ」 | `頁の上の名` | `名を紙から目へ、読む手で運ぶ。声の前で止まる。` |
-| 第16話「取らない書式」 | `名前欄の ！ 三つ` | `問いを口から物へ、誰かの口で運ぶ。物の前で止まる。` |
-| 第17話「口は、訊く形に動いて、音にならなかった。」 | `切り離された一枚の予備` | `問いを六十三話ぶん運ぶ。さくらの前で止まる。` |
-| 第18話「まだ呼ばれていない名」 | `宛名欄の空き` | `口を訊く形へ動かす。音の前で止まる。` |
+| 第16話「名前欄」 | `名前欄の ！ 三つ` | `問いを口から物へ、誰かの口で運ぶ。物の前で止まる。` |
+| 第17話「訊く形」 | `切り離された一枚の予備` | `問いを六十三話ぶん運ぶ。さくらの前で止まる。` |
+| 第18話「宛名欄」 | `宛名欄の空き` | `口を訊く形へ動かす。音の前で止まる。` |
 
 **止まる相手が、六つとも違う。** 跡・切り口・声・物・さくら・音。**この一人の作品内の存在は、この六つの「直前」の全部である。** **引き渡された出典のなかに、この一人の姿を書いた文は一行も無い**——六話が置くのは、いつも**止まった形のほうである。**
 
@@ -87,7 +85,7 @@ Hands enter these four panels from outside the frame and stop at the wrist, atta
 
 Below, in place of an expression row, six moments each stopped one beat short of completing, all standing on one level line with no height in it anywhere and carrying no numbering and no order: a hand stopped at the trace of a cut; a hand stopped before the cut; a hand stopped before the voice; a hand stopped before the object; a hand stopped before her; and a mouth moved into the shape of asking, stopped before the sound. Beside them, enlarged detail insets: the three scripts of this work sampled in a row — printed, ballpoint, pencil — with a fourth place beside them left empty, because none of the three is hers; and the small ruled space where a reading would be set above the name, left blank and never filled.
 
-Flat even light, the shading held inside the objects only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, in English only, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration — a sheet whose subject is deliberately absent. Legible in the whole frame: the header name, the four names in the measurement row, and the 初稿 box; nothing else.
+Flat even light, the shading held inside the objects only, no cast shadow on the ground, no background scene, callout annotations on leader lines throughout, clean anime lineart, cool fluorescent white with a cyan-leaning shadow, one saturated note only — the vermilion of the 初稿 box. A production reference readable as a specification, not a finished illustration — a sheet whose subject is deliberately absent. Legible in the whole frame: the header name, the four names in the measurement row, and the 初稿 box; nothing else.
 
 Not photorealistic, no 3D render, no muted desaturated palette, no flat gradient sky, no grain, no painterly brush strokes, no photographic faces, no sky, no god rays, no lens flare, no light particles, no dramatic lighting, no background, no garbled text or mojibake, no legible name on any in-world prop, no romaji in place of the Japanese name, no red seal impression, no cherry blossom, no petals, no pink, no person, no figure, no character, no face, no body, no human silhouette, no portrait, no arm continuing past the wrist.
 ```
