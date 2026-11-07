@@ -6,6 +6,37 @@
 
 > 用具体的输入输出验证「任意输入 × 任意目的 × 任意样式」都可转换。每个目录＝1 个案例（`input.md`＝输入，`prompt.md`＝三栏＋合成提示词）。
 
+## 布局
+
+```
+examples/
+├── works/            特定作品与委托
+│   ├── novels/       故事输入（gozen-niji, habits, hakuchizu, migenzo, ukebi, …）
+│   ├── music/        主题曲与缩略图
+│   ├── clients/      委托・产品（安全、协调者、Bend、…）
+│   └── visual/       建筑渲染、投影映射、角色群
+├── cases/            能力验证（输入 × 目的 × 样式）
+│   ├── by-input/     小说 / 论文 / 文章 / 诗 / 会议记录 / 备忘 / YouTube / 主页
+│   └── by-format/    样式与格式替换（design, FF boards, concepts, power, 自我介绍, verify-rich）
+├── heroes/           仓库介绍图
+├── README*.md
+└── EVALUATION.md
+```
+
+## 放置指南
+
+新增案例时，按以下顺序决定位置：
+
+1. **属于特定作品或委托？** → `works/<novels|music|clients|visual>/<名称>/`
+2. **是输入 × 目的 × 样式的验证？** → `cases/by-input/` 或 `cases/by-format/`
+3. **是仓库介绍图？** → `heroes/<名称>/`
+4. **是一次性输出、旧版或备份？** → `_archive/`
+
+- 不要把案例直接放在 `examples/` 下，必须放在分类文件夹里。
+- 一个案例一个文件夹。放置 `input.md` + `prompt.md`（案例正文不翻译）。
+- 名称用 kebab-case，作品名放在前面（`<work>-<format>`）。缩略图以 `-thumbnail` 结尾。
+- 添加后在下方案例列表补一行。
+
 ## 覆盖率（输入 × 目的 × 样式）
 
 **9 种输入**（小说／论文／文章／诗歌／转录／备忘／YouTube 视频／首页／GitHub 仓库）× **6 种目的**（理解／传达／诱引／再体验／记录／装饰）。下表**填满了 6 种内容输入 × 6 目的的 36 格**（每行＝1 种输入，每格＝具体案例）。3 种 URL 输入是通过 `url:` 接收、由 `scripts/fetch.py` 抽取转录／正文的输入类别，作为抓取后的内容行例示 7 格。空间是**开放的**——表中没有的组合也能用同一流程成立（2 轴正交＝可只换一根轴）。
@@ -28,20 +59,20 @@
 
 | 输入＼轴 | 应用界面 | 落地页 | 线框 | 品牌板 | 名片 |
 |---|---|---|---|---|---|
-| 格式替换（品牌×瑞士风格） | [design-format-app-screen](design-format-app-screen/) | [design-format-landing-page](design-format-landing-page/) | [design-format-wireframe](design-format-wireframe/) | [design-format-brand-board](design-format-brand-board/) | [design-format-business-card](design-format-business-card/) |
-| 样式替换（品牌×应用界面） | [swiss-style](design-style-swiss-style/) · [flat-ui](design-style-flat-ui/) · [material-ui](design-style-material-ui/) · [neubrutalism](design-style-neubrutalism/) | — | — | — | — |
+| 格式替换（品牌×瑞士风格） | [design-format-app-screen](cases/by-format/design/design-format-app-screen/) | [design-format-landing-page](cases/by-format/design/design-format-landing-page/) | [design-format-wireframe](cases/by-format/design/design-format-wireframe/) | [design-format-brand-board](cases/by-format/design/design-format-brand-board/) | [design-format-business-card](cases/by-format/design/design-format-business-card/) |
+| 样式替换（品牌×应用界面） | [swiss-style](cases/by-format/design/design-style-swiss-style/) · [flat-ui](cases/by-format/design/design-style-flat-ui/) · [material-ui](cases/by-format/design/design-style-material-ui/) · [neubrutalism](cases/by-format/design/design-style-neubrutalism/) | — | — | — | — |
 
 **FF 品牌板系列**——把同一套 brand-board×瑞士风格的处理套用到 10 个真实品牌，一个编号一块板，共 10 块。每块板仅凭该作品独有的**非角色母题**唤起《Final Fantasy I〜X》。**任何地方都不画角色**（主人公、反派、脸面当然不画；剪影仅在作为抽象形状为标志赋予尺度时出现）。按用户要求，每块板采用瑞士国际主义排版、**不带延展栏**——板只保留标志（母题画成扁平色块）、配色、排版。不放名片、包装、产品样机。配色存在于标志内部与单一强调色之中，绝不画成色卡行，也绝不画成配色名或 hex 码文字——图像中的文字只有标题与英文副标题。板与板的差异只在输入（品牌简报）。格式与样式固定。
 
 | 板 | 核心母题（无角色） | 板 | 核心母题（无角色） |
 |---|---|---|---|
-| [ff1](ff-brand-boards/ff1/) | 四颗水晶・光与暗 | [ff6](ff-brand-boards/ff6/) | 魔石・世界崩坏 |
-| [ff2](ff-brand-boards/ff2/) | 野蔷薇・帝国 | [ff7](ff-brand-boards/ff7/) | 魔晄・流星・米德加的圆环 |
-| [ff3](ff-brand-boards/ff3/) | 云上的水晶塔 | [ff8](ff-brand-boards/ff8/) | 学园・月亮 |
-| [ff4](ff-brand-boards/ff4/) | 月亮・赤翼 | [ff9](ff-brand-boards/ff9/) | 水晶・雾 |
-| [ff5](ff-brand-boards/ff5/) | 虚无・缝合的两个世界 | [ff10](ff-brand-boards/ff10/) | 水・螺旋 |
+| [ff1](cases/by-format/ff-brand-boards/ff1/) | 四颗水晶・光与暗 | [ff6](cases/by-format/ff-brand-boards/ff6/) | 魔石・世界崩坏 |
+| [ff2](cases/by-format/ff-brand-boards/ff2/) | 野蔷薇・帝国 | [ff7](cases/by-format/ff-brand-boards/ff7/) | 魔晄・流星・米德加的圆环 |
+| [ff3](cases/by-format/ff-brand-boards/ff3/) | 云上的水晶塔 | [ff8](cases/by-format/ff-brand-boards/ff8/) | 学园・月亮 |
+| [ff4](cases/by-format/ff-brand-boards/ff4/) | 月亮・赤翼 | [ff9](cases/by-format/ff-brand-boards/ff9/) | 水晶・雾 |
+| [ff5](cases/by-format/ff-brand-boards/ff5/) | 虚无・缝合的两个世界 | [ff10](cases/by-format/ff-brand-boards/ff10/) | 水・螺旋 |
 
-**样式覆盖率**：注册样式为 **55 种（全部已验证）**。样式替换测试（[verify-rich/](verify-rich/)）例示并验证了新增 15 种样式·7 种格式。3 种样式（claymation／cyberpunk／vaporwave）在验证中**未采纳**，位于注册表之外（详见 [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)）。暗光极简矢量（实绩 hero 家族·藏蓝＋金橙＋白热的 4 色）于 0.1.17 的 distill-hero 加入。高能日常系漫画（搞笑漫画·日常系动画）于 0.1.18 的 bocchan-gag-manga（青空文库《哥儿》→10 页漫画）加入。干净线条实验室（教科书实验图的明快×安静的可爱）于 0.1.19 的 ai-schrodinger-cat 加入。漫画样式 6 种（赛璐璐上色／少女漫画风／网页漫画柔渲染／少年战斗风／剧画风／漫画CMYK网目）于 0.1.21 的 melos-* 样式替换案例加入（首批彩色漫画样式；漫画CMYK网目是首个面向漫画的印刷工序样式）。实拍系（摄影／电影）样式 7 种（纪实摄影／影棚肖像／大画幅风景／微距摄影／电影剧照／1970年代新好莱坞／拍立得照片）于 0.1.22 的 melos-* 样式替换案例加入（首批镜头与光线的媒介样式，与街头摄影、黑色电影并列，补齐实拍轴）。功能文档家族的 6 种样式（蓝图・设计图／食谱・步骤卡／电路图／机构・做功图／尺规作图／实验笔记）——clean-line-lab 的兄弟，各自把概念画成它自己的文档（计划／步骤／连接／做功／证明／记录）——在 0.1.24 的 power-* 样式替换案例（同一输入 × 概念图固定 × 只替换样式）中加入并已验证。演示见下方的 distill-* 输出示例。光感写实动画（高饱和黄昏・体积光——soft-cel-anime 刻意的反面）于 0.1.28 的 melos-luminous-anime 加入。设计谱系样式 4 种——瑞士国际主义排版（模块化网格・左对齐粗体・单一强调色）／扁平设计（扁平单色表面・无渐变・无阴影）／Material Design（elevation 层级・8pt 网格・单一 FAB）／新粗野主义（粗黑描边・硬偏移阴影・高饱和碰撞）——在 0.1.30 的 design-* 样式替换案例（同一输入 × 应用界面固定 × 只替换样式）中加入并已验证（品牌的固定调色板可替换样式的默认强调色——如瑞士红→品牌的金橙）。
+**样式覆盖率**：注册样式为 **55 种（全部已验证）**。样式替换测试（[verify-rich/](cases/by-format/verify-rich/)）例示并验证了新增 15 种样式·7 种格式。3 种样式（claymation／cyberpunk／vaporwave）在验证中**未采纳**，位于注册表之外（详见 [verify-rich/EVALUATION.md](cases/by-format/verify-rich/EVALUATION.md)）。暗光极简矢量（实绩 hero 家族·藏蓝＋金橙＋白热的 4 色）于 0.1.17 的 distill-hero 加入。高能日常系漫画（搞笑漫画·日常系动画）于 0.1.18 的 bocchan-gag-manga（青空文库《哥儿》→10 页漫画）加入。干净线条实验室（教科书实验图的明快×安静的可爱）于 0.1.19 的 ai-schrodinger-cat 加入。漫画样式 6 种（赛璐璐上色／少女漫画风／网页漫画柔渲染／少年战斗风／剧画风／漫画CMYK网目）于 0.1.21 的 melos-* 样式替换案例加入（首批彩色漫画样式；漫画CMYK网目是首个面向漫画的印刷工序样式）。实拍系（摄影／电影）样式 7 种（纪实摄影／影棚肖像／大画幅风景／微距摄影／电影剧照／1970年代新好莱坞／拍立得照片）于 0.1.22 的 melos-* 样式替换案例加入（首批镜头与光线的媒介样式，与街头摄影、黑色电影并列，补齐实拍轴）。功能文档家族的 6 种样式（蓝图・设计图／食谱・步骤卡／电路图／机构・做功图／尺规作图／实验笔记）——clean-line-lab 的兄弟，各自把概念画成它自己的文档（计划／步骤／连接／做功／证明／记录）——在 0.1.24 的 power-* 样式替换案例（同一输入 × 概念图固定 × 只替换样式）中加入并已验证。演示见下方的 distill-* 输出示例。光感写实动画（高饱和黄昏・体积光——soft-cel-anime 刻意的反面）于 0.1.28 的 melos-luminous-anime 加入。设计谱系样式 4 种——瑞士国际主义排版（模块化网格・左对齐粗体・单一强调色）／扁平设计（扁平单色表面・无渐变・无阴影）／Material Design（elevation 层级・8pt 网格・单一 FAB）／新粗野主义（粗黑描边・硬偏移阴影・高饱和碰撞）——在 0.1.30 的 design-* 样式替换案例（同一输入 × 应用界面固定 × 只替换样式）中加入并已验证（品牌的固定调色板可替换样式的默认强调色——如瑞士红→品牌的金橙）。
 
 **格式覆盖率**：注册格式为 **44 种（全部已验证）**。verify-rich/ 验证并升级了新增 7 种（分镜脚本／海报／绘本／标志／徽章／精灵图／塔罗牌）。主视觉横幅（hero·16:9 横幅）于 0.1.17 的 distill-hero 加入。搞笑漫画（多格·4 拍节奏）于 0.1.18 的 bocchan-gag-manga 加入。4 种说明性格式（时间轴／流程图／对比矩阵／数据图）于 0.1.20 的 attention-* 案例加入。漫画格式 8 种（四格漫画／网页漫画／横长条漫／跨页大图／单格漫画（讽刺）／随笔漫画／纪实漫画／学习漫画）于 0.1.21 的 melos-*／attention-educational-manga 格式替换案例加入。概念图（conceptual illustration：通过视觉隐喻／分镜对比／色彩编码，把整个概念折进一张象征性图画）于 0.1.23 的 concept-average-vs-particular 加入。动画前期制作格式 4 种（角色设定画／角色印象板／印象板（concept-board）／美术板）于 0.1.28 的 gozen-niji-* 案例加入（供后道工序照着复制的制作规格，而不是供欣赏的画）。动画前期制作格式再添 3 种（地点板／关键帧・动作板／场景板）于 0.1.29 的 gozen-niji-* 案例加入（故事的地理／一个主体的动作词汇／一个场景的主走位）。**设计**目的在 0.1.30 新增（第 7 个预想目的。输入是品牌・产品・应用，而非内容）。设计格式 5 种（应用界面／落地页／线框／品牌板／名片）在 design-* 格式替换案例（同一输入 × 瑞士风格固定 × 只替换格式。品牌的蒸馏隐喻以每种布局自身的语法存活）中验证。既有 7 张标志系卡（标志／图标／徽章／海报／封面／主视觉横幅／塔罗牌）已重新分类为 `象征（设计）`。覆盖率矩阵例示了注册 44 种中的 33 种（图解／信息图／封面／图标／缩略图／海报／绘本／漫画／插画／影像板／分镜脚本／精灵图／塔罗牌／主视觉横幅／搞笑漫画／集数板／时间轴／流程图／对比矩阵／数据图／概念图／角色设定画／角色印象板／印象板（concept-board）／美术板／地点板／关键帧・动作板／场景板／应用界面／落地页／线框／品牌板／名片）（漫画格式在下方的 melos-*／attention-educational-manga 案例中例示）。
 
@@ -193,10 +224,10 @@
 | nurunuru-kaikyou-title | 同曲的题字——在近乎墨色的夜之海峡上，以粗白笔写下「Null²海峡」，溢出画面 | 主视觉（标题卡） | 水彩 | 吸引 |
 | ku-emptiness-title | 「空」的主题曲《空しけ手》——黎明前东方的河上张开的手，中央以白笔写「空」 | 主视觉（标题卡） | 水彩 | 吸引 |
 
-> URL 输入（YouTube 视频／首页／GitHub 仓库）通过 `url:` 接收，`scripts/fetch.py` 抽取转录／正文。实 URL 的验证案例有 5 件（[youtube-agent-manager-diagram/](youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](youtube-blueprint-vs-paint-infographic/)、[distill-hero/](distill-hero/)、[bocchan-gag-manga/](bocchan-gag-manga/)＝青空文库《哥儿》，均为实抓取）。[ai-cliff-mechanism-work](ai-cliff-mechanism-work/) 的输出示例是第 6 个实抓取输入——Pivot 的《大企业的 AI 活用为何失败？4 道墙的克服法》——从功能文档家族中为该视频选定的最合适样式「机构・做功图」（该视频自身就是用「逐一挖穿 4 道墙」「替代劳动力」这样的机构语言来讲的）。其余因没有实 URL，用代表样例输入（[youtube-talk/input.md](youtube-talk/input.md)／[homepage-mokkoujo/input.md](homepage-mokkoujo/input.md)）验证转换。实抓取用 `python3 scripts/fetch.py url:https://...` 进入同一行。
+> URL 输入（YouTube 视频／首页／GitHub 仓库）通过 `url:` 接收，`scripts/fetch.py` 抽取转录／正文。实 URL 的验证案例有 5 件（[youtube-agent-manager-diagram/](cases/by-input/youtube/youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](cases/by-input/youtube/youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](cases/by-input/youtube/youtube-blueprint-vs-paint-infographic/)、[distill-hero/](cases/by-format/distill/distill-hero/)、[bocchan-gag-manga/](cases/by-input/standalone/bocchan-gag-manga/)＝青空文库《哥儿》，均为实抓取）。[ai-cliff-mechanism-work](cases/by-input/concepts/ai-cliff-mechanism-work/) 的输出示例是第 6 个实抓取输入——Pivot 的《大企业的 AI 活用为何失败？4 道墙的克服法》——从功能文档家族中为该视频选定的最合适样式「机构・做功图」（该视频自身就是用「逐一挖穿 4 道墙」「替代劳动力」这样的机构语言来讲的）。其余因没有实 URL，用代表样例输入（[youtube-talk/input.md](cases/by-input/youtube/youtube-talk/input.md)／[homepage-mokkoujo/input.md](cases/by-input/homepage/homepage-mokkoujo/input.md)）验证转换。实抓取用 `python3 scripts/fetch.py url:https://...` 进入同一行。
 
 ## 验证方式
 
 不夹带图像生成的**文本验证**。用既有评估者（`anti-generic-filter`／`aesthetic-critic`／`admiration` 等）判定 `prompt.md` 的合成提示词，触碰失败模式（纹切型／情绪照明／中央对称／堆砌／泛用标签罗列／⑧违规＝样式抹掉本质）的删除。
 
-**样式替换验证（轴的独立·⑧保真）**：[verify-rich/](verify-rich/) 里是同一内容仅换样式的 22 个案例（新增样式 15＋格式 7）。判定汇总见 [verify-rich/EVALUATION.md](verify-rich/EVALUATION.md)。
+**样式替换验证（轴的独立·⑧保真）**：[verify-rich/](cases/by-format/verify-rich/) 里是同一内容仅换样式的 22 个案例（新增样式 15＋格式 7）。判定汇总见 [verify-rich/EVALUATION.md](cases/by-format/verify-rich/EVALUATION.md)。
