@@ -7,7 +7,7 @@
 ## 貼る block（英語・1段落）
 
 ```text
-The soul-fire: a flame no larger than {SIZE} in all, {PLACE}, softly and palely blue-white — a low-saturation body, palest at the centre, cooling to a faint blue at the edge, with only a little red at the rim: one thin, faint, rust-red edge, never a crimson outline, never spreading into an orange flame. Its round body takes up the lower part of the flame, about as wide as it is tall; from its top a short, thin thread rises, no taller than the body itself, bending only slightly. The outline is one closed contour, with no tongue licking sideways. The mist around it holds the light softly, as an even pool that fades into the dark without a ring. No smoke, no steam, no sparks, no embers. It is the only light in the frame, it casts one shadow, and it gives no heat.
+The soul-fire: a flame no larger than {SIZE} in all, {PLACE}, softly and palely blue-white — a low-saturation body, palest at the centre, cooling to a faint blue at the edge, with only a little red at the rim: one thin, faint, rust-red edge, never a crimson outline, never spreading into an orange flame. Its round body takes up the lower part of the flame, about as wide as it is tall; from its top a short, thin thread rises, no taller than the body itself, bending only slightly. The outline is one closed contour, with no tongue licking sideways. The mist around it holds the light softly, as an even pool that fades into the dark. No smoke, no steam, no sparks, no embers. It is the only light in the frame, it casts one shadow for each body it lights, and it gives no heat.
 ```
 
 ### `{PLACE}` の二つの詰め方
@@ -57,11 +57,11 @@ no orange flame, no yellow flame, no candle flame, no bonfire, no tongue of flam
 - **第10話の消え方だけ、煙が一本出る。** 「煙は一本」は台帳の明文。ただしそれは消える瞬間の一コマで、他の話・他のアセットには出さない。
 - **記憶の中でも火は同じ形。** 記憶は火の中に現れるが、火の形・色・大きさは変えない（design「記憶は半透明。彩度は火の色に寄る」）。
 
-## 台帳との突き合わせ（位置＝未裁定／色・先＝決着）
+## 台帳との突き合わせ（位置・色・先＝決着）
 
 **1. 位置。** 台帳は「送り火の手のひらの上。宙に浮かせない」。しかし `package.md` のキービジュアルは「二人のあいだの線路の上に、青白い火がひとつ浮かぶ」。今回の踏切の板も浮かせた。**三つが食い違っている。**
 
-推奨＝台帳の一行に例外を足す。**「手のひらの上。ただし彼の居ない画では、火は誰も持たない（浮かぶ）。」** 理由＝彼の居ない画に火を置く方法が、浮かせる以外に無い。手だけ描けば彼が居ることになる。
+**→ 決着（2026-11-11 裁定）。** 台帳の位置の項を「手のひらの上。宙に浮かせない。**ただし二つの画では浮く**——①彼の居ない画（火を持つ手が無い）、②彼が誰かと向き合う画（受け取られる側に立つ画。キービジュアル・第9話以降）。浮くときは二人のあいだ、線路の上。彼の掌には無い」へ直した。**キービジュアルの「掌の上に載せている」は落とす**——終わりで彼は受け取られるので、掌に火があるとその終わりと衝突する。
 
 **2. 色。** 台帳は「中心は青白い。縁が赤い。赤と青のあいだで周期的に寄る」。**静止画は周期を持てない。** どちらかへ寄せるしかない。版3の焼きは橙になった——芯も縁も橙で、青が無い。
 
@@ -71,11 +71,13 @@ no orange flame, no yellow flame, no candle flame, no bonfire, no tongue of flam
 
 **→ 決着（2026-11-11）。** この一行は**AIが書いたもので、著者の規則ではなかった。** 版7の焼きは丸い芯と短い糸を返し、著者がそれを良しとした。**ゆえに台帳の形の行を「芯は丸く、そこから細い糸が短く上がる。糸は芯より高くならない」へ直した。** 食い違いは残っていない。
 
+**→ 追記（2026-11-11、評価者の検品で）。** block の `it casts one shadow` を `it casts one shadow for each body it lights` へ直した。**ひとつの光が二人を照らせば影は二つ**——二人の画（キービジュアル・ep02・ep06・ep09・ep10・表紙）で、この一語が物理と衝突していた。13本へ貼り直し済み。
+
 ## 検品
 
 - 芯が青白く、赤が縁に留まっているか。橙・黄が全体に回っていないか。
 - 芯が丸く、糸が芯より高くないか。横へ舐める舌を分けていないか。ロウソク・焚き火のアイコンになっていないか。
 - 煙・湯気・火の粉・残り火が無いか（第10話の消える一コマを除く）。
 - 輪が後処理の滲みになっていないか（明るい縁取り・二重の輪）。霧が光を持ったゆるい落ちか。
-- 影が一つか。光源が火だけか。
+- **火の届く体ごとに影がひとつか**（一人の画は一つ、二人の画は二つ、三人の画は三つ）。光源が火だけか。
 - 火が誰かの手の上か、誰も持っていないか（その画の設定どおりか）。

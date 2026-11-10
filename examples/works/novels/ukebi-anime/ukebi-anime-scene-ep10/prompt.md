@@ -1,0 +1,60 @@
+# 受け火アニメ → 場面の板（第10話「該当なし」）
+
+- 入力: `構想/design.md`「各話のビート」（逐語は `input.md`）
+- format: 場面の板（`scene-board`）＝[references/formats/scene-board.md](../../../../../references/formats/scene-board.md)
+- style: **灯ひとつ（`one-lamp-cel`）**＝[references/styles/one-lamp-cel.md](../../../../../references/styles/one-lamp-cel.md)
+- 火: [_shared/fire.md](../_shared/fire.md)（逐語、`{SIZE}`＝`a piece of charcoal`、`{PLACE}`＝`floating low above the rails, held by no one`）
+- 人物: 設定画を参照に渡す前提。板では短い註で置く
+- 版: 1
+- 焼いた絵: まだ無い
+
+## 内容（Content）
+
+**②選択＝この一枚が運ぶのは「問いと答えのあいだの間」の一点。** この話の芯は、彼女が問い、彼が答えるまでの**一度の沈黙**である。板が固定するのは**その瞬間の立ち位置**——顔の高さは揃わず、火はもう炭ほどで、彼の手は空。
+
+**③翻訳＝三つ。** 開いた唇と閉じた唇、空いた両手、二人のあいだの小さな火。
+
+**白は板に描かない。** 「画面が白くなる」は本編の終わり。板は**最後に光の在る一瞬**を固定する。声の一行も板には無い。
+
+**火は誰も持たない。** 八器官が止まり、彼はもう火を掲げていない。ゆえに火は線路の上に浮く（`_shared/fire.md` の例外）。
+
+## フォーマット（Format）
+
+16:9 の一枚。**一つの場面、一つの立ち位置。**
+
+- **二人は向かい合う。** あいだに二歩。**彼女は右、彼は左。**
+- **火は二人のあいだの線路の上に低く浮かぶ。** 炭ほど。誰も持たない。
+- **彼の両手は体側で開いている。** 何も持たない。
+- **彼女の唇は開いている**（問いを終えた直後）。**彼の唇は閉じている**（まだ答えていない）。
+- **カメラは低い。** レールの高さ。二人の顔を同じ高さで並べない——彼女の方が低い。
+
+## 様式（Style）
+
+灯ひとつ。**人物はセル、空気は写実。**
+
+**衝突と解決**：
+
+1. **「息の音」と「静止画」** → 音は描けない。**形で示さない**（煙・息の白い塊を描かない）。胸が止まっていることだけを描く。
+2. **「顔が半分暗い」と「唇が読める」** → 光は低い。**唇だけが火の側を向いて明るい。** 目は暗がりの中。
+3. **「間」と「空白」** → 二人のあいだに**何も置かない**（台帳・秤・判を置かない）。火だけ。
+4. **「ただの男」** → コートは同じ。だが**手に何も無い**。これが「ただの男」の描き方である。
+
+## 合成プロンプト（Merged）
+
+A scene board for episode ten of 受け火 — the master staging of the pause between the question and the answer, in 16:9. 送り火 [a man of medium height, short dark-indigo hair, knee-length dark-indigo coat, hands large for the body] stands on the left, facing right, two paces away, his arms down at his sides and his hands open and empty, his mouth closed; 花 [a thin girl, long near-black indigo hair unbound, dark-indigo school uniform with one line along the collar, black shoes, a head shorter than 送り火] stands on the right, facing him, her arms down, her lips just apart as though she has this moment stopped speaking; the two face each other across the width of the tracks and neither steps onto the rails, and nothing stands between them but the fire. The boundary crossing: two rails run in from the lower right and leave the frame at the upper left, off centre, so that the view is not mirrored; the sleepers are black and the rust on the rail heads is the only red outside the fire; the road is gravel and earth with two wheel ruts worn through it; two barrier arms stand raised at sixty degrees and stay raised, painted in white and black bands of even width, left plain; there is no sign, no signal and no lamp. The soul-fire: a flame no larger than a piece of charcoal in all, floating low above the rails, held by no one, softly and palely blue-white — a low-saturation body, palest at the centre, cooling to a faint blue at the edge, with only a little red at the rim: one thin, faint, rust-red edge, never a crimson outline, never spreading into an orange flame. Its round body takes up the lower part of the flame, about as wide as it is tall; from its top a short, thin thread rises, no taller than the body itself, bending only slightly. The outline is one closed contour, with no tongue licking sideways. The mist around it holds the light softly, as an even pool that fades into the dark. No smoke, no steam, no sparks, no embers. It is the only light in the frame, it casts one shadow for each body it lights, and it gives no heat. No moonlight, no starlight, no sky light, no ambient fill, no bounce light; whatever the fire does not reach falls into unbroken black. Because the fire is no bigger than a piece of charcoal, its light reaches the rails, the gravel and the lower part of both figures and stops low: her lips turned toward the fire catch the light while her eyes stay in the dark, and his jaw and the front of his coat catch it while his eyes stay in the dark. Neither face is fully lit. The camera is low, near the height of the rails, and because she is the shorter of the two her head sits below his. Everything the fire does not reach is black. Solid things are cel-painted: flat colour planes, clean closed lineart, hard-edged shadows in two clear steps. Only the air is soft — a thin mist and fine suspended particles catch the light at every depth, so that the near gravel, the two figures and the far rails separate into layers by value and never by a gradient across a surface. The palette is limited to sunken indigo, rust red, pale white-blue, black and the white of blank paper. No bright green, no yellow, no magenta, no metallic sheen. No readable text, no signage, no numbers, no logos, no Japanese or English lettering anywhere in the frame. There is no sky — no stars, no moon, no sun, no clouds, no horizon glow, no light at the top of the frame. No rain falls and no drop is falling anywhere in the frame. No bloom, no lens flare, no ring around the fire, no second light source; no crowd and no third person, at most two figures in any frame. No ledger, no scale and no seal in this frame. Not photorealistic, no 3D render, no airbrush on the solid things, no painterly brush strokes.
+
+## 検品（絵が戻ったら見る）
+
+- **彼の手が空か。** 火を持っていないか。何か握っていないか。
+- **彼女の唇が開き、彼の唇が閉じているか**（問いの直後・答えの前）。
+- 二人が向かい合っているか。二歩の距離か。線路の上に立っていないか。
+- 火が炭ほどか。誰も持っていないか。二人のあいだか。
+- 顔が全部明るくなっていないか（目が暗がりに残っているか）。
+- 息・煙・白い塊を描いていないか。
+- 台帳・秤・判が画面に無いか。
+- 光源が火ひとつか。空が無いか。雨が降っていないか。
+- 腕木・道が台帳どおりか。
+- カメラが低いか。彼女の頭が彼より低いか。
+- 火が [_shared/fire.md](../_shared/fire.md) の検品項目を満たすか。
+- 読める文字が無いか。
+- 3D に見えないか。
