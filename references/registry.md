@@ -14,11 +14,12 @@
 - **Conditional** is a state for cards with constraints such as "usable, but the style's world can overwrite the content". **Currently 0** (the past 9 conditional cards were all resolved by the refinement in 0.1.14).
 - This is the home of **crystallized named cards**. The **space** of types (the whole of possible formats) is in [types.md](types.md).
 
-> **The pre-expansion batch (2026-08-22) has passed verification**: 15 styles and 7 formats were promoted (detailed judgments and scores are in [examples/verify-rich/EVALUATION.md](../examples/verify-rich/EVALUATION.md)). **Not adopted (deleted)**: claymation, cyberpunk, vaporwave (⑧ violations where the style's world overwrites the content, or cramming). The 9 conditional cards were all resolved by refinement (adding do/avoid, anchors, and composition grammar that address the weaknesses) + re-verification. **All cards are unconditional** and unverified is 0.
+> **The pre-expansion batch (2026-08-22) has passed verification**: 15 styles and 7 formats were promoted (detailed judgments and scores are in [examples/verify-rich/EVALUATION.md](../examples/verify-rich/EVALUATION.md)). **Not adopted (deleted)**: claymation, cyberpunk, vaporwave (⑧ violations where the style's world overwrites the content, or cramming). The 9 conditional cards were all resolved by refinement (adding do/avoid, anchors, and composition grammar that address the weaknesses) + re-verification. **All cards are unconditional.** **Not verified: the two added on request** — [soft-flat-mascot](styles/soft-flat-mascot.md) (2026-09-08) and [one-lamp-cel](styles/one-lamp-cel.md) (2026-11-11).
 > **0.1.24**: 6 functional-document family cards — siblings of [clean-line-lab](styles/clean-line-lab.md) (blueprint plan / recipe how-to / circuit schematic / mechanism work / geometric construction / lab notebook) — were added and **verified** below via the power-* style-swap cases (judgments in [examples/EVALUATION.md](../examples/EVALUATION.md)).
 > **0.1.29**: 3 more anime pre-production cards — location board (the story's places and their geography) / key pose / action board (one subject's movement vocabulary) / scene board (one scene's master staging) — were added and **verified** via the gozen-niji-* format-swap cases (judgments in [examples/EVALUATION.md](../examples/EVALUATION.md)).
 > **0.1.30**: the **Design** purpose was added (a 7th assumed purpose; its input is a brand / product / app, not content). 5 design format cards — app screen / landing page / wireframe / brand board / business card — and 4 design style cards — swiss-style / flat-ui / material-ui / neubrutalism — were added and **verified** via the design-* format-swap and style-swap cases (judgments in [examples/EVALUATION.md](../examples/EVALUATION.md)). The 7 existing mark cards (logo / icon / emblem / poster / cover / hero / tarot card) were reclassified to `Symbolic (design)`.
 > **2026-09-08**: the **soft-flat-mascot** style card (Japanese transit-card / municipal mascot look) was added on the user's request — **verification pending** (the suica-alt-characters imageboards are its first case).
+> **2026-11-11**: the **one-lamp-cel** style card (cel-painted objects in a realist air, lit by a single small light) was added on the user's request — **verification pending** (see the note under its table row for what is and is not measured).
 
 ## Style cards (styles/)
 
@@ -79,6 +80,9 @@
 | Material Design | Digital | Google Material Design | Design lineage family · verified (0.1.30) | [material-ui](styles/material-ui.md) |
 | Neubrutalism | Digital | Web brutalism revival | Design lineage family · verified (0.1.30) | [neubrutalism](styles/neubrutalism.md) |
 | Soft flat mascot | Digital | Japanese transit-card / municipal mascot | Added on request, verification pending (2026-09-08) | [soft-flat-mascot](styles/soft-flat-mascot.md) |
+| One-lamp cel | Digital | Anime background art (cel figures in a painted air) | Exactly one light, no glow; objects cel, only the air soft · added on request, verification pending (2026-11-11) | [one-lamp-cel](styles/one-lamp-cel.md) |
+
+> **one-lamp-cel — what is measured and what is not.** The card is written from three sources, not from a test matrix: the surface rules of [cel-shade](styles/cel-shade.md), the air rules of [luminous-anime](styles/luminous-anime.md), and one case (`examples/works/novels/ukebi-anime/ukebi-anime-art-board-crossing/`) whose work forbids bloom, flare and a visible sky. **No style-swap verification (input × style fixed) has been run.** Its first image has not been accepted yet. Promote it to a normal card only after a case passes the usual verification.
 
 ## Format cards (formats/)
 

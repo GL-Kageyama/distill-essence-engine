@@ -14,11 +14,12 @@
 - **有条件**是用于「可用，但样式的世界可能覆盖内容」等带约束卡片的状态。**当前为 0**（过去 9 张有条件卡片已由 0.1.14 的精炼全部解除）。
 - 这里是**结晶化的命名卡**。类型**空间**（可能存在的全部格式）在 [types.md](types.md)。
 
-> **预扩展批次（2026-08-22）已通过验证**：将样式 15 种・格式 7 种升级（详细判定・分数见 [examples/verify-rich/EVALUATION.md](../../examples/verify-rich/EVALUATION.md)）。**不采用（删除）**：claymation・cyberpunk・vaporwave（样式的世界覆盖内容的⑧违规，或堆砌）。9 张有条件卡片已通过精炼（添加针对弱点的 do/avoid・锚点・构成文法）＋重新验证全部解除。**全部卡片无条件**・未验证 0。
+> **预扩展批次（2026-08-22）已通过验证**：将样式 15 种・格式 7 种升级（详细判定・分数见 [examples/verify-rich/EVALUATION.md](../../examples/verify-rich/EVALUATION.md)）。**不采用（删除）**：claymation・cyberpunk・vaporwave（样式的世界覆盖内容的⑧违规，或堆砌）。9 张有条件卡片已通过精炼（添加针对弱点的 do/avoid・锚点・构成文法）＋重新验证全部解除。**全部卡片无条件**。**未验证的是应用户要求添加的 2 张**——[soft-flat-mascot](styles/soft-flat-mascot.md)（2026-09-08）与 [one-lamp-cel](styles/one-lamp-cel.md)（2026-11-11）。
 > **0.1.24**：功能文档家族的 6 张卡片——[clean-line-lab](styles/clean-line-lab.md) 的兄弟（蓝图・设计图／食谱・步骤卡／电路图／机构・做功图／尺规作图／实验笔记）——已添加至下表并**已验证**（power-* 样式替换用例。判定见 [examples/EVALUATION.md](../examples/EVALUATION.md)）。
 > **0.1.29**：动画前期制作的卡片再添 3 张——地点板（故事的地点与地理）／关键帧・动作板（一个主体的动作词汇）／场景板（一个场景的主走位）——已添加并**已验证**（gozen-niji-* 格式替换用例。判定见 [examples/EVALUATION.md](../examples/EVALUATION.md)）。
 > **0.1.30**：新增目的分类**「设计」**（第 7 个假定目的。输入是品牌／产品／应用，而非内容）。新增 5 张设计格式卡（应用界面／落地页／线框／品牌板／名片）与 4 张设计样式卡（swiss-style／flat-ui／material-ui／neubrutalism）并**已验证**（design-* 格式／样式替换用例。判定见 [examples/EVALUATION.md](../examples/EVALUATION.md)）。既有 7 张标志系卡片（标志／图标／徽章／海报／封面／主视觉横幅／塔罗牌）已重新分类为 `象征（设计）`。
 > **2026-09-08**: 应用户要求添加了 **soft-flat-mascot**（柔软平涂吉祥物）样式卡。**验证待定**（首个用例是 suica-alt-characters 的影像板三案）。
+> **2026-11-11**: 应用户要求添加了 **one-lamp-cel**（单灯赛璐璐——赛璐璐的物与写实的空气，一小团光）样式卡。**验证待定**（测量了什么、没测量什么，写在表格行下方的注里）。
 
 ## 样式卡片（styles/）
 
@@ -79,6 +80,9 @@
 | Material Design | 数字 | Google Material Design | 设计系谱家族・已验证（0.1.30） | [material-ui](styles/material-ui.md) |
 | 新粗野主义 | 数字 | 网页粗野主义复兴 | 设计系谱家族・已验证（0.1.30） | [neubrutalism](styles/neubrutalism.md) |
 | 柔软平涂吉祥物 | 数字 | 日本交通系・自治体吉祥物 | 应用户要求添加・验证待定（2026-09-08） | [soft-flat-mascot](styles/soft-flat-mascot.md) |
+| 单灯赛璐璐 | 数字 | 动画美术（赛璐璐的人物与绘出的空气） | 光源恰好一个・无辉光。物是赛璐璐，柔软的只有空气・应用户要求添加、验证待定（2026-11-11） | [one-lamp-cel](styles/one-lamp-cel.md) |
+
+> **one-lamp-cel——测了什么、没测什么。** 这张卡不是从验证矩阵写出的，而是从三个来源写的——[cel-shade](styles/cel-shade.md) 的面规则、[luminous-anime](styles/luminous-anime.md) 的空气规则，以及一个用例（`examples/works/novels/ukebi-anime/ukebi-anime-art-board-crossing/`，该作品禁止泛光、光晕与可见的天空）。**样式替换验证（输入固定 × 只换样式）一次也没有跑过。** 第一张图也还未被采用。**升为普通卡片，要等用例通过常态验证之后。**
 
 ## 格式卡片（formats/）
 

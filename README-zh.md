@@ -34,7 +34,7 @@
 
 ## 能做什么
 
-**格式 44 种 × 样式 55 种**——可用名字复用。完整索引（含各卡的可复用 slug）见 [references/registry.md](references/registry.md)。
+**格式 44 种 × 样式 56 种**——可用名字复用。完整索引（含各卡的可复用 slug）见 [references/registry.md](references/registry.md)。
 
 **格式**——按所担的目的分类：
 
@@ -145,6 +145,6 @@ distill-essence-engine/
 
 - [docs/usage.md](docs/usage.md) — 用法（参数 · 卡片 · 输出 · 验证）
 - [docs/sources.md](docs/sources.md) — 卡片语汇的来源
-- [references/registry.md](references/registry.md) — 命名卡索引（格式 44 种 · 样式 55 种）
+- [references/registry.md](references/registry.md) — 命名卡索引（格式 44 种 · 样式 56 种）
 - [references/types.md](references/types.md) — 类型（预想目的×格式×样式×压缩 2 层）
 - [references/](references/) — 原理的深化（选材 · 转译 · 配置 …）
