@@ -5,7 +5,7 @@
 - style: **セル塗り（`cel-shade`）**＝[references/styles/cel-shade.md](../../../../../references/styles/cel-shade.md)
 - 形状 block: [_shared/props/判.md](../_shared/props/判.md)（逐語で貼った）
 - 版: 1
-- 焼いた絵: まだ無い
+- 焼いた絵: **`木製印章工具参考图.png`（2026-11-14・採用）。**
 
 ## 内容（Content）
 

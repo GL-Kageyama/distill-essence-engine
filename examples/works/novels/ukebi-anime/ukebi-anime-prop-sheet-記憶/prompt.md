@@ -6,7 +6,7 @@
 - 形状 block: [_shared/props/記憶.md](../_shared/props/記憶.md)（逐語で貼った）
 - 火: [_shared/fire.md](../_shared/fire.md)（逐語、`{SIZE}`＝`a closed fist`、`{PLACE}`＝`floating low above the rails, held by no one`）
 - 版: 1
-- 焼いた絵: まだ無い
+- 焼いた絵: **`霧深き線路に灯る記憶の灯火.png`（2026-11-14・採用）。**
 
 ## 内容（Content）
 

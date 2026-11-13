@@ -5,7 +5,7 @@
 - style: **セル塗り（`cel-shade`）**＝[references/styles/cel-shade.md](../../../../../references/styles/cel-shade.md)
 - 形状 block: [_shared/props/秤.md](../_shared/props/秤.md)（逐語で貼った）
 - 版: 1
-- 焼いた絵: まだ無い
+- 焼いた絵: **`中世風天秤の構造図 恒一.png`（2026-11-14・採用）。**
 
 ## 内容（Content）
 
