@@ -6,7 +6,7 @@
 - 描画 block: [_shared/figures.md](../_shared/figures.md)（逐語で貼った。2026-11-13 新設）
 - 同一性 block: [_shared/characters/コダマ.md](../_shared/characters/コダマ.md)（逐語で貼った）
 - 版: 1
-- 焼いた絵: まだ無い
+- 焼いた絵: **`水彩風の少年キャラクター設定シート.png`（2026-11-14・採用）。**
 
 ## 内容（Content）
 
