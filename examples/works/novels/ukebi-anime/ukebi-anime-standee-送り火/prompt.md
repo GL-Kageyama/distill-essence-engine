@@ -6,7 +6,7 @@
 - 同一性: [_shared/characters/送り火.md](../_shared/characters/送り火.md)（逐語）
 - 火: [_shared/fire.md](../_shared/fire.md)（逐語、`{SIZE}`＝`a closed fist`、`{PLACE}`＝`held in the open palm of his hand`）
 - 版: 1
-- 焼いた絵: まだ無い
+- 焼いた絵: **`漆黒に灯る青い炎.png`（2026-11-14・採用）。** 送り火の設定画を参照に渡して焼いた。
 
 ## 内容（Content）
 

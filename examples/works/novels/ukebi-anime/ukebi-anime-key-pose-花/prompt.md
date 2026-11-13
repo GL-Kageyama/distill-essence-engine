@@ -6,7 +6,7 @@
 - 描画 block: [_shared/figures.md](../_shared/figures.md)（逐語で貼った。2026-11-13 新設）。**所作の板は光を持たない**——運動を読む板に炎の陰影を乗せない
 - 同一性 block: [_shared/characters/花.md](../_shared/characters/花.md)（逐語で貼った）
 - 版: 1
-- 焼いた絵: まだ無い
+- 焼いた絵: **`静かな制服少女のキャラクターシート.png`（2026-11-14・採用）。**
 
 ## 内容（Content）
 
