@@ -6,7 +6,7 @@
 - 火: [_shared/fire.md](../_shared/fire.md)（逐語、`{SIZE}`＝`a piece of charcoal`、`{PLACE}`＝`floating low above the rails, held by no one`）
 - 人物: 設定画を参照に渡す前提。板では短い註で置く
 - 版: 1
-- 焼いた絵: まだ無い
+- 焼いた絵: **`夜の踏切に浮かぶ青白い火.png`（2026-11-14・採用）。**
 
 ## 内容（Content）
 

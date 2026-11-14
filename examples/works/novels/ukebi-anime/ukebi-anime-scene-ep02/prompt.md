@@ -6,7 +6,7 @@
 - 火: [_shared/fire.md](../_shared/fire.md)（逐語、`{SIZE}`＝`a closed fist`、`{PLACE}`＝`held in the open palm of his hand`）
 - 人物: 設定画を参照に渡す前提。板では短い註で置く
 - 版: 1
-- 焼いた絵: まだ無い
+- 焼いた絵: **`夜の踏切、幽玄の青い炎.png`（2026-11-14・採用）。**
 
 ## 内容（Content）
 

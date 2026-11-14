@@ -6,7 +6,7 @@
 - 描画 block: [_shared/figures.md](../_shared/figures.md)（逐語で貼った。2026-11-13 新設）
 - 同一性 block: [_shared/characters/トワ.md](../_shared/characters/トワ.md)（逐語で貼った）
 - 版: 1
-- 焼いた絵: まだ無い
+- 焼いた絵: **`無表情な黒髪女性のキャラクター設定画.png`（2026-11-14・採用）。**
 
 ## 内容（Content）
 
