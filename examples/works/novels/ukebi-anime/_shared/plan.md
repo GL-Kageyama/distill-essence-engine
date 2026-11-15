@@ -2,7 +2,7 @@
 
 27本（うち26本がフォルダ、魂火は block のみで `fire.md`）。6陣。**下の表の「状態」はプロンプトの有無だけを言う。焼いた絵の採否は 採用表 が持つ。**1アセット1フォルダ（`input.md` ＋ `prompt.md`）。焼くのは著者、検品は両者。**焼いた絵の採否は [採用表.md](採用表.md) に書く。**
 
-置き場はこのリポジトリ（`distill-essence-engine/examples/works/novels/ukebi-anime/`）。原典は `soul-voice-teller/examples/works/novels/ukebi-anime/`——`構想/design.md`・`届ける/package.md`・`台帳/`。**台帳が正で、ここはその英訳である。**
+置き場はこのリポジトリ（`distill-essence-engine/examples/works/novels/ukebi-anime/`）。**原点は `soul-voice-teller/examples/works/novels/` の二つ**——現行 `ukebi-anime/`（`台帳/`・`構想/design.md`・`届ける/package.md` §4・`草稿/`）と、旧稿 `ukebi/`（2026-08-16。中身は書き換えない）。**台帳が正で、ここはその英訳である。** 入口は [README.md](../README.md)。
 
 ## 陣と本数
 
