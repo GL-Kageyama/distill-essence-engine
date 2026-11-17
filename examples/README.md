@@ -226,7 +226,10 @@ When adding a case, decide the location in this order:
 | nurunuru-kaikyou | Theme song "Nurunuru Kaikyō" (Ochiai's null folded into a hard-core enka) — grasp it and it vanishes, let go and it returns | Illustration | Watercolor | Decoration |
 | nurunuru-kaikyou-title | The same song's title card — "Null²海峡" in wild white brush on a near-black night strait, overflowing the frame | Hero image (title card) | Watercolor | Attraction |
 | ku-emptiness-title | Theme song "Munashikete" for the concept 空 (emptiness, not nothingness) — the opened hand on an eastern river before dawn, 空 in white brush at the centre | Hero image (title card) | Watercolor | Attraction |
-| guidinglight-logo-base | GuidingLight (own brand) — white ground, a silhouette lantern whose flame inside the glass is an orca | Logo | Flat vector silhouette | Design |
+| guidinglight-logo-base | GuidingLight (own brand) — base candidate A, a handleless pear-shaped lantern whose flame silhouette is an orca | Logo | Flat vector silhouette | Design |
+| guidinglight-logo-base-gourd | GuidingLight (own brand) — base candidate B, a gourd-shaped lantern | Logo | Flat vector silhouette | Design |
+| guidinglight-logo-base-bell | GuidingLight (own brand) — base candidate C, a bell-footed lantern | Logo | Flat vector silhouette | Design |
+| guidinglight-logo-base-globe | GuidingLight (own brand) — base candidate D, a round-globe lantern | Logo | Flat vector silhouette | Design |
 | guidinglight-logo-dark-glow | GuidingLight (own brand) — a slender lantern whose flame inside the glass is an orca, mark only | Logo | Dark-glow minimal vector | Design |
 | guidinglight-logo-art-deco | GuidingLight (own brand) — the same lantern-orca mark | Logo | Art Deco | Design |
 | guidinglight-logo-geometric-construction | GuidingLight (own brand) — the same lantern-orca mark, drawn as a proof | Logo | Geometric construction | Design |

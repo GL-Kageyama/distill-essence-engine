@@ -224,7 +224,10 @@ examples/
 | nurunuru-kaikyou | 主题曲《ヌルヌル海峡》（把落合阳一的「ヌル」折成一首硬派演歌）——握住就消失，放开就回来 | 插画 | 水彩 | 装饰 |
 | nurunuru-kaikyou-title | 同曲的题字——在近乎墨色的夜之海峡上，以粗白笔写下「Null²海峡」，溢出画面 | 主视觉（标题卡） | 水彩 | 吸引 |
 | ku-emptiness-title | 「空」的主题曲《空しけ手》——黎明前东方的河上张开的手，中央以白笔写「空」 | 主视觉（标题卡） | 水彩 | 吸引 |
-| guidinglight-logo-base | GuidingLight（自有品牌）——白底上，玻璃中的火焰化作虎鲸的剪影提灯 | 标志 | 扁平剪影 | 设计 |
+| guidinglight-logo-base | GuidingLight（自有品牌）——基本形A・无提手的梨形提灯，火焰剪影为虎鲸 | 标志 | 扁平剪影 | 设计 |
+| guidinglight-logo-base-gourd | GuidingLight（自有品牌）——基本形B・葫芦形提灯与虎鲸火焰 | 标志 | 扁平剪影 | 设计 |
+| guidinglight-logo-base-bell | GuidingLight（自有品牌）——基本形C・钟形提灯与虎鲸火焰 | 标志 | 扁平剪影 | 设计 |
+| guidinglight-logo-base-globe | GuidingLight（自有品牌）——基本形D・圆球提灯与虎鲸火焰 | 标志 | 扁平剪影 | 设计 |
 | guidinglight-logo-dark-glow | GuidingLight（自有品牌）——玻璃中火焰化作虎鲸的细长提灯，仅标志 | 标志 | 暗光极简矢量 | 设计 |
 | guidinglight-logo-art-deco | GuidingLight（自有品牌）——同一提灯与虎鲸的标志 | 标志 | 装饰艺术 | 设计 |
 | guidinglight-logo-geometric-construction | GuidingLight（自有品牌）——同一标志，以作图证明 | 标志 | 几何作图 | 设计 |

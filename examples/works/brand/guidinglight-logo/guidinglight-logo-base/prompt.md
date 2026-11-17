@@ -1,17 +1,21 @@
-# ガイディングライト → ロゴ基本形（白背景・ランタン）
+# ガイディングライト → ロゴ基本形（白背景・有機的なランタン・把手なし）
 
 - 入力: [input.md](../input.md)（ブランドモチーフの作成時メモ）
 - format: ロゴ（logo）—— 一象徴×一点・正方形・文字なし
-- style: フラット・シルエット（基本形。様式を載せる前の素の形）
+- style: フラット・シルエット（基本形）
 - 用途: デザイン（象徴）／圧縮＝一象徴×一点
 
-> ロゴの**基本外観**。白い地に、シルエットのランタン。そのガラスの中で、炎が一頭のシャチになっている。様式はまだ載せない——まずこの形が立つかを見る。
+> 基本形の候補 **A＝洋梨**。白い地に、**把手のない**有機的なランタン。ガラスの中の炎は、**シャチとして読める**シルエット。採否は未決（[採決表](../採決表.md)）。
 
 ## 内容（Content）
 
-②選択＝**ランタンのガラスの中で、炎がシャチになっている瞬間**ひとつ。誘導灯の記号（緑の走る人）も、人々も描かない。灯りは持ち運ばれる——だから「導く」は、照らすことではなく、**手に提げて行くこと**になる。
+②選択＝**把手のないランタンのガラスの中で、炎がシャチのシルエットになっている**瞬間ひとつ。誘導灯の記号（緑の走る人）も、人々も描かない。灯りは小さく、白は大きい。
 
-③翻訳＝**ランタン**は、持ち運べる**洋式のランタン**のシルエット。細身で優雅な馬車灯の比例——頂の傘と小さな煙突、細い提げ手のアーチ、先細りのガラス、細い燃料タンク、小さな脚——三つか四つの塊に畳む。**太い側枠も、無骨なキャンプ用の枠も持たない。****ガラスは白の抜き**。その中に**炎のシャチ**が浮かぶ（縁から細く白を残す）。炎＝**ガラスの中に収める**——尾びれをバーナーに、体を斜めに起こし、**背びれを左上へ**、**頭を右上へ**、胸びれを横へ。ガラスの内側に沿って湾曲し、**外へ跳ねない**。**目は白の抜き**——マークで唯一の「開いた」場所。人は描かない。光条も描かない。
+③翻訳＝**ランタン**は、柔らかい曲線だけで作る**据え置きの洋灯**。**丸い台**、**洋梨のようにふくらんだガラス**、短い首、**小さな傘と煙突**。**提げ手は持たない**。直線も、段も、太い側枠も持たない。抽象度は高いが、台・ガラス・傘の三つでランタンと読める。**ガラスは白の抜き**。
+
+**炎＝シャチのシルエット**。内部の描き込みは一切しない——目も、白斑も、描いた鰭の線も持たない。輪郭は**上へ跳ねる一頭のシャチ**：尾びれをバーナーに広げ、体を緩やかにS字に起こし、**背に高く三角形の背びれ**、頭を右上に丸く向け、**頭の下に小さな胸びれ**を一つ。炎らしさは、体の緩い湾曲と、尾びれの火の舌のような開きが持つ。**シャチとして読め、その立ち上がりが炎にも見える**。人は描かない。光条も描かない。
+
+> **匂わせ方**——輪郭を曖昧にするのではない。**シャチの輪郭は正確に描き、内側の描き込み（目・白斑・鰭の線）を削ぐ**。それが「匂わせる」の中身。
 
 ## フォーマット（Format）
 
@@ -19,8 +23,8 @@
 
 ## 様式（Style）
 
-フラット・シルエット（基本形）。地は白 `#FFFFFF`。ランタンは墨 `#161616` の一つの塊、ガラスは白の抜き。**ランタンの形は様式に合わせて変えてよい**——ガラスと、その中のシャチは保つ。炎は琥珀 `#F2B45C` → 燠の橙 `#E8742C`、目は白抜き。**1色版では炎も墨になり、目だけが白く抜ける**——それでもランタンとシャチが読めること。細く鮮明なベクターの縁、グラデーションなし、影なし、質感なし。
+フラット・シルエット。地は白 `#FFFFFF`。ランタンは墨 `#161616` の一つの塊、ガラスは白の抜き。炎は珀の橙 `#E8742C` の**平らな一色**——グラデーションも内部線も持たない。**1色版では炎も墨になり、ガラスだけが白く抜ける**。細く鮮明なベクターの縁、影なし、質感なし、光背なし。
 
 ## 合成プロンプト（Merged）
 
-A minimal square logo mark on a pure white background: the silhouette of a refined Western portable lantern, slender and elegant, and inside its glass the flame is an orca. The lantern is one solid ink-black silhouette (#161616), reduced to a slender domed top cap with a small vent, a slim arched bail handle, a tapered glass globe, a narrow fuel tank and a small foot; no thick side arms, no rugged camping-lantern frame. The glass globe is cut out as clean white negative space; inside it, contained within the glass and never leaping out, the flame forms a single orca set on the diagonal — tail flukes at the burner, the body curving up along the glass, one tall dorsal fin toward the upper left, the head near the upper right, one pectoral fin out — in amber (#F2B45C) to ember orange (#E8742C), its eye a small white hole, with a thin white gap from the glass edge. The mark is centred, about 65% of the frame, with a generous white margin. Flat vector silhouette, crisp clean edges, no gradient, no shadow, no texture. In a one-colour version the flame becomes the same ink and only the eye stays white; the lantern and the orca still read. No lettering, no type, no text, no frame, no people, no light rays, no glow, no halo, no stars, no moon, no city, no realistic lantern detail, not photorealistic, no 3D render, no skeuomorphic texture, no extra colours.
+A minimal square logo mark on a pure white background: an organic, smooth, handleless standing lantern, and inside its glass the flame is a solid orca silhouette. The lantern is one solid ink-black silhouette (#161616), drawn with soft curves only — a rounded foot, a rounded pear-shaped glass globe, a short neck, and a small domed cap with a short vent; no handle, no side arms, no straight-edged steps, yet unmistakably a lantern. The glass globe is a clean white cut-out. Inside it, with a thin white gap from the glass edge, the flame is one solid flat amber-orange silhouette (#E8742C) shaped as an orca leaping upward: the tail flukes spread at the burner, the body rising in a gentle S-curve, one tall triangular dorsal fin on the back, the head rounded and turned to the upper right, one small pectoral fin below the head. No eye, no white patch, no internal lines, no separate flame tongues — the contour alone carries it. The soft curve of the body and the flame-like spread of the flukes make it read as fire as well as an orca. The mark is centred, about 65% of the frame, with a generous white margin. Flat vector silhouette, crisp clean edges, no gradient, no shadow, no texture, no glow, no halo. In a one-colour version the flame becomes the same ink and the glass stays white. No lettering, no type, no text, no frame, no people, no light rays, no stars, no moon, no city, no handle, no realistic lantern detail, not photorealistic, no 3D render, no skeuomorphic texture, no extra colours.
