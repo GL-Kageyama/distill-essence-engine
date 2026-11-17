@@ -14,6 +14,7 @@ examples/
 │   ├── novels/       物語の入力（gozen-niji, habits, hakuchizu, migenzo, ukebi, …）
 │   ├── music/        主題歌とサムネイル
 │   ├── clients/      案件・製品（セキュリティ、コーディネーター、Bend、…）
+│   ├── brand/        自社ブランド・自主制作の同一性（guidinglight）
 │   └── visual/       建築パース、プロジェクションマッピング、キャラクター群
 ├── cases/            能力の検証（入力 × 目的 × 様式）
 │   ├── by-input/     小説 / 論文 / 記事 / 詩 / 議事録 / メモ / YouTube / ホームページ
@@ -27,7 +28,7 @@ examples/
 
 新しいケースは、次の順で置き場所を決める。
 
-1. **特定の作品・依頼に属するか** → `works/<novels|music|clients|visual>/<名前>/`
+1. **特定の作品・依頼・自社ブランドに属するか** → `works/<novels|music|clients|brand|visual>/<名前>/`
 2. **入力 × 目的 × 様式の検証か** → `cases/by-input/` または `cases/by-format/`
 3. **リポジトリの紹介画像か** → `heroes/<名前>/`
 4. **一度きりの出力・旧版・backup か** → `_archive/`
@@ -223,6 +224,10 @@ examples/
 | nurunuru-kaikyou | 主題歌「ヌルヌル海峡」（落合陽一の「ヌル」をド演歌に畳んだ一曲）——掴めば消えて、離せば還る | 挿絵 | 水彩 | 装飾 |
 | nurunuru-kaikyou-title | 同曲の題字——ほぼ墨の夜の海峡に「Null²海峡」を白い荒い筆で、画面をはみ出させて | ヒーロー画像（タイトルカード） | 水彩 | 誘引 |
 | ku-emptiness-title | 「空」の主題歌『空しけ手』——夜明け前の東の川に開いた手、中央に白い筆で「空」 | ヒーロー画像（タイトルカード） | 水彩 | 誘引 |
+| guidinglight-logo-dark-glow | ガイディングライト（自社ブランド）——炎がシャチになる誘導灯、マークのみ | ロゴ | ダークグロー・ミニマルベクター | デザイン |
+| guidinglight-logo-art-deco | ガイディングライト（自社ブランド）——同じ灯とシャチのマーク | ロゴ | アールデコ | デザイン |
+| guidinglight-logo-geometric-construction | ガイディングライト（自社ブランド）——同じマークを作図で証明する | ロゴ | 幾何作図 | デザイン |
+| guidinglight-logo-mokuhanga | ガイディングライト（自社ブランド）——同じ灯とシャチのマーク | ロゴ | 木版画 | デザイン |
 
 > URL 入力（YouTube 動画／ホームページ／GitHub リポジトリ）は `url:` で受け取り、`scripts/fetch.py` が文字起こし／本文を抽出する。実 URL の検証ケースが 5 件ある（[youtube-agent-manager-diagram/](cases/by-input/youtube/youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](cases/by-input/youtube/youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](cases/by-input/youtube/youtube-blueprint-vs-paint-infographic/)、[distill-hero/](cases/by-format/distill/distill-hero/)、[bocchan-gag-manga/](cases/by-input/standalone/bocchan-gag-manga/)＝青空文庫『坊っちゃん』、いずれも実フェッチ）。[ai-cliff-mechanism-work](cases/by-input/concepts/ai-cliff-mechanism-work/) の出力サンプルは 6 件目の実フェッチ入力——ピボットの「大企業のAI活用はなぜ失敗する？4つの壁の克服法」——で、機能文書ファミリーからこの動画に最も適した様式として**機構・働きの図**を選定したもの（動画自身が「壁を1つ1つくり抜く」「労働力の代替」という機構の言葉で語る）。残りは実 URL が無いため代表サンプル入力（[youtube-talk/input.md](cases/by-input/youtube/youtube-talk/input.md)／[homepage-mokkoujo/input.md](cases/by-input/homepage/homepage-mokkoujo/input.md)）で変換を検証している。実フェッチは `python3 scripts/fetch.py url:https://...` で同じ行に入る。
 

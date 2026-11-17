@@ -14,6 +14,7 @@ examples/
 │   ├── novels/       story inputs (gozen-niji, habits, hakuchizu, migenzo, ukebi, …)
 │   ├── music/        theme songs and thumbnails
 │   ├── clients/      client / product cases (security, coordinator, Bend, …)
+│   ├── brand/        own brand / self-initiated identity work (guidinglight)
 │   └── visual/       architectural rendering, projection mapping, character sets
 ├── cases/            capability verification (input × purpose × style)
 │   ├── by-input/     novel / paper / article / poem / transcript / memo / YouTube / homepage
@@ -27,7 +28,7 @@ examples/
 
 When adding a case, decide the location in this order:
 
-1. **Does it belong to a specific work or client?** → `works/<novels|music|clients|visual>/<name>/`
+1. **Does it belong to a specific work, client, or own brand?** → `works/<novels|music|clients|brand|visual>/<name>/`
 2. **Is it an input × purpose × style verification?** → `cases/by-input/` or `cases/by-format/`
 3. **Is it a repository hero image?** → `heroes/<name>/`
 4. **Is it a one-off output, old version, or backup?** → `_archive/`
@@ -225,6 +226,10 @@ When adding a case, decide the location in this order:
 | nurunuru-kaikyou | Theme song "Nurunuru Kaikyō" (Ochiai's null folded into a hard-core enka) — grasp it and it vanishes, let go and it returns | Illustration | Watercolor | Decoration |
 | nurunuru-kaikyou-title | The same song's title card — "Null²海峡" in wild white brush on a near-black night strait, overflowing the frame | Hero image (title card) | Watercolor | Attraction |
 | ku-emptiness-title | Theme song "Munashikete" for the concept 空 (emptiness, not nothingness) — the opened hand on an eastern river before dawn, 空 in white brush at the centre | Hero image (title card) | Watercolor | Attraction |
+| guidinglight-logo-dark-glow | GuidingLight (own brand) — a guide lamp whose flame is an orca, mark only | Logo | Dark-glow minimal vector | Design |
+| guidinglight-logo-art-deco | GuidingLight (own brand) — the same lamp-orca mark | Logo | Art Deco | Design |
+| guidinglight-logo-geometric-construction | GuidingLight (own brand) — the same lamp-orca mark, drawn as a proof | Logo | Geometric construction | Design |
+| guidinglight-logo-mokuhanga | GuidingLight (own brand) — the same lamp-orca mark | Logo | Woodblock print | Design |
 
 > URL inputs (YouTube video / homepage / GitHub repository) are received via `url:` and `scripts/fetch.py` extracts the transcript / body text. There are 5 real-URL verification cases ([youtube-agent-manager-diagram/](cases/by-input/youtube/youtube-agent-manager-diagram/)、[youtube-loop-engineering-manga/](cases/by-input/youtube/youtube-loop-engineering-manga/)、[youtube-blueprint-vs-paint-infographic/](cases/by-input/youtube/youtube-blueprint-vs-paint-infographic/)、[distill-hero/](cases/by-format/distill/distill-hero/)、[bocchan-gag-manga/](cases/by-input/standalone/bocchan-gag-manga/) = Aozora Bunko "Bocchan", all real fetches). The [ai-cliff-mechanism-work](cases/by-input/concepts/ai-cliff-mechanism-work/) output sample above is a sixth real-fetch input — the Pivot interview "Why enterprise AI fails" — the mechanism-work card, selected as the most fitting of the functional-document family for this video, which speaks in the mechanism's own language of boring through the four walls one by one and replacing labor. The [youtube-technological-republic-mechanism](cases/by-input/youtube/youtube-technological-republic-mechanism/) output sample above is a seventh real-fetch input — Azuma's clip on Palantir's *Technological Republic* — the same mechanism-work card, chosen because the video argues in a causal chain (postmodern critique → no new values → Silicon Valley's trivia → Karp's anger) where the lever's fulcrum, not the image's scene, is the concept. The rest, lacking a real URL, verify the transformation with representative sample inputs ([youtube-talk/input.md](cases/by-input/youtube/youtube-talk/input.md)／[homepage-mokkoujo/input.md](cases/by-input/homepage/homepage-mokkoujo/input.md)). A real fetch enters the same row with `python3 scripts/fetch.py url:https://...`.
 
