@@ -1,24 +1,25 @@
 # ガイディングライト — ロゴ（マークのみ）
 
-ブランドモチーフ（[input.md](input.md)）から、ロゴの基本形の候補を並べる。**採否はすべて未決**——判断は [採決表.md](採決表.md) に置く。
+ブランドモチーフ（[input.md](input.md)）から、ロゴの基本形の候補を並べる。**A〜Dは未決、Eは不採用**——判断は [採決表.md](採決表.md) に置く。
 
 ## 現在の方向
 
 - **白背景**。以後の焼きは白地で行う。
 - **ランタンは有機的で、滑らかで、抽象的**。**把手は持たない**。丸い台・洋梨のガラス・短い首・小さな傘の三つでランタンと読める。直線も、段も、太い側枠も持たない。
 - **炎はシルエット**。内部の描き込みはしない——目も、白斑も、描いた鰭の線も持たない。
-- **シャチは輪郭で読ませる**。姿勢は候補ごとに変える（跳ねる・丸まる・斜めに昇る）。**輪郭は正確に描き、内側の描き込みを削ぐ**——それが「匂わせる」の中身。立ち上がりは炎にも見える。
+- **シャチは輪郭で読ませる**。姿勢は候補ごとに変える（跳ねる・丸まる・斜めに昇る・**半分はみ出す**）。**輪郭は正確に描き、内側の描き込みを削ぐ**——それが「匂わせる」の中身。立ち上がりは炎にも見える。
 - 人は描かない。光条も描かない。
 - 正方形・中央・余白を広く・1色でも成立。
 
 ## 候補（すべて未決）
 
-| No. | 候補 | フォルダ | ランタンの形 |
-|---|---|---|---|
-| **A** | 洋梨 | [guidinglight-logo-base](guidinglight-logo-base/prompt.md) | 丸い台＋洋梨のガラス＋短い首＋傘 |
-| **B** | 瓢箪 | [guidinglight-logo-base-gourd](guidinglight-logo-base-gourd/prompt.md) | 台とガラスが一続きの瓢箪形 |
-| **C** | 釣鐘 | [guidinglight-logo-base-bell](guidinglight-logo-base-bell/prompt.md) | すり鉢状の台＋上へ開くガラス |
-| **D** | 丸玉 | [guidinglight-logo-base-globe](guidinglight-logo-base-globe/prompt.md) | 丸いガラス＋低い傘＋丸い台 |
+| No. | 候補 | フォルダ | ランタンの形 | 状態 |
+|---|---|---|---|---|
+| **A** | 洋梨 | [guidinglight-logo-base](guidinglight-logo-base/prompt.md) | 丸い台＋洋梨のガラス＋短い首＋傘 | 未決 |
+| **B** | 瓢箪 | [guidinglight-logo-base-gourd](guidinglight-logo-base-gourd/prompt.md) | 台とガラスが一続きの瓢箪形 | 未決 |
+| **C** | 釣鐘 | [guidinglight-logo-base-bell](guidinglight-logo-base-bell/prompt.md) | すり鉢状の台＋上へ開くガラス | 未決 |
+| **D** | 丸玉 | [guidinglight-logo-base-globe](guidinglight-logo-base-globe/prompt.md) | 丸いガラス＋低い傘＋丸い台 | 未決 |
+| **E** | 開放 | [guidinglight-logo-base-emerge](guidinglight-logo-base-emerge/prompt.md) | 丸いガラス＋中央の開いた傘＋丸い台。炎が半分外へ | **不採用** |
 
 採否は未決。観点と状態は **[採決表.md](採決表.md)**。
 

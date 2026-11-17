@@ -228,6 +228,7 @@ examples/
 | guidinglight-logo-base-gourd | ガイディングライト（自社ブランド）——基本形B・瓢箪形のランタンとシャチの炎 | ロゴ | フラット・シルエット | デザイン |
 | guidinglight-logo-base-bell | ガイディングライト（自社ブランド）——基本形C・釣鐘形のランタンとシャチの炎 | ロゴ | フラット・シルエット | デザイン |
 | guidinglight-logo-base-globe | ガイディングライト（自社ブランド）——基本形D・丸玉のランタンとシャチの炎 | ロゴ | フラット・シルエット | デザイン |
+| guidinglight-logo-base-emerge | ガイディングライト（自社ブランド）——基本形E・傘の中央の穴から、シャチの炎が半分はみ出す | ロゴ | フラット・シルエット | デザイン |
 | guidinglight-logo-dark-glow | ガイディングライト（自社ブランド）——ガラスの中の炎がシャチになる細身のランタン、マークのみ | ロゴ | ダークグロー・ミニマルベクター | デザイン |
 | guidinglight-logo-art-deco | ガイディングライト（自社ブランド）——同じランタンとシャチのマーク | ロゴ | アールデコ | デザイン |
 | guidinglight-logo-geometric-construction | ガイディングライト（自社ブランド）——同じマークを作図で証明する | ロゴ | 幾何作図 | デザイン |

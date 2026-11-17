@@ -228,6 +228,7 @@ examples/
 | guidinglight-logo-base-gourd | GuidingLight（自有品牌）——基本形B・葫芦形提灯与虎鲸火焰 | 标志 | 扁平剪影 | 设计 |
 | guidinglight-logo-base-bell | GuidingLight（自有品牌）——基本形C・钟形提灯与虎鲸火焰 | 标志 | 扁平剪影 | 设计 |
 | guidinglight-logo-base-globe | GuidingLight（自有品牌）——基本形D・圆球提灯与虎鲸火焰 | 标志 | 扁平剪影 | 设计 |
+| guidinglight-logo-base-emerge | GuidingLight（自有品牌）——基本形E・伞盖中央开口，虎鲸火焰溢出半身 | 标志 | 扁平剪影 | 设计 |
 | guidinglight-logo-dark-glow | GuidingLight（自有品牌）——玻璃中火焰化作虎鲸的细长提灯，仅标志 | 标志 | 暗光极简矢量 | 设计 |
 | guidinglight-logo-art-deco | GuidingLight（自有品牌）——同一提灯与虎鲸的标志 | 标志 | 装饰艺术 | 设计 |
 | guidinglight-logo-geometric-construction | GuidingLight（自有品牌）——同一标志，以作图证明 | 标志 | 几何作图 | 设计 |

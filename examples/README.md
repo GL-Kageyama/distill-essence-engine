@@ -230,6 +230,7 @@ When adding a case, decide the location in this order:
 | guidinglight-logo-base-gourd | GuidingLight (own brand) — base candidate B, a gourd-shaped lantern | Logo | Flat vector silhouette | Design |
 | guidinglight-logo-base-bell | GuidingLight (own brand) — base candidate C, a bell-footed lantern | Logo | Flat vector silhouette | Design |
 | guidinglight-logo-base-globe | GuidingLight (own brand) — base candidate D, a round-globe lantern | Logo | Flat vector silhouette | Design |
+| guidinglight-logo-base-emerge | GuidingLight (own brand) — base candidate E, a capped lantern with the orca flame rising half out through the vent | Logo | Flat vector silhouette | Design |
 | guidinglight-logo-dark-glow | GuidingLight (own brand) — a slender lantern whose flame inside the glass is an orca, mark only | Logo | Dark-glow minimal vector | Design |
 | guidinglight-logo-art-deco | GuidingLight (own brand) — the same lantern-orca mark | Logo | Art Deco | Design |
 | guidinglight-logo-geometric-construction | GuidingLight (own brand) — the same lantern-orca mark, drawn as a proof | Logo | Geometric construction | Design |
